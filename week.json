@@ -1,0 +1,679 @@
+{
+ "weekId": "2026-W47",
+ "range": "11/16 - 11/22",
+ "level": "A2-B1",
+ "articles": [
+  {
+   "id": "a1",
+   "kind": "news",
+   "title": "World Leaders Meet in Turkey to Talk About Climate",
+   "zh": "各國領袖在土耳其討論氣候問題",
+   "source": {
+    "name": "The Boston Globe, World",
+    "url": "https://www.bostonglobe.com/world/"
+   },
+   "note": "依本週新聞主題改寫成 A2-B1 學習文章，非原文。",
+   "paras": [
+    "This month, thousands of people have come to the city of Antalya in Turkey. They are there for COP31, a big United Nations climate meeting. Leaders, scientists and young people want to find ways to slow down climate change.",
+    "The Earth is getting warmer because people burn coal, oil and gas. This causes more hot summers, strong storms and floods. At the meeting, countries talk about cleaner energy, such as sun and wind power. They also discuss how rich countries can help poorer countries pay for these changes.",
+    "Many people hope the meeting will bring real action. Others say that countries have made too many promises and kept too few. Whatever happens, the world will be watching."
+   ],
+   "glossary": {
+    "climate": {
+     "pos": "noun",
+     "ipa": "/ˈklaɪ.mət/",
+     "zh": "氣候",
+     "def": "the usual weather in a place over a long time",
+     "ex": "The climate in Taiwan is warm and wet.",
+     "g": "climate change 是固定搭配，意思是「氣候變遷」。climate 在這裡是不可數名詞。"
+    },
+    "meeting": {
+     "pos": "noun",
+     "ipa": "/ˈmiː.tɪŋ/",
+     "zh": "會議",
+     "def": "an event where people come together to talk about something",
+     "ex": "We have a meeting at ten o'clock.",
+     "g": "meet（動詞）加 -ing 變成名詞 meeting。"
+    },
+    "leader": {
+     "pos": "noun",
+     "ipa": "/ˈliː.dɚ/",
+     "zh": "領袖、領導者",
+     "def": "a person who is in charge of a group or a country",
+     "ex": "She is a good leader.",
+     "g": "動詞 lead + -er = 做這件事的人。"
+    },
+    "scientist": {
+     "pos": "noun",
+     "ipa": "/ˈsaɪ.ən.tɪst/",
+     "zh": "科學家",
+     "def": "a person who studies science",
+     "ex": "The scientist works in a lab.",
+     "g": "-ist 結尾常表示「從事某領域的人」。"
+    },
+    "warmer": {
+     "pos": "adjective",
+     "ipa": "/ˈwɔːr.mɚ/",
+     "zh": "更溫暖的",
+     "def": "higher in temperature than before",
+     "ex": "Today is warmer than yesterday.",
+     "g": "warm → warmer 是比較級。文中 is getting warmer 用「get + 比較級」，表示「漸漸變得更…」。"
+    },
+    "burn": {
+     "pos": "verb",
+     "ipa": "/bɝːn/",
+     "zh": "燃燒",
+     "def": "to be on fire, or to use something as fuel",
+     "ex": "Some power stations burn coal.",
+     "g": "文中 people burn coal 是現在簡單式，說明一般事實。"
+    },
+    "flood": {
+     "pos": "noun",
+     "ipa": "/flʌd/",
+     "zh": "洪水、水災",
+     "def": "a lot of water that covers land that is usually dry",
+     "ex": "The flood closed many roads.",
+     "g": "文中 floods 是複數，與 summers、storms 並列。"
+    },
+    "energy": {
+     "pos": "noun",
+     "ipa": "/ˈen.ɚ.dʒi/",
+     "zh": "能源、能量",
+     "def": "power that is used to make machines work or to heat and light buildings",
+     "ex": "Solar panels make clean energy.",
+     "g": "energy 通常不可數，不加 s。"
+    },
+    "promise": {
+     "pos": "noun / verb",
+     "ipa": "/ˈprɑː.mɪs/",
+     "zh": "承諾；保證",
+     "def": "a statement that you will certainly do something",
+     "ex": "He made a promise to call me.",
+     "g": "make a promise（許下承諾）和 keep a promise（遵守承諾）是常用搭配。文中 made too many promises and kept too few 用過去分詞與 have 組成現在完成式。"
+    },
+    "action": {
+     "pos": "noun",
+     "ipa": "/ˈæk.ʃən/",
+     "zh": "行動",
+     "def": "the process of doing something to make a change",
+     "ex": "We need action now.",
+     "g": "bring real action = 帶來真正的行動。"
+    },
+    "discuss": {
+     "pos": "verb",
+     "ipa": "/dɪˈskʌs/",
+     "zh": "討論",
+     "def": "to talk about something with other people",
+     "ex": "Let's discuss the plan.",
+     "g": "discuss 後面直接接受詞，不加 about：discuss the plan。"
+    },
+    "pay": {
+     "pos": "verb",
+     "ipa": "/peɪ/",
+     "zh": "支付",
+     "def": "to give money for something",
+     "ex": "I pay for my own lunch.",
+     "g": "pay for + 東西。文中 help ... pay for ... 是「help + 人 + 原形動詞」。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "現在完成式 have/has + 過去分詞",
+     "zh": "說明「從過去延續到現在」或「對現在有影響」的事。",
+     "ex": "thousands of people have come to the city of Antalya"
+    },
+    {
+     "pt": "because 引導原因",
+     "zh": "because 後面接完整句子，說明原因。",
+     "ex": "The Earth is getting warmer because people burn coal, oil and gas."
+    },
+    {
+     "pt": "such as 舉例",
+     "zh": "such as 後面接例子，意思是「例如」。",
+     "ex": "cleaner energy, such as sun and wind power"
+    },
+    {
+     "pt": "too many / too few",
+     "zh": "too many 加可數名詞，表示「太多」；too few 表示「太少」。",
+     "ex": "countries have made too many promises and kept too few"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where is COP31 this month?",
+     "opts": [
+      "Taiwan",
+      "Antalya, Turkey",
+      "Paris, France"
+     ],
+     "a": 1
+    },
+    {
+     "q": "Why is the Earth getting warmer?",
+     "opts": [
+      "People burn coal, oil and gas.",
+      "There are too many trees.",
+      "The sun is closer."
+     ],
+     "a": 0
+    },
+    {
+     "q": "What do some people say about promises?",
+     "opts": [
+      "Countries kept all of them.",
+      "Countries made too many and kept too few.",
+      "Countries made no promises."
+     ],
+     "a": 1
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "The Earth is getting warmer because people burn coal, oil and gas.",
+     "target": "warmer"
+    },
+    {
+     "s": "Many people hope the meeting will bring real action.",
+     "target": "action"
+    }
+   ],
+   "targetWords": [
+    "climate",
+    "energy",
+    "promise"
+   ]
+  },
+  {
+   "id": "a2",
+   "kind": "news",
+   "title": "China's New Electric Plane Completes a Test Flight",
+   "zh": "中國新型電動飛機完成載人試飛",
+   "source": {
+    "name": "NewsBytes, Science & Technology",
+    "url": "https://www.newsbytesapp.com/news/science/969"
+   },
+   "note": "依本週科技新聞改寫成 A2-B1 學習文章，非原文。",
+   "paras": [
+    "China's new electric airplane has completed a flight with a pilot on board. The plane can carry 19 passengers, and the test went well.",
+    "Electric planes use batteries instead of fuel. This means they make less noise and less pollution. One day, they may fly short trips between small cities or islands.",
+    "However, batteries are heavy, and they cannot store as much energy as fuel. Because of this, electric planes cannot fly very far yet. Engineers are working hard to build better batteries."
+   ],
+   "glossary": {
+    "electric": {
+     "pos": "adjective",
+     "ipa": "/ɪˈlek.trɪk/",
+     "zh": "電動的、電的",
+     "def": "using or produced by electricity",
+     "ex": "My brother has an electric car.",
+     "g": "electric 是形容詞，放在名詞前：an electric plane（注意冠詞用 an）。"
+    },
+    "battery": {
+     "pos": "noun",
+     "ipa": "/ˈbæt̬.ɚ.i/",
+     "zh": "電池",
+     "def": "a small object that gives power to a phone, car or toy",
+     "ex": "My phone battery is low.",
+     "g": "複數：battery → batteries（子音 + y 變 ies）。"
+    },
+    "fuel": {
+     "pos": "noun",
+     "ipa": "/ˈfjuː.əl/",
+     "zh": "燃料",
+     "def": "a material such as oil or gas that is burned to make power",
+     "ex": "The car uses a lot of fuel.",
+     "g": "instead of fuel：instead of 後面接名詞或 -ing。"
+    },
+    "pollution": {
+     "pos": "noun",
+     "ipa": "/pəˈluː.ʃən/",
+     "zh": "污染",
+     "def": "damage caused to air, water or land by waste or smoke",
+     "ex": "Air pollution is bad in big cities.",
+     "g": "pollution 是不可數名詞；less pollution 用 less（較少）搭配不可數名詞。"
+    },
+    "passenger": {
+     "pos": "noun",
+     "ipa": "/ˈpæs.ən.dʒɚ/",
+     "zh": "乘客",
+     "def": "a person who travels in a vehicle but does not drive it",
+     "ex": "The bus has forty passengers.",
+     "g": "carry 19 passengers：數字後面接複數名詞。"
+    },
+    "pilot": {
+     "pos": "noun",
+     "ipa": "/ˈpaɪ.lət/",
+     "zh": "飛行員",
+     "def": "a person who flies an aircraft",
+     "ex": "The pilot spoke to the passengers.",
+     "g": "on board = 在（飛機、船）上。"
+    },
+    "engineer": {
+     "pos": "noun",
+     "ipa": "/ˌen.dʒəˈnɪr/",
+     "zh": "工程師",
+     "def": "a person who designs or builds machines or buildings",
+     "ex": "My uncle is an engineer.",
+     "g": "文中 are working 是現在進行式，表示「正在持續做」。"
+    },
+    "noise": {
+     "pos": "noun",
+     "ipa": "/nɔɪz/",
+     "zh": "噪音、聲響",
+     "def": "a loud or unpleasant sound",
+     "ex": "I can't sleep because of the noise.",
+     "g": "noise 通常不可數；less noise = 較少噪音。"
+    },
+    "however": {
+     "pos": "adverb",
+     "ipa": "/haʊˈev.ɚ/",
+     "zh": "然而",
+     "def": "used to add a statement that is different from what you just said",
+     "ex": "It is cheap. However, it is not very good.",
+     "g": "However 放句首，後面加逗號，用來轉折。"
+    },
+    "store": {
+     "pos": "verb",
+     "ipa": "/stɔːr/",
+     "zh": "儲存",
+     "def": "to keep something so you can use it later",
+     "ex": "Batteries store energy.",
+     "g": "not ... as much ... as ... = 不如…那麼多（同等比較的否定）。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "instead of + 名詞",
+     "zh": "表示「代替、而不是」。",
+     "ex": "Electric planes use batteries instead of fuel."
+    },
+    {
+     "pt": "may + 原形動詞",
+     "zh": "may 表示「也許、可能」。",
+     "ex": "One day, they may fly short trips between small cities or islands."
+    },
+    {
+     "pt": "not as much ... as ...",
+     "zh": "否定的同等比較，表示「沒有…那麼多」。",
+     "ex": "they cannot store as much energy as fuel"
+    },
+    {
+     "pt": "現在進行式 am/is/are + V-ing",
+     "zh": "說明「正在進行」或「這段時間持續做」的事。",
+     "ex": "Engineers are working hard to build better batteries."
+    }
+   ],
+   "questions": [
+    {
+     "q": "How many passengers can the plane carry?",
+     "opts": [
+      "9",
+      "19",
+      "90"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is one good thing about electric planes?",
+     "opts": [
+      "They make less noise.",
+      "They are very heavy.",
+      "They fly very far."
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why can electric planes not fly far yet?",
+     "opts": [
+      "Pilots are tired.",
+      "Batteries are heavy and store less energy.",
+      "There are no airports."
+     ],
+     "a": 1
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "Electric planes use batteries instead of fuel.",
+     "target": "batteries"
+    },
+    {
+     "s": "Engineers are working hard to build better batteries.",
+     "target": "engineers"
+    }
+   ],
+   "targetWords": [
+    "battery",
+    "noise",
+    "engineer"
+   ]
+  },
+  {
+   "id": "a3",
+   "kind": "news",
+   "title": "A $10 Sensor Small Enough to Wear",
+   "zh": "只要 10 美元、小到能戴在身上的感測器",
+   "source": {
+    "name": "ScienceDaily, Top Science News",
+    "url": "https://www.sciencedaily.com/"
+   },
+   "note": "依本週科學新聞改寫成 A2-B1 學習文章，非原文。",
+   "paras": [
+    "Scientists at Cambridge in the UK have made a very small sensor that costs only about ten dollars. They say it can measure light as well as expensive machines in a lab. It is small enough to fit inside a wearable device, such as a watch.",
+    "In tests, the sensor could tell different kinds of food apart. In the future, it may help people check what they eat or watch their health with a simple device on the wrist.",
+    "Cheaper tools like this are important because more people can use them. When a good tool is cheap, schools, small companies and families can all learn something new."
+   ],
+   "glossary": {
+    "sensor": {
+     "pos": "noun",
+     "ipa": "/ˈsen.sɚ/",
+     "zh": "感測器",
+     "def": "a device that finds and measures things such as light or heat",
+     "ex": "The door has a sensor.",
+     "g": "-or 結尾的名詞常指「做某事的東西或人」。"
+    },
+    "measure": {
+     "pos": "verb",
+     "ipa": "/ˈmeʒ.ɚ/",
+     "zh": "測量",
+     "def": "to find the size or amount of something",
+     "ex": "Please measure the table.",
+     "g": "measure A as well as B 在文中意思是「測得和 B 一樣好」。"
+    },
+    "expensive": {
+     "pos": "adjective",
+     "ipa": "/ɪkˈspen.sɪv/",
+     "zh": "昂貴的",
+     "def": "costing a lot of money",
+     "ex": "That watch is too expensive.",
+     "g": "反義詞 cheap；比較級 cheaper / more expensive。"
+    },
+    "cheap": {
+     "pos": "adjective",
+     "ipa": "/tʃiːp/",
+     "zh": "便宜的",
+     "def": "not costing much money",
+     "ex": "The shoes were cheap.",
+     "g": "cheap → cheaper（比較級），文中 Cheaper tools 表示「更便宜的工具」。"
+    },
+    "wearable": {
+     "pos": "adjective",
+     "ipa": "/ˈwer.ə.bəl/",
+     "zh": "可穿戴的",
+     "def": "able to be worn on your body",
+     "ex": "A smart watch is a wearable device.",
+     "g": "wear + -able = 可以穿戴的。"
+    },
+    "device": {
+     "pos": "noun",
+     "ipa": "/dɪˈvaɪs/",
+     "zh": "裝置、設備",
+     "def": "a machine or tool made for a special job",
+     "ex": "This device checks your sleep.",
+     "g": "a simple device：simple 以子音音素開頭，所以用 a。"
+    },
+    "wrist": {
+     "pos": "noun",
+     "ipa": "/rɪst/",
+     "zh": "手腕",
+     "def": "the part of your body between your hand and your arm",
+     "ex": "She wears a watch on her wrist.",
+     "g": "on the wrist：身體部位常和 the 一起使用。"
+    },
+    "health": {
+     "pos": "noun",
+     "ipa": "/helθ/",
+     "zh": "健康",
+     "def": "the condition of your body",
+     "ex": "Sleep is good for your health.",
+     "g": "形容詞是 healthy；health 是不可數名詞。"
+    },
+    "tool": {
+     "pos": "noun",
+     "ipa": "/tuːl/",
+     "zh": "工具",
+     "def": "something you use to do a job",
+     "ex": "A hammer is a tool.",
+     "g": "Cheaper tools like this：like this 修飾 tools，意思是「像這樣的」。"
+    },
+    "enough": {
+     "pos": "adverb",
+     "ipa": "/ɪˈnʌf/",
+     "zh": "足夠地",
+     "def": "as much as you need",
+     "ex": "The room is big enough for ten people.",
+     "g": "形容詞 + enough + to + 動詞：small enough to fit = 小到可以放進去。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "形容詞 + enough + to + 動詞",
+     "zh": "表示「夠…可以…」。",
+     "ex": "It is small enough to fit inside a wearable device."
+    },
+    {
+     "pt": "比較級 cheaper / more important",
+     "zh": "短形容詞加 -er；長形容詞前面加 more。",
+     "ex": "Cheaper tools like this are important because more people can use them."
+    },
+    {
+     "pt": "may + 原形動詞",
+     "zh": "may 表示未來的可能性。",
+     "ex": "In the future, it may help people check what they eat."
+    },
+    {
+     "pt": "when 引導條件或時間",
+     "zh": "When ... , ... 表示「當…的時候」。",
+     "ex": "When a good tool is cheap, schools, small companies and families can all learn something new."
+    }
+   ],
+   "questions": [
+    {
+     "q": "About how much does the sensor cost?",
+     "opts": [
+      "Ten dollars",
+      "One hundred dollars",
+      "One thousand dollars"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Where could the sensor be used?",
+     "opts": [
+      "Inside a watch",
+      "Inside a car engine only",
+      "Under the sea only"
+     ],
+     "a": 0
+    },
+    {
+     "q": "Why are cheaper tools important?",
+     "opts": [
+      "Fewer people use them.",
+      "More people can use them.",
+      "They are always smaller."
+     ],
+     "a": 1
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "It is small enough to fit inside a wearable device, such as a watch.",
+     "target": "wearable"
+    },
+    {
+     "s": "Cheaper tools like this are important because more people can use them.",
+     "target": "important"
+    }
+   ],
+   "targetWords": [
+    "sensor",
+    "cheap",
+    "device"
+   ]
+  },
+  {
+   "id": "a4",
+   "kind": "ted",
+   "title": "How to Spot a Fake Picture",
+   "zh": "如何看穿一張假圖片",
+   "source": {
+    "name": "TED：Hany Farid, How to spot fake AI photos",
+    "url": "https://www.ted.com/talks/hany_farid_how_to_spot_fake_ai_photos"
+   },
+   "note": "主題取自 TED 2025 熱門演講（如何辨識 AI 生成圖片）。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+   "paras": [
+    "These days, computers can make pictures that look real. Some of these pictures are fun, but others can fool us. A popular TED talk from 2025 explains why it is becoming more important to look carefully at what we see online.",
+    "Here are some simple tips. First, look closely at hands, eyes and writing in the picture, because fake pictures often get small details wrong. Second, check the light and shadows. Do they look natural? Third, ask where the picture came from.",
+    "No tip is perfect, so do not trust a picture just because it looks good. Take a moment to check the source before you share it with your friends."
+   ],
+   "glossary": {
+    "fake": {
+     "pos": "adjective",
+     "ipa": "/feɪk/",
+     "zh": "假的",
+     "def": "not real, but made to look real",
+     "ex": "That bag is fake.",
+     "g": "fake 常放在名詞前：a fake picture。"
+    },
+    "spot": {
+     "pos": "verb",
+     "ipa": "/spɑːt/",
+     "zh": "發現、看出",
+     "def": "to see or notice something",
+     "ex": "Can you spot the mistake?",
+     "g": "How to spot ...：疑問詞 how + to + 動詞，表示「怎麼做…」。"
+    },
+    "fool": {
+     "pos": "verb",
+     "ipa": "/fuːl/",
+     "zh": "欺騙、愚弄",
+     "def": "to make someone believe something that is not true",
+     "ex": "The photo fooled everyone.",
+     "g": "can fool us：can + 原形動詞；us 是受詞。"
+    },
+    "carefully": {
+     "pos": "adverb",
+     "ipa": "/ˈker.fəl.i/",
+     "zh": "仔細地",
+     "def": "in a way that gives attention to details",
+     "ex": "Read the question carefully.",
+     "g": "形容詞 careful + ly 變成副詞，修飾動詞 look。"
+    },
+    "detail": {
+     "pos": "noun",
+     "ipa": "/ˈdiː.teɪl/",
+     "zh": "細節",
+     "def": "a small fact or part of something",
+     "ex": "She remembers every detail.",
+     "g": "small details 用複數，因為細節不只一個。"
+    },
+    "shadow": {
+     "pos": "noun",
+     "ipa": "/ˈʃæd.oʊ/",
+     "zh": "影子",
+     "def": "a dark shape made when something blocks the light",
+     "ex": "The tree makes a long shadow.",
+     "g": "light and shadows 兩個名詞並列。"
+    },
+    "natural": {
+     "pos": "adjective",
+     "ipa": "/ˈnætʃ.ɚ.əl/",
+     "zh": "自然的",
+     "def": "normal and as expected",
+     "ex": "Her smile looks natural.",
+     "g": "Do they look natural? look + 形容詞，表示「看起來…」。"
+    },
+    "source": {
+     "pos": "noun",
+     "ipa": "/sɔːrs/",
+     "zh": "來源",
+     "def": "the place something comes from",
+     "ex": "What is the source of this news?",
+     "g": "check the source = 查證來源。"
+    },
+    "trust": {
+     "pos": "verb",
+     "ipa": "/trʌst/",
+     "zh": "信任",
+     "def": "to believe that someone or something is good or honest",
+     "ex": "I trust my friend.",
+     "g": "do not trust ... 是否定祈使句，用來給建議。"
+    },
+    "share": {
+     "pos": "verb",
+     "ipa": "/ʃer/",
+     "zh": "分享",
+     "def": "to give something to other people, or to show it to them",
+     "ex": "Please share the photo with me.",
+     "g": "share A with B = 把 A 分享給 B。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "祈使句 (原形動詞開頭)",
+     "zh": "用來給建議或指示，否定時加 do not。",
+     "ex": "Take a moment to check the source before you share it with your friends."
+    },
+    {
+     "pt": "First, Second, Third",
+     "zh": "依序說明步驟或要點的連接詞。",
+     "ex": "First, look closely at hands, eyes and writing in the picture."
+    },
+    {
+     "pt": "because 說明原因",
+     "zh": "because 後面接原因。",
+     "ex": "look closely at hands, eyes and writing in the picture, because fake pictures often get small details wrong"
+    },
+    {
+     "pt": "it is becoming more important to ...",
+     "zh": "becoming 是進行式；more important 是比較級，表示「越來越重要」。",
+     "ex": "it is becoming more important to look carefully at what we see online"
+    }
+   ],
+   "questions": [
+    {
+     "q": "What does the article say about fake pictures?",
+     "opts": [
+      "They never look real.",
+      "They often get small details wrong.",
+      "They are always funny."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What is the third tip?",
+     "opts": [
+      "Look at the shadows.",
+      "Ask where the picture came from.",
+      "Delete the picture."
+     ],
+     "a": 1
+    },
+    {
+     "q": "What should you do before you share a picture?",
+     "opts": [
+      "Check the source.",
+      "Add a filter.",
+      "Print it."
+     ],
+     "a": 0
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "No tip is perfect, so do not trust a picture just because it looks good.",
+     "target": "trust"
+    },
+    {
+     "s": "Take a moment to check the source before you share it with your friends.",
+     "target": "source"
+    }
+   ],
+   "targetWords": [
+    "fake",
+    "detail",
+    "source"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+name: 每週更新與發布網站
+
+on:
+  schedule:
+    - cron: "10 22 * * 0"   # 每週一早上 06:10（台北時間）
+  workflow_dispatch:          # 可以在 Actions 頁面手動執行
+  push:
+    branches: [main]          # 你修改檔案時重新發布網站
+
+permissions:
+  contents: write   # 把新文章存回儲存庫
+  models: read      # 使用免費的 GitHub Models
+  pages: write      # 發布 GitHub Pages
+  id-token: write
+
+concurrency:
+  group: weekly-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 產生本週文章
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_week.py
+      - name: 存回儲存庫
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add week.json archive
+          git diff --cached --quiet || git commit -m "本週文章 $(date +%F)"
+          git push
+
+  deploy:
+    needs: update
+    if: always() && (needs.update.result == 'success' || needs.update.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
