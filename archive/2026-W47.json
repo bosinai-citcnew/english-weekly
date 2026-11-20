@@ -2,677 +2,578 @@
  "weekId": "2026-W47",
  "range": "11/16 - 11/22",
  "level": "A2-B1",
+ "bankWeek": 12,
  "articles": [
   {
    "id": "a1",
    "kind": "news",
-   "title": "World Leaders Meet in Turkey to Talk About Climate",
-   "zh": "各國領袖在土耳其討論氣候問題",
+   "title": "Every Drop Counts",
+   "zh": "每一滴都重要",
    "source": {
-    "name": "The Boston Globe, World",
-    "url": "https://www.bostonglobe.com/world/"
+    "name": "Wikipedia：Water conservation",
+    "url": "https://en.wikipedia.org/wiki/Water_conservation"
    },
-   "note": "依本週新聞主題改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
-    "This month, thousands of people have come to the city of Antalya in Turkey. They are there for COP31, a big United Nations climate meeting. Leaders, scientists and young people want to find ways to slow down climate change.",
-    "The Earth is getting warmer because people burn coal, oil and gas. This causes more hot summers, strong storms and floods. At the meeting, countries talk about cleaner energy, such as sun and wind power. They also discuss how rich countries can help poorer countries pay for these changes.",
-    "Many people hope the meeting will bring real action. Others say that countries have made too many promises and kept too few. Whatever happens, the world will be watching."
+    "Water covers most of the Earth, but only a very small part of it is fresh water that people can drink. In dry seasons, some places do not have enough.",
+    "Saving water at home is easy. Turn off the tap while you brush your teeth. Take shorter showers. Fix leaks quickly, because a dripping tap can waste a lot of water in a year.",
+    "You can also reuse water. Water from washing vegetables can water your plants. Every drop counts. If everyone saves a little, together we can save a lot."
    ],
    "glossary": {
-    "climate": {
+    "drop": {
      "pos": "noun",
-     "ipa": "/ˈklaɪ.mət/",
-     "zh": "氣候",
-     "def": "the usual weather in a place over a long time",
-     "ex": "The climate in Taiwan is warm and wet.",
-     "g": "climate change 是固定搭配，意思是「氣候變遷」。climate 在這裡是不可數名詞。"
+     "ipa": "/drɑːp/",
+     "zh": "一滴",
+     "def": "a very small amount of liquid",
+     "ex": "a drop of rain",
+     "g": "Every drop counts 每一滴都算數。"
     },
-    "meeting": {
-     "pos": "noun",
-     "ipa": "/ˈmiː.tɪŋ/",
-     "zh": "會議",
-     "def": "an event where people come together to talk about something",
-     "ex": "We have a meeting at ten o'clock.",
-     "g": "meet（動詞）加 -ing 變成名詞 meeting。"
-    },
-    "leader": {
-     "pos": "noun",
-     "ipa": "/ˈliː.dɚ/",
-     "zh": "領袖、領導者",
-     "def": "a person who is in charge of a group or a country",
-     "ex": "She is a good leader.",
-     "g": "動詞 lead + -er = 做這件事的人。"
-    },
-    "scientist": {
-     "pos": "noun",
-     "ipa": "/ˈsaɪ.ən.tɪst/",
-     "zh": "科學家",
-     "def": "a person who studies science",
-     "ex": "The scientist works in a lab.",
-     "g": "-ist 結尾常表示「從事某領域的人」。"
-    },
-    "warmer": {
+    "fresh": {
      "pos": "adjective",
-     "ipa": "/ˈwɔːr.mɚ/",
-     "zh": "更溫暖的",
-     "def": "higher in temperature than before",
-     "ex": "Today is warmer than yesterday.",
-     "g": "warm → warmer 是比較級。文中 is getting warmer 用「get + 比較級」，表示「漸漸變得更…」。"
+     "ipa": "/freʃ/",
+     "zh": "淡的、新鮮的",
+     "def": "not salty (water); new",
+     "ex": "fresh water",
+     "g": "fresh water 淡水。"
     },
-    "burn": {
-     "pos": "verb",
-     "ipa": "/bɝːn/",
-     "zh": "燃燒",
-     "def": "to be on fire, or to use something as fuel",
-     "ex": "Some power stations burn coal.",
-     "g": "文中 people burn coal 是現在簡單式，說明一般事實。"
-    },
-    "flood": {
+    "season": {
      "pos": "noun",
-     "ipa": "/flʌd/",
-     "zh": "洪水、水災",
-     "def": "a lot of water that covers land that is usually dry",
-     "ex": "The flood closed many roads.",
-     "g": "文中 floods 是複數，與 summers、storms 並列。"
+     "ipa": "/ˈsiː.zən/",
+     "zh": "季節",
+     "def": "one of the parts of the year",
+     "ex": "the rainy season",
+     "g": "dry seasons 乾季。"
     },
-    "energy": {
+    "tap": {
      "pos": "noun",
-     "ipa": "/ˈen.ɚ.dʒi/",
-     "zh": "能源、能量",
-     "def": "power that is used to make machines work or to heat and light buildings",
-     "ex": "Solar panels make clean energy.",
-     "g": "energy 通常不可數，不加 s。"
+     "ipa": "/tæp/",
+     "zh": "水龍頭",
+     "def": "a thing that controls water from a pipe",
+     "ex": "Turn off the tap.",
+     "g": "美式也說 faucet。"
     },
-    "promise": {
-     "pos": "noun / verb",
-     "ipa": "/ˈprɑː.mɪs/",
-     "zh": "承諾；保證",
-     "def": "a statement that you will certainly do something",
-     "ex": "He made a promise to call me.",
-     "g": "make a promise（許下承諾）和 keep a promise（遵守承諾）是常用搭配。文中 made too many promises and kept too few 用過去分詞與 have 組成現在完成式。"
-    },
-    "action": {
+    "shower": {
      "pos": "noun",
-     "ipa": "/ˈæk.ʃən/",
-     "zh": "行動",
-     "def": "the process of doing something to make a change",
-     "ex": "We need action now.",
-     "g": "bring real action = 帶來真正的行動。"
+     "ipa": "/ʃaʊr/",
+     "zh": "淋浴",
+     "def": "washing your body under running water",
+     "ex": "I take a shower every night.",
+     "g": "take a shower 洗澡。"
     },
-    "discuss": {
-     "pos": "verb",
-     "ipa": "/dɪˈskʌs/",
-     "zh": "討論",
-     "def": "to talk about something with other people",
-     "ex": "Let's discuss the plan.",
-     "g": "discuss 後面直接接受詞，不加 about：discuss the plan。"
+    "leak": {
+     "pos": "noun",
+     "ipa": "/liːk/",
+     "zh": "漏水",
+     "def": "a hole where water comes out",
+     "ex": "There is a leak in the roof.",
+     "g": "fix leaks 修理漏水。"
     },
-    "pay": {
+    "drip": {
      "pos": "verb",
-     "ipa": "/peɪ/",
-     "zh": "支付",
-     "def": "to give money for something",
-     "ex": "I pay for my own lunch.",
-     "g": "pay for + 東西。文中 help ... pay for ... 是「help + 人 + 原形動詞」。"
+     "ipa": "/drɪp/",
+     "zh": "滴落",
+     "def": "to fall in small drops",
+     "ex": "Water is dripping.",
+     "g": "a dripping tap 滴水的水龍頭。"
+    },
+    "reuse": {
+     "pos": "verb",
+     "ipa": "/riːˈjuːz/",
+     "zh": "重複使用",
+     "def": "to use again",
+     "ex": "Reuse your bags.",
+     "g": "re- 表示「再」。"
     }
    },
    "grammar": [
     {
-     "pt": "現在完成式 have/has + 過去分詞",
-     "zh": "說明「從過去延續到現在」或「對現在有影響」的事。",
-     "ex": "thousands of people have come to the city of Antalya"
+     "pt": "only a very small part of",
+     "zh": "只有非常小一部分的…。",
+     "ex": "only a very small part of it is fresh water"
     },
     {
-     "pt": "because 引導原因",
-     "zh": "because 後面接完整句子，說明原因。",
-     "ex": "The Earth is getting warmer because people burn coal, oil and gas."
+     "pt": "while 子句",
+     "zh": "在…的同時。",
+     "ex": "Turn off the tap while you brush your teeth."
     },
     {
-     "pt": "such as 舉例",
-     "zh": "such as 後面接例子，意思是「例如」。",
-     "ex": "cleaner energy, such as sun and wind power"
-    },
-    {
-     "pt": "too many / too few",
-     "zh": "too many 加可數名詞，表示「太多」；too few 表示「太少」。",
-     "ex": "countries have made too many promises and kept too few"
+     "pt": "If 子句",
+     "zh": "如果…，就…。",
+     "ex": "If everyone saves a little, together we can save a lot."
     }
    ],
    "questions": [
     {
-     "q": "Where is COP31 this month?",
+     "q": "How much of Earth's water is fresh water?",
      "opts": [
-      "Taiwan",
-      "Antalya, Turkey",
-      "Paris, France"
-     ],
-     "a": 1
-    },
-    {
-     "q": "Why is the Earth getting warmer?",
-     "opts": [
-      "People burn coal, oil and gas.",
-      "There are too many trees.",
-      "The sun is closer."
+      "A very small part",
+      "Most of it",
+      "All of it"
      ],
      "a": 0
     },
     {
-     "q": "What do some people say about promises?",
+     "q": "What should you do while brushing your teeth?",
      "opts": [
-      "Countries kept all of them.",
-      "Countries made too many and kept too few.",
-      "Countries made no promises."
+      "Turn off the tap",
+      "Take a bath",
+      "Wash the car"
      ],
-     "a": 1
+     "a": 0
+    },
+    {
+     "q": "How can you reuse water?",
+     "opts": [
+      "Water plants with it",
+      "Drink it later",
+      "Throw it away"
+     ],
+     "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "The Earth is getting warmer because people burn coal, oil and gas.",
-     "target": "warmer"
+     "s": "You can also reuse water.",
+     "target": "reuse"
     },
     {
-     "s": "Many people hope the meeting will bring real action.",
-     "target": "action"
+     "s": "Turn off the tap while you brush your teeth.",
+     "target": "tap"
     }
    ],
    "targetWords": [
-    "climate",
-    "energy",
-    "promise"
+    "drop",
+    "fresh",
+    "season"
    ]
   },
   {
    "id": "a2",
    "kind": "news",
-   "title": "China's New Electric Plane Completes a Test Flight",
-   "zh": "中國新型電動飛機完成載人試飛",
+   "title": "Birds That Cannot Fly",
+   "zh": "不會飛的鳥：企鵝",
    "source": {
-    "name": "NewsBytes, Science & Technology",
-    "url": "https://www.newsbytesapp.com/news/science/969"
+    "name": "Wikipedia：Penguin",
+    "url": "https://en.wikipedia.org/wiki/Penguin"
    },
-   "note": "依本週科技新聞改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
-    "China's new electric airplane has completed a flight with a pilot on board. The plane can carry 19 passengers, and the test went well.",
-    "Electric planes use batteries instead of fuel. This means they make less noise and less pollution. One day, they may fly short trips between small cities or islands.",
-    "However, batteries are heavy, and they cannot store as much energy as fuel. Because of this, electric planes cannot fly very far yet. Engineers are working hard to build better batteries."
+    "Penguins are birds, but they cannot fly. Instead, they are excellent swimmers. Their wings work like flippers and help them move quickly through the water to catch fish.",
+    "Most penguins live in the southern half of the world. Some live in very cold places like Antarctica, but others live on warmer coasts in South America and Africa.",
+    "Penguins often live in large groups. Parents take turns keeping their eggs warm and finding food. Today, some kinds of penguins are in danger because the oceans are changing."
    ],
    "glossary": {
-    "electric": {
-     "pos": "adjective",
-     "ipa": "/ɪˈlek.trɪk/",
-     "zh": "電動的、電的",
-     "def": "using or produced by electricity",
-     "ex": "My brother has an electric car.",
-     "g": "electric 是形容詞，放在名詞前：an electric plane（注意冠詞用 an）。"
-    },
-    "battery": {
+    "penguin": {
      "pos": "noun",
-     "ipa": "/ˈbæt̬.ɚ.i/",
-     "zh": "電池",
-     "def": "a small object that gives power to a phone, car or toy",
-     "ex": "My phone battery is low.",
-     "g": "複數：battery → batteries（子音 + y 變 ies）。"
+     "ipa": "/ˈpeŋ.ɡwɪn/",
+     "zh": "企鵝",
+     "def": "a black and white bird that swims",
+     "ex": "Penguins live in groups.",
+     "g": "複數 penguins。"
     },
-    "fuel": {
-     "pos": "noun",
-     "ipa": "/ˈfjuː.əl/",
-     "zh": "燃料",
-     "def": "a material such as oil or gas that is burned to make power",
-     "ex": "The car uses a lot of fuel.",
-     "g": "instead of fuel：instead of 後面接名詞或 -ing。"
-    },
-    "pollution": {
-     "pos": "noun",
-     "ipa": "/pəˈluː.ʃən/",
-     "zh": "污染",
-     "def": "damage caused to air, water or land by waste or smoke",
-     "ex": "Air pollution is bad in big cities.",
-     "g": "pollution 是不可數名詞；less pollution 用 less（較少）搭配不可數名詞。"
-    },
-    "passenger": {
-     "pos": "noun",
-     "ipa": "/ˈpæs.ən.dʒɚ/",
-     "zh": "乘客",
-     "def": "a person who travels in a vehicle but does not drive it",
-     "ex": "The bus has forty passengers.",
-     "g": "carry 19 passengers：數字後面接複數名詞。"
-    },
-    "pilot": {
-     "pos": "noun",
-     "ipa": "/ˈpaɪ.lət/",
-     "zh": "飛行員",
-     "def": "a person who flies an aircraft",
-     "ex": "The pilot spoke to the passengers.",
-     "g": "on board = 在（飛機、船）上。"
-    },
-    "engineer": {
-     "pos": "noun",
-     "ipa": "/ˌen.dʒəˈnɪr/",
-     "zh": "工程師",
-     "def": "a person who designs or builds machines or buildings",
-     "ex": "My uncle is an engineer.",
-     "g": "文中 are working 是現在進行式，表示「正在持續做」。"
-    },
-    "noise": {
-     "pos": "noun",
-     "ipa": "/nɔɪz/",
-     "zh": "噪音、聲響",
-     "def": "a loud or unpleasant sound",
-     "ex": "I can't sleep because of the noise.",
-     "g": "noise 通常不可數；less noise = 較少噪音。"
-    },
-    "however": {
-     "pos": "adverb",
-     "ipa": "/haʊˈev.ɚ/",
-     "zh": "然而",
-     "def": "used to add a statement that is different from what you just said",
-     "ex": "It is cheap. However, it is not very good.",
-     "g": "However 放句首，後面加逗號，用來轉折。"
-    },
-    "store": {
+    "fly": {
      "pos": "verb",
-     "ipa": "/stɔːr/",
-     "zh": "儲存",
-     "def": "to keep something so you can use it later",
-     "ex": "Batteries store energy.",
-     "g": "not ... as much ... as ... = 不如…那麼多（同等比較的否定）。"
+     "ipa": "/flaɪ/",
+     "zh": "飛",
+     "def": "to move through the air",
+     "ex": "Birds can fly.",
+     "g": "cannot fly 不會飛。"
+    },
+    "excellent": {
+     "pos": "adjective",
+     "ipa": "/ˈek.səl.ənt/",
+     "zh": "極好的",
+     "def": "very good",
+     "ex": "an excellent student",
+     "g": "excellent swimmers。"
+    },
+    "wing": {
+     "pos": "noun",
+     "ipa": "/wɪŋ/",
+     "zh": "翅膀",
+     "def": "the part a bird uses to fly",
+     "ex": "The bird opened its wings.",
+     "g": "Their wings 牠們的翅膀。"
+    },
+    "southern": {
+     "pos": "adjective",
+     "ipa": "/ˈsʌð.ɚn/",
+     "zh": "南方的",
+     "def": "in or from the south",
+     "ex": "the southern part of Taiwan",
+     "g": "south → southern。"
+    },
+    "coast": {
+     "pos": "noun",
+     "ipa": "/koʊst/",
+     "zh": "海岸",
+     "def": "land next to the sea",
+     "ex": "the east coast",
+     "g": "warmer coasts 較溫暖的海岸。"
+    },
+    "turn": {
+     "pos": "noun",
+     "ipa": "/tɝːn/",
+     "zh": "輪流",
+     "def": "the time for one person to do something",
+     "ex": "It's your turn.",
+     "g": "take turns + V-ing 輪流做…。"
+    },
+    "danger": {
+     "pos": "noun",
+     "ipa": "/ˈdeɪn.dʒɚ/",
+     "zh": "危險",
+     "def": "the possibility of being hurt",
+     "ex": "in danger 處於危險中",
+     "g": "be in danger 面臨危險。"
     }
    },
    "grammar": [
     {
-     "pt": "instead of + 名詞",
-     "zh": "表示「代替、而不是」。",
-     "ex": "Electric planes use batteries instead of fuel."
+     "pt": "Instead,",
+     "zh": "作為替代。",
+     "ex": "Instead, they are excellent swimmers."
     },
     {
-     "pt": "may + 原形動詞",
-     "zh": "may 表示「也許、可能」。",
-     "ex": "One day, they may fly short trips between small cities or islands."
+     "pt": "Some… others…",
+     "zh": "有些…，另一些…。",
+     "ex": "Some live in very cold places like Antarctica, but others live on warmer coasts"
     },
     {
-     "pt": "not as much ... as ...",
-     "zh": "否定的同等比較，表示「沒有…那麼多」。",
-     "ex": "they cannot store as much energy as fuel"
-    },
-    {
-     "pt": "現在進行式 am/is/are + V-ing",
-     "zh": "說明「正在進行」或「這段時間持續做」的事。",
-     "ex": "Engineers are working hard to build better batteries."
+     "pt": "take turns + V-ing",
+     "zh": "輪流做某事。",
+     "ex": "Parents take turns keeping their eggs warm"
     }
    ],
    "questions": [
     {
-     "q": "How many passengers can the plane carry?",
+     "q": "What are penguins very good at?",
      "opts": [
-      "9",
-      "19",
-      "90"
-     ],
-     "a": 1
-    },
-    {
-     "q": "What is one good thing about electric planes?",
-     "opts": [
-      "They make less noise.",
-      "They are very heavy.",
-      "They fly very far."
+      "Swimming",
+      "Flying",
+      "Climbing trees"
      ],
      "a": 0
     },
     {
-     "q": "Why can electric planes not fly far yet?",
+     "q": "Where do most penguins live?",
      "opts": [
-      "Pilots are tired.",
-      "Batteries are heavy and store less energy.",
-      "There are no airports."
+      "In the southern half of the world",
+      "Only in the north",
+      "In deserts"
      ],
-     "a": 1
+     "a": 0
+    },
+    {
+     "q": "Why are some penguins in danger?",
+     "opts": [
+      "The oceans are changing",
+      "They are too fast",
+      "They eat too much"
+     ],
+     "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "Electric planes use batteries instead of fuel.",
-     "target": "batteries"
+     "s": "Penguins often live in large groups.",
+     "target": "Penguins"
     },
     {
-     "s": "Engineers are working hard to build better batteries.",
-     "target": "engineers"
+     "s": "Instead, they are excellent swimmers.",
+     "target": "excellent"
     }
    ],
    "targetWords": [
-    "battery",
-    "noise",
-    "engineer"
+    "penguin",
+    "fly",
+    "excellent"
    ]
   },
   {
    "id": "a3",
    "kind": "news",
-   "title": "A $10 Sensor Small Enough to Wear",
-   "zh": "只要 10 美元、小到能戴在身上的感測器",
+   "title": "The Story of Paper",
+   "zh": "紙的故事",
    "source": {
-    "name": "ScienceDaily, Top Science News",
-    "url": "https://www.sciencedaily.com/"
+    "name": "Wikipedia：Paper",
+    "url": "https://en.wikipedia.org/wiki/Paper"
    },
-   "note": "依本週科學新聞改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
-    "Scientists at Cambridge in the UK have made a very small sensor that costs only about ten dollars. They say it can measure light as well as expensive machines in a lab. It is small enough to fit inside a wearable device, such as a watch.",
-    "In tests, the sensor could tell different kinds of food apart. In the future, it may help people check what they eat or watch their health with a simple device on the wrist.",
-    "Cheaper tools like this are important because more people can use them. When a good tool is cheap, schools, small companies and families can all learn something new."
+    "Paper is so common that we rarely think about it. But for most of history, people wrote on stone, wood, cloth or animal skins.",
+    "Paper making was developed in ancient China about two thousand years ago. People mixed plant fibers with water, spread the mix thin and let it dry. Later, the idea slowly spread to other parts of the world.",
+    "Today, paper is made mostly from wood. Recycling paper saves trees, water and energy. Next time you finish with a newspaper or a box, put it in the recycling bin."
    ],
    "glossary": {
-    "sensor": {
+    "paper": {
      "pos": "noun",
-     "ipa": "/ˈsen.sɚ/",
-     "zh": "感測器",
-     "def": "a device that finds and measures things such as light or heat",
-     "ex": "The door has a sensor.",
-     "g": "-or 結尾的名詞常指「做某事的東西或人」。"
+     "ipa": "/ˈpeɪ.pɚ/",
+     "zh": "紙",
+     "def": "thin material for writing on",
+     "ex": "a piece of paper",
+     "g": "材料時不可數。"
     },
-    "measure": {
-     "pos": "verb",
-     "ipa": "/ˈmeʒ.ɚ/",
-     "zh": "測量",
-     "def": "to find the size or amount of something",
-     "ex": "Please measure the table.",
-     "g": "measure A as well as B 在文中意思是「測得和 B 一樣好」。"
-    },
-    "expensive": {
+    "common": {
      "pos": "adjective",
-     "ipa": "/ɪkˈspen.sɪv/",
-     "zh": "昂貴的",
-     "def": "costing a lot of money",
-     "ex": "That watch is too expensive.",
-     "g": "反義詞 cheap；比較級 cheaper / more expensive。"
+     "ipa": "/ˈkɑː.mən/",
+     "zh": "常見的",
+     "def": "happening or found often",
+     "ex": "a common name",
+     "g": "so common that… 如此常見以至於…。"
     },
-    "cheap": {
-     "pos": "adjective",
-     "ipa": "/tʃiːp/",
-     "zh": "便宜的",
-     "def": "not costing much money",
-     "ex": "The shoes were cheap.",
-     "g": "cheap → cheaper（比較級），文中 Cheaper tools 表示「更便宜的工具」。"
-    },
-    "wearable": {
-     "pos": "adjective",
-     "ipa": "/ˈwer.ə.bəl/",
-     "zh": "可穿戴的",
-     "def": "able to be worn on your body",
-     "ex": "A smart watch is a wearable device.",
-     "g": "wear + -able = 可以穿戴的。"
-    },
-    "device": {
-     "pos": "noun",
-     "ipa": "/dɪˈvaɪs/",
-     "zh": "裝置、設備",
-     "def": "a machine or tool made for a special job",
-     "ex": "This device checks your sleep.",
-     "g": "a simple device：simple 以子音音素開頭，所以用 a。"
-    },
-    "wrist": {
-     "pos": "noun",
-     "ipa": "/rɪst/",
-     "zh": "手腕",
-     "def": "the part of your body between your hand and your arm",
-     "ex": "She wears a watch on her wrist.",
-     "g": "on the wrist：身體部位常和 the 一起使用。"
-    },
-    "health": {
-     "pos": "noun",
-     "ipa": "/helθ/",
-     "zh": "健康",
-     "def": "the condition of your body",
-     "ex": "Sleep is good for your health.",
-     "g": "形容詞是 healthy；health 是不可數名詞。"
-    },
-    "tool": {
-     "pos": "noun",
-     "ipa": "/tuːl/",
-     "zh": "工具",
-     "def": "something you use to do a job",
-     "ex": "A hammer is a tool.",
-     "g": "Cheaper tools like this：like this 修飾 tools，意思是「像這樣的」。"
-    },
-    "enough": {
+    "rarely": {
      "pos": "adverb",
-     "ipa": "/ɪˈnʌf/",
-     "zh": "足夠地",
-     "def": "as much as you need",
-     "ex": "The room is big enough for ten people.",
-     "g": "形容詞 + enough + to + 動詞：small enough to fit = 小到可以放進去。"
+     "ipa": "/ˈrer.li/",
+     "zh": "很少",
+     "def": "not often",
+     "ex": "I rarely eat meat.",
+     "g": "頻率副詞，本身就是否定意味。"
+    },
+    "history": {
+     "pos": "noun",
+     "ipa": "/ˈhɪs.tɚ.i/",
+     "zh": "歷史",
+     "def": "the study of past events",
+     "ex": "Chinese history",
+     "g": "for most of history 在歷史上大部分時間。"
+    },
+    "ancient": {
+     "pos": "adjective",
+     "ipa": "/ˈeɪn.ʃənt/",
+     "zh": "古代的",
+     "def": "very old; from long ago",
+     "ex": "ancient Rome",
+     "g": "ancient China 古代中國。"
+    },
+    "fiber": {
+     "pos": "noun",
+     "ipa": "/ˈfaɪ.bɚ/",
+     "zh": "纖維",
+     "def": "a thin thread of material",
+     "ex": "plant fibers",
+     "g": "複數 fibers。"
+    },
+    "spread": {
+     "pos": "verb",
+     "ipa": "/spred/",
+     "zh": "鋪開；傳播",
+     "def": "to open out over a surface; to move to more places",
+     "ex": "Spread butter on bread.",
+     "g": "過去式也是 spread。"
+    },
+    "newspaper": {
+     "pos": "noun",
+     "ipa": "/ˈnuːzˌpeɪ.pɚ/",
+     "zh": "報紙",
+     "def": "printed news on large paper",
+     "ex": "I read the newspaper.",
+     "g": "news + paper。"
     }
    },
    "grammar": [
     {
-     "pt": "形容詞 + enough + to + 動詞",
-     "zh": "表示「夠…可以…」。",
-     "ex": "It is small enough to fit inside a wearable device."
+     "pt": "so… that…",
+     "zh": "如此…以至於…。",
+     "ex": "Paper is so common that we rarely think about it."
     },
     {
-     "pt": "比較級 cheaper / more important",
-     "zh": "短形容詞加 -er；長形容詞前面加 more。",
-     "ex": "Cheaper tools like this are important because more people can use them."
+     "pt": "被動式 was developed",
+     "zh": "過去被動式。",
+     "ex": "Paper making was developed in ancient China"
     },
     {
-     "pt": "may + 原形動詞",
-     "zh": "may 表示未來的可能性。",
-     "ex": "In the future, it may help people check what they eat."
-    },
-    {
-     "pt": "when 引導條件或時間",
-     "zh": "When ... , ... 表示「當…的時候」。",
-     "ex": "When a good tool is cheap, schools, small companies and families can all learn something new."
+     "pt": "let + 受詞 + 原形",
+     "zh": "讓…（自然）…。",
+     "ex": "spread the mix thin and let it dry"
     }
    ],
    "questions": [
     {
-     "q": "About how much does the sensor cost?",
+     "q": "What did people write on before paper?",
      "opts": [
-      "Ten dollars",
-      "One hundred dollars",
-      "One thousand dollars"
+      "Stone, wood, cloth or skins",
+      "Glass",
+      "Plastic"
      ],
      "a": 0
     },
     {
-     "q": "Where could the sensor be used?",
+     "q": "Where was paper making developed?",
      "opts": [
-      "Inside a watch",
-      "Inside a car engine only",
-      "Under the sea only"
+      "Ancient China",
+      "Ancient Rome",
+      "America"
      ],
      "a": 0
     },
     {
-     "q": "Why are cheaper tools important?",
+     "q": "What does recycling paper save?",
      "opts": [
-      "Fewer people use them.",
-      "More people can use them.",
-      "They are always smaller."
+      "Trees, water and energy",
+      "Only money",
+      "Nothing"
      ],
-     "a": 1
+     "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "It is small enough to fit inside a wearable device, such as a watch.",
-     "target": "wearable"
+     "s": "Today, paper is made mostly from wood.",
+     "target": "paper"
     },
     {
-     "s": "Cheaper tools like this are important because more people can use them.",
-     "target": "important"
+     "s": "Paper is so common that we rarely think about it.",
+     "target": "common"
     }
    ],
    "targetWords": [
-    "sensor",
-    "cheap",
-    "device"
+    "paper",
+    "common",
+    "rarely"
    ]
   },
   {
    "id": "a4",
    "kind": "ted",
-   "title": "How to Spot a Fake Picture",
-   "zh": "如何看穿一張假圖片",
+   "title": "The secret to a happy life: lessons from 8 decades of research",
+   "zh": "幸福人生的秘密：八十年研究的啟示",
    "source": {
-    "name": "TED：Hany Farid, How to spot fake AI photos",
-    "url": "https://www.ted.com/talks/hany_farid_how_to_spot_fake_ai_photos"
+    "name": "TED：Robert Waldinger, The secret to a happy life: lessons from 8 decades of research",
+    "url": "https://www.ted.com/talks/robert_waldinger_the_secret_to_a_happy_life_lessons_from_8_decades_of_research"
    },
-   "note": "主題取自 TED 2025 熱門演講（如何辨識 AI 生成圖片）。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+   "note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
    "paras": [
-    "These days, computers can make pictures that look real. Some of these pictures are fun, but others can fool us. A popular TED talk from 2025 explains why it is becoming more important to look carefully at what we see online.",
-    "Here are some simple tips. First, look closely at hands, eyes and writing in the picture, because fake pictures often get small details wrong. Second, check the light and shadows. Do they look natural? Third, ask where the picture came from.",
-    "No tip is perfect, so do not trust a picture just because it looks good. Take a moment to check the source before you share it with your friends."
+    "Robert Waldinger leads a famous study that has followed people's lives for more than eight decades. In this later talk, he shares more of what the study has taught him.",
+    "The main message is simple but powerful: our relationships matter a lot for a happy and healthy life. Good relationships are like muscles. If we do not use them, they get weaker.",
+    "He suggests small actions to keep relationships strong, like sending a message to an old friend or having a real conversation with someone at work. Who could you contact this week?"
    ],
    "glossary": {
-    "fake": {
+    "lead": {
+     "pos": "verb",
+     "ipa": "/liːd/",
+     "zh": "領導",
+     "def": "to be in charge of",
+     "ex": "She leads the team.",
+     "g": "leads 第三人稱單數；leader 名詞。"
+    },
+    "follow": {
+     "pos": "verb",
+     "ipa": "/ˈfɑː.loʊ/",
+     "zh": "追蹤、跟隨",
+     "def": "to watch or go after something over time",
+     "ex": "Follow me.",
+     "g": "has followed 現在完成式。"
+    },
+    "message": {
+     "pos": "noun",
+     "ipa": "/ˈmes.ɪdʒ/",
+     "zh": "訊息",
+     "def": "information you send to someone",
+     "ex": "I got your message.",
+     "g": "main message 主要訊息。"
+    },
+    "powerful": {
      "pos": "adjective",
-     "ipa": "/feɪk/",
-     "zh": "假的",
-     "def": "not real, but made to look real",
-     "ex": "That bag is fake.",
-     "g": "fake 常放在名詞前：a fake picture。"
+     "ipa": "/ˈpaʊ.ɚ.fəl/",
+     "zh": "有力的",
+     "def": "having great effect",
+     "ex": "a powerful idea",
+     "g": "power + -ful。"
     },
-    "spot": {
+    "matter": {
      "pos": "verb",
-     "ipa": "/spɑːt/",
-     "zh": "發現、看出",
-     "def": "to see or notice something",
-     "ex": "Can you spot the mistake?",
-     "g": "How to spot ...：疑問詞 how + to + 動詞，表示「怎麼做…」。"
+     "ipa": "/ˈmæt̬.ɚ/",
+     "zh": "要緊、重要",
+     "def": "to be important",
+     "ex": "Your health matters.",
+     "g": "matter a lot 非常重要。"
     },
-    "fool": {
-     "pos": "verb",
-     "ipa": "/fuːl/",
-     "zh": "欺騙、愚弄",
-     "def": "to make someone believe something that is not true",
-     "ex": "The photo fooled everyone.",
-     "g": "can fool us：can + 原形動詞；us 是受詞。"
-    },
-    "carefully": {
-     "pos": "adverb",
-     "ipa": "/ˈker.fəl.i/",
-     "zh": "仔細地",
-     "def": "in a way that gives attention to details",
-     "ex": "Read the question carefully.",
-     "g": "形容詞 careful + ly 變成副詞，修飾動詞 look。"
-    },
-    "detail": {
-     "pos": "noun",
-     "ipa": "/ˈdiː.teɪl/",
-     "zh": "細節",
-     "def": "a small fact or part of something",
-     "ex": "She remembers every detail.",
-     "g": "small details 用複數，因為細節不只一個。"
-    },
-    "shadow": {
-     "pos": "noun",
-     "ipa": "/ˈʃæd.oʊ/",
-     "zh": "影子",
-     "def": "a dark shape made when something blocks the light",
-     "ex": "The tree makes a long shadow.",
-     "g": "light and shadows 兩個名詞並列。"
-    },
-    "natural": {
+    "weak": {
      "pos": "adjective",
-     "ipa": "/ˈnætʃ.ɚ.əl/",
-     "zh": "自然的",
-     "def": "normal and as expected",
-     "ex": "Her smile looks natural.",
-     "g": "Do they look natural? look + 形容詞，表示「看起來…」。"
+     "ipa": "/wiːk/",
+     "zh": "弱的",
+     "def": "not strong",
+     "ex": "I feel weak today.",
+     "g": "比較級 weaker。"
     },
-    "source": {
+    "conversation": {
      "pos": "noun",
-     "ipa": "/sɔːrs/",
-     "zh": "來源",
-     "def": "the place something comes from",
-     "ex": "What is the source of this news?",
-     "g": "check the source = 查證來源。"
+     "ipa": "/ˌkɑːn.vɚˈseɪ.ʃən/",
+     "zh": "對話",
+     "def": "a talk between people",
+     "ex": "We had a long conversation.",
+     "g": "have a conversation 談話。"
     },
-    "trust": {
+    "contact": {
      "pos": "verb",
-     "ipa": "/trʌst/",
-     "zh": "信任",
-     "def": "to believe that someone or something is good or honest",
-     "ex": "I trust my friend.",
-     "g": "do not trust ... 是否定祈使句，用來給建議。"
-    },
-    "share": {
-     "pos": "verb",
-     "ipa": "/ʃer/",
-     "zh": "分享",
-     "def": "to give something to other people, or to show it to them",
-     "ex": "Please share the photo with me.",
-     "g": "share A with B = 把 A 分享給 B。"
+     "ipa": "/ˈkɑːn.tækt/",
+     "zh": "聯絡",
+     "def": "to call or write to someone",
+     "ex": "Please contact me.",
+     "g": "contact + 人（不加 to）。"
     }
    },
    "grammar": [
     {
-     "pt": "祈使句 (原形動詞開頭)",
-     "zh": "用來給建議或指示，否定時加 do not。",
-     "ex": "Take a moment to check the source before you share it with your friends."
+     "pt": "現在完成式 has followed",
+     "zh": "從過去持續到現在。",
+     "ex": "a famous study that has followed people's lives for more than eight decades"
     },
     {
-     "pt": "First, Second, Third",
-     "zh": "依序說明步驟或要點的連接詞。",
-     "ex": "First, look closely at hands, eyes and writing in the picture."
+     "pt": "If 子句",
+     "zh": "如果…，就…。",
+     "ex": "If we do not use them, they get weaker."
     },
     {
-     "pt": "because 說明原因",
-     "zh": "because 後面接原因。",
-     "ex": "look closely at hands, eyes and writing in the picture, because fake pictures often get small details wrong"
-    },
-    {
-     "pt": "it is becoming more important to ...",
-     "zh": "becoming 是進行式；more important 是比較級，表示「越來越重要」。",
-     "ex": "it is becoming more important to look carefully at what we see online"
+     "pt": "like + V-ing 舉例",
+     "zh": "像是…。",
+     "ex": "like sending a message to an old friend"
     }
    ],
    "questions": [
     {
-     "q": "What does the article say about fake pictures?",
+     "q": "How long has the study followed people?",
      "opts": [
-      "They never look real.",
-      "They often get small details wrong.",
-      "They are always funny."
+      "More than eight decades",
+      "Eight years",
+      "Eight months"
      ],
-     "a": 1
+     "a": 0
     },
     {
-     "q": "What is the third tip?",
+     "q": "What are good relationships compared to?",
      "opts": [
-      "Look at the shadows.",
-      "Ask where the picture came from.",
-      "Delete the picture."
+      "Muscles",
+      "Cars",
+      "Phones"
      ],
-     "a": 1
+     "a": 0
     },
     {
-     "q": "What should you do before you share a picture?",
+     "q": "Which small action does he suggest?",
      "opts": [
-      "Check the source.",
-      "Add a filter.",
-      "Print it."
+      "Send a message to an old friend",
+      "Buy a new phone",
+      "Work late"
      ],
      "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "No tip is perfect, so do not trust a picture just because it looks good.",
-     "target": "trust"
+     "s": "Who could you contact this week?",
+     "target": "contact"
     },
     {
-     "s": "Take a moment to check the source before you share it with your friends.",
-     "target": "source"
+     "s": "If we do not use them, they get weaker.",
+     "target": "weaker"
     }
    ],
    "targetWords": [
-    "fake",
-    "detail",
-    "source"
+    "lead",
+    "follow",
+    "message"
    ]
   }
  ]
