@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "10 22 * * 0"   # 每週一早上 06:10（台北時間）
   workflow_dispatch:          # 可以在 Actions 頁面手動執行
+    inputs:
+      force:
+        description: "就算本週已更新，也重新產生文章"
+        type: boolean
+        default: false
   push:
     branches: [main]          # 你修改檔案時重新發布網站
 
@@ -29,7 +34,7 @@ jobs:
       - name: 產生本週文章
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/update_week.py
+        run: python scripts/update_week.py ${{ inputs.force && '--force' || '' }}
       - name: 存回儲存庫
         run: |
           git config user.name "github-actions[bot]"
