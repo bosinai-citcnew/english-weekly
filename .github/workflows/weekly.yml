@@ -57,3 +57,10 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: 發布失敗時等一下再試一次
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@v4
