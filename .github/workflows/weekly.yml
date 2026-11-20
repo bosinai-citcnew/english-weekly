@@ -33,7 +33,7 @@ jobs:
       - name: 產生本週文章
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/update_week.py ${{ inputs.force && '--force' || '' }}
+        run: python -u scripts/update_week.py ${{ inputs.force && '--force' || '' }}
       - name: 存回儲存庫
         run: |
           git config user.name "github-actions[bot]"

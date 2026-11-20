@@ -1079,7 +1079,7 @@ function aiCardHTML(){
      <li><span>1</span><div><b>打開 Google AI Studio，用 Google 帳號登入</b></div><a class="btn sm" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">${ic('link')}打開</a></li>
      <li><span>2</span><div><b>按「Create API key」建立金鑰，再按複製</b><div class="small muted">第一次使用可能要先同意服務條款</div></div></li>
      <li><span>3</span><div><b>貼在下面，按「連接」</b></div></li></ol>
-    <div class="inrow"><input id="gk" class="field" placeholder="貼上 API 金鑰（AIza 開頭）" autocomplete="off" spellcheck="false" aria-label="Google AI 金鑰"><button class="btn pri" data-a="gsave">連接</button></div>
+    <div class="inrow"><input id="gk" class="field" placeholder="貼上 Google AI Studio 的 API 金鑰" autocomplete="off" spellcheck="false" aria-label="Google AI 金鑰"><button class="btn pri" data-a="gsave">連接</button></div>
     <div class="small muted">金鑰只存在你這台裝置的瀏覽器，不會傳到其他地方，只用來呼叫 Google。請不要把金鑰分享給別人。</div></div>`;
 }
 function chatView(c){
@@ -1377,7 +1377,7 @@ JSON only: {"simple":"...","zh":"...","notes":[{"en":"...","zh":"..."}]}`);
   sim(t){ simStart(t.dataset.id) },
   simzh(){ S.conv.zh=!S.conv.zh; render() },
   level(t){ S.level=t.dataset.l; lset('ell.level',S.level); render() },
-  gsave(){ const v=($('#gk').value||'').trim(); if(!/^[A-Za-z0-9_\-]{20,}$/.test(v)){ toast('金鑰格式不對，請重新複製'); return } try{ localStorage.setItem('ell.gkey',v) }catch(e){ toast('這個瀏覽器不能儲存金鑰'); return } render(); ACT.gtest() },
+  gsave(){ const v=($('#gk').value||'').replace(/[\s"'“”]/g,''); if(v.length<20){ toast('金鑰好像不完整，請在 Google AI Studio 按複製圖示後再貼上'); return } try{ localStorage.setItem('ell.gkey',v) }catch(e){ toast('這個瀏覽器不能儲存金鑰'); return } render(); ACT.gtest() },
   gdel(){ try{ localStorage.removeItem('ell.gkey') }catch(e){} render(); toast('已移除金鑰') },
   async gtest(){ toast('測試中…'); try{ const r=await gemini('Reply with JSON only: {"ok":true,"msg":"a short friendly English greeting"}'); toast('連接成功：'+(r.msg||'OK')) }catch(e){ toast(errMsg(e)) } },
   simsend(){ const i=$('#sin'); const v=i.value; i.value=''; simSend(v) },
