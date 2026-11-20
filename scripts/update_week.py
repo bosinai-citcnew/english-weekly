@@ -13,6 +13,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -80,22 +81,36 @@ def ask(prompt, max_tokens=3000):
     last = None
     for model in MODELS:
         for attempt in range(3):
-            body = json.dumps({
+            payload = {
                 "model": model,
-                "messages": [{"role": "system", "content": "You write materials for English learners. Reply with one JSON object only."},
+                "messages": [{"role": "system", "content": "You write materials for English learners. Reply with one JSON object only, no other text."},
                              {"role": "user", "content": prompt}],
                 "temperature": 0.4, "max_tokens": max_tokens,
-                "response_format": {"type": "json_object"},
-            }).encode()
+            }
+            raw = b""
             try:
-                raw = http(API, body, {"Content-Type": "application/json", "Authorization": f"Bearer {token}",
-                                       "User-Agent": "english-weekly-bot"}, timeout=120)
-                txt = json.loads(raw)["choices"][0]["message"]["content"]
-                return json.loads(txt[txt.find("{"): txt.rfind("}") + 1])
+                req = urllib.request.Request(API, json.dumps(payload).encode(), {
+                    "Content-Type": "application/json", "Accept": "application/json",
+                    "Authorization": f"Bearer {token}", "User-Agent": "english-weekly-bot"})
+                with urllib.request.urlopen(req, timeout=180) as r:
+                    raw = r.read()
+                data = json.loads(raw.decode("utf-8"))
+                txt = data["choices"][0]["message"]["content"] or ""
+                txt = re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip()
+                s, e = txt.find("{"), txt.rfind("}")
+                if s < 0 or e < s:
+                    raise ValueError("回覆裡沒有 JSON：" + txt[:200])
+                return json.loads(txt[s:e + 1])
+            except urllib.error.HTTPError as e:
+                body = e.read()[:400].decode("utf-8", "replace")
+                last = f"HTTP {e.code} {body}"
+                print(f"{model} attempt {attempt + 1} failed: {last}")
+                if e.code in (401, 403, 404):
+                    break
             except Exception as e:
-                last = e
-                print(f"{model} attempt {attempt + 1} failed: {e}")
-                time.sleep(20 * (attempt + 1))
+                last = f"{e} | raw: {raw[:300]!r}"
+                print(f"{model} attempt {attempt + 1} failed: {last}")
+            time.sleep(15 * (attempt + 1))
     raise RuntimeError(f"模型呼叫失敗：{last}")
 
 
