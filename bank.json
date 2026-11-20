@@ -1,0 +1,6890 @@
+[
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Why Sleep Matters",
+"zh": "為什麼睡眠很重要",
+"source": {
+"name": "Wikipedia：Sleep",
+"url": "https://en.wikipedia.org/wiki/Sleep"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Most adults need seven to nine hours of sleep every night. When we sleep, our body rests and our brain sorts the things we learned during the day. Sleep is not wasted time. It helps us feel fresh and ready for tomorrow.",
+"Many people sleep too little because they work late or look at their phones in bed. The bright light from a screen can keep the brain awake. After a few bad nights, people often feel tired, hungry and less patient.",
+"Doctors give some simple tips. Go to bed at the same time every day. Keep your bedroom dark and quiet. Put your phone away thirty minutes before sleep. Small changes like these can make a big difference."
+],
+"glossary": {
+"adult": {
+"pos": "noun",
+"ipa": "/əˈdʌlt/",
+"zh": "成年人",
+"def": "a person who is fully grown",
+"ex": "Adults pay more for tickets.",
+"g": "可數名詞，複數 adults；Most adults 表示「大多數成年人」。"
+},
+"rest": {
+"pos": "verb",
+"ipa": "/rest/",
+"zh": "休息",
+"def": "to stop working and relax",
+"ex": "You should rest after a long walk.",
+"g": "不及物動詞；our body rests 主詞第三人稱單數加 s。"
+},
+"brain": {
+"pos": "noun",
+"ipa": "/breɪn/",
+"zh": "大腦",
+"def": "the part of your head that thinks and remembers",
+"ex": "The brain needs a lot of energy.",
+"g": "可數名詞；the brain 指一般的大腦。"
+},
+"waste": {
+"pos": "verb / noun",
+"ipa": "/weɪst/",
+"zh": "浪費",
+"def": "to use something badly or not use it",
+"ex": "Don't waste water.",
+"g": "文中 wasted time：過去分詞當形容詞，「浪費掉的時間」。"
+},
+"screen": {
+"pos": "noun",
+"ipa": "/skriːn/",
+"zh": "螢幕",
+"def": "the flat front of a phone, TV or computer",
+"ex": "My phone screen is broken.",
+"g": "a screen 單數；the light from a screen = 螢幕發出的光。"
+},
+"tired": {
+"pos": "adjective",
+"ipa": "/taɪɚd/",
+"zh": "疲累的",
+"def": "needing rest or sleep",
+"ex": "I am tired after work.",
+"g": "feel + 形容詞：feel tired。"
+},
+"patient": {
+"pos": "adjective",
+"ipa": "/ˈpeɪ.ʃənt/",
+"zh": "有耐心的",
+"def": "able to wait calmly",
+"ex": "Be patient with children.",
+"g": "less patient：less + 形容詞，表示「比較沒那麼…」。"
+},
+"difference": {
+"pos": "noun",
+"ipa": "/ˈdɪf.ɚ.əns/",
+"zh": "差別",
+"def": "the way that two things are not the same",
+"ex": "Exercise makes a big difference.",
+"g": "make a difference = 產生影響、有幫助。"
+}
+},
+"grammar": [
+{
+"pt": "need + 名詞",
+"zh": "need 後面接需要的東西。",
+"ex": "Most adults need seven to nine hours of sleep"
+},
+{
+"pt": "祈使句給建議",
+"zh": "原形動詞開頭，用來提出建議。",
+"ex": "Go to bed at the same time every day."
+},
+{
+"pt": "keep + 受詞 + 形容詞",
+"zh": "讓某物保持某種狀態。",
+"ex": "Keep your bedroom dark and quiet."
+}
+],
+"questions": [
+{
+"q": "How many hours of sleep do most adults need?",
+"opts": [
+"Five to six",
+"Seven to nine",
+"Ten to twelve"
+],
+"a": 1
+},
+{
+"q": "What can keep the brain awake?",
+"opts": [
+"Light from a screen",
+"A dark room",
+"A quiet bedroom"
+],
+"a": 0
+},
+{
+"q": "When should you put your phone away?",
+"opts": [
+"After you wake up",
+"Thirty minutes before sleep",
+"At lunch time"
+],
+"a": 1
+}
+],
+"keySentences": [
+{
+"s": "Sleep is not wasted time.",
+"target": "wasted"
+},
+{
+"s": "Small changes like these can make a big difference.",
+"target": "difference"
+}
+],
+"targetWords": [
+"adult",
+"rest",
+"brain"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Busy Little Bees",
+"zh": "忙碌的小蜜蜂",
+"source": {
+"name": "Wikipedia：Honey bee",
+"url": "https://en.wikipedia.org/wiki/Honey_bee"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Bees are small, but they do a very big job. When a bee visits a flower, it carries pollen to the next flower. This helps plants make fruit and seeds. Many foods we eat, like apples and almonds, need bees.",
+"A bee family lives together in a hive. One queen lays eggs, and thousands of worker bees collect food and keep the hive clean. Worker bees also make honey from the sweet juice inside flowers.",
+"In some places, the number of bees is going down. Bees need flowers and clean places to live. People can help by growing flowers on balconies and in gardens, even in big cities."
+],
+"glossary": {
+"flower": {
+"pos": "noun",
+"ipa": "/ˈflaʊ.ɚ/",
+"zh": "花",
+"def": "the colorful part of a plant",
+"ex": "She gave me some flowers.",
+"g": "可數名詞，複數 flowers。"
+},
+"carry": {
+"pos": "verb",
+"ipa": "/ˈker.i/",
+"zh": "攜帶、搬運",
+"def": "to hold something and take it somewhere",
+"ex": "Can you carry this bag?",
+"g": "第三人稱單數 carries（子音 + y → ies）。"
+},
+"seed": {
+"pos": "noun",
+"ipa": "/siːd/",
+"zh": "種子",
+"def": "a small thing from which a new plant grows",
+"ex": "Plant the seeds in spring.",
+"g": "fruit and seeds：fruit 常不可數，seeds 可數。"
+},
+"hive": {
+"pos": "noun",
+"ipa": "/haɪv/",
+"zh": "蜂窩",
+"def": "a home for bees",
+"ex": "The hive is full of honey.",
+"g": "a hive / in a hive。"
+},
+"collect": {
+"pos": "verb",
+"ipa": "/kəˈlekt/",
+"zh": "收集",
+"def": "to bring things together from different places",
+"ex": "He collects stamps.",
+"g": "collect food 收集食物。"
+},
+"honey": {
+"pos": "noun",
+"ipa": "/ˈhʌn.i/",
+"zh": "蜂蜜",
+"def": "a sweet food made by bees",
+"ex": "I put honey in my tea.",
+"g": "不可數名詞，不加 a 也不加 s。"
+},
+"juice": {
+"pos": "noun",
+"ipa": "/dʒuːs/",
+"zh": "汁液、果汁",
+"def": "the liquid from fruit or plants",
+"ex": "Would you like orange juice?",
+"g": "不可數名詞；sweet juice 甜甜的汁液。"
+},
+"balcony": {
+"pos": "noun",
+"ipa": "/ˈbæl.kə.ni/",
+"zh": "陽台",
+"def": "a small area outside a window of a building",
+"ex": "We have plants on our balcony.",
+"g": "複數 balconies；on balconies 在陽台上。"
+}
+},
+"grammar": [
+{
+"pt": "When 子句",
+"zh": "When + 句子，表示「當…的時候」。",
+"ex": "When a bee visits a flower, it carries pollen to the next flower."
+},
+{
+"pt": "現在進行式表示變化中",
+"zh": "is going down 表示數量正在減少。",
+"ex": "the number of bees is going down"
+},
+{
+"pt": "by + V-ing",
+"zh": "用某種方法做某事。",
+"ex": "People can help by growing flowers"
+}
+],
+"questions": [
+{
+"q": "What do bees carry from flower to flower?",
+"opts": [
+"Water",
+"Pollen",
+"Leaves"
+],
+"a": 1
+},
+{
+"q": "Who lays eggs in the hive?",
+"opts": [
+"The queen",
+"Worker bees",
+"People"
+],
+"a": 0
+},
+{
+"q": "How can people in cities help bees?",
+"opts": [
+"Cut down trees",
+"Grow flowers",
+"Eat more honey"
+],
+"a": 1
+}
+],
+"keySentences": [
+{
+"s": "A bee family lives together in a hive.",
+"target": "hive"
+},
+{
+"s": "This helps plants make fruit and seeds.",
+"target": "seeds"
+}
+],
+"targetWords": [
+"flower",
+"carry",
+"seed"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Giving Plastic a Second Life",
+"zh": "讓塑膠重生",
+"source": {
+"name": "Wikipedia：Plastic recycling",
+"url": "https://en.wikipedia.org/wiki/Plastic_recycling"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Every year, people around the world use millions of tons of plastic. Bottles, bags and boxes are useful, but many of them are used only once. After that, they often end up in the ground or in the sea.",
+"Recycling can give plastic a second life. Old bottles can become new bottles, clothes or even park benches. But recycling only works well when people clean their plastic and put it in the right bin.",
+"Using less plastic is even better. You can carry a water bottle, bring your own shopping bag and say no to straws. If many people make these small changes, there will be less waste."
+],
+"glossary": {
+"plastic": {
+"pos": "noun",
+"ipa": "/ˈplæs.tɪk/",
+"zh": "塑膠",
+"def": "a light material made in factories",
+"ex": "This chair is made of plastic.",
+"g": "不可數名詞；也可當形容詞 a plastic bag。"
+},
+"useful": {
+"pos": "adjective",
+"ipa": "/ˈjuːs.fəl/",
+"zh": "有用的",
+"def": "helpful for doing something",
+"ex": "A map is useful when you travel.",
+"g": "use + -ful = 有用的。"
+},
+"recycle": {
+"pos": "verb",
+"ipa": "/ˌriːˈsaɪ.kəl/",
+"zh": "回收",
+"def": "to make used things into new things",
+"ex": "We recycle paper and glass.",
+"g": "動名詞 recycling 可當主詞：Recycling can give…"
+},
+"bottle": {
+"pos": "noun",
+"ipa": "/ˈbɑː.t̬əl/",
+"zh": "瓶子",
+"def": "a container for drinks",
+"ex": "a bottle of water",
+"g": "a bottle of + 飲料。"
+},
+"bench": {
+"pos": "noun",
+"ipa": "/bentʃ/",
+"zh": "長椅",
+"def": "a long seat for two or more people",
+"ex": "We sat on a bench in the park.",
+"g": "複數 benches（-ch 結尾加 es）。"
+},
+"bin": {
+"pos": "noun",
+"ipa": "/bɪn/",
+"zh": "垃圾桶、回收桶",
+"def": "a container for waste",
+"ex": "Put it in the recycling bin.",
+"g": "in the right bin 放進正確的桶子。"
+},
+"straw": {
+"pos": "noun",
+"ipa": "/strɑː/",
+"zh": "吸管",
+"def": "a thin tube for drinking",
+"ex": "I don't need a straw.",
+"g": "say no to straws：say no to + 名詞 = 拒絕。"
+},
+"waste": {
+"pos": "noun",
+"ipa": "/weɪst/",
+"zh": "廢棄物",
+"def": "things that people throw away",
+"ex": "We should make less waste.",
+"g": "不可數名詞，用 less 修飾。"
+}
+},
+"grammar": [
+{
+"pt": "end up + 介系詞片語",
+"zh": "表示「最後落得…」。",
+"ex": "they often end up in the ground or in the sea"
+},
+{
+"pt": "only when",
+"zh": "只有在…的時候。",
+"ex": "recycling only works well when people clean their plastic"
+},
+{
+"pt": "If 條件句",
+"zh": "If + 現在式，主句用 will。",
+"ex": "If many people make these small changes, there will be less waste."
+}
+],
+"questions": [
+{
+"q": "What often happens to plastic after one use?",
+"opts": [
+"It ends up in the ground or sea",
+"It turns into honey",
+"It disappears"
+],
+"a": 0
+},
+{
+"q": "When does recycling work well?",
+"opts": [
+"When plastic is dirty",
+"When people clean it and use the right bin",
+"When it rains"
+],
+"a": 1
+},
+{
+"q": "What is even better than recycling?",
+"opts": [
+"Using less plastic",
+"Buying more bottles",
+"Burning plastic"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Using less plastic is even better.",
+"target": "plastic"
+},
+{
+"s": "Recycling can give plastic a second life.",
+"target": "Recycling"
+}
+],
+"targetWords": [
+"plastic",
+"useful",
+"recycle"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "Try something new for 30 days",
+"zh": "試一件新事 30 天",
+"source": {
+"name": "TED：Matt Cutts, Try something new for 30 days",
+"url": "https://www.ted.com/talks/matt_cutts_try_something_new_for_30_days"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Is there something you always wanted to do but never started? In a short and light TED talk, Matt Cutts gives a simple idea: try it for just thirty days.",
+"Thirty days is not very long, so the goal does not feel too hard. You can try to walk every day, read a page of a book, or take one photo each day. If you miss a day, you can start again.",
+"Small daily goals can build new habits. After a month, you may feel more confident and want to try another challenge. What would you like to try for the next thirty days?"
+],
+"glossary": {
+"goal": {
+"pos": "noun",
+"ipa": "/ɡoʊl/",
+"zh": "目標",
+"def": "something you want to do in the future",
+"ex": "My goal is to run five kilometers.",
+"g": "可數名詞；daily goals 每天的目標。"
+},
+"simple": {
+"pos": "adjective",
+"ipa": "/ˈsɪm.pəl/",
+"zh": "簡單的",
+"def": "easy to understand or do",
+"ex": "The idea is very simple.",
+"g": "a simple idea：simple 以子音開頭用 a。"
+},
+"miss": {
+"pos": "verb",
+"ipa": "/mɪs/",
+"zh": "錯過",
+"def": "to not do or have something you planned",
+"ex": "I missed the bus.",
+"g": "If you miss a day 如果漏掉一天。"
+},
+"daily": {
+"pos": "adjective",
+"ipa": "/ˈdeɪ.li/",
+"zh": "每天的",
+"def": "happening every day",
+"ex": "Exercise is part of my daily life.",
+"g": "day + -ly 變成形容詞。"
+},
+"habit": {
+"pos": "noun",
+"ipa": "/ˈhæb.ɪt/",
+"zh": "習慣",
+"def": "something you do often, usually without thinking",
+"ex": "Reading is a good habit.",
+"g": "build a habit 養成習慣。"
+},
+"confident": {
+"pos": "adjective",
+"ipa": "/ˈkɑːn.fə.dənt/",
+"zh": "有自信的",
+"def": "sure that you can do something well",
+"ex": "She feels confident in English class.",
+"g": "feel confident 感到有自信。"
+},
+"challenge": {
+"pos": "noun",
+"ipa": "/ˈtʃæl.əndʒ/",
+"zh": "挑戰",
+"def": "something new and difficult to do",
+"ex": "Learning to swim was a challenge.",
+"g": "another challenge 另一個挑戰。"
+},
+"month": {
+"pos": "noun",
+"ipa": "/mʌnθ/",
+"zh": "月",
+"def": "about thirty days",
+"ex": "See you next month.",
+"g": "After a month 一個月後。"
+}
+},
+"grammar": [
+{
+"pt": "try + to 原形動詞",
+"zh": "努力、嘗試去做某事。",
+"ex": "You can try to walk every day"
+},
+{
+"pt": "not very + 形容詞",
+"zh": "表示「不太…」。",
+"ex": "Thirty days is not very long"
+},
+{
+"pt": "would like to",
+"zh": "禮貌地表達想做的事。",
+"ex": "What would you like to try for the next thirty days?"
+}
+],
+"questions": [
+{
+"q": "How long does the talk suggest you try something new?",
+"opts": [
+"Seven days",
+"Thirty days",
+"One year"
+],
+"a": 1
+},
+{
+"q": "What can you do if you miss a day?",
+"opts": [
+"Stop forever",
+"Start again",
+"Pay money"
+],
+"a": 1
+},
+{
+"q": "What can small daily goals build?",
+"opts": [
+"New habits",
+"Big houses",
+"Bad luck"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "If you miss a day, you can start again.",
+"target": "miss"
+},
+{
+"s": "Small daily goals can build new habits.",
+"target": "goals"
+}
+],
+"targetWords": [
+"goal",
+"simple",
+"miss"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Drink More Water",
+"zh": "多喝水",
+"source": {
+"name": "Wikipedia：Drinking water",
+"url": "https://en.wikipedia.org/wiki/Drinking_water"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"About sixty percent of the human body is water. We lose water every day when we breathe, sweat and go to the toilet. That is why we need to drink water again and again.",
+"When we do not drink enough, we may get a headache or feel tired. In hot weather or after sports, the body needs even more water. Many people forget to drink because they are busy.",
+"Here are some easy ideas. Keep a bottle on your desk. Drink a glass of water with every meal. Eat fruit like watermelon and oranges. Your body will thank you."
+],
+"glossary": {
+"percent": {
+"pos": "noun",
+"ipa": "/pɚˈsent/",
+"zh": "百分之…",
+"def": "one part in every hundred",
+"ex": "Sixty percent of students passed.",
+"g": "數字 + percent，percent 不加 s。"
+},
+"lose": {
+"pos": "verb",
+"ipa": "/luːz/",
+"zh": "失去",
+"def": "to stop having something",
+"ex": "I lost my keys.",
+"g": "過去式 lost；We lose water 我們流失水分。"
+},
+"breathe": {
+"pos": "verb",
+"ipa": "/briːð/",
+"zh": "呼吸",
+"def": "to take air into your body and let it out",
+"ex": "Breathe slowly.",
+"g": "動詞 breathe /iː/，名詞 breath /e/。"
+},
+"sweat": {
+"pos": "verb",
+"ipa": "/swet/",
+"zh": "流汗",
+"def": "to make water come out of your skin",
+"ex": "I sweat a lot in summer.",
+"g": "過去式 sweated 或 sweat。"
+},
+"headache": {
+"pos": "noun",
+"ipa": "/ˈhed.eɪk/",
+"zh": "頭痛",
+"def": "a pain in your head",
+"ex": "I have a headache.",
+"g": "get / have a headache。"
+},
+"enough": {
+"pos": "adverb",
+"ipa": "/ɪˈnʌf/",
+"zh": "足夠地",
+"def": "as much as needed",
+"ex": "Did you sleep enough?",
+"g": "放在動詞後：drink enough。"
+},
+"forget": {
+"pos": "verb",
+"ipa": "/fɚˈɡet/",
+"zh": "忘記",
+"def": "to not remember",
+"ex": "Don't forget your umbrella.",
+"g": "forget to + 動詞 = 忘記去做。"
+},
+"meal": {
+"pos": "noun",
+"ipa": "/miːl/",
+"zh": "一餐",
+"def": "food eaten at one time, like lunch",
+"ex": "We have three meals a day.",
+"g": "with every meal 每餐都…；every 後接單數。"
+}
+},
+"grammar": [
+{
+"pt": "That is why…",
+"zh": "「這就是為什麼…」，說明結果。",
+"ex": "That is why we need to drink water again and again."
+},
+{
+"pt": "even + 比較級",
+"zh": "加強比較：更加…。",
+"ex": "the body needs even more water"
+},
+{
+"pt": "forget to + 原形",
+"zh": "忘記去做某事。",
+"ex": "Many people forget to drink because they are busy."
+}
+],
+"questions": [
+{
+"q": "How much of the human body is water?",
+"opts": [
+"About 30%",
+"About 60%",
+"About 90%"
+],
+"a": 1
+},
+{
+"q": "What may happen if you don't drink enough?",
+"opts": [
+"You get a headache",
+"You get taller",
+"You sleep more"
+],
+"a": 0
+},
+{
+"q": "Which is one easy idea from the article?",
+"opts": [
+"Keep a bottle on your desk",
+"Drink only soda",
+"Never eat fruit"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Drink a glass of water with every meal.",
+"target": "meal"
+},
+{
+"s": "About sixty percent of the human body is water.",
+"target": "percent"
+}
+],
+"targetWords": [
+"percent",
+"lose",
+"breathe"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Cities on Two Wheels",
+"zh": "兩輪上的城市",
+"source": {
+"name": "Wikipedia：Utility cycling",
+"url": "https://en.wikipedia.org/wiki/Utility_cycling"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"In many cities, more people are riding bicycles to school and work. Bikes are cheap, quiet and good for the air. Riding a bike is also good exercise, so it helps people stay healthy.",
+"Some cities build special bike lanes to keep riders safe from cars. Many places also have public bikes. You can rent a bike with a card or a phone app and return it at another station.",
+"Of course, riders must follow the rules. Wear a helmet, use lights at night and stop at red lights. With care, a bike can be a fast and fun way to get around."
+],
+"glossary": {
+"ride": {
+"pos": "verb",
+"ipa": "/raɪd/",
+"zh": "騎",
+"def": "to sit on a bike or horse and control it",
+"ex": "I ride my bike to school.",
+"g": "過去式 rode；riding 是 -ing 形。"
+},
+"cheap": {
+"pos": "adjective",
+"ipa": "/tʃiːp/",
+"zh": "便宜的",
+"def": "not costing much money",
+"ex": "Bikes are cheaper than cars.",
+"g": "比較級 cheaper。"
+},
+"exercise": {
+"pos": "noun",
+"ipa": "/ˈek.sɚ.saɪz/",
+"zh": "運動",
+"def": "physical activity to stay healthy",
+"ex": "Swimming is good exercise.",
+"g": "當「運動」時常不可數。"
+},
+"lane": {
+"pos": "noun",
+"ipa": "/leɪn/",
+"zh": "車道",
+"def": "a part of a road for one line of traffic",
+"ex": "Stay in the bike lane.",
+"g": "bike lane 自行車道。"
+},
+"safe": {
+"pos": "adjective",
+"ipa": "/seɪf/",
+"zh": "安全的",
+"def": "not in danger",
+"ex": "Keep your money safe.",
+"g": "keep + 人 + safe from + 危險。"
+},
+"rent": {
+"pos": "verb",
+"ipa": "/rent/",
+"zh": "租用",
+"def": "to pay to use something for a short time",
+"ex": "We rented a car.",
+"g": "rent a bike 租一台腳踏車。"
+},
+"helmet": {
+"pos": "noun",
+"ipa": "/ˈhel.mət/",
+"zh": "安全帽",
+"def": "a hard hat that protects your head",
+"ex": "Always wear a helmet.",
+"g": "wear a helmet 戴安全帽。"
+},
+"rule": {
+"pos": "noun",
+"ipa": "/ruːl/",
+"zh": "規則",
+"def": "something that tells you what you must do",
+"ex": "Follow the school rules.",
+"g": "follow the rules 遵守規則。"
+}
+},
+"grammar": [
+{
+"pt": "現在進行式表示趨勢",
+"zh": "more people are riding 表示越來越多人在騎。",
+"ex": "more people are riding bicycles to school and work"
+},
+{
+"pt": "must + 原形動詞",
+"zh": "表示必須。",
+"ex": "riders must follow the rules"
+},
+{
+"pt": "a way to + 原形",
+"zh": "做某事的方法。",
+"ex": "a fast and fun way to get around"
+}
+],
+"questions": [
+{
+"q": "Why are bikes good for the air?",
+"opts": [
+"They are quiet and clean",
+"They are expensive",
+"They are big"
+],
+"a": 0
+},
+{
+"q": "How can you rent a public bike?",
+"opts": [
+"With a card or phone app",
+"Only with cash",
+"You can't"
+],
+"a": 0
+},
+{
+"q": "What should riders wear?",
+"opts": [
+"A helmet",
+"A hat",
+"Sunglasses"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Of course, riders must follow the rules.",
+"target": "riders"
+},
+{
+"s": "Bikes are cheap, quiet and good for the air.",
+"target": "cheap"
+}
+],
+"targetWords": [
+"ride",
+"cheap",
+"exercise"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "A Night at the Market",
+"zh": "夜市之夜",
+"source": {
+"name": "Wikipedia：Night market",
+"url": "https://en.wikipedia.org/wiki/Night_market"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Night markets are a big part of life in Taiwan. When the sun goes down, streets fill with food stands, games and bright lights. Families, students and tourists walk slowly and look for something tasty.",
+"Popular snacks include bubble tea, fried chicken and stinky tofu. Many stands sell small dishes, so people can try many different foods in one night. Prices are usually low.",
+"Night markets can be crowded and noisy, but that is part of the fun. If you visit, bring some cash, a small bag for trash and an empty stomach!"
+],
+"glossary": {
+"market": {
+"pos": "noun",
+"ipa": "/ˈmɑːr.kɪt/",
+"zh": "市場",
+"def": "a place where people buy and sell things",
+"ex": "We buy fruit at the market.",
+"g": "night market 夜市。"
+},
+"stand": {
+"pos": "noun",
+"ipa": "/stænd/",
+"zh": "攤位",
+"def": "a small table or shop outside where things are sold",
+"ex": "a food stand",
+"g": "food stands 複數。"
+},
+"tourist": {
+"pos": "noun",
+"ipa": "/ˈtʊr.ɪst/",
+"zh": "觀光客",
+"def": "a person who travels for fun",
+"ex": "Many tourists visit Taipei.",
+"g": "tour + -ist = 觀光的人。"
+},
+"tasty": {
+"pos": "adjective",
+"ipa": "/ˈteɪ.sti/",
+"zh": "美味的",
+"def": "having a good flavor",
+"ex": "This soup is tasty.",
+"g": "something tasty：形容詞放在 something 後面。"
+},
+"snack": {
+"pos": "noun",
+"ipa": "/snæk/",
+"zh": "點心、小吃",
+"def": "a small amount of food between meals",
+"ex": "I eat a snack at 3 p.m.",
+"g": "popular snacks 熱門小吃。"
+},
+"fried": {
+"pos": "adjective",
+"ipa": "/fraɪd/",
+"zh": "油炸的",
+"def": "cooked in hot oil",
+"ex": "fried rice",
+"g": "fry 的過去分詞當形容詞。"
+},
+"crowded": {
+"pos": "adjective",
+"ipa": "/ˈkraʊ.dɪd/",
+"zh": "擁擠的",
+"def": "full of people",
+"ex": "The train is crowded.",
+"g": "crowd 人群 → crowded 擁擠的。"
+},
+"cash": {
+"pos": "noun",
+"ipa": "/kæʃ/",
+"zh": "現金",
+"def": "money in coins or paper",
+"ex": "Do you take cash?",
+"g": "不可數名詞。"
+}
+},
+"grammar": [
+{
+"pt": "When the sun goes down",
+"zh": "When 子句說明時間。",
+"ex": "When the sun goes down, streets fill with food stands"
+},
+{
+"pt": "so 表示結果",
+"zh": "so 連接原因和結果。",
+"ex": "Many stands sell small dishes, so people can try many different foods"
+},
+{
+"pt": "something + 形容詞",
+"zh": "something 的形容詞要放後面。",
+"ex": "look for something tasty"
+}
+],
+"questions": [
+{
+"q": "When do night markets start?",
+"opts": [
+"In the morning",
+"When the sun goes down",
+"At noon"
+],
+"a": 1
+},
+{
+"q": "Why can people try many foods in one night?",
+"opts": [
+"Dishes are small",
+"Food is free",
+"Markets are open all week"
+],
+"a": 0
+},
+{
+"q": "What should you bring?",
+"opts": [
+"Cash",
+"A big suitcase",
+"A bike"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Night markets are a big part of life in Taiwan.",
+"target": "markets"
+},
+{
+"s": "Popular snacks include bubble tea, fried chicken and stinky tofu.",
+"target": "snacks"
+}
+],
+"targetWords": [
+"market",
+"stand",
+"tourist"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "How to spot fake AI photos",
+"zh": "如何看穿 AI 假照片",
+"source": {
+"name": "TED：Hany Farid, How to spot fake AI photos",
+"url": "https://www.ted.com/talks/hany_farid_how_to_spot_fake_ai_photos"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Computers can now make pictures that look very real. In this TED talk, Hany Farid, an expert in digital photos, talks about how fake pictures can fool people online.",
+"He helps journalists and courts check if a picture is real. He also shares tips that anyone can use. For example, real photos follow the rules of light, shadow and distance, and fake ones often make mistakes.",
+"The most important tip is simple: slow down. Before you believe or share a shocking picture, stop for a moment and check where it came from."
+],
+"glossary": {
+"expert": {
+"pos": "noun",
+"ipa": "/ˈek.spɝːt/",
+"zh": "專家",
+"def": "a person who knows a lot about something",
+"ex": "She is an expert in computers.",
+"g": "an expert in + 領域。"
+},
+"digital": {
+"pos": "adjective",
+"ipa": "/ˈdɪdʒ.ə.t̬əl/",
+"zh": "數位的",
+"def": "using computers or electronic technology",
+"ex": "a digital camera",
+"g": "digital photos 數位照片。"
+},
+"online": {
+"pos": "adverb",
+"ipa": "/ˈɑːn.laɪn/",
+"zh": "在網路上",
+"def": "on the internet",
+"ex": "I shop online.",
+"g": "可當副詞或形容詞。"
+},
+"journalist": {
+"pos": "noun",
+"ipa": "/ˈdʒɝː.nə.lɪst/",
+"zh": "記者",
+"def": "a person who writes news",
+"ex": "The journalist asked many questions.",
+"g": "-ist 表示從事…的人。"
+},
+"shadow": {
+"pos": "noun",
+"ipa": "/ˈʃæd.oʊ/",
+"zh": "影子",
+"def": "a dark shape made when light is blocked",
+"ex": "My shadow is long in the evening.",
+"g": "light and shadow 光與影。"
+},
+"mistake": {
+"pos": "noun",
+"ipa": "/mɪˈsteɪk/",
+"zh": "錯誤",
+"def": "something that is wrong",
+"ex": "I made a mistake.",
+"g": "make a mistake 犯錯。"
+},
+"believe": {
+"pos": "verb",
+"ipa": "/bɪˈliːv/",
+"zh": "相信",
+"def": "to think that something is true",
+"ex": "I believe you.",
+"g": "believe + 東西／人。"
+},
+"shocking": {
+"pos": "adjective",
+"ipa": "/ˈʃɑː.kɪŋ/",
+"zh": "令人震驚的",
+"def": "very surprising in a bad way",
+"ex": "shocking news",
+"g": "-ing 形容詞形容「事物令人…」。"
+}
+},
+"grammar": [
+{
+"pt": "look + 形容詞",
+"zh": "看起來…。",
+"ex": "pictures that look very real"
+},
+{
+"pt": "check if…",
+"zh": "確認是否…。",
+"ex": "check if a picture is real"
+},
+{
+"pt": "Before 子句",
+"zh": "在…之前。",
+"ex": "Before you believe or share a shocking picture, stop for a moment"
+}
+],
+"questions": [
+{
+"q": "What is Hany Farid an expert in?",
+"opts": [
+"Digital photos",
+"Cooking",
+"Music"
+],
+"a": 0
+},
+{
+"q": "What do real photos follow?",
+"opts": [
+"The rules of light and shadow",
+"Fashion trends",
+"Song lyrics"
+],
+"a": 0
+},
+{
+"q": "What is the most important tip?",
+"opts": [
+"Slow down and check",
+"Share quickly",
+"Never take photos"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "He helps journalists and courts check if a picture is real.",
+"target": "journalists"
+},
+{
+"s": "Before you believe or share a shocking picture, stop for a moment and check where it came from.",
+"target": "believe"
+}
+],
+"targetWords": [
+"expert",
+"digital",
+"online"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Our Friend the Moon",
+"zh": "我們的朋友月亮",
+"source": {
+"name": "Wikipedia：Moon",
+"url": "https://en.wikipedia.org/wiki/Moon"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"The Moon is about 384,000 kilometers away from Earth. It does not make its own light. We can see it because it reflects light from the Sun. Its shape seems to change during the month.",
+"The Moon also pulls on the sea. This pull helps make the tides go up and down along the beach. Without the Moon, our oceans would be very different.",
+"In 1969, astronauts walked on the Moon for the first time. Today, several countries plan new trips there. Maybe one day, people will live and work on the Moon."
+],
+"glossary": {
+"kilometer": {
+"pos": "noun",
+"ipa": "/kɪˈlɑː.mə.t̬ɚ/",
+"zh": "公里",
+"def": "a distance of 1,000 meters",
+"ex": "It is five kilometers to school.",
+"g": "數字 + kilometers 複數。"
+},
+"reflect": {
+"pos": "verb",
+"ipa": "/rɪˈflekt/",
+"zh": "反射",
+"def": "to send back light or heat",
+"ex": "A mirror reflects light.",
+"g": "reflects light from the Sun 反射太陽光。"
+},
+"shape": {
+"pos": "noun",
+"ipa": "/ʃeɪp/",
+"zh": "形狀",
+"def": "the form of something",
+"ex": "The cake has a heart shape.",
+"g": "Its shape 它的形狀。"
+},
+"seem": {
+"pos": "verb",
+"ipa": "/siːm/",
+"zh": "似乎",
+"def": "to appear to be",
+"ex": "You seem happy today.",
+"g": "seem to + 原形：seems to change。"
+},
+"pull": {
+"pos": "verb / noun",
+"ipa": "/pʊl/",
+"zh": "拉；拉力",
+"def": "to move something toward you",
+"ex": "Pull the door to open it.",
+"g": "文中 This pull 當名詞。"
+},
+"tide": {
+"pos": "noun",
+"ipa": "/taɪd/",
+"zh": "潮汐",
+"def": "the rise and fall of the sea",
+"ex": "The tide is high now.",
+"g": "常用複數 the tides。"
+},
+"astronaut": {
+"pos": "noun",
+"ipa": "/ˈæs.trə.nɑːt/",
+"zh": "太空人",
+"def": "a person who travels into space",
+"ex": "She wants to be an astronaut.",
+"g": "an astronaut：母音開頭用 an。"
+},
+"several": {
+"pos": "determiner",
+"ipa": "/ˈsev.ɚ.əl/",
+"zh": "幾個",
+"def": "more than two but not many",
+"ex": "I have several friends in Japan.",
+"g": "several + 複數名詞。"
+}
+},
+"grammar": [
+{
+"pt": "does not + 原形動詞",
+"zh": "第三人稱單數的否定。",
+"ex": "It does not make its own light."
+},
+{
+"pt": "would + 原形（假設）",
+"zh": "Without… 搭配 would 表示假設。",
+"ex": "Without the Moon, our oceans would be very different."
+},
+{
+"pt": "for the first time",
+"zh": "第一次。",
+"ex": "astronauts walked on the Moon for the first time"
+}
+],
+"questions": [
+{
+"q": "Why can we see the Moon?",
+"opts": [
+"It reflects sunlight",
+"It makes its own light",
+"It is very hot"
+],
+"a": 0
+},
+{
+"q": "What does the Moon help make?",
+"opts": [
+"Tides",
+"Rain",
+"Wind"
+],
+"a": 0
+},
+{
+"q": "When did people first walk on the Moon?",
+"opts": [
+"1959",
+"1969",
+"1999"
+],
+"a": 1
+}
+],
+"keySentences": [
+{
+"s": "The Moon also pulls on the sea.",
+"target": "pulls"
+},
+{
+"s": "Its shape seems to change during the month.",
+"target": "shape"
+}
+],
+"targetWords": [
+"kilometer",
+"reflect",
+"shape"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "The Story of Coffee",
+"zh": "咖啡的故事",
+"source": {
+"name": "Wikipedia：Coffee",
+"url": "https://en.wikipedia.org/wiki/Coffee"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Coffee comes from the seeds of a small red fruit. People call these seeds coffee beans. After farmers pick the fruit, the beans are dried, roasted and then ground into powder.",
+"Today, coffee is one of the most popular drinks in the world. Some people drink it black, and others add milk or sugar. Many offices and schools have coffee machines.",
+"Coffee has caffeine, which helps people feel awake. But too much caffeine can make it hard to sleep. Most doctors say that a few cups a day are fine for healthy adults."
+],
+"glossary": {
+"bean": {
+"pos": "noun",
+"ipa": "/biːn/",
+"zh": "豆子",
+"def": "a seed of some plants that you can eat or use",
+"ex": "coffee beans",
+"g": "複數 beans。"
+},
+"farmer": {
+"pos": "noun",
+"ipa": "/ˈfɑːr.mɚ/",
+"zh": "農夫",
+"def": "a person who works on a farm",
+"ex": "The farmer grows rice.",
+"g": "farm + -er。"
+},
+"dry": {
+"pos": "verb",
+"ipa": "/draɪ/",
+"zh": "弄乾",
+"def": "to make something not wet",
+"ex": "Dry your hands.",
+"g": "被動式 are dried（dry → dried）。"
+},
+"roast": {
+"pos": "verb",
+"ipa": "/roʊst/",
+"zh": "烘焙",
+"def": "to cook with dry heat",
+"ex": "They roast the beans.",
+"g": "被動式 are roasted。"
+},
+"powder": {
+"pos": "noun",
+"ipa": "/ˈpaʊ.dɚ/",
+"zh": "粉末",
+"def": "very small pieces of a dry thing",
+"ex": "milk powder",
+"g": "不可數名詞。"
+},
+"popular": {
+"pos": "adjective",
+"ipa": "/ˈpɑː.pjə.lɚ/",
+"zh": "受歡迎的",
+"def": "liked by many people",
+"ex": "a popular singer",
+"g": "one of the most popular + 複數名詞。"
+},
+"awake": {
+"pos": "adjective",
+"ipa": "/əˈweɪk/",
+"zh": "清醒的",
+"def": "not sleeping",
+"ex": "I was awake at 2 a.m.",
+"g": "feel awake 感到清醒。"
+},
+"healthy": {
+"pos": "adjective",
+"ipa": "/ˈhel.θi/",
+"zh": "健康的",
+"def": "not sick; good for your body",
+"ex": "healthy adults",
+"g": "health 名詞 → healthy 形容詞。"
+}
+},
+"grammar": [
+{
+"pt": "被動式 are + 過去分詞",
+"zh": "強調東西被處理。",
+"ex": "the beans are dried, roasted and then ground into powder"
+},
+{
+"pt": "one of the most + 形容詞 + 複數名詞",
+"zh": "最…之一。",
+"ex": "coffee is one of the most popular drinks in the world"
+},
+{
+"pt": "which 補充說明",
+"zh": "which 引導子句補充前面的名詞。",
+"ex": "Coffee has caffeine, which helps people feel awake."
+}
+],
+"questions": [
+{
+"q": "What are coffee beans?",
+"opts": [
+"Seeds of a fruit",
+"Leaves of a tree",
+"A kind of rice"
+],
+"a": 0
+},
+{
+"q": "What can too much caffeine do?",
+"opts": [
+"Make it hard to sleep",
+"Make you taller",
+"Make you hungry"
+],
+"a": 0
+},
+{
+"q": "What do most doctors say?",
+"opts": [
+"A few cups a day are fine",
+"Never drink coffee",
+"Drink ten cups"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "People call these seeds coffee beans.",
+"target": "beans"
+},
+{
+"s": "Coffee has caffeine, which helps people feel awake.",
+"target": "awake"
+}
+],
+"targetWords": [
+"bean",
+"farmer",
+"dry"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "The Power of a Walk",
+"zh": "走路的力量",
+"source": {
+"name": "Wikipedia：Walking",
+"url": "https://en.wikipedia.org/wiki/Walking"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Walking is one of the easiest kinds of exercise. You do not need special clothes or a gym. You only need comfortable shoes and a little time.",
+"Studies show that a thirty-minute walk each day is good for the heart. Walking can also help people think more clearly and feel less stressed. Many people get their best ideas during a walk.",
+"You can add walking to your day in simple ways. Get off the bus one stop early. Take the stairs instead of the elevator. Walk and talk with a friend after dinner."
+],
+"glossary": {
+"easy": {
+"pos": "adjective",
+"ipa": "/ˈiː.zi/",
+"zh": "容易的",
+"def": "not difficult",
+"ex": "The test was easy.",
+"g": "最高級 easiest（y → iest）。"
+},
+"special": {
+"pos": "adjective",
+"ipa": "/ˈspeʃ.əl/",
+"zh": "特別的",
+"def": "different from what is usual",
+"ex": "a special day",
+"g": "special clothes 特殊的衣服。"
+},
+"gym": {
+"pos": "noun",
+"ipa": "/dʒɪm/",
+"zh": "健身房",
+"def": "a room or building for exercise",
+"ex": "I go to the gym on Mondays.",
+"g": "go to the gym。"
+},
+"comfortable": {
+"pos": "adjective",
+"ipa": "/ˈkʌmf.tɚ.bəl/",
+"zh": "舒適的",
+"def": "making you feel relaxed",
+"ex": "comfortable shoes",
+"g": "重音在第一音節。"
+},
+"heart": {
+"pos": "noun",
+"ipa": "/hɑːrt/",
+"zh": "心臟",
+"def": "the organ that pumps blood",
+"ex": "Exercise is good for the heart.",
+"g": "be good for + 名詞 = 對…有益。"
+},
+"clearly": {
+"pos": "adverb",
+"ipa": "/ˈklɪr.li/",
+"zh": "清楚地",
+"def": "in a way that is easy to understand",
+"ex": "Please speak clearly.",
+"g": "clear + -ly 修飾動詞 think。"
+},
+"stressed": {
+"pos": "adjective",
+"ipa": "/strest/",
+"zh": "有壓力的",
+"def": "worried and nervous",
+"ex": "I feel stressed before exams.",
+"g": "feel less stressed 壓力比較小。"
+},
+"stairs": {
+"pos": "noun",
+"ipa": "/sterz/",
+"zh": "樓梯",
+"def": "steps that go from one floor to another",
+"ex": "Take the stairs.",
+"g": "通常用複數。"
+}
+},
+"grammar": [
+{
+"pt": "do not need",
+"zh": "不需要。",
+"ex": "You do not need special clothes or a gym."
+},
+{
+"pt": "instead of",
+"zh": "代替、而不是。",
+"ex": "Take the stairs instead of the elevator."
+},
+{
+"pt": "Studies show that…",
+"zh": "研究顯示…。",
+"ex": "Studies show that a thirty-minute walk each day is good for the heart."
+}
+],
+"questions": [
+{
+"q": "What do you need for walking?",
+"opts": [
+"Comfortable shoes",
+"A gym card",
+"Special clothes"
+],
+"a": 0
+},
+{
+"q": "How long is a good daily walk?",
+"opts": [
+"Five minutes",
+"Thirty minutes",
+"Three hours"
+],
+"a": 1
+},
+{
+"q": "Which is one way to walk more?",
+"opts": [
+"Get off the bus early",
+"Take the elevator",
+"Drive everywhere"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Take the stairs instead of the elevator.",
+"target": "stairs"
+},
+{
+"s": "You do not need special clothes or a gym.",
+"target": "special"
+}
+],
+"targetWords": [
+"easy",
+"special",
+"gym"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "How to speak so that people want to listen",
+"zh": "怎麼說話，別人才想聽",
+"source": {
+"name": "TED：Julian Treasure, How to speak so that people want to listen",
+"url": "https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Have you ever felt that people are not listening to you? In this popular TED talk, sound expert Julian Treasure talks about how to speak so that people want to listen.",
+"He explains some habits that make listeners stop paying attention, such as complaining all the time. He also talks about the voice as a tool, like an instrument we all play.",
+"We can change how we sound. We can speak a little slower, change our pitch and use short pauses. He even shows some warm-up exercises for the voice before an important talk."
+],
+"glossary": {
+"listen": {
+"pos": "verb",
+"ipa": "/ˈlɪs.ən/",
+"zh": "聽",
+"def": "to pay attention to sounds or words",
+"ex": "Listen to the teacher.",
+"g": "listen to + 人／東西。"
+},
+"sound": {
+"pos": "noun",
+"ipa": "/saʊnd/",
+"zh": "聲音",
+"def": "something you hear",
+"ex": "I heard a strange sound.",
+"g": "sound expert 聲音專家。"
+},
+"attention": {
+"pos": "noun",
+"ipa": "/əˈten.ʃən/",
+"zh": "注意力",
+"def": "the act of watching or listening carefully",
+"ex": "Pay attention, please.",
+"g": "pay attention 注意。"
+},
+"complain": {
+"pos": "verb",
+"ipa": "/kəmˈpleɪn/",
+"zh": "抱怨",
+"def": "to say that you are not happy about something",
+"ex": "He always complains about work.",
+"g": "complaining 是動名詞。"
+},
+"voice": {
+"pos": "noun",
+"ipa": "/vɔɪs/",
+"zh": "嗓音",
+"def": "the sound you make when you speak",
+"ex": "She has a soft voice.",
+"g": "the voice 泛指嗓音。"
+},
+"instrument": {
+"pos": "noun",
+"ipa": "/ˈɪn.strə.mənt/",
+"zh": "樂器",
+"def": "an object used to make music",
+"ex": "The piano is my favorite instrument.",
+"g": "an instrument 用 an。"
+},
+"pause": {
+"pos": "noun",
+"ipa": "/pɑːz/",
+"zh": "停頓",
+"def": "a short stop in speaking",
+"ex": "Take a pause before you answer.",
+"g": "short pauses 短暫停頓。"
+},
+"important": {
+"pos": "adjective",
+"ipa": "/ɪmˈpɔːr.tənt/",
+"zh": "重要的",
+"def": "having great value",
+"ex": "an important meeting",
+"g": "an important talk。"
+}
+},
+"grammar": [
+{
+"pt": "Have you ever + 過去分詞",
+"zh": "問「你曾經…嗎？」",
+"ex": "Have you ever felt that people are not listening to you?"
+},
+{
+"pt": "so that",
+"zh": "為了、以便。",
+"ex": "how to speak so that people want to listen"
+},
+{
+"pt": "a little + 比較級",
+"zh": "稍微更…。",
+"ex": "We can speak a little slower"
+}
+],
+"questions": [
+{
+"q": "What is Julian Treasure an expert in?",
+"opts": [
+"Sound",
+"Sports",
+"Food"
+],
+"a": 0
+},
+{
+"q": "Which habit makes people stop listening?",
+"opts": [
+"Complaining all the time",
+"Smiling",
+"Asking questions"
+],
+"a": 0
+},
+{
+"q": "What does he compare the voice to?",
+"opts": [
+"An instrument",
+"A car",
+"A book"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "We can change how we sound.",
+"target": "sound"
+},
+{
+"s": "Have you ever felt that people are not listening to you?",
+"target": "listening"
+}
+],
+"targetWords": [
+"listen",
+"sound",
+"attention"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "The Lungs of the Earth",
+"zh": "地球之肺：雨林",
+"source": {
+"name": "Wikipedia：Rainforest",
+"url": "https://en.wikipedia.org/wiki/Rainforest"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Rainforests are thick forests where it rains almost every day. They cover only a small part of the Earth, but more than half of all kinds of plants and animals live there.",
+"Rainforest trees take in carbon dioxide and give out oxygen. Because of this, people sometimes call rainforests the lungs of the Earth. Many medicines also come from rainforest plants.",
+"Sadly, people cut down large areas of rainforest every year for farms and wood. When the trees are gone, animals lose their homes. Protecting these forests helps everyone on the planet."
+],
+"glossary": {
+"forest": {
+"pos": "noun",
+"ipa": "/ˈfɔːr.ɪst/",
+"zh": "森林",
+"def": "a large area covered with trees",
+"ex": "We walked in the forest.",
+"g": "rain + forest = rainforest 雨林。"
+},
+"cover": {
+"pos": "verb",
+"ipa": "/ˈkʌv.ɚ/",
+"zh": "覆蓋",
+"def": "to be over the top of something",
+"ex": "Snow covers the ground.",
+"g": "cover only a small part 只覆蓋一小部分。"
+},
+"animal": {
+"pos": "noun",
+"ipa": "/ˈæn.ə.məl/",
+"zh": "動物",
+"def": "a living thing that is not a plant or person",
+"ex": "Dogs are my favorite animals.",
+"g": "plants and animals 植物和動物。"
+},
+"oxygen": {
+"pos": "noun",
+"ipa": "/ˈɑːk.sɪ.dʒən/",
+"zh": "氧氣",
+"def": "a gas that we need to breathe",
+"ex": "Fish get oxygen from water.",
+"g": "不可數名詞。"
+},
+"medicine": {
+"pos": "noun",
+"ipa": "/ˈmed.ɪ.sən/",
+"zh": "藥",
+"def": "something you take to get better",
+"ex": "Take this medicine after meals.",
+"g": "Many medicines 許多藥物（種類可數）。"
+},
+"area": {
+"pos": "noun",
+"ipa": "/ˈer.i.ə/",
+"zh": "區域",
+"def": "a part of a place",
+"ex": "a quiet area",
+"g": "large areas 大片區域。"
+},
+"wood": {
+"pos": "noun",
+"ipa": "/wʊd/",
+"zh": "木材",
+"def": "the hard material from trees",
+"ex": "The table is made of wood.",
+"g": "當木材時不可數。"
+},
+"protect": {
+"pos": "verb",
+"ipa": "/prəˈtekt/",
+"zh": "保護",
+"def": "to keep someone or something safe",
+"ex": "Protect your eyes from the sun.",
+"g": "Protecting 動名詞當主詞，後面動詞用單數 helps。"
+}
+},
+"grammar": [
+{
+"pt": "more than half of",
+"zh": "超過一半的…。",
+"ex": "more than half of all kinds of plants and animals live there"
+},
+{
+"pt": "Because of this",
+"zh": "因為這樣。後面接結果。",
+"ex": "Because of this, people sometimes call rainforests the lungs of the Earth."
+},
+{
+"pt": "When 子句 + 被動含意",
+"zh": "When the trees are gone 當樹木消失時。",
+"ex": "When the trees are gone, animals lose their homes."
+}
+],
+"questions": [
+{
+"q": "How often does it rain in rainforests?",
+"opts": [
+"Almost every day",
+"Once a year",
+"Never"
+],
+"a": 0
+},
+{
+"q": "Why are rainforests called the lungs of the Earth?",
+"opts": [
+"They give out oxygen",
+"They are very old",
+"They are cold"
+],
+"a": 0
+},
+{
+"q": "Why do people cut down rainforests?",
+"opts": [
+"For farms and wood",
+"To make rain",
+"To find water"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Many medicines also come from rainforest plants.",
+"target": "medicines"
+},
+{
+"s": "When the trees are gone, animals lose their homes.",
+"target": "animals"
+}
+],
+"targetWords": [
+"forest",
+"cover",
+"animal"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Learning a New Language",
+"zh": "學一種新語言",
+"source": {
+"name": "Wikipedia：Second-language acquisition",
+"url": "https://en.wikipedia.org/wiki/Second-language_acquisition"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Learning a new language takes time, and everyone makes mistakes. That is normal. Children often learn by listening and copying, and adults can learn in the same way.",
+"Many teachers say it is better to study a little every day than a lot once a week. Fifteen minutes of reading, listening or speaking each day can help your brain remember new words.",
+"Try to use the language in real life. Watch videos you enjoy, change your phone to English or talk with a friend. When learning is fun, it is easier to keep going."
+],
+"glossary": {
+"language": {
+"pos": "noun",
+"ipa": "/ˈlæŋ.ɡwɪdʒ/",
+"zh": "語言",
+"def": "a system of words used by people",
+"ex": "English is a useful language.",
+"g": "a new language 一種新語言。"
+},
+"normal": {
+"pos": "adjective",
+"ipa": "/ˈnɔːr.məl/",
+"zh": "正常的",
+"def": "usual and expected",
+"ex": "It is normal to feel nervous.",
+"g": "That is normal. 那很正常。"
+},
+"copy": {
+"pos": "verb",
+"ipa": "/ˈkɑː.pi/",
+"zh": "模仿、抄",
+"def": "to do the same thing as someone else",
+"ex": "Children copy their parents.",
+"g": "copying 動名詞，by + V-ing。"
+},
+"teacher": {
+"pos": "noun",
+"ipa": "/ˈtiː.tʃɚ/",
+"zh": "老師",
+"def": "a person who teaches",
+"ex": "My teacher is kind.",
+"g": "teach + -er。"
+},
+"remember": {
+"pos": "verb",
+"ipa": "/rɪˈmem.bɚ/",
+"zh": "記得",
+"def": "to keep something in your mind",
+"ex": "I can't remember his name.",
+"g": "help + 受詞 + 原形動詞：help your brain remember。"
+},
+"video": {
+"pos": "noun",
+"ipa": "/ˈvɪd.i.oʊ/",
+"zh": "影片",
+"def": "moving pictures you watch",
+"ex": "I watch videos in English.",
+"g": "複數 videos。"
+},
+"enjoy": {
+"pos": "verb",
+"ipa": "/ɪnˈdʒɔɪ/",
+"zh": "享受、喜歡",
+"def": "to like doing something",
+"ex": "I enjoy cooking.",
+"g": "enjoy + 名詞或 V-ing。"
+},
+"fun": {
+"pos": "adjective / noun",
+"ipa": "/fʌn/",
+"zh": "有趣的",
+"def": "enjoyable",
+"ex": "The game is fun.",
+"g": "learning is fun 學習很有趣。"
+}
+},
+"grammar": [
+{
+"pt": "It takes time",
+"zh": "表示「需要時間」。",
+"ex": "Learning a new language takes time"
+},
+{
+"pt": "better to… than…",
+"zh": "做 A 比做 B 好。",
+"ex": "it is better to study a little every day than a lot once a week"
+},
+{
+"pt": "When…, it is easier to…",
+"zh": "當…時，比較容易…。",
+"ex": "When learning is fun, it is easier to keep going."
+}
+],
+"questions": [
+{
+"q": "What does everyone do when learning a language?",
+"opts": [
+"Makes mistakes",
+"Speaks perfectly",
+"Stops early"
+],
+"a": 0
+},
+{
+"q": "What do many teachers say is better?",
+"opts": [
+"Study a little every day",
+"Study once a month",
+"Never study"
+],
+"a": 0
+},
+{
+"q": "Which is a way to use English in real life?",
+"opts": [
+"Change your phone to English",
+"Hide your books",
+"Sleep more"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Try to use the language in real life.",
+"target": "language"
+},
+{
+"s": "When learning is fun, it is easier to keep going.",
+"target": "fun"
+}
+],
+"targetWords": [
+"language",
+"normal",
+"copy"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "When a Typhoon Comes",
+"zh": "颱風來了",
+"source": {
+"name": "Wikipedia：Tropical cyclone",
+"url": "https://en.wikipedia.org/wiki/Tropical_cyclone"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"A typhoon is a very strong storm that starts over warm sea water. It brings heavy rain and strong winds. In Taiwan, typhoons usually come in summer and early autumn.",
+"Weather experts watch typhoons closely and warn people early. When a big typhoon is coming, schools and offices may close, and some flights are canceled.",
+"Before a typhoon, people buy food and water, charge their phones and bring things inside from their balconies. During the storm, it is safest to stay at home and away from windows."
+],
+"glossary": {
+"storm": {
+"pos": "noun",
+"ipa": "/stɔːrm/",
+"zh": "暴風雨",
+"def": "very bad weather with strong wind and rain",
+"ex": "The storm broke many trees.",
+"g": "a very strong storm。"
+},
+"heavy": {
+"pos": "adjective",
+"ipa": "/ˈhev.i/",
+"zh": "大量的、重的",
+"def": "large in amount; weighing a lot",
+"ex": "heavy rain",
+"g": "heavy rain 大雨（不說 big rain）。"
+},
+"wind": {
+"pos": "noun",
+"ipa": "/wɪnd/",
+"zh": "風",
+"def": "air that moves",
+"ex": "The wind is cold today.",
+"g": "strong winds 強風。"
+},
+"usually": {
+"pos": "adverb",
+"ipa": "/ˈjuː.ʒu.ə.li/",
+"zh": "通常",
+"def": "in most cases",
+"ex": "I usually walk to school.",
+"g": "頻率副詞放在一般動詞前。"
+},
+"warn": {
+"pos": "verb",
+"ipa": "/wɔːrn/",
+"zh": "警告",
+"def": "to tell someone about a danger",
+"ex": "They warned us about the storm.",
+"g": "warn people early 提早警告民眾。"
+},
+"flight": {
+"pos": "noun",
+"ipa": "/flaɪt/",
+"zh": "航班",
+"def": "a trip on a plane",
+"ex": "My flight is at 9 a.m.",
+"g": "some flights are canceled 被動式。"
+},
+"charge": {
+"pos": "verb",
+"ipa": "/tʃɑːrdʒ/",
+"zh": "充電",
+"def": "to put electricity into a battery",
+"ex": "Charge your phone tonight.",
+"g": "charge their phones。"
+},
+"safest": {
+"pos": "adjective",
+"ipa": "/ˈseɪf.ɪst/",
+"zh": "最安全的",
+"def": "the most safe",
+"ex": "This is the safest place.",
+"g": "safe → safer → safest。"
+}
+},
+"grammar": [
+{
+"pt": "現在進行式表示即將發生",
+"zh": "is coming 表示快要來了。",
+"ex": "When a big typhoon is coming, schools and offices may close"
+},
+{
+"pt": "被動式 are canceled",
+"zh": "be + 過去分詞，表示被取消。",
+"ex": "some flights are canceled"
+},
+{
+"pt": "it is + 最高級 + to",
+"zh": "做某事最…。",
+"ex": "it is safest to stay at home"
+}
+],
+"questions": [
+{
+"q": "Where does a typhoon start?",
+"opts": [
+"Over warm sea water",
+"On high mountains",
+"In the desert"
+],
+"a": 0
+},
+{
+"q": "What may close when a big typhoon comes?",
+"opts": [
+"Schools and offices",
+"The sea",
+"The sky"
+],
+"a": 0
+},
+{
+"q": "What is safest during the storm?",
+"opts": [
+"Stay at home away from windows",
+"Go to the beach",
+"Ride a bike"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "It brings heavy rain and strong winds.",
+"target": "heavy"
+},
+{
+"s": "In Taiwan, typhoons usually come in summer and early autumn.",
+"target": "usually"
+}
+],
+"targetWords": [
+"storm",
+"heavy",
+"wind"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "Inside the mind of a master procrastinator",
+"zh": "拖延大師的腦袋裡在想什麼",
+"source": {
+"name": "TED：Tim Urban, Inside the mind of a master procrastinator",
+"url": "https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Do you often wait until the last minute to finish your work? Writer Tim Urban says he has this habit too. His TED talk about putting things off is one of the funniest and most popular talks.",
+"He describes the mind of a procrastinator with funny drawings. When a deadline gets close, a sudden feeling of panic finally makes him start working.",
+"But some things in life have no deadline, like our health, our families and our dreams. He asks us to think about what we are putting off before it is too late."
+],
+"glossary": {
+"finish": {
+"pos": "verb",
+"ipa": "/ˈfɪn.ɪʃ/",
+"zh": "完成",
+"def": "to do the last part of something",
+"ex": "Finish your homework first.",
+"g": "to finish your work 不定詞。"
+},
+"writer": {
+"pos": "noun",
+"ipa": "/ˈraɪ.t̬ɚ/",
+"zh": "作家",
+"def": "a person who writes books or articles",
+"ex": "She is a famous writer.",
+"g": "write + -r。"
+},
+"funny": {
+"pos": "adjective",
+"ipa": "/ˈfʌn.i/",
+"zh": "好笑的",
+"def": "making you laugh",
+"ex": "a funny movie",
+"g": "最高級 funniest。"
+},
+"describe": {
+"pos": "verb",
+"ipa": "/dɪˈskraɪb/",
+"zh": "描述",
+"def": "to say what something is like",
+"ex": "Describe your house.",
+"g": "describes the mind 描述大腦。"
+},
+"deadline": {
+"pos": "noun",
+"ipa": "/ˈded.laɪn/",
+"zh": "截止期限",
+"def": "the time by which something must be done",
+"ex": "The deadline is Friday.",
+"g": "no deadline 沒有期限。"
+},
+"sudden": {
+"pos": "adjective",
+"ipa": "/ˈsʌd.ən/",
+"zh": "突然的",
+"def": "happening very quickly",
+"ex": "a sudden noise",
+"g": "a sudden feeling 一股突然的感覺。"
+},
+"panic": {
+"pos": "noun",
+"ipa": "/ˈpæn.ɪk/",
+"zh": "恐慌",
+"def": "a strong feeling of fear",
+"ex": "She was in a panic.",
+"g": "feeling of panic 恐慌感。"
+},
+"dream": {
+"pos": "noun",
+"ipa": "/driːm/",
+"zh": "夢想",
+"def": "something you really want to do",
+"ex": "My dream is to travel.",
+"g": "our dreams 我們的夢想。"
+}
+},
+"grammar": [
+{
+"pt": "wait until…",
+"zh": "等到…才。",
+"ex": "Do you often wait until the last minute to finish your work?"
+},
+{
+"pt": "one of the + 最高級 + 複數",
+"zh": "最…之一。",
+"ex": "one of the funniest and most popular talks"
+},
+{
+"pt": "put off",
+"zh": "拖延（片語動詞）。",
+"ex": "He asks us to think about what we are putting off"
+}
+],
+"questions": [
+{
+"q": "What habit does Tim Urban talk about?",
+"opts": [
+"Waiting until the last minute",
+"Waking up early",
+"Eating vegetables"
+],
+"a": 0
+},
+{
+"q": "What finally makes him start working?",
+"opts": [
+"A feeling of panic",
+"A phone call",
+"A gift"
+],
+"a": 0
+},
+{
+"q": "Which thing has no deadline?",
+"opts": [
+"Our health and dreams",
+"A school test",
+"A train"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Writer Tim Urban says he has this habit too.",
+"target": "Writer"
+},
+{
+"s": "Do you often wait until the last minute to finish your work?",
+"target": "finish"
+}
+],
+"targetWords": [
+"finish",
+"writer",
+"funny"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "A Cup of Tea",
+"zh": "一杯茶",
+"source": {
+"name": "Wikipedia：Tea",
+"url": "https://en.wikipedia.org/wiki/Tea"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Tea is one of the oldest drinks in the world. It is made by pouring hot water over dried tea leaves. Green tea, black tea and oolong tea all come from the same plant.",
+"Taiwan is famous for its oolong tea, which grows on cool, high mountains. Bubble tea, another drink from Taiwan, is now popular in many countries.",
+"Tea is also part of how people meet and relax. In many homes, people offer tea to guests. Sharing a cup of tea is a simple way to say welcome."
+],
+"glossary": {
+"oldest": {
+"pos": "adjective",
+"ipa": "/ˈoʊl.dɪst/",
+"zh": "最古老的",
+"def": "the most old",
+"ex": "the oldest building",
+"g": "old → older → oldest。"
+},
+"pour": {
+"pos": "verb",
+"ipa": "/pɔːr/",
+"zh": "倒",
+"def": "to make a liquid flow from a container",
+"ex": "Pour the milk into the cup.",
+"g": "by pouring 用倒的方式。"
+},
+"leaves": {
+"pos": "noun",
+"ipa": "/liːvz/",
+"zh": "葉子（leaf 的複數）",
+"def": "flat green parts of a plant",
+"ex": "The leaves are turning red.",
+"g": "單數 leaf，複數 leaves（f → ves）。"
+},
+"famous": {
+"pos": "adjective",
+"ipa": "/ˈfeɪ.məs/",
+"zh": "有名的",
+"def": "known by many people",
+"ex": "a famous singer",
+"g": "be famous for + 名詞 = 以…聞名。"
+},
+"mountain": {
+"pos": "noun",
+"ipa": "/ˈmaʊn.tən/",
+"zh": "山",
+"def": "a very high hill",
+"ex": "We climbed the mountain.",
+"g": "high mountains 高山。"
+},
+"relax": {
+"pos": "verb",
+"ipa": "/rɪˈlæks/",
+"zh": "放鬆",
+"def": "to rest and feel calm",
+"ex": "I relax by reading.",
+"g": "meet and relax 見面放鬆。"
+},
+"offer": {
+"pos": "verb",
+"ipa": "/ˈɑː.fɚ/",
+"zh": "提供、請",
+"def": "to ask if someone wants something",
+"ex": "She offered me some cake.",
+"g": "offer + 東西 + to + 人。"
+},
+"guest": {
+"pos": "noun",
+"ipa": "/ɡest/",
+"zh": "客人",
+"def": "a person you invite to your home",
+"ex": "We have guests tonight.",
+"g": "複數 guests。"
+}
+},
+"grammar": [
+{
+"pt": "被動式 is made by",
+"zh": "be made by + V-ing：用…方式製成。",
+"ex": "It is made by pouring hot water over dried tea leaves."
+},
+{
+"pt": "be famous for",
+"zh": "以…聞名。",
+"ex": "Taiwan is famous for its oolong tea"
+},
+{
+"pt": "動名詞當主詞",
+"zh": "V-ing 當主詞，動詞用單數。",
+"ex": "Sharing a cup of tea is a simple way to say welcome."
+}
+],
+"questions": [
+{
+"q": "How is tea made?",
+"opts": [
+"By pouring hot water over dried leaves",
+"By mixing milk and sugar",
+"By freezing fruit"
+],
+"a": 0
+},
+{
+"q": "Where does Taiwan's oolong tea grow?",
+"opts": [
+"On cool, high mountains",
+"In the sea",
+"In the desert"
+],
+"a": 0
+},
+{
+"q": "What does sharing tea mean in many homes?",
+"opts": [
+"Welcome",
+"Goodbye",
+"Sorry"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "In many homes, people offer tea to guests.",
+"target": "offer"
+},
+{
+"s": "Tea is one of the oldest drinks in the world.",
+"target": "oldest"
+}
+],
+"targetWords": [
+"oldest",
+"pour",
+"leaves"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Electric Cars on the Road",
+"zh": "路上的電動車",
+"source": {
+"name": "Wikipedia：Electric car",
+"url": "https://en.wikipedia.org/wiki/Electric_car"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"More and more people are driving electric cars. These cars do not use gas. Instead, they use a big battery that people charge at home or at charging stations.",
+"Electric cars are quiet and do not make smoke, so they can help keep city air cleaner. They also cost less to drive, because electricity is usually cheaper than gas.",
+"However, electric cars can be expensive to buy, and drivers sometimes worry about finding a place to charge. As batteries get better, these problems may become smaller."
+],
+"glossary": {
+"drive": {
+"pos": "verb",
+"ipa": "/draɪv/",
+"zh": "開車",
+"def": "to control a car",
+"ex": "Can you drive?",
+"g": "driving 現在分詞。"
+},
+"gas": {
+"pos": "noun",
+"ipa": "/ɡæs/",
+"zh": "汽油",
+"def": "fuel for cars (American English)",
+"ex": "The car needs gas.",
+"g": "美式英文 gas = 汽油。"
+},
+"battery": {
+"pos": "noun",
+"ipa": "/ˈbæt̬.ɚ.i/",
+"zh": "電池",
+"def": "a thing that stores electricity",
+"ex": "The battery is low.",
+"g": "複數 batteries。"
+},
+"station": {
+"pos": "noun",
+"ipa": "/ˈsteɪ.ʃən/",
+"zh": "站",
+"def": "a place where a service is given",
+"ex": "a train station",
+"g": "charging stations 充電站。"
+},
+"smoke": {
+"pos": "noun",
+"ipa": "/smoʊk/",
+"zh": "煙",
+"def": "gray or black gas from something burning",
+"ex": "I can smell smoke.",
+"g": "不可數名詞。"
+},
+"electricity": {
+"pos": "noun",
+"ipa": "/ˌiː.lekˈtrɪs.ə.t̬i/",
+"zh": "電",
+"def": "power used for lights and machines",
+"ex": "Turn off the lights to save electricity.",
+"g": "不可數名詞。"
+},
+"expensive": {
+"pos": "adjective",
+"ipa": "/ɪkˈspen.sɪv/",
+"zh": "昂貴的",
+"def": "costing a lot of money",
+"ex": "an expensive watch",
+"g": "expensive to buy 買起來很貴。"
+},
+"worry": {
+"pos": "verb",
+"ipa": "/ˈwɝː.i/",
+"zh": "擔心",
+"def": "to feel nervous about a problem",
+"ex": "Don't worry.",
+"g": "worry about + V-ing。"
+}
+},
+"grammar": [
+{
+"pt": "More and more",
+"zh": "越來越多。",
+"ex": "More and more people are driving electric cars."
+},
+{
+"pt": "Instead,",
+"zh": "作為替代、反而。",
+"ex": "Instead, they use a big battery"
+},
+{
+"pt": "As + 子句",
+"zh": "隨著…。",
+"ex": "As batteries get better, these problems may become smaller."
+}
+],
+"questions": [
+{
+"q": "What do electric cars use instead of gas?",
+"opts": [
+"A big battery",
+"Wood",
+"Water"
+],
+"a": 0
+},
+{
+"q": "Why can electric cars help city air?",
+"opts": [
+"They do not make smoke",
+"They are big",
+"They are fast"
+],
+"a": 0
+},
+{
+"q": "What do drivers sometimes worry about?",
+"opts": [
+"Finding a place to charge",
+"Finding a song",
+"Finding a hat"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "These cars do not use gas.",
+"target": "gas"
+},
+{
+"s": "More and more people are driving electric cars.",
+"target": "driving"
+}
+],
+"targetWords": [
+"drive",
+"gas",
+"battery"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Helping Others by Volunteering",
+"zh": "當志工幫助別人",
+"source": {
+"name": "Wikipedia：Volunteering",
+"url": "https://en.wikipedia.org/wiki/Volunteering"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"A volunteer is a person who helps others without getting paid. Volunteers clean beaches, read to children, help old people and work at events.",
+"Volunteering is good for the community, but it is also good for the volunteers. Many people say that helping others makes them feel happier and less lonely. They also meet new friends and learn new skills.",
+"You do not need much time to start. Many groups need help for just a few hours a month. Think about what you enjoy, and find a group that needs those skills."
+],
+"glossary": {
+"volunteer": {
+"pos": "noun / verb",
+"ipa": "/ˌvɑː.lənˈtɪr/",
+"zh": "志工；自願",
+"def": "a person who works for free to help others",
+"ex": "She is a hospital volunteer.",
+"g": "動名詞 volunteering 當主詞。"
+},
+"paid": {
+"pos": "adjective",
+"ipa": "/peɪd/",
+"zh": "有薪水的",
+"def": "receiving money for work",
+"ex": "a paid job",
+"g": "without getting paid 沒有拿錢。"
+},
+"beach": {
+"pos": "noun",
+"ipa": "/biːtʃ/",
+"zh": "海灘",
+"def": "the sandy area next to the sea",
+"ex": "We played on the beach.",
+"g": "複數 beaches。"
+},
+"event": {
+"pos": "noun",
+"ipa": "/ɪˈvent/",
+"zh": "活動",
+"def": "something that happens, like a party or race",
+"ex": "a sports event",
+"g": "work at events 在活動中工作。"
+},
+"community": {
+"pos": "noun",
+"ipa": "/kəˈmjuː.nə.t̬i/",
+"zh": "社區",
+"def": "the people who live in one area",
+"ex": "Our community has a park.",
+"g": "good for the community 對社區有益。"
+},
+"lonely": {
+"pos": "adjective",
+"ipa": "/ˈloʊn.li/",
+"zh": "孤單的",
+"def": "sad because you are alone",
+"ex": "He feels lonely at night.",
+"g": "less lonely 比較不孤單。"
+},
+"skill": {
+"pos": "noun",
+"ipa": "/skɪl/",
+"zh": "技能",
+"def": "an ability to do something well",
+"ex": "Cooking is a useful skill.",
+"g": "learn new skills 學新技能。"
+},
+"group": {
+"pos": "noun",
+"ipa": "/ɡruːp/",
+"zh": "團體",
+"def": "a number of people together",
+"ex": "Join a reading group.",
+"g": "find a group 找一個團體。"
+}
+},
+"grammar": [
+{
+"pt": "who 關係代名詞",
+"zh": "who 修飾前面的人。",
+"ex": "A volunteer is a person who helps others without getting paid."
+},
+{
+"pt": "without + V-ing",
+"zh": "沒有做某事。",
+"ex": "without getting paid"
+},
+{
+"pt": "make + 人 + 形容詞",
+"zh": "讓某人感到…。",
+"ex": "helping others makes them feel happier and less lonely"
+}
+],
+"questions": [
+{
+"q": "What is a volunteer?",
+"opts": [
+"A person who helps without pay",
+"A paid worker",
+"A student"
+],
+"a": 0
+},
+{
+"q": "How does volunteering help volunteers?",
+"opts": [
+"They feel happier",
+"They get rich",
+"They sleep more"
+],
+"a": 0
+},
+{
+"q": "How much time do many groups need?",
+"opts": [
+"A few hours a month",
+"Every day",
+"Ten hours a day"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "They also meet new friends and learn new skills.",
+"target": "skills"
+},
+{
+"s": "Many groups need help for just a few hours a month.",
+"target": "groups"
+}
+],
+"targetWords": [
+"volunteer",
+"paid",
+"beach"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "Do schools kill creativity?",
+"zh": "學校扼殺了創造力嗎？",
+"source": {
+"name": "TED：Sir Ken Robinson, Do schools kill creativity?",
+"url": "https://www.ted.com/talks/sir_ken_robinson_do_schools_kill_creativity"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"This talk by Sir Ken Robinson is one of the most watched TED talks of all time. He was an education expert, and he spoke with a lot of humor.",
+"His big idea is that creativity is as important in school as reading and math. He makes a case for an education system that helps children's creativity grow instead of stopping it.",
+"Children are not afraid to try new things or to be wrong. As people grow up, many lose this. The talk asks parents and teachers to think about how we can keep that creative spirit alive."
+],
+"glossary": {
+"education": {
+"pos": "noun",
+"ipa": "/ˌedʒ.əˈkeɪ.ʃən/",
+"zh": "教育",
+"def": "teaching and learning in schools",
+"ex": "Education is important.",
+"g": "an education expert 教育專家。"
+},
+"humor": {
+"pos": "noun",
+"ipa": "/ˈhjuː.mɚ/",
+"zh": "幽默",
+"def": "the quality of being funny",
+"ex": "She has a good sense of humor.",
+"g": "with a lot of humor 很幽默地。"
+},
+"creativity": {
+"pos": "noun",
+"ipa": "/ˌkriː.eɪˈtɪv.ə.t̬i/",
+"zh": "創造力",
+"def": "the ability to make new ideas",
+"ex": "Art helps creativity.",
+"g": "creative 形容詞 → creativity 名詞。"
+},
+"math": {
+"pos": "noun",
+"ipa": "/mæθ/",
+"zh": "數學",
+"def": "the study of numbers",
+"ex": "I like math.",
+"g": "不可數名詞。"
+},
+"system": {
+"pos": "noun",
+"ipa": "/ˈsɪs.təm/",
+"zh": "系統、制度",
+"def": "a set of connected things that work together",
+"ex": "the school system",
+"g": "an education system 教育制度。"
+},
+"afraid": {
+"pos": "adjective",
+"ipa": "/əˈfreɪd/",
+"zh": "害怕的",
+"def": "feeling fear",
+"ex": "I am afraid of dogs.",
+"g": "be afraid to + 原形 = 不敢做…。"
+},
+"parent": {
+"pos": "noun",
+"ipa": "/ˈper.ənt/",
+"zh": "父母之一",
+"def": "a mother or father",
+"ex": "My parents live in Tainan.",
+"g": "複數 parents。"
+},
+"spirit": {
+"pos": "noun",
+"ipa": "/ˈspɪr.ɪt/",
+"zh": "精神",
+"def": "a person's feelings and attitude",
+"ex": "team spirit",
+"g": "keep… alive 讓…持續存在。"
+}
+},
+"grammar": [
+{
+"pt": "as + 形容詞 + as",
+"zh": "和…一樣。",
+"ex": "creativity is as important in school as reading and math"
+},
+{
+"pt": "not afraid to",
+"zh": "不怕去做…。",
+"ex": "Children are not afraid to try new things"
+},
+{
+"pt": "As people grow up",
+"zh": "As 表示隨著時間。",
+"ex": "As people grow up, many lose this."
+}
+],
+"questions": [
+{
+"q": "What was Ken Robinson an expert in?",
+"opts": [
+"Education",
+"Cooking",
+"Sports"
+],
+"a": 0
+},
+{
+"q": "What does he say is as important as math?",
+"opts": [
+"Creativity",
+"Sleep",
+"Money"
+],
+"a": 0
+},
+{
+"q": "What are children not afraid of?",
+"opts": [
+"Being wrong",
+"The dark",
+"Dogs"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Children are not afraid to try new things or to be wrong.",
+"target": "afraid"
+},
+{
+"s": "He was an education expert, and he spoke with a lot of humor.",
+"target": "education"
+}
+],
+"targetWords": [
+"education",
+"humor",
+"creativity"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Power from the Sun",
+"zh": "來自太陽的能源",
+"source": {
+"name": "Wikipedia：Solar power",
+"url": "https://en.wikipedia.org/wiki/Solar_power"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Every hour, the Sun sends more energy to Earth than people use in a whole year. Solar panels catch some of this sunlight and turn it into electricity.",
+"You can see solar panels on roofs, farms and even on top of parking lots. Solar power does not make smoke, so it is good for the air and the climate.",
+"The sun does not shine at night, so people store extra electricity in big batteries. As solar panels get cheaper, more homes and businesses are using them."
+],
+"glossary": {
+"energy": {
+"pos": "noun",
+"ipa": "/ˈen.ɚ.dʒi/",
+"zh": "能源",
+"def": "power that makes machines work",
+"ex": "We need clean energy.",
+"g": "不可數名詞。"
+},
+"whole": {
+"pos": "adjective",
+"ipa": "/hoʊl/",
+"zh": "整個的",
+"def": "all of something",
+"ex": "a whole year",
+"g": "the whole / a whole + 名詞。"
+},
+"panel": {
+"pos": "noun",
+"ipa": "/ˈpæn.əl/",
+"zh": "板",
+"def": "a flat piece of material",
+"ex": "solar panels",
+"g": "複數 panels。"
+},
+"sunlight": {
+"pos": "noun",
+"ipa": "/ˈsʌn.laɪt/",
+"zh": "陽光",
+"def": "light from the sun",
+"ex": "Plants need sunlight.",
+"g": "sun + light。"
+},
+"roof": {
+"pos": "noun",
+"ipa": "/ruːf/",
+"zh": "屋頂",
+"def": "the top of a building",
+"ex": "There is a cat on the roof.",
+"g": "複數 roofs。"
+},
+"climate": {
+"pos": "noun",
+"ipa": "/ˈklaɪ.mət/",
+"zh": "氣候",
+"def": "the usual weather of a place",
+"ex": "a warm climate",
+"g": "good for the climate 對氣候有益。"
+},
+"shine": {
+"pos": "verb",
+"ipa": "/ʃaɪn/",
+"zh": "照耀",
+"def": "to give out light",
+"ex": "The sun is shining.",
+"g": "does not shine 不照耀。"
+},
+"store": {
+"pos": "verb",
+"ipa": "/stɔːr/",
+"zh": "儲存",
+"def": "to keep something to use later",
+"ex": "Store food in a cool place.",
+"g": "store extra electricity 儲存多餘的電。"
+}
+},
+"grammar": [
+{
+"pt": "比較級 more… than…",
+"zh": "比…更多。",
+"ex": "the Sun sends more energy to Earth than people use in a whole year"
+},
+{
+"pt": "turn A into B",
+"zh": "把 A 變成 B。",
+"ex": "turn it into electricity"
+},
+{
+"pt": "As + 比較級",
+"zh": "隨著越來越…。",
+"ex": "As solar panels get cheaper, more homes and businesses are using them."
+}
+],
+"questions": [
+{
+"q": "What do solar panels turn sunlight into?",
+"opts": [
+"Electricity",
+"Water",
+"Wind"
+],
+"a": 0
+},
+{
+"q": "Why is solar power good for the air?",
+"opts": [
+"It does not make smoke",
+"It is loud",
+"It is heavy"
+],
+"a": 0
+},
+{
+"q": "How do people use solar power at night?",
+"opts": [
+"Store electricity in batteries",
+"Use the Moon",
+"Turn off everything"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Solar panels catch some of this sunlight and turn it into electricity.",
+"target": "panels"
+},
+{
+"s": "You can see solar panels on roofs, farms and even on top of parking lots.",
+"target": "roofs"
+}
+],
+"targetWords": [
+"energy",
+"whole",
+"panel"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "A Dog's Life",
+"zh": "狗狗的一生",
+"source": {
+"name": "Wikipedia：Dog",
+"url": "https://en.wikipedia.org/wiki/Dog"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Dogs have lived with people for thousands of years. They were probably the first animals that humans kept. Today, there are hundreds of kinds of dogs, from tiny to very large.",
+"Dogs are smart and loyal. They can learn many words and understand our feelings. Some dogs work as guide dogs for blind people, and others help police or find people after earthquakes.",
+"Having a dog is fun, but it is also a big job. Dogs need food, walks, training and visits to the vet. A good owner takes care of a dog for its whole life."
+],
+"glossary": {
+"thousand": {
+"pos": "number",
+"ipa": "/ˈθaʊ.zənd/",
+"zh": "千",
+"def": "the number 1,000",
+"ex": "thousands of people",
+"g": "thousands of + 複數 = 成千上萬的。"
+},
+"probably": {
+"pos": "adverb",
+"ipa": "/ˈprɑː.bə.bli/",
+"zh": "大概",
+"def": "very likely",
+"ex": "It will probably rain.",
+"g": "表示推測。"
+},
+"tiny": {
+"pos": "adjective",
+"ipa": "/ˈtaɪ.ni/",
+"zh": "極小的",
+"def": "very small",
+"ex": "a tiny dog",
+"g": "from tiny to very large 從很小到很大。"
+},
+"loyal": {
+"pos": "adjective",
+"ipa": "/ˈlɔɪ.əl/",
+"zh": "忠誠的",
+"def": "always supporting a person",
+"ex": "a loyal friend",
+"g": "smart and loyal。"
+},
+"blind": {
+"pos": "adjective",
+"ipa": "/blaɪnd/",
+"zh": "失明的",
+"def": "not able to see",
+"ex": "a blind man",
+"g": "blind people 視障者。"
+},
+"police": {
+"pos": "noun",
+"ipa": "/pəˈliːs/",
+"zh": "警察",
+"def": "the group of people who keep law and order",
+"ex": "Call the police!",
+"g": "police 當複數看待。"
+},
+"training": {
+"pos": "noun",
+"ipa": "/ˈtreɪ.nɪŋ/",
+"zh": "訓練",
+"def": "teaching a skill",
+"ex": "Dogs need training.",
+"g": "train + -ing 名詞。"
+},
+"owner": {
+"pos": "noun",
+"ipa": "/ˈoʊ.nɚ/",
+"zh": "主人",
+"def": "a person who has something",
+"ex": "the dog's owner",
+"g": "own + -er。"
+}
+},
+"grammar": [
+{
+"pt": "現在完成式 have lived",
+"zh": "從過去到現在一直…。",
+"ex": "Dogs have lived with people for thousands of years."
+},
+{
+"pt": "some… others…",
+"zh": "有些…，另一些…。",
+"ex": "Some dogs work as guide dogs for blind people, and others help police"
+},
+{
+"pt": "take care of",
+"zh": "照顧。",
+"ex": "A good owner takes care of a dog for its whole life."
+}
+],
+"questions": [
+{
+"q": "How long have dogs lived with people?",
+"opts": [
+"Thousands of years",
+"Ten years",
+"One hundred days"
+],
+"a": 0
+},
+{
+"q": "What can guide dogs do?",
+"opts": [
+"Help blind people",
+"Cook food",
+"Drive cars"
+],
+"a": 0
+},
+{
+"q": "What do dogs need?",
+"opts": [
+"Food, walks and training",
+"Only toys",
+"Nothing"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Dogs are smart and loyal.",
+"target": "loyal"
+},
+{
+"s": "Dogs have lived with people for thousands of years.",
+"target": "thousands"
+}
+],
+"targetWords": [
+"thousand",
+"probably",
+"tiny"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Robots at Work",
+"zh": "工作中的機器人",
+"source": {
+"name": "Wikipedia：Robot",
+"url": "https://en.wikipedia.org/wiki/Robot"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"A robot is a machine that can do jobs by itself. In factories, robots build cars and phones. They work fast, do not get tired and can lift heavy things.",
+"Robots are now moving into new places. Some clean floors at home, some carry food in restaurants and some help doctors in hospitals. A few robots can even talk with people.",
+"Some workers worry that robots will take their jobs. Others think robots will do boring or dangerous work, so people can do more creative jobs. Either way, learning new skills is important."
+],
+"glossary": {
+"machine": {
+"pos": "noun",
+"ipa": "/məˈʃiːn/",
+"zh": "機器",
+"def": "a thing with parts that does work",
+"ex": "a washing machine",
+"g": "a machine that… 關係子句。"
+},
+"factory": {
+"pos": "noun",
+"ipa": "/ˈfæk.tɚ.i/",
+"zh": "工廠",
+"def": "a building where things are made",
+"ex": "He works in a factory.",
+"g": "複數 factories。"
+},
+"lift": {
+"pos": "verb",
+"ipa": "/lɪft/",
+"zh": "舉起",
+"def": "to move something up",
+"ex": "Can you lift this box?",
+"g": "lift heavy things。"
+},
+"floor": {
+"pos": "noun",
+"ipa": "/flɔːr/",
+"zh": "地板",
+"def": "the surface you walk on inside",
+"ex": "Clean the floor.",
+"g": "clean floors 清潔地板。"
+},
+"restaurant": {
+"pos": "noun",
+"ipa": "/ˈres.tə.rɑːnt/",
+"zh": "餐廳",
+"def": "a place where you buy and eat meals",
+"ex": "a Japanese restaurant",
+"g": "in restaurants。"
+},
+"hospital": {
+"pos": "noun",
+"ipa": "/ˈhɑː.spɪ.t̬əl/",
+"zh": "醫院",
+"def": "a place where sick people get care",
+"ex": "She works at a hospital.",
+"g": "in hospitals。"
+},
+"boring": {
+"pos": "adjective",
+"ipa": "/ˈbɔːr.ɪŋ/",
+"zh": "無聊的",
+"def": "not interesting",
+"ex": "a boring movie",
+"g": "-ing 形容詞形容事物。"
+},
+"dangerous": {
+"pos": "adjective",
+"ipa": "/ˈdeɪn.dʒɚ.əs/",
+"zh": "危險的",
+"def": "able to hurt you",
+"ex": "Fire is dangerous.",
+"g": "danger + -ous。"
+}
+},
+"grammar": [
+{
+"pt": "by itself",
+"zh": "靠自己、自動地。",
+"ex": "A robot is a machine that can do jobs by itself."
+},
+{
+"pt": "some… some… some…",
+"zh": "列出不同的例子。",
+"ex": "Some clean floors at home, some carry food in restaurants"
+},
+{
+"pt": "worry that…",
+"zh": "擔心…。",
+"ex": "Some workers worry that robots will take their jobs."
+}
+],
+"questions": [
+{
+"q": "What do robots do in factories?",
+"opts": [
+"Build cars and phones",
+"Grow flowers",
+"Write books"
+],
+"a": 0
+},
+{
+"q": "Where else do robots work now?",
+"opts": [
+"Homes, restaurants and hospitals",
+"Only in space",
+"Only in schools"
+],
+"a": 0
+},
+{
+"q": "What is important either way?",
+"opts": [
+"Learning new skills",
+"Buying robots",
+"Sleeping more"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "In factories, robots build cars and phones.",
+"target": "factories"
+},
+{
+"s": "A robot is a machine that can do jobs by itself.",
+"target": "machine"
+}
+],
+"targetWords": [
+"machine",
+"factory",
+"lift"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "How great leaders inspire action",
+"zh": "偉大的領導者如何激勵行動",
+"source": {
+"name": "TED：Simon Sinek, How great leaders inspire action",
+"url": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Simon Sinek's TED talk is about leadership and why some people and companies inspire us more than others. It is one of the most viewed TED talks.",
+"He draws a simple picture called the golden circle. In the middle is the question \"Why?\" Around it are \"How?\" and \"What?\" He says inspiring leaders start with why.",
+"His examples include Apple, Martin Luther King Jr. and the Wright brothers. The idea is useful for anyone: when you explain why you do something, people understand you better."
+],
+"glossary": {
+"leader": {
+"pos": "noun",
+"ipa": "/ˈliː.dɚ/",
+"zh": "領導者",
+"def": "a person who leads a group",
+"ex": "a team leader",
+"g": "leadership 名詞「領導力」。"
+},
+"company": {
+"pos": "noun",
+"ipa": "/ˈkʌm.pə.ni/",
+"zh": "公司",
+"def": "a business",
+"ex": "He works for a big company.",
+"g": "複數 companies。"
+},
+"inspire": {
+"pos": "verb",
+"ipa": "/ɪnˈspaɪr/",
+"zh": "激勵、啟發",
+"def": "to make someone want to do something",
+"ex": "Her story inspired me.",
+"g": "inspiring 形容詞「鼓舞人心的」。"
+},
+"draw": {
+"pos": "verb",
+"ipa": "/drɑː/",
+"zh": "畫",
+"def": "to make a picture with a pen",
+"ex": "Draw a circle.",
+"g": "draws 第三人稱單數。"
+},
+"circle": {
+"pos": "noun",
+"ipa": "/ˈsɝː.kəl/",
+"zh": "圓圈",
+"def": "a round shape",
+"ex": "Sit in a circle.",
+"g": "the golden circle 黃金圈。"
+},
+"middle": {
+"pos": "noun",
+"ipa": "/ˈmɪd.əl/",
+"zh": "中間",
+"def": "the center",
+"ex": "in the middle of the room",
+"g": "In the middle is… 倒裝句。"
+},
+"example": {
+"pos": "noun",
+"ipa": "/ɪɡˈzæm.pəl/",
+"zh": "例子",
+"def": "something that shows what others are like",
+"ex": "Give me an example.",
+"g": "His examples include… 他的例子包括…。"
+},
+"explain": {
+"pos": "verb",
+"ipa": "/ɪkˈspleɪn/",
+"zh": "解釋",
+"def": "to make something clear",
+"ex": "Can you explain this word?",
+"g": "explain why… 解釋為什麼。"
+}
+},
+"grammar": [
+{
+"pt": "more than others",
+"zh": "比其他人更…。",
+"ex": "why some people and companies inspire us more than others"
+},
+{
+"pt": "倒裝句 In the middle is…",
+"zh": "地點放句首時，動詞放主詞前。",
+"ex": "In the middle is the question \"Why?\""
+},
+{
+"pt": "start with",
+"zh": "從…開始。",
+"ex": "inspiring leaders start with why"
+}
+],
+"questions": [
+{
+"q": "What is the talk about?",
+"opts": [
+"Leadership",
+"Cooking",
+"Sleep"
+],
+"a": 0
+},
+{
+"q": "What is in the middle of the golden circle?",
+"opts": [
+"Why",
+"What",
+"Where"
+],
+"a": 0
+},
+{
+"q": "Which is one of his examples?",
+"opts": [
+"The Wright brothers",
+"A famous chef",
+"A soccer team"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "His examples include Apple, Martin Luther King Jr.",
+"target": "examples"
+},
+{
+"s": "He draws a simple picture called the golden circle.",
+"target": "draws"
+}
+],
+"targetWords": [
+"leader",
+"company",
+"inspire"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "When the Ground Shakes",
+"zh": "當大地搖晃",
+"source": {
+"name": "Wikipedia：Earthquake",
+"url": "https://en.wikipedia.org/wiki/Earthquake"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"The outside of the Earth is made of huge pieces of rock that move very slowly. When two pieces suddenly slip, the ground shakes. This is an earthquake.",
+"Taiwan has many earthquakes because it sits where these pieces meet. Most of them are small, and people hardly feel them. Strong ones can damage roads and buildings.",
+"It is smart to be ready. Keep water, a flashlight and a first aid kit at home. When the ground shakes, drop to the floor, cover your head and hold on to something strong."
+],
+"glossary": {
+"huge": {
+"pos": "adjective",
+"ipa": "/hjuːdʒ/",
+"zh": "巨大的",
+"def": "very big",
+"ex": "a huge ship",
+"g": "huge pieces of rock 巨大的岩塊。"
+},
+"rock": {
+"pos": "noun",
+"ipa": "/rɑːk/",
+"zh": "岩石",
+"def": "the hard material of mountains",
+"ex": "The house is built on rock.",
+"g": "pieces of rock：rock 當材料時不可數。"
+},
+"slip": {
+"pos": "verb",
+"ipa": "/slɪp/",
+"zh": "滑動",
+"def": "to move suddenly to the side",
+"ex": "I slipped on the ice.",
+"g": "suddenly slip 突然滑動。"
+},
+"shake": {
+"pos": "verb",
+"ipa": "/ʃeɪk/",
+"zh": "搖晃",
+"def": "to move quickly up and down or side to side",
+"ex": "The table shakes.",
+"g": "過去式 shook。"
+},
+"hardly": {
+"pos": "adverb",
+"ipa": "/ˈhɑːrd.li/",
+"zh": "幾乎不",
+"def": "almost not",
+"ex": "I can hardly hear you.",
+"g": "hardly 本身就是否定，不再加 not。"
+},
+"damage": {
+"pos": "verb",
+"ipa": "/ˈdæm.ɪdʒ/",
+"zh": "損壞",
+"def": "to harm something",
+"ex": "The storm damaged the roof.",
+"g": "damage roads 損壞道路。"
+},
+"flashlight": {
+"pos": "noun",
+"ipa": "/ˈflæʃ.laɪt/",
+"zh": "手電筒",
+"def": "a small light you carry",
+"ex": "Keep a flashlight by your bed.",
+"g": "美式；英式 torch。"
+},
+"cover": {
+"pos": "verb",
+"ipa": "/ˈkʌv.ɚ/",
+"zh": "遮住",
+"def": "to put something over something else",
+"ex": "Cover your mouth when you cough.",
+"g": "cover your head 護住頭。"
+}
+},
+"grammar": [
+{
+"pt": "be made of",
+"zh": "由…構成。",
+"ex": "The outside of the Earth is made of huge pieces of rock"
+},
+{
+"pt": "where 子句",
+"zh": "where 表示地點。",
+"ex": "it sits where these pieces meet"
+},
+{
+"pt": "It is smart to…",
+"zh": "做…是明智的。",
+"ex": "It is smart to be ready."
+}
+],
+"questions": [
+{
+"q": "What makes the ground shake?",
+"opts": [
+"Pieces of rock slipping",
+"Strong wind",
+"Heavy rain"
+],
+"a": 0
+},
+{
+"q": "Why does Taiwan have many earthquakes?",
+"opts": [
+"It sits where rock pieces meet",
+"It is very hot",
+"It has many trees"
+],
+"a": 0
+},
+{
+"q": "What should you do when the ground shakes?",
+"opts": [
+"Drop, cover and hold on",
+"Run outside quickly",
+"Take the elevator"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Strong ones can damage roads and buildings.",
+"target": "damage"
+},
+{
+"s": "When two pieces suddenly slip, the ground shakes.",
+"target": "slip"
+}
+],
+"targetWords": [
+"huge",
+"rock",
+"slip"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Why Libraries Still Matter",
+"zh": "為什麼圖書館依然重要",
+"source": {
+"name": "Wikipedia：Library",
+"url": "https://en.wikipedia.org/wiki/Library"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"A library is more than a room full of books. Today, libraries lend e-books, movies and even tools. Many also have free Wi-Fi, computers and quiet places to study.",
+"Libraries are open to everyone, rich or poor, young or old. Children join story time, students prepare for exams and older people take computer classes.",
+"With a library card, you can borrow books for free. If you are learning English, ask for easy readers or audiobooks. It is a cheap and friendly way to keep learning."
+],
+"glossary": {
+"library": {
+"pos": "noun",
+"ipa": "/ˈlaɪ.brer.i/",
+"zh": "圖書館",
+"def": "a place where you can borrow books",
+"ex": "I study at the library.",
+"g": "複數 libraries。"
+},
+"lend": {
+"pos": "verb",
+"ipa": "/lend/",
+"zh": "借出",
+"def": "to give something for a short time",
+"ex": "Can you lend me a pen?",
+"g": "lend 借出、borrow 借入。"
+},
+"tool": {
+"pos": "noun",
+"ipa": "/tuːl/",
+"zh": "工具",
+"def": "a thing you use to do a job",
+"ex": "a garden tool",
+"g": "even tools 甚至工具。"
+},
+"free": {
+"pos": "adjective",
+"ipa": "/friː/",
+"zh": "免費的",
+"def": "costing no money",
+"ex": "free Wi-Fi",
+"g": "for free 免費地。"
+},
+"rich": {
+"pos": "adjective",
+"ipa": "/rɪtʃ/",
+"zh": "有錢的",
+"def": "having a lot of money",
+"ex": "a rich family",
+"g": "rich or poor 不論貧富。"
+},
+"prepare": {
+"pos": "verb",
+"ipa": "/prɪˈper/",
+"zh": "準備",
+"def": "to get ready",
+"ex": "Prepare for the test.",
+"g": "prepare for + 名詞。"
+},
+"borrow": {
+"pos": "verb",
+"ipa": "/ˈbɔːr.oʊ/",
+"zh": "借入",
+"def": "to take something and give it back later",
+"ex": "May I borrow your book?",
+"g": "borrow books for free。"
+},
+"friendly": {
+"pos": "adjective",
+"ipa": "/ˈfrend.li/",
+"zh": "友善的",
+"def": "kind and pleasant",
+"ex": "a friendly place",
+"g": "friend + -ly 是形容詞，不是副詞。"
+}
+},
+"grammar": [
+{
+"pt": "more than",
+"zh": "不只是…。",
+"ex": "A library is more than a room full of books."
+},
+{
+"pt": "A or B, C or D",
+"zh": "列出對比：不論…或…。",
+"ex": "open to everyone, rich or poor, young or old"
+},
+{
+"pt": "If 子句 + 祈使句",
+"zh": "如果…，就…。",
+"ex": "If you are learning English, ask for easy readers or audiobooks."
+}
+],
+"questions": [
+{
+"q": "What can libraries lend today?",
+"opts": [
+"E-books, movies and tools",
+"Only old books",
+"Cars"
+],
+"a": 0
+},
+{
+"q": "Who can use a library?",
+"opts": [
+"Everyone",
+"Only students",
+"Only rich people"
+],
+"a": 0
+},
+{
+"q": "What can English learners ask for?",
+"opts": [
+"Easy readers or audiobooks",
+"Money",
+"Food"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "A library is more than a room full of books.",
+"target": "library"
+},
+{
+"s": "It is a cheap and friendly way to keep learning.",
+"target": "friendly"
+}
+],
+"targetWords": [
+"library",
+"lend",
+"tool"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Shopping with One Click",
+"zh": "一鍵購物",
+"source": {
+"name": "Wikipedia：Online shopping",
+"url": "https://en.wikipedia.org/wiki/Online_shopping"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Online shopping lets us buy almost anything without leaving home. With one click, a new shirt, a book or even dinner can arrive at the door, sometimes on the same day.",
+"It is fast and easy, and it is easy to compare prices. But it also creates a lot of boxes and plastic. Some people buy things they do not really need.",
+"Before you click \"buy,\" ask yourself a few questions. Do I really need it? Can I get it from a store nearby? Thinking first can save money and reduce waste."
+],
+"glossary": {
+"shopping": {
+"pos": "noun",
+"ipa": "/ˈʃɑː.pɪŋ/",
+"zh": "購物",
+"def": "buying things in stores or online",
+"ex": "I go shopping on Sundays.",
+"g": "online shopping 網購。"
+},
+"leave": {
+"pos": "verb",
+"ipa": "/liːv/",
+"zh": "離開",
+"def": "to go away from a place",
+"ex": "Leave the room quietly.",
+"g": "without leaving home 不用出門。"
+},
+"arrive": {
+"pos": "verb",
+"ipa": "/əˈraɪv/",
+"zh": "抵達",
+"def": "to reach a place",
+"ex": "The train arrived late.",
+"g": "arrive at + 小地點。"
+},
+"compare": {
+"pos": "verb",
+"ipa": "/kəmˈper/",
+"zh": "比較",
+"def": "to look at how things are similar or different",
+"ex": "Compare the two phones.",
+"g": "compare prices 比價。"
+},
+"price": {
+"pos": "noun",
+"ipa": "/praɪs/",
+"zh": "價格",
+"def": "the money you pay for something",
+"ex": "The price is too high.",
+"g": "prices 複數。"
+},
+"create": {
+"pos": "verb",
+"ipa": "/kriˈeɪt/",
+"zh": "產生、創造",
+"def": "to make something new",
+"ex": "Online shopping creates waste.",
+"g": "creates a lot of boxes。"
+},
+"nearby": {
+"pos": "adverb",
+"ipa": "/ˌnɪrˈbaɪ/",
+"zh": "在附近",
+"def": "close to here",
+"ex": "Is there a bank nearby?",
+"g": "放在名詞後：a store nearby。"
+},
+"reduce": {
+"pos": "verb",
+"ipa": "/rɪˈduːs/",
+"zh": "減少",
+"def": "to make something smaller or less",
+"ex": "Reduce plastic use.",
+"g": "reduce waste 減少垃圾。"
+}
+},
+"grammar": [
+{
+"pt": "let + 人 + 原形動詞",
+"zh": "讓某人做某事。",
+"ex": "Online shopping lets us buy almost anything without leaving home."
+},
+{
+"pt": "it is easy to…",
+"zh": "做…很容易。",
+"ex": "it is easy to compare prices"
+},
+{
+"pt": "Before 子句",
+"zh": "在…之前。",
+"ex": "Before you click \"buy,\" ask yourself a few questions."
+}
+],
+"questions": [
+{
+"q": "What is one good thing about online shopping?",
+"opts": [
+"It is fast and easy",
+"It makes less trash",
+"It is always cheap"
+],
+"a": 0
+},
+{
+"q": "What problem does it create?",
+"opts": [
+"Lots of boxes and plastic",
+"Too many trees",
+"Bad weather"
+],
+"a": 0
+},
+{
+"q": "What should you ask before you buy?",
+"opts": [
+"Do I really need it?",
+"Is it red?",
+"Is it heavy?"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Can I get it from a store nearby?",
+"target": "nearby"
+},
+{
+"s": "But it also creates a lot of boxes and plastic.",
+"target": "creates"
+}
+],
+"targetWords": [
+"shopping",
+"leave",
+"arrive"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "The power of vulnerability",
+"zh": "脆弱的力量",
+"source": {
+"name": "TED：Brené Brown, The power of vulnerability",
+"url": "https://www.ted.com/talks/brene_brown_on_vulnerability"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Brené Brown is a researcher who studies human connection: our ability to understand others, to belong and to love. Her TED talk is one of the most watched in the world.",
+"The main idea is about vulnerability. This means being open and honest about our feelings, even when it feels risky. Many people try to hide their weak points to look strong.",
+"But real connection needs openness. When we let others see who we really are, we can build deeper friendships. Saying \"I need help\" or \"I'm not sure\" can take courage."
+],
+"glossary": {
+"researcher": {
+"pos": "noun",
+"ipa": "/ˈriː.sɝː.tʃɚ/",
+"zh": "研究者",
+"def": "a person who studies a subject carefully",
+"ex": "She is a cancer researcher.",
+"g": "research + -er。"
+},
+"connection": {
+"pos": "noun",
+"ipa": "/kəˈnek.ʃən/",
+"zh": "連結、關係",
+"def": "a relationship between people",
+"ex": "a strong connection",
+"g": "human connection 人與人的連結。"
+},
+"belong": {
+"pos": "verb",
+"ipa": "/bɪˈlɑːŋ/",
+"zh": "歸屬",
+"def": "to feel part of a group",
+"ex": "I belong here.",
+"g": "to belong 不定詞。"
+},
+"honest": {
+"pos": "adjective",
+"ipa": "/ˈɑː.nɪst/",
+"zh": "誠實的",
+"def": "telling the truth",
+"ex": "Be honest with me.",
+"g": "h 不發音，所以 an honest man。"
+},
+"risky": {
+"pos": "adjective",
+"ipa": "/ˈrɪs.ki/",
+"zh": "有風險的",
+"def": "possibly dangerous",
+"ex": "a risky plan",
+"g": "feels risky 感覺有風險。"
+},
+"hide": {
+"pos": "verb",
+"ipa": "/haɪd/",
+"zh": "隱藏",
+"def": "to put out of sight",
+"ex": "He hid the gift.",
+"g": "過去式 hid。"
+},
+"friendship": {
+"pos": "noun",
+"ipa": "/ˈfrend.ʃɪp/",
+"zh": "友誼",
+"def": "a relationship between friends",
+"ex": "Our friendship is strong.",
+"g": "deeper friendships 更深的友誼。"
+},
+"courage": {
+"pos": "noun",
+"ipa": "/ˈkɝː.ɪdʒ/",
+"zh": "勇氣",
+"def": "the ability to do something scary",
+"ex": "It takes courage to speak up.",
+"g": "take courage 需要勇氣。"
+}
+},
+"grammar": [
+{
+"pt": "the ability to…",
+"zh": "…的能力。",
+"ex": "our ability to understand others"
+},
+{
+"pt": "even when",
+"zh": "即使在…的時候。",
+"ex": "even when it feels risky"
+},
+{
+"pt": "let + 人 + 原形",
+"zh": "讓某人…。",
+"ex": "When we let others see who we really are"
+}
+],
+"questions": [
+{
+"q": "What does Brené Brown study?",
+"opts": [
+"Human connection",
+"Space",
+"Music"
+],
+"a": 0
+},
+{
+"q": "What does vulnerability mean here?",
+"opts": [
+"Being open about our feelings",
+"Being very strong",
+"Being rich"
+],
+"a": 0
+},
+{
+"q": "What can take courage?",
+"opts": [
+"Saying \"I need help\"",
+"Eating lunch",
+"Watching TV"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "But real connection needs openness.",
+"target": "connection"
+},
+{
+"s": "Saying \"I need help\" or \"I'm not sure\" can take courage.",
+"target": "courage"
+}
+],
+"targetWords": [
+"researcher",
+"connection",
+"belong"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Trees Make Cities Better",
+"zh": "樹讓城市更美好",
+"source": {
+"name": "Wikipedia：Urban forest",
+"url": "https://en.wikipedia.org/wiki/Urban_forest"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Trees are not only beautiful. In a city, they give shade on hot days and can make streets several degrees cooler. They also clean the air and give homes to birds.",
+"Studies show that people who live near trees often feel calmer and walk more. Trees can also help stop flooding, because their roots take in rainwater.",
+"Many cities now plan to plant more trees along streets and in schools. Even one tree near your home can make a difference to the air and to your mood."
+],
+"glossary": {
+"beautiful": {
+"pos": "adjective",
+"ipa": "/ˈbjuː.t̬ə.fəl/",
+"zh": "美麗的",
+"def": "very nice to look at",
+"ex": "a beautiful park",
+"g": "beauty + -ful。"
+},
+"shade": {
+"pos": "noun",
+"ipa": "/ʃeɪd/",
+"zh": "陰涼處",
+"def": "a cool, dark place out of the sun",
+"ex": "Let's sit in the shade.",
+"g": "give shade 提供遮蔭。"
+},
+"degree": {
+"pos": "noun",
+"ipa": "/dɪˈɡriː/",
+"zh": "度",
+"def": "a unit for measuring temperature",
+"ex": "It is 30 degrees today.",
+"g": "several degrees cooler 涼好幾度。"
+},
+"bird": {
+"pos": "noun",
+"ipa": "/bɝːd/",
+"zh": "鳥",
+"def": "an animal with wings and feathers",
+"ex": "Birds sing in the morning.",
+"g": "複數 birds。"
+},
+"calm": {
+"pos": "adjective",
+"ipa": "/kɑːm/",
+"zh": "平靜的",
+"def": "not worried or excited",
+"ex": "Stay calm.",
+"g": "比較級 calmer；l 不發音。"
+},
+"root": {
+"pos": "noun",
+"ipa": "/ruːt/",
+"zh": "根",
+"def": "the part of a plant under the ground",
+"ex": "The roots are deep.",
+"g": "their roots 它們的根。"
+},
+"plant": {
+"pos": "verb",
+"ipa": "/plænt/",
+"zh": "種植",
+"def": "to put a seed or tree in the ground",
+"ex": "We planted a tree.",
+"g": "plan to plant 計畫種樹。"
+},
+"mood": {
+"pos": "noun",
+"ipa": "/muːd/",
+"zh": "心情",
+"def": "the way you feel at a time",
+"ex": "I'm in a good mood.",
+"g": "your mood 你的心情。"
+}
+},
+"grammar": [
+{
+"pt": "not only…",
+"zh": "不只是…。",
+"ex": "Trees are not only beautiful."
+},
+{
+"pt": "people who…",
+"zh": "…的人（關係子句）。",
+"ex": "people who live near trees often feel calmer"
+},
+{
+"pt": "make a difference to",
+"zh": "對…有影響。",
+"ex": "can make a difference to the air and to your mood"
+}
+],
+"questions": [
+{
+"q": "How do trees help on hot days?",
+"opts": [
+"They give shade",
+"They make noise",
+"They bring rain"
+],
+"a": 0
+},
+{
+"q": "How do trees help stop flooding?",
+"opts": [
+"Their roots take in rainwater",
+"They block roads",
+"They make wind"
+],
+"a": 0
+},
+{
+"q": "What do many cities plan to do?",
+"opts": [
+"Plant more trees",
+"Cut all trees",
+"Build more roads only"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Trees are not only beautiful.",
+"target": "beautiful"
+},
+{
+"s": "They also clean the air and give homes to birds.",
+"target": "birds"
+}
+],
+"targetWords": [
+"beautiful",
+"shade",
+"degree"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Music and Your Brain",
+"zh": "音樂與大腦",
+"source": {
+"name": "Wikipedia：Music psychology",
+"url": "https://en.wikipedia.org/wiki/Music_psychology"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Have you ever heard an old song and suddenly remembered a place or a person? Music is closely connected to memory and feelings in our brain.",
+"Scientists have found that music can change our mood. Fast songs can give us energy, and slow songs can help us relax. Some hospitals even use music to help patients feel less pain.",
+"Music can also help you learn English. Singing along helps you remember words and practice pronunciation. Choose songs with clear words, read the lyrics and sing!"
+],
+"glossary": {
+"song": {
+"pos": "noun",
+"ipa": "/sɑːŋ/",
+"zh": "歌曲",
+"def": "a short piece of music with words",
+"ex": "My favorite song is on the radio.",
+"g": "an old song 一首老歌。"
+},
+"memory": {
+"pos": "noun",
+"ipa": "/ˈmem.ɚ.i/",
+"zh": "記憶",
+"def": "the ability to remember",
+"ex": "She has a good memory.",
+"g": "複數 memories。"
+},
+"connect": {
+"pos": "verb",
+"ipa": "/kəˈnekt/",
+"zh": "連結",
+"def": "to join two things",
+"ex": "Connect the phone to Wi-Fi.",
+"g": "be connected to 與…相連。"
+},
+"scientist": {
+"pos": "noun",
+"ipa": "/ˈsaɪ.ən.t̬ɪst/",
+"zh": "科學家",
+"def": "a person who studies science",
+"ex": "Scientists study the stars.",
+"g": "-ist 表示人。"
+},
+"patient": {
+"pos": "noun",
+"ipa": "/ˈpeɪ.ʃənt/",
+"zh": "病人",
+"def": "a person who gets medical care",
+"ex": "The patient is resting.",
+"g": "與形容詞「有耐心的」同字。"
+},
+"pain": {
+"pos": "noun",
+"ipa": "/peɪn/",
+"zh": "疼痛",
+"def": "the feeling when you are hurt",
+"ex": "I have pain in my back.",
+"g": "less pain：pain 不可數時用 less。"
+},
+"practice": {
+"pos": "verb",
+"ipa": "/ˈpræk.tɪs/",
+"zh": "練習",
+"def": "to do something again and again to improve",
+"ex": "Practice every day.",
+"g": "practice + 名詞。"
+},
+"pronunciation": {
+"pos": "noun",
+"ipa": "/prəˌnʌn.siˈeɪ.ʃən/",
+"zh": "發音",
+"def": "the way you say a word",
+"ex": "Her pronunciation is good.",
+"g": "注意：動詞 pronounce，名詞拼法沒有 o。"
+}
+},
+"grammar": [
+{
+"pt": "Have you ever + 過去分詞",
+"zh": "你曾經…嗎？",
+"ex": "Have you ever heard an old song"
+},
+{
+"pt": "現在完成式 have found",
+"zh": "表示到現在的研究結果。",
+"ex": "Scientists have found that music can change our mood."
+},
+{
+"pt": "help + 人 + 原形",
+"zh": "幫助某人做…。",
+"ex": "Some hospitals even use music to help patients feel less pain."
+}
+],
+"questions": [
+{
+"q": "What is music closely connected to?",
+"opts": [
+"Memory and feelings",
+"Money",
+"Weather"
+],
+"a": 0
+},
+{
+"q": "What can slow songs do?",
+"opts": [
+"Help us relax",
+"Make us angry",
+"Make us hungry"
+],
+"a": 0
+},
+{
+"q": "How can music help you learn English?",
+"opts": [
+"Singing helps you remember words",
+"It stops learning",
+"It is too loud"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Scientists have found that music can change our mood.",
+"target": "Scientists"
+},
+{
+"s": "Choose songs with clear words, read the lyrics and sing!",
+"target": "songs"
+}
+],
+"targetWords": [
+"song",
+"memory",
+"connect"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Fast Trains Across the Island",
+"zh": "環島快速列車",
+"source": {
+"name": "Wikipedia：High-speed rail",
+"url": "https://en.wikipedia.org/wiki/High-speed_rail"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"High-speed trains can travel at about 300 kilometers per hour. In Taiwan, the high-speed rail connects the north and the south, so a long trip now takes only a few hours.",
+"Trains are comfortable and on time, and they make less pollution than cars or planes. Passengers can read, work or sleep during the trip.",
+"Japan opened the first high-speed line in 1964. Today, many countries have them. Fast trains help people visit family, go to work and travel more easily."
+],
+"glossary": {
+"travel": {
+"pos": "verb",
+"ipa": "/ˈtræv.əl/",
+"zh": "行進、旅行",
+"def": "to go from one place to another",
+"ex": "We travel by train.",
+"g": "travel at… 以…速度前進。"
+},
+"hour": {
+"pos": "noun",
+"ipa": "/aʊr/",
+"zh": "小時",
+"def": "sixty minutes",
+"ex": "It takes one hour.",
+"g": "h 不發音：an hour。"
+},
+"north": {
+"pos": "noun",
+"ipa": "/nɔːrθ/",
+"zh": "北方",
+"def": "the direction toward the top of a map",
+"ex": "The north is cold.",
+"g": "the north and the south 南北。"
+},
+"trip": {
+"pos": "noun",
+"ipa": "/trɪp/",
+"zh": "旅程",
+"def": "a journey to a place and back",
+"ex": "a school trip",
+"g": "a long trip 長途旅程。"
+},
+"pollution": {
+"pos": "noun",
+"ipa": "/pəˈluː.ʃən/",
+"zh": "污染",
+"def": "dirty air, water or land",
+"ex": "Cars cause pollution.",
+"g": "less pollution：不可數。"
+},
+"passenger": {
+"pos": "noun",
+"ipa": "/ˈpæs.ən.dʒɚ/",
+"zh": "乘客",
+"def": "a person traveling in a vehicle",
+"ex": "The passengers got off.",
+"g": "複數 passengers。"
+},
+"open": {
+"pos": "verb",
+"ipa": "/ˈoʊ.pən/",
+"zh": "開通、開放",
+"def": "to start for the first time",
+"ex": "The new store opened today.",
+"g": "opened the first line 開通第一條線。"
+},
+"easily": {
+"pos": "adverb",
+"ipa": "/ˈiː.zəl.i/",
+"zh": "容易地",
+"def": "without difficulty",
+"ex": "He won easily.",
+"g": "easy → easily（y → ily）。"
+}
+},
+"grammar": [
+{
+"pt": "per hour",
+"zh": "每小時。",
+"ex": "about 300 kilometers per hour"
+},
+{
+"pt": "take + 時間",
+"zh": "花費多少時間。",
+"ex": "a long trip now takes only a few hours"
+},
+{
+"pt": "less… than…",
+"zh": "比…少。",
+"ex": "they make less pollution than cars or planes"
+}
+],
+"questions": [
+{
+"q": "How fast can high-speed trains travel?",
+"opts": [
+"About 300 km per hour",
+"About 30 km per hour",
+"About 3,000 km per hour"
+],
+"a": 0
+},
+{
+"q": "Why are trains good for the air?",
+"opts": [
+"They make less pollution",
+"They are red",
+"They are long"
+],
+"a": 0
+},
+{
+"q": "Which country opened the first high-speed line?",
+"opts": [
+"Japan",
+"Taiwan",
+"France"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Japan opened the first high-speed line in 1964.",
+"target": "opened"
+},
+{
+"s": "Passengers can read, work or sleep during the trip.",
+"target": "trip"
+}
+],
+"targetWords": [
+"travel",
+"hour",
+"north"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "Your body language may shape who you are",
+"zh": "肢體語言可能塑造你是誰",
+"source": {
+"name": "TED：Amy Cuddy, Your body language may shape who you are",
+"url": "https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Body language affects how other people see us. In this famous TED talk, social psychologist Amy Cuddy asks a different question: can it also change how we see ourselves?",
+"She talks about \"power posing,\" which means standing in a confident way, with your back straight and arms open, even when you do not feel confident.",
+"She suggests this might help before a job interview or a speech. Some scientists have questioned parts of this research, so it is still debated. But standing tall is easy to try."
+],
+"glossary": {
+"body": {
+"pos": "noun",
+"ipa": "/ˈbɑː.di/",
+"zh": "身體",
+"def": "the whole physical form of a person",
+"ex": "Exercise is good for your body.",
+"g": "body language 肢體語言。"
+},
+"affect": {
+"pos": "verb",
+"ipa": "/əˈfekt/",
+"zh": "影響",
+"def": "to change something",
+"ex": "Weather affects my mood.",
+"g": "動詞 affect，名詞 effect。"
+},
+"psychologist": {
+"pos": "noun",
+"ipa": "/saɪˈkɑː.lə.dʒɪst/",
+"zh": "心理學家",
+"def": "a person who studies the mind",
+"ex": "She talks to a psychologist.",
+"g": "p 不發音。"
+},
+"straight": {
+"pos": "adjective",
+"ipa": "/streɪt/",
+"zh": "直的",
+"def": "not bent",
+"ex": "Keep your back straight.",
+"g": "keep… straight 保持挺直。"
+},
+"interview": {
+"pos": "noun",
+"ipa": "/ˈɪn.t̬ɚ.vjuː/",
+"zh": "面試",
+"def": "a meeting to decide if someone gets a job",
+"ex": "I have a job interview.",
+"g": "a job interview。"
+},
+"speech": {
+"pos": "noun",
+"ipa": "/spiːtʃ/",
+"zh": "演講",
+"def": "a formal talk to a group",
+"ex": "He gave a speech.",
+"g": "give a speech 發表演講。"
+},
+"question": {
+"pos": "verb",
+"ipa": "/ˈkwes.tʃən/",
+"zh": "質疑",
+"def": "to doubt if something is true",
+"ex": "Some people question the plan.",
+"g": "have questioned 現在完成式。"
+},
+"debate": {
+"pos": "verb",
+"ipa": "/dɪˈbeɪt/",
+"zh": "辯論、爭論",
+"def": "to discuss different opinions",
+"ex": "They debated the idea.",
+"g": "it is still debated 仍有爭議（被動）。"
+}
+},
+"grammar": [
+{
+"pt": "how 子句",
+"zh": "how + 主詞 + 動詞 = 如何…。",
+"ex": "Body language affects how other people see us."
+},
+{
+"pt": "even when",
+"zh": "即使在…時。",
+"ex": "even when you do not feel confident"
+},
+{
+"pt": "might 推測",
+"zh": "might 表示可能。",
+"ex": "She suggests this might help before a job interview or a speech."
+}
+],
+"questions": [
+{
+"q": "What does body language affect?",
+"opts": [
+"How others see us",
+"The weather",
+"Prices"
+],
+"a": 0
+},
+{
+"q": "What is power posing?",
+"opts": [
+"Standing in a confident way",
+"Sleeping late",
+"Running fast"
+],
+"a": 0
+},
+{
+"q": "What is true about this research?",
+"opts": [
+"It is still debated",
+"Everyone agrees",
+"It is about cooking"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Body language affects how other people see us.",
+"target": "Body"
+},
+{
+"s": "She suggests this might help before a job interview or a speech.",
+"target": "interview"
+}
+],
+"targetWords": [
+"body",
+"affect",
+"psychologist"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Start Your Day with Breakfast",
+"zh": "用早餐開始一天",
+"source": {
+"name": "Wikipedia：Breakfast",
+"url": "https://en.wikipedia.org/wiki/Breakfast"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Breakfast is the first meal of the day. After a night of sleep, it gives your body energy to start the morning. People around the world eat very different breakfasts.",
+"In Taiwan, many people buy breakfast at a breakfast shop: egg pancakes, soy milk or rice balls. In other countries, people may eat bread, cereal or soup.",
+"A good breakfast often has some protein, like eggs or milk, and some fruit or whole grains. If you are busy, even a banana and a glass of milk is better than nothing."
+],
+"glossary": {
+"breakfast": {
+"pos": "noun",
+"ipa": "/ˈbrek.fəst/",
+"zh": "早餐",
+"def": "the first meal of the day",
+"ex": "I eat breakfast at seven.",
+"g": "eat breakfast 不加 a。"
+},
+"morning": {
+"pos": "noun",
+"ipa": "/ˈmɔːr.nɪŋ/",
+"zh": "早上",
+"def": "the time from sunrise to noon",
+"ex": "See you in the morning.",
+"g": "start the morning 開始早晨。"
+},
+"shop": {
+"pos": "noun",
+"ipa": "/ʃɑːp/",
+"zh": "店",
+"def": "a small store",
+"ex": "a flower shop",
+"g": "breakfast shop 早餐店。"
+},
+"pancake": {
+"pos": "noun",
+"ipa": "/ˈpæn.keɪk/",
+"zh": "煎餅",
+"def": "a thin, flat cake cooked in a pan",
+"ex": "egg pancakes 蛋餅",
+"g": "複數 pancakes。"
+},
+"bread": {
+"pos": "noun",
+"ipa": "/bred/",
+"zh": "麵包",
+"def": "food made from flour and baked",
+"ex": "a slice of bread",
+"g": "不可數：a piece of bread。"
+},
+"protein": {
+"pos": "noun",
+"ipa": "/ˈproʊ.tiːn/",
+"zh": "蛋白質",
+"def": "a part of food that builds the body",
+"ex": "Eggs have protein.",
+"g": "some protein 一些蛋白質。"
+},
+"grain": {
+"pos": "noun",
+"ipa": "/ɡreɪn/",
+"zh": "穀物",
+"def": "seeds like rice and wheat",
+"ex": "whole grains",
+"g": "whole grains 全穀類。"
+},
+"banana": {
+"pos": "noun",
+"ipa": "/bəˈnæn.ə/",
+"zh": "香蕉",
+"def": "a long yellow fruit",
+"ex": "I eat a banana every day.",
+"g": "a banana。"
+}
+},
+"grammar": [
+{
+"pt": "give + 受詞 + 名詞",
+"zh": "給某人某物。",
+"ex": "it gives your body energy to start the morning"
+},
+{
+"pt": "比較級 better than",
+"zh": "比…更好。",
+"ex": "even a banana and a glass of milk is better than nothing"
+},
+{
+"pt": "may 表示可能",
+"zh": "may 表示可能會。",
+"ex": "people may eat bread, cereal or soup"
+}
+],
+"questions": [
+{
+"q": "Why is breakfast important?",
+"opts": [
+"It gives energy",
+"It makes you sleep",
+"It is the biggest meal"
+],
+"a": 0
+},
+{
+"q": "What do many people in Taiwan eat for breakfast?",
+"opts": [
+"Egg pancakes and soy milk",
+"Pizza",
+"Steak"
+],
+"a": 0
+},
+{
+"q": "What is better than nothing if you are busy?",
+"opts": [
+"A banana and milk",
+"Candy",
+"Coffee only"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Breakfast is the first meal of the day.",
+"target": "Breakfast"
+},
+{
+"s": "People around the world eat very different breakfasts.",
+"target": "breakfasts"
+}
+],
+"targetWords": [
+"breakfast",
+"morning",
+"shop"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "A Home in Space",
+"zh": "太空中的家",
+"source": {
+"name": "Wikipedia：International Space Station",
+"url": "https://en.wikipedia.org/wiki/International_Space_Station"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"The International Space Station is a large lab that flies around the Earth about 400 kilometers above us. It goes around the planet about sixteen times a day.",
+"Astronauts from different countries live and work there for months. They do experiments to learn how plants, animals and the human body change in space.",
+"Life in space is not easy. There is no up or down, so astronauts float. They sleep in small bags tied to the wall and exercise every day to keep their muscles strong."
+],
+"glossary": {
+"international": {
+"pos": "adjective",
+"ipa": "/ˌɪn.t̬ɚˈnæʃ.ən.əl/",
+"zh": "國際的",
+"def": "between many countries",
+"ex": "an international school",
+"g": "inter + national。"
+},
+"lab": {
+"pos": "noun",
+"ipa": "/læb/",
+"zh": "實驗室",
+"def": "a room for science work",
+"ex": "a science lab",
+"g": "laboratory 的簡稱。"
+},
+"planet": {
+"pos": "noun",
+"ipa": "/ˈplæn.ɪt/",
+"zh": "行星",
+"def": "a large round object that moves around a star",
+"ex": "Earth is a planet.",
+"g": "the planet 指地球。"
+},
+"experiment": {
+"pos": "noun",
+"ipa": "/ɪkˈsper.ə.mənt/",
+"zh": "實驗",
+"def": "a test to learn something",
+"ex": "do an experiment",
+"g": "do experiments 做實驗。"
+},
+"space": {
+"pos": "noun",
+"ipa": "/speɪs/",
+"zh": "太空",
+"def": "the area beyond the Earth's air",
+"ex": "They traveled into space.",
+"g": "in space 不加 the。"
+},
+"float": {
+"pos": "verb",
+"ipa": "/floʊt/",
+"zh": "漂浮",
+"def": "to stay on water or in the air",
+"ex": "Wood floats on water.",
+"g": "astronauts float 太空人漂浮。"
+},
+"tie": {
+"pos": "verb",
+"ipa": "/taɪ/",
+"zh": "綁",
+"def": "to fix something with string",
+"ex": "Tie your shoes.",
+"g": "tied to the wall 綁在牆上（過去分詞）。"
+},
+"muscle": {
+"pos": "noun",
+"ipa": "/ˈmʌs.əl/",
+"zh": "肌肉",
+"def": "a part of the body that helps you move",
+"ex": "My muscles hurt.",
+"g": "c 不發音。"
+}
+},
+"grammar": [
+{
+"pt": "…times a day",
+"zh": "一天…次。",
+"ex": "It goes around the planet about sixteen times a day."
+},
+{
+"pt": "to + 原形表目的",
+"zh": "為了…。",
+"ex": "They do experiments to learn how plants, animals and the human body change in space."
+},
+{
+"pt": "過去分詞修飾名詞",
+"zh": "tied to the wall 修飾 bags。",
+"ex": "They sleep in small bags tied to the wall"
+}
+],
+"questions": [
+{
+"q": "How high is the space station?",
+"opts": [
+"About 400 km",
+"About 4 km",
+"About 40,000 km"
+],
+"a": 0
+},
+{
+"q": "What do astronauts do there?",
+"opts": [
+"Experiments",
+"Farm rice",
+"Teach school"
+],
+"a": 0
+},
+{
+"q": "Why do astronauts exercise every day?",
+"opts": [
+"To keep their muscles strong",
+"To get tired",
+"To make noise"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Life in space is not easy.",
+"target": "space"
+},
+{
+"s": "There is no up or down, so astronauts float.",
+"target": "float"
+}
+],
+"targetWords": [
+"international",
+"lab",
+"planet"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "The Cost of Cheap Clothes",
+"zh": "便宜衣服的代價",
+"source": {
+"name": "Wikipedia：Fast fashion",
+"url": "https://en.wikipedia.org/wiki/Fast_fashion"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Fast fashion means clothes that are made quickly and sold cheaply. Stores change their styles very often, so people buy new clothes all the time.",
+"But cheap clothes have hidden costs. Making them uses a lot of water and energy. People often wear new clothes only a few times and then throw them away.",
+"You can help by buying fewer but better clothes, taking care of them and trading with friends. Second-hand shops are also a fun place to find something special."
+],
+"glossary": {
+"fashion": {
+"pos": "noun",
+"ipa": "/ˈfæʃ.ən/",
+"zh": "時尚",
+"def": "popular styles of clothes",
+"ex": "She loves fashion.",
+"g": "fast fashion 快時尚。"
+},
+"clothes": {
+"pos": "noun",
+"ipa": "/kloʊðz/",
+"zh": "衣服",
+"def": "things you wear",
+"ex": "new clothes",
+"g": "永遠是複數，沒有單數 clothe。"
+},
+"style": {
+"pos": "noun",
+"ipa": "/staɪl/",
+"zh": "款式",
+"def": "a particular design",
+"ex": "I like this style.",
+"g": "change their styles 更換款式。"
+},
+"hidden": {
+"pos": "adjective",
+"ipa": "/ˈhɪd.ən/",
+"zh": "隱藏的",
+"def": "not easy to see",
+"ex": "a hidden door",
+"g": "hide 的過去分詞。"
+},
+"cost": {
+"pos": "noun",
+"ipa": "/kɑːst/",
+"zh": "代價、成本",
+"def": "the price you pay",
+"ex": "the cost of living",
+"g": "hidden costs 隱藏的代價。"
+},
+"wear": {
+"pos": "verb",
+"ipa": "/wer/",
+"zh": "穿",
+"def": "to have clothes on your body",
+"ex": "I wear a jacket.",
+"g": "wear-wore-worn；wear clothes 穿衣服。"
+},
+"throw": {
+"pos": "verb",
+"ipa": "/θroʊ/",
+"zh": "丟",
+"def": "to send something through the air",
+"ex": "Throw the ball.",
+"g": "throw them away 把它們丟掉：代名詞放 throw 和 away 中間。"
+},
+"trade": {
+"pos": "verb",
+"ipa": "/treɪd/",
+"zh": "交換",
+"def": "to give something and get something back",
+"ex": "Let's trade books.",
+"g": "trading with friends 和朋友交換。"
+}
+},
+"grammar": [
+{
+"pt": "被動式 are made",
+"zh": "強調衣服被製造。",
+"ex": "clothes that are made quickly and sold cheaply"
+},
+{
+"pt": "fewer but better",
+"zh": "數量少但品質好（fewer 修飾可數名詞）。",
+"ex": "buying fewer but better clothes"
+},
+{
+"pt": "by + V-ing",
+"zh": "藉由…的方式。",
+"ex": "You can help by buying fewer but better clothes"
+}
+],
+"questions": [
+{
+"q": "What does fast fashion mean?",
+"opts": [
+"Clothes made quickly and sold cheaply",
+"Clothes for running",
+"Very old clothes"
+],
+"a": 0
+},
+{
+"q": "What is one hidden cost?",
+"opts": [
+"Using a lot of water and energy",
+"Bright colors",
+"Small sizes"
+],
+"a": 0
+},
+{
+"q": "How can you help?",
+"opts": [
+"Buy fewer but better clothes",
+"Throw clothes away fast",
+"Never wash clothes"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "But cheap clothes have hidden costs.",
+"target": "clothes"
+},
+{
+"s": "Fast fashion means clothes that are made quickly and sold cheaply.",
+"target": "fashion"
+}
+],
+"targetWords": [
+"fashion",
+"clothes",
+"style"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "What makes a good life? Lessons from the longest study on happiness",
+"zh": "什麼造就美好人生？",
+"source": {
+"name": "TED：Robert Waldinger, What makes a good life? Lessons from the longest study on happiness",
+"url": "https://www.ted.com/talks/robert_waldinger_what_makes_a_good_life_lessons_from_the_longest_study_on_happiness"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"What keeps us happy and healthy as we go through life? Many young people think the answer is fame or money. In this TED talk, psychiatrist Robert Waldinger shares a very long study about this question.",
+"The study followed the same group of people for many decades. The researchers checked their health, their jobs and their families again and again.",
+"The main lesson is about good relationships. People who stay close to family, friends and community tend to be happier and healthier. So call a friend today. It may be good for you."
+],
+"glossary": {
+"happy": {
+"pos": "adjective",
+"ipa": "/ˈhæp.i/",
+"zh": "快樂的",
+"def": "feeling pleased",
+"ex": "I am happy today.",
+"g": "比較級 happier。"
+},
+"fame": {
+"pos": "noun",
+"ipa": "/feɪm/",
+"zh": "名聲",
+"def": "being known by many people",
+"ex": "He wanted fame.",
+"g": "famous 是形容詞。"
+},
+"money": {
+"pos": "noun",
+"ipa": "/ˈmʌn.i/",
+"zh": "錢",
+"def": "coins and paper used to buy things",
+"ex": "I need money.",
+"g": "不可數名詞。"
+},
+"study": {
+"pos": "noun",
+"ipa": "/ˈstʌd.i/",
+"zh": "研究",
+"def": "a piece of research",
+"ex": "a new study",
+"g": "a very long study。"
+},
+"decade": {
+"pos": "noun",
+"ipa": "/ˈdek.eɪd/",
+"zh": "十年",
+"def": "a period of ten years",
+"ex": "for two decades",
+"g": "many decades 數十年。"
+},
+"lesson": {
+"pos": "noun",
+"ipa": "/ˈles.ən/",
+"zh": "教訓、課",
+"def": "something you learn",
+"ex": "Life teaches us lessons.",
+"g": "The main lesson 主要的教訓。"
+},
+"relationship": {
+"pos": "noun",
+"ipa": "/rɪˈleɪ.ʃən.ʃɪp/",
+"zh": "關係",
+"def": "the way people are connected",
+"ex": "a good relationship",
+"g": "good relationships 良好的人際關係。"
+},
+"tend": {
+"pos": "verb",
+"ipa": "/tend/",
+"zh": "傾向",
+"def": "to usually do something",
+"ex": "I tend to sleep late.",
+"g": "tend to + 原形。"
+}
+},
+"grammar": [
+{
+"pt": "keep + 人 + 形容詞",
+"zh": "讓某人保持…。",
+"ex": "What keeps us happy and healthy as we go through life?"
+},
+{
+"pt": "the same + 名詞",
+"zh": "相同的…。",
+"ex": "The study followed the same group of people for many decades."
+},
+{
+"pt": "tend to + 原形",
+"zh": "往往會…。",
+"ex": "tend to be happier and healthier"
+}
+],
+"questions": [
+{
+"q": "What do many young people think brings happiness?",
+"opts": [
+"Fame or money",
+"Sleep",
+"Trees"
+],
+"a": 0
+},
+{
+"q": "How long did the study follow people?",
+"opts": [
+"Many decades",
+"One month",
+"One year"
+],
+"a": 0
+},
+{
+"q": "What is the main lesson?",
+"opts": [
+"Good relationships matter",
+"Work more hours",
+"Buy more things"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "The main lesson is about good relationships.",
+"target": "lesson"
+},
+{
+"s": "Many young people think the answer is fame or money.",
+"target": "fame"
+}
+],
+"targetWords": [
+"happy",
+"fame",
+"money"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Laughter Is Good for You",
+"zh": "笑對身體有益",
+"source": {
+"name": "Wikipedia：Laughter",
+"url": "https://en.wikipedia.org/wiki/Laughter"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Everyone laughs, in every language and culture. Babies start to laugh when they are only a few months old. Laughter helps people feel close to each other.",
+"When we laugh, we breathe more deeply and our muscles relax. Many people say they feel less stressed after a good laugh with friends.",
+"Laughter is also contagious. When one person starts laughing, others often join in. So watch a funny video, tell a joke or spend time with people who make you smile."
+],
+"glossary": {
+"laugh": {
+"pos": "verb",
+"ipa": "/læf/",
+"zh": "笑",
+"def": "to make sounds because something is funny",
+"ex": "We laughed at the joke.",
+"g": "gh 發 /f/；laughter 是名詞。"
+},
+"culture": {
+"pos": "noun",
+"ipa": "/ˈkʌl.tʃɚ/",
+"zh": "文化",
+"def": "the way of life of a group of people",
+"ex": "Taiwanese culture",
+"g": "every language and culture。"
+},
+"baby": {
+"pos": "noun",
+"ipa": "/ˈbeɪ.bi/",
+"zh": "嬰兒",
+"def": "a very young child",
+"ex": "The baby is sleeping.",
+"g": "複數 babies。"
+},
+"deeply": {
+"pos": "adverb",
+"ipa": "/ˈdiːp.li/",
+"zh": "深深地",
+"def": "in a deep way",
+"ex": "Breathe deeply.",
+"g": "比較級 more deeply。"
+},
+"contagious": {
+"pos": "adjective",
+"ipa": "/kənˈteɪ.dʒəs/",
+"zh": "有傳染力的",
+"def": "easily spread from one person to another",
+"ex": "Her smile is contagious.",
+"g": "contagious 也可以指疾病會傳染。"
+},
+"join": {
+"pos": "verb",
+"ipa": "/dʒɔɪn/",
+"zh": "加入",
+"def": "to become part of a group or activity",
+"ex": "Join us for dinner.",
+"g": "join in 一起參與。"
+},
+"joke": {
+"pos": "noun",
+"ipa": "/dʒoʊk/",
+"zh": "笑話",
+"def": "something funny you say",
+"ex": "He told a joke.",
+"g": "tell a joke 講笑話。"
+},
+"smile": {
+"pos": "verb",
+"ipa": "/smaɪl/",
+"zh": "微笑",
+"def": "to make a happy face",
+"ex": "Smile for the photo.",
+"g": "make + 人 + 原形：make you smile。"
+}
+},
+"grammar": [
+{
+"pt": "start to + 原形",
+"zh": "開始做…。",
+"ex": "Babies start to laugh when they are only a few months old."
+},
+{
+"pt": "each other",
+"zh": "彼此。",
+"ex": "Laughter helps people feel close to each other."
+},
+{
+"pt": "spend time with",
+"zh": "和…一起度過時間。",
+"ex": "spend time with people who make you smile"
+}
+],
+"questions": [
+{
+"q": "When do babies start to laugh?",
+"opts": [
+"At a few months old",
+"At five years old",
+"At ten years old"
+],
+"a": 0
+},
+{
+"q": "How do people feel after laughing?",
+"opts": [
+"Less stressed",
+"More hungry",
+"More tired"
+],
+"a": 0
+},
+{
+"q": "What does contagious mean here?",
+"opts": [
+"Others often join in",
+"It is dangerous",
+"It is quiet"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Everyone laughs, in every language and culture.",
+"target": "laughs"
+},
+{
+"s": "Laughter helps people feel close to each other.",
+"target": "Laughter"
+}
+],
+"targetWords": [
+"laugh",
+"culture",
+"baby"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "More Than Just Games",
+"zh": "不只是遊戲",
+"source": {
+"name": "Wikipedia：Video game",
+"url": "https://en.wikipedia.org/wiki/Video_game"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Video games are one of the most popular kinds of fun in the world. People play them on phones, computers and game consoles, alone or with friends online.",
+"Some games can help players think quickly, solve problems and work as a team. Many players also learn English words from game stories and chats.",
+"But too much gaming can hurt sleep, eyes and schoolwork. Experts suggest taking breaks and setting a time limit. Games are best when they are one part of a balanced life."
+],
+"glossary": {
+"game": {
+"pos": "noun",
+"ipa": "/ɡeɪm/",
+"zh": "遊戲",
+"def": "an activity you play for fun",
+"ex": "a video game",
+"g": "gaming 名詞：打電動。"
+},
+"console": {
+"pos": "noun",
+"ipa": "/ˈkɑːn.soʊl/",
+"zh": "遊戲主機",
+"def": "a machine for playing video games",
+"ex": "a game console",
+"g": "game consoles 遊戲主機。"
+},
+"alone": {
+"pos": "adverb",
+"ipa": "/əˈloʊn/",
+"zh": "獨自",
+"def": "without other people",
+"ex": "I live alone.",
+"g": "alone or with friends。"
+},
+"solve": {
+"pos": "verb",
+"ipa": "/sɑːlv/",
+"zh": "解決",
+"def": "to find an answer",
+"ex": "Solve the problem.",
+"g": "solve problems 解決問題。"
+},
+"team": {
+"pos": "noun",
+"ipa": "/tiːm/",
+"zh": "團隊",
+"def": "a group that works or plays together",
+"ex": "Our team won.",
+"g": "work as a team 團隊合作。"
+},
+"hurt": {
+"pos": "verb",
+"ipa": "/hɝːt/",
+"zh": "傷害",
+"def": "to cause pain or damage",
+"ex": "My leg hurts.",
+"g": "過去式也是 hurt。"
+},
+"break": {
+"pos": "noun",
+"ipa": "/breɪk/",
+"zh": "休息時間",
+"def": "a short rest",
+"ex": "Let's take a break.",
+"g": "take breaks 休息。"
+},
+"balanced": {
+"pos": "adjective",
+"ipa": "/ˈbæl.ənst/",
+"zh": "均衡的",
+"def": "with the right amount of each part",
+"ex": "a balanced diet",
+"g": "a balanced life 平衡的生活。"
+}
+},
+"grammar": [
+{
+"pt": "alone or with friends",
+"zh": "兩種方式並列。",
+"ex": "alone or with friends online"
+},
+{
+"pt": "suggest + V-ing",
+"zh": "建議做…。",
+"ex": "Experts suggest taking breaks and setting a time limit."
+},
+{
+"pt": "best when…",
+"zh": "在…時最好。",
+"ex": "Games are best when they are one part of a balanced life."
+}
+],
+"questions": [
+{
+"q": "Where do people play video games?",
+"opts": [
+"Phones, computers and consoles",
+"Only in schools",
+"Only outside"
+],
+"a": 0
+},
+{
+"q": "What can some games help players do?",
+"opts": [
+"Solve problems",
+"Grow taller",
+"Cook food"
+],
+"a": 0
+},
+{
+"q": "What do experts suggest?",
+"opts": [
+"Take breaks and set a time limit",
+"Play all night",
+"Stop sleeping"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Experts suggest taking breaks and setting a time limit.",
+"target": "breaks"
+},
+{
+"s": "But too much gaming can hurt sleep, eyes and schoolwork.",
+"target": "gaming"
+}
+],
+"targetWords": [
+"game",
+"console",
+"alone"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "Taiwan's Highest Mountain",
+"zh": "台灣最高峰：玉山",
+"source": {
+"name": "Wikipedia：Yushan (mountain)",
+"url": "https://en.wikipedia.org/wiki/Yushan_(mountain)"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Yushan, or Jade Mountain, is the highest mountain in Taiwan. It is 3,952 meters tall, which makes it one of the highest peaks in East Asia.",
+"Every year, many hikers try to climb to the top. Most of them start very early in the morning so they can watch the sunrise above the clouds.",
+"Climbing Yushan needs planning. Hikers must apply for a permit, bring warm clothes and check the weather. Near the top, the air is thin and cold, so walking slowly is a good idea."
+],
+"glossary": {
+"highest": {
+"pos": "adjective",
+"ipa": "/ˈhaɪ.ɪst/",
+"zh": "最高的",
+"def": "the most high",
+"ex": "the highest mountain",
+"g": "high → higher → highest。"
+},
+"meter": {
+"pos": "noun",
+"ipa": "/ˈmiː.t̬ɚ/",
+"zh": "公尺",
+"def": "a unit of length",
+"ex": "100 meters",
+"g": "3,952 meters tall 3,952 公尺高。"
+},
+"peak": {
+"pos": "noun",
+"ipa": "/piːk/",
+"zh": "山峰",
+"def": "the top of a mountain",
+"ex": "a snowy peak",
+"g": "the highest peaks。"
+},
+"hiker": {
+"pos": "noun",
+"ipa": "/ˈhaɪ.kɚ/",
+"zh": "登山客",
+"def": "a person who walks in the mountains",
+"ex": "Hikers need water.",
+"g": "hike + -r。"
+},
+"climb": {
+"pos": "verb",
+"ipa": "/klaɪm/",
+"zh": "爬",
+"def": "to go up something",
+"ex": "Climb the stairs.",
+"g": "b 不發音。"
+},
+"sunrise": {
+"pos": "noun",
+"ipa": "/ˈsʌn.raɪz/",
+"zh": "日出",
+"def": "the time when the sun comes up",
+"ex": "We watched the sunrise.",
+"g": "sun + rise。"
+},
+"cloud": {
+"pos": "noun",
+"ipa": "/klaʊd/",
+"zh": "雲",
+"def": "a white or gray mass in the sky",
+"ex": "There are no clouds today.",
+"g": "above the clouds 在雲之上。"
+},
+"permit": {
+"pos": "noun",
+"ipa": "/ˈpɝː.mɪt/",
+"zh": "許可證",
+"def": "an official paper that lets you do something",
+"ex": "You need a permit.",
+"g": "apply for a permit 申請許可。"
+}
+},
+"grammar": [
+{
+"pt": "which 補充說明",
+"zh": "which 指前面整件事。",
+"ex": "It is 3,952 meters tall, which makes it one of the highest peaks in East Asia."
+},
+{
+"pt": "so (that) + 可以",
+"zh": "以便。",
+"ex": "start very early in the morning so they can watch the sunrise"
+},
+{
+"pt": "動名詞當主詞",
+"zh": "V-ing 當主詞，動詞用單數。",
+"ex": "Climbing Yushan needs planning."
+}
+],
+"questions": [
+{
+"q": "How tall is Yushan?",
+"opts": [
+"3,952 meters",
+"952 meters",
+"8,848 meters"
+],
+"a": 0
+},
+{
+"q": "Why do hikers start early?",
+"opts": [
+"To watch the sunrise",
+"To avoid lunch",
+"To sleep on the top"
+],
+"a": 0
+},
+{
+"q": "What must hikers apply for?",
+"opts": [
+"A permit",
+"A passport",
+"A job"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Every year, many hikers try to climb to the top.",
+"target": "hikers"
+},
+{
+"s": "Yushan, or Jade Mountain, is the highest mountain in Taiwan.",
+"target": "highest"
+}
+],
+"targetWords": [
+"highest",
+"meter",
+"peak"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "Grit: The power of passion and perseverance",
+"zh": "恆毅力：熱情與堅持的力量",
+"source": {
+"name": "TED：Angela Lee Duckworth, Grit: The power of passion and perseverance",
+"url": "https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Angela Lee Duckworth left a high-paying job to teach math to seventh graders in a New York public school. There, she noticed something important.",
+"She saw that IQ was not the only thing that separated successful students from students who struggled. In her talk, she explains her idea of \"grit\" as a predictor of success.",
+"Grit means passion and perseverance for long-term goals. It is like running a marathon, not a short race. The good news is that we can keep working on it."
+],
+"glossary": {
+"seventh": {
+"pos": "adjective",
+"ipa": "/ˈsev.ənθ/",
+"zh": "第七的",
+"def": "number seven in order",
+"ex": "the seventh day",
+"g": "seventh graders 七年級生。"
+},
+"public": {
+"pos": "adjective",
+"ipa": "/ˈpʌb.lɪk/",
+"zh": "公立的、公共的",
+"def": "for everyone; run by the government",
+"ex": "a public school",
+"g": "public school 公立學校。"
+},
+"notice": {
+"pos": "verb",
+"ipa": "/ˈnoʊ.t̬ɪs/",
+"zh": "注意到",
+"def": "to see or become aware of something",
+"ex": "I noticed a change.",
+"g": "noticed 過去式。"
+},
+"successful": {
+"pos": "adjective",
+"ipa": "/səkˈses.fəl/",
+"zh": "成功的",
+"def": "having achieved what you wanted",
+"ex": "a successful business",
+"g": "success 名詞 → successful。"
+},
+"struggle": {
+"pos": "verb",
+"ipa": "/ˈstrʌɡ.əl/",
+"zh": "掙扎、吃力",
+"def": "to have difficulty doing something",
+"ex": "He struggles with math.",
+"g": "students who struggled 學得吃力的學生。"
+},
+"passion": {
+"pos": "noun",
+"ipa": "/ˈpæʃ.ən/",
+"zh": "熱情",
+"def": "a strong feeling of liking something",
+"ex": "She has a passion for music.",
+"g": "passion for + 名詞。"
+},
+"perseverance": {
+"pos": "noun",
+"ipa": "/ˌpɝː.səˈvɪr.əns/",
+"zh": "毅力、堅持",
+"def": "continuing to try even when it is hard",
+"ex": "Perseverance helps you succeed.",
+"g": "不可數名詞。"
+},
+"marathon": {
+"pos": "noun",
+"ipa": "/ˈmer.ə.θɑːn/",
+"zh": "馬拉松",
+"def": "a long running race of about 42 km",
+"ex": "He ran a marathon.",
+"g": "like running a marathon 像跑馬拉松。"
+}
+},
+"grammar": [
+{
+"pt": "separate A from B",
+"zh": "區分 A 和 B。",
+"ex": "the only thing that separated successful students from students who struggled"
+},
+{
+"pt": "not A, but / not B",
+"zh": "比較 A 和 B。",
+"ex": "It is like running a marathon, not a short race."
+},
+{
+"pt": "The good news is that…",
+"zh": "好消息是…。",
+"ex": "The good news is that we can keep working on it."
+}
+],
+"questions": [
+{
+"q": "What did Duckworth teach?",
+"opts": [
+"Math",
+"Art",
+"Music"
+],
+"a": 0
+},
+{
+"q": "What is grit?",
+"opts": [
+"Passion and perseverance",
+"Being very smart",
+"Being rich"
+],
+"a": 0
+},
+{
+"q": "What is grit compared to?",
+"opts": [
+"A marathon",
+"A short race",
+"A nap"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "There, she noticed something important.",
+"target": "noticed"
+},
+{
+"s": "It is like running a marathon, not a short race.",
+"target": "marathon"
+}
+],
+"targetWords": [
+"seventh",
+"public",
+"notice"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "How Habits Work",
+"zh": "習慣是怎麼養成的",
+"source": {
+"name": "Wikipedia：Habit",
+"url": "https://en.wikipedia.org/wiki/Habit"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"A habit is something we do again and again, often without thinking. Brushing your teeth, checking your phone and drinking coffee in the morning are all habits.",
+"Many habits start with a cue, like a time or a place. Then comes the action, and then a reward, like a good feeling. When this happens many times, the brain makes it automatic.",
+"To build a good habit, start very small. Put your running shoes by the door, or read one page before bed. Small steps, repeated every day, can lead to big changes."
+],
+"glossary": {
+"brush": {
+"pos": "verb",
+"ipa": "/brʌʃ/",
+"zh": "刷",
+"def": "to clean with a brush",
+"ex": "Brush your teeth twice a day.",
+"g": "brushing 動名詞當主詞。"
+},
+"teeth": {
+"pos": "noun",
+"ipa": "/tiːθ/",
+"zh": "牙齒（複數）",
+"def": "the hard white things in your mouth",
+"ex": "Brush your teeth.",
+"g": "單數 tooth，複數 teeth。"
+},
+"cue": {
+"pos": "noun",
+"ipa": "/kjuː/",
+"zh": "提示、暗號",
+"def": "a signal to do something",
+"ex": "The bell is a cue to stop.",
+"g": "a cue 一個提示。"
+},
+"action": {
+"pos": "noun",
+"ipa": "/ˈæk.ʃən/",
+"zh": "行動",
+"def": "something you do",
+"ex": "Take action now.",
+"g": "the action 這個行動。"
+},
+"reward": {
+"pos": "noun",
+"ipa": "/rɪˈwɔːrd/",
+"zh": "獎勵",
+"def": "something good you get for doing something",
+"ex": "a reward for hard work",
+"g": "a reward 一個獎勵。"
+},
+"automatic": {
+"pos": "adjective",
+"ipa": "/ˌɑː.t̬əˈmæt̬.ɪk/",
+"zh": "自動的",
+"def": "done without thinking",
+"ex": "an automatic door",
+"g": "makes it automatic 讓它變成自動。"
+},
+"step": {
+"pos": "noun",
+"ipa": "/step/",
+"zh": "步驟",
+"def": "one action in a series",
+"ex": "the first step",
+"g": "small steps 小步驟。"
+},
+"repeat": {
+"pos": "verb",
+"ipa": "/rɪˈpiːt/",
+"zh": "重複",
+"def": "to do or say again",
+"ex": "Please repeat that.",
+"g": "repeated every day 每天重複的（過去分詞）。"
+}
+},
+"grammar": [
+{
+"pt": "動名詞當主詞",
+"zh": "多個 V-ing 當主詞，動詞用複數 are。",
+"ex": "Brushing your teeth, checking your phone and drinking coffee in the morning are all habits."
+},
+{
+"pt": "Then comes…",
+"zh": "倒裝：Then + 動詞 + 主詞。",
+"ex": "Then comes the action"
+},
+{
+"pt": "To + 原形表目的",
+"zh": "為了…。",
+"ex": "To build a good habit, start very small."
+}
+],
+"questions": [
+{
+"q": "What is a habit?",
+"opts": [
+"Something we do again and again",
+"A new hobby",
+"A long trip"
+],
+"a": 0
+},
+{
+"q": "What usually comes after the action?",
+"opts": [
+"A reward",
+"A cue",
+"A rule"
+],
+"a": 0
+},
+{
+"q": "How should you build a good habit?",
+"opts": [
+"Start very small",
+"Start with a big goal",
+"Wait for a holiday"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Many habits start with a cue, like a time or a place.",
+"target": "cue"
+},
+{
+"s": "Small steps, repeated every day, can lead to big changes.",
+"target": "steps"
+}
+],
+"targetWords": [
+"brush",
+"teeth",
+"cue"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "How Do We Know Tomorrow's Weather?",
+"zh": "我們怎麼知道明天的天氣？",
+"source": {
+"name": "Wikipedia：Weather forecasting",
+"url": "https://en.wikipedia.org/wiki/Weather_forecasting"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Weather forecasts tell us if we need an umbrella or a jacket. But how do forecasters know what will happen tomorrow?",
+"They collect information from weather stations, balloons, ships and satellites in space. Then powerful computers use this data to predict how the air will move.",
+"Forecasts for the next day are usually quite correct, but forecasts for next week are harder. The weather can change quickly, so it is a good idea to check again before you go out."
+],
+"glossary": {
+"forecast": {
+"pos": "noun",
+"ipa": "/ˈfɔːr.kæst/",
+"zh": "預報",
+"def": "a statement about what will happen",
+"ex": "the weather forecast",
+"g": "forecaster 預報員。"
+},
+"umbrella": {
+"pos": "noun",
+"ipa": "/ʌmˈbrel.ə/",
+"zh": "雨傘",
+"def": "a thing that keeps rain off you",
+"ex": "Take an umbrella.",
+"g": "an umbrella（母音開頭）。"
+},
+"jacket": {
+"pos": "noun",
+"ipa": "/ˈdʒæk.ɪt/",
+"zh": "外套",
+"def": "a short coat",
+"ex": "Wear a jacket.",
+"g": "a jacket。"
+},
+"information": {
+"pos": "noun",
+"ipa": "/ˌɪn.fɚˈmeɪ.ʃən/",
+"zh": "資訊",
+"def": "facts about something",
+"ex": "I need more information.",
+"g": "不可數，不加 s。"
+},
+"satellite": {
+"pos": "noun",
+"ipa": "/ˈsæt̬.əl.aɪt/",
+"zh": "人造衛星",
+"def": "a machine that goes around the Earth in space",
+"ex": "a weather satellite",
+"g": "satellites in space。"
+},
+"data": {
+"pos": "noun",
+"ipa": "/ˈdeɪ.t̬ə/",
+"zh": "資料、數據",
+"def": "facts and numbers",
+"ex": "The data shows a change.",
+"g": "this data 這些資料。"
+},
+"predict": {
+"pos": "verb",
+"ipa": "/prɪˈdɪkt/",
+"zh": "預測",
+"def": "to say what will happen",
+"ex": "Can you predict the score?",
+"g": "predict how… 預測如何…。"
+},
+"correct": {
+"pos": "adjective",
+"ipa": "/kəˈrekt/",
+"zh": "正確的",
+"def": "right; without mistakes",
+"ex": "the correct answer",
+"g": "quite correct 相當正確。"
+}
+},
+"grammar": [
+{
+"pt": "if 引導名詞子句",
+"zh": "tell us if… 告訴我們是否…。",
+"ex": "Weather forecasts tell us if we need an umbrella or a jacket."
+},
+{
+"pt": "how 子句當受詞",
+"zh": "predict how the air will move 預測空氣會怎麼移動。",
+"ex": "predict how the air will move"
+},
+{
+"pt": "比較級 harder",
+"zh": "more difficult。",
+"ex": "forecasts for next week are harder"
+}
+],
+"questions": [
+{
+"q": "Where does weather information come from?",
+"opts": [
+"Stations, balloons, ships and satellites",
+"Only from TV",
+"From guesses"
+],
+"a": 0
+},
+{
+"q": "What do powerful computers do?",
+"opts": [
+"Predict how the air will move",
+"Make rain",
+"Stop storms"
+],
+"a": 0
+},
+{
+"q": "Which forecasts are harder?",
+"opts": [
+"Next week's",
+"Tomorrow's",
+"Today's"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "But how do forecasters know what will happen tomorrow?",
+"target": "forecasters"
+},
+{
+"s": "Weather forecasts tell us if we need an umbrella or a jacket.",
+"target": "forecasts"
+}
+],
+"targetWords": [
+"forecast",
+"umbrella",
+"jacket"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "The Sweet Story of Chocolate",
+"zh": "巧克力的甜蜜故事",
+"source": {
+"name": "Wikipedia：Chocolate",
+"url": "https://en.wikipedia.org/wiki/Chocolate"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Chocolate comes from cacao beans, which grow in pods on cacao trees in hot, wet places. The beans are dried, roasted and ground to make chocolate.",
+"Long ago in Central America, people made a bitter chocolate drink. Much later, sugar and milk were added, and chocolate became the sweet treat many people love today.",
+"Dark chocolate has more cacao and less sugar than milk chocolate. A small piece can be a nice treat, but eating too much chocolate is not good for your teeth or your health."
+],
+"glossary": {
+"chocolate": {
+"pos": "noun",
+"ipa": "/ˈtʃɑːk.lət/",
+"zh": "巧克力",
+"def": "a sweet brown food made from cacao",
+"ex": "a bar of chocolate",
+"g": "通常不可數：a piece of chocolate。"
+},
+"pod": {
+"pos": "noun",
+"ipa": "/pɑːd/",
+"zh": "豆莢",
+"def": "a long case that holds seeds",
+"ex": "a bean pod",
+"g": "grow in pods 長在豆莢裡。"
+},
+"wet": {
+"pos": "adjective",
+"ipa": "/wet/",
+"zh": "潮濕的",
+"def": "covered with water; rainy",
+"ex": "wet weather",
+"g": "hot, wet places 炎熱潮濕的地方。"
+},
+"ground": {
+"pos": "verb (past participle)",
+"ipa": "/ɡraʊnd/",
+"zh": "被磨碎的（grind 的過去分詞）",
+"def": "crushed into very small pieces",
+"ex": "The coffee beans are ground every morning.",
+"g": "grind-ground-ground；are ground 是被動式。"
+},
+"bitter": {
+"pos": "adjective",
+"ipa": "/ˈbɪt̬.ɚ/",
+"zh": "苦的",
+"def": "having a strong, not sweet taste",
+"ex": "bitter medicine",
+"g": "a bitter drink 苦的飲料。"
+},
+"sugar": {
+"pos": "noun",
+"ipa": "/ˈʃʊɡ.ɚ/",
+"zh": "糖",
+"def": "a sweet white food",
+"ex": "Do you take sugar?",
+"g": "不可數名詞。"
+},
+"treat": {
+"pos": "noun",
+"ipa": "/triːt/",
+"zh": "點心、款待",
+"def": "something special that you enjoy",
+"ex": "a sweet treat",
+"g": "a nice treat。"
+},
+"piece": {
+"pos": "noun",
+"ipa": "/piːs/",
+"zh": "一塊",
+"def": "a part of something",
+"ex": "a piece of cake",
+"g": "a small piece 一小塊。"
+}
+},
+"grammar": [
+{
+"pt": "which 補充說明",
+"zh": "which 修飾 cacao beans。",
+"ex": "Chocolate comes from cacao beans, which grow in pods on cacao trees"
+},
+{
+"pt": "被動式 were added",
+"zh": "過去式被動。",
+"ex": "sugar and milk were added"
+},
+{
+"pt": "more A and less B than",
+"zh": "比…有更多 A、較少 B。",
+"ex": "Dark chocolate has more cacao and less sugar than milk chocolate."
+}
+],
+"questions": [
+{
+"q": "Where do cacao beans grow?",
+"opts": [
+"In pods on cacao trees",
+"Under the ground",
+"In the sea"
+],
+"a": 0
+},
+{
+"q": "What was the first chocolate drink like?",
+"opts": [
+"Bitter",
+"Very sweet",
+"Cold and salty"
+],
+"a": 0
+},
+{
+"q": "What does dark chocolate have more of?",
+"opts": [
+"Cacao",
+"Sugar",
+"Milk"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "The beans are dried, roasted and ground to make chocolate.",
+"target": "chocolate"
+},
+{
+"s": "Dark chocolate has more cacao and less sugar than milk chocolate.",
+"target": "sugar"
+}
+],
+"targetWords": [
+"chocolate",
+"pod",
+"wet"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "How to make stress your friend",
+"zh": "如何和壓力做朋友",
+"source": {
+"name": "TED：Kelly McGonigal, How to make stress your friend",
+"url": "https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Stress makes your heart beat fast, your breathing quicken and your forehead sweat. Many people think stress is always bad for our health.",
+"In this TED talk, health psychologist Kelly McGonigal shares research that suggests stress may be worse for you when you believe it is harmful. How we think about stress can change how our body reacts.",
+"She also talks about an often forgotten way to handle stress: reaching out to other people. Asking for help, or helping someone else, can make us stronger in hard times."
+],
+"glossary": {
+"stress": {
+"pos": "noun",
+"ipa": "/stres/",
+"zh": "壓力",
+"def": "a feeling of worry because of problems",
+"ex": "I am under a lot of stress.",
+"g": "不可數名詞。"
+},
+"beat": {
+"pos": "verb",
+"ipa": "/biːt/",
+"zh": "跳動",
+"def": "to make a regular sound or movement",
+"ex": "My heart is beating fast.",
+"g": "make + 受詞 + 原形：makes your heart beat。"
+},
+"forehead": {
+"pos": "noun",
+"ipa": "/ˈfɔːr.ed/",
+"zh": "額頭",
+"def": "the part of your face above your eyes",
+"ex": "He touched his forehead.",
+"g": "fore + head。"
+},
+"harmful": {
+"pos": "adjective",
+"ipa": "/ˈhɑːrm.fəl/",
+"zh": "有害的",
+"def": "causing damage",
+"ex": "Smoking is harmful.",
+"g": "harm + -ful。"
+},
+"react": {
+"pos": "verb",
+"ipa": "/riˈækt/",
+"zh": "反應",
+"def": "to act because of something",
+"ex": "How did he react?",
+"g": "how our body reacts 身體如何反應。"
+},
+"forgotten": {
+"pos": "adjective",
+"ipa": "/fɚˈɡɑː.t̬ən/",
+"zh": "被遺忘的",
+"def": "not remembered",
+"ex": "a forgotten skill",
+"g": "forget 的過去分詞。"
+},
+"handle": {
+"pos": "verb",
+"ipa": "/ˈhæn.dəl/",
+"zh": "處理",
+"def": "to deal with something",
+"ex": "I can handle it.",
+"g": "handle stress 處理壓力。"
+},
+"reach": {
+"pos": "verb",
+"ipa": "/riːtʃ/",
+"zh": "伸出、聯絡",
+"def": "to stretch out your hand; to contact",
+"ex": "Reach out to a friend.",
+"g": "reach out to + 人 = 向…求助、聯絡。"
+}
+},
+"grammar": [
+{
+"pt": "make + 受詞 + 原形",
+"zh": "使…做…。",
+"ex": "Stress makes your heart beat fast"
+},
+{
+"pt": "比較級 worse",
+"zh": "bad 的比較級。",
+"ex": "stress may be worse for you when you believe it is harmful"
+},
+{
+"pt": "動名詞當主詞",
+"zh": "V-ing 當主詞。",
+"ex": "Asking for help, or helping someone else, can make us stronger in hard times."
+}
+],
+"questions": [
+{
+"q": "What does stress make your heart do?",
+"opts": [
+"Beat fast",
+"Stop",
+"Slow down"
+],
+"a": 0
+},
+{
+"q": "When may stress be worse for you?",
+"opts": [
+"When you believe it is harmful",
+"When you sleep",
+"When you eat"
+],
+"a": 0
+},
+{
+"q": "What is an often forgotten way to handle stress?",
+"opts": [
+"Reaching out to others",
+"Staying alone",
+"Working more"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Many people think stress is always bad for our health.",
+"target": "stress"
+},
+{
+"s": "How we think about stress can change how our body reacts.",
+"target": "reacts"
+}
+],
+"targetWords": [
+"stress",
+"beat",
+"forehead"
+]
+}
+],
+[
+{
+"id": "a1",
+"kind": "news",
+"title": "Every Drop Counts",
+"zh": "每一滴都重要",
+"source": {
+"name": "Wikipedia：Water conservation",
+"url": "https://en.wikipedia.org/wiki/Water_conservation"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Water covers most of the Earth, but only a very small part of it is fresh water that people can drink. In dry seasons, some places do not have enough.",
+"Saving water at home is easy. Turn off the tap while you brush your teeth. Take shorter showers. Fix leaks quickly, because a dripping tap can waste a lot of water in a year.",
+"You can also reuse water. Water from washing vegetables can water your plants. Every drop counts. If everyone saves a little, together we can save a lot."
+],
+"glossary": {
+"drop": {
+"pos": "noun",
+"ipa": "/drɑːp/",
+"zh": "一滴",
+"def": "a very small amount of liquid",
+"ex": "a drop of rain",
+"g": "Every drop counts 每一滴都算數。"
+},
+"fresh": {
+"pos": "adjective",
+"ipa": "/freʃ/",
+"zh": "淡的、新鮮的",
+"def": "not salty (water); new",
+"ex": "fresh water",
+"g": "fresh water 淡水。"
+},
+"season": {
+"pos": "noun",
+"ipa": "/ˈsiː.zən/",
+"zh": "季節",
+"def": "one of the parts of the year",
+"ex": "the rainy season",
+"g": "dry seasons 乾季。"
+},
+"tap": {
+"pos": "noun",
+"ipa": "/tæp/",
+"zh": "水龍頭",
+"def": "a thing that controls water from a pipe",
+"ex": "Turn off the tap.",
+"g": "美式也說 faucet。"
+},
+"shower": {
+"pos": "noun",
+"ipa": "/ʃaʊr/",
+"zh": "淋浴",
+"def": "washing your body under running water",
+"ex": "I take a shower every night.",
+"g": "take a shower 洗澡。"
+},
+"leak": {
+"pos": "noun",
+"ipa": "/liːk/",
+"zh": "漏水",
+"def": "a hole where water comes out",
+"ex": "There is a leak in the roof.",
+"g": "fix leaks 修理漏水。"
+},
+"drip": {
+"pos": "verb",
+"ipa": "/drɪp/",
+"zh": "滴落",
+"def": "to fall in small drops",
+"ex": "Water is dripping.",
+"g": "a dripping tap 滴水的水龍頭。"
+},
+"reuse": {
+"pos": "verb",
+"ipa": "/riːˈjuːz/",
+"zh": "重複使用",
+"def": "to use again",
+"ex": "Reuse your bags.",
+"g": "re- 表示「再」。"
+}
+},
+"grammar": [
+{
+"pt": "only a very small part of",
+"zh": "只有非常小一部分的…。",
+"ex": "only a very small part of it is fresh water"
+},
+{
+"pt": "while 子句",
+"zh": "在…的同時。",
+"ex": "Turn off the tap while you brush your teeth."
+},
+{
+"pt": "If 子句",
+"zh": "如果…，就…。",
+"ex": "If everyone saves a little, together we can save a lot."
+}
+],
+"questions": [
+{
+"q": "How much of Earth's water is fresh water?",
+"opts": [
+"A very small part",
+"Most of it",
+"All of it"
+],
+"a": 0
+},
+{
+"q": "What should you do while brushing your teeth?",
+"opts": [
+"Turn off the tap",
+"Take a bath",
+"Wash the car"
+],
+"a": 0
+},
+{
+"q": "How can you reuse water?",
+"opts": [
+"Water plants with it",
+"Drink it later",
+"Throw it away"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "You can also reuse water.",
+"target": "reuse"
+},
+{
+"s": "Turn off the tap while you brush your teeth.",
+"target": "tap"
+}
+],
+"targetWords": [
+"drop",
+"fresh",
+"season"
+]
+},
+{
+"id": "a2",
+"kind": "news",
+"title": "Birds That Cannot Fly",
+"zh": "不會飛的鳥：企鵝",
+"source": {
+"name": "Wikipedia：Penguin",
+"url": "https://en.wikipedia.org/wiki/Penguin"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Penguins are birds, but they cannot fly. Instead, they are excellent swimmers. Their wings work like flippers and help them move quickly through the water to catch fish.",
+"Most penguins live in the southern half of the world. Some live in very cold places like Antarctica, but others live on warmer coasts in South America and Africa.",
+"Penguins often live in large groups. Parents take turns keeping their eggs warm and finding food. Today, some kinds of penguins are in danger because the oceans are changing."
+],
+"glossary": {
+"penguin": {
+"pos": "noun",
+"ipa": "/ˈpeŋ.ɡwɪn/",
+"zh": "企鵝",
+"def": "a black and white bird that swims",
+"ex": "Penguins live in groups.",
+"g": "複數 penguins。"
+},
+"fly": {
+"pos": "verb",
+"ipa": "/flaɪ/",
+"zh": "飛",
+"def": "to move through the air",
+"ex": "Birds can fly.",
+"g": "cannot fly 不會飛。"
+},
+"excellent": {
+"pos": "adjective",
+"ipa": "/ˈek.səl.ənt/",
+"zh": "極好的",
+"def": "very good",
+"ex": "an excellent student",
+"g": "excellent swimmers。"
+},
+"wing": {
+"pos": "noun",
+"ipa": "/wɪŋ/",
+"zh": "翅膀",
+"def": "the part a bird uses to fly",
+"ex": "The bird opened its wings.",
+"g": "Their wings 牠們的翅膀。"
+},
+"southern": {
+"pos": "adjective",
+"ipa": "/ˈsʌð.ɚn/",
+"zh": "南方的",
+"def": "in or from the south",
+"ex": "the southern part of Taiwan",
+"g": "south → southern。"
+},
+"coast": {
+"pos": "noun",
+"ipa": "/koʊst/",
+"zh": "海岸",
+"def": "land next to the sea",
+"ex": "the east coast",
+"g": "warmer coasts 較溫暖的海岸。"
+},
+"turn": {
+"pos": "noun",
+"ipa": "/tɝːn/",
+"zh": "輪流",
+"def": "the time for one person to do something",
+"ex": "It's your turn.",
+"g": "take turns + V-ing 輪流做…。"
+},
+"danger": {
+"pos": "noun",
+"ipa": "/ˈdeɪn.dʒɚ/",
+"zh": "危險",
+"def": "the possibility of being hurt",
+"ex": "in danger 處於危險中",
+"g": "be in danger 面臨危險。"
+}
+},
+"grammar": [
+{
+"pt": "Instead,",
+"zh": "作為替代。",
+"ex": "Instead, they are excellent swimmers."
+},
+{
+"pt": "Some… others…",
+"zh": "有些…，另一些…。",
+"ex": "Some live in very cold places like Antarctica, but others live on warmer coasts"
+},
+{
+"pt": "take turns + V-ing",
+"zh": "輪流做某事。",
+"ex": "Parents take turns keeping their eggs warm"
+}
+],
+"questions": [
+{
+"q": "What are penguins very good at?",
+"opts": [
+"Swimming",
+"Flying",
+"Climbing trees"
+],
+"a": 0
+},
+{
+"q": "Where do most penguins live?",
+"opts": [
+"In the southern half of the world",
+"Only in the north",
+"In deserts"
+],
+"a": 0
+},
+{
+"q": "Why are some penguins in danger?",
+"opts": [
+"The oceans are changing",
+"They are too fast",
+"They eat too much"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Penguins often live in large groups.",
+"target": "Penguins"
+},
+{
+"s": "Instead, they are excellent swimmers.",
+"target": "excellent"
+}
+],
+"targetWords": [
+"penguin",
+"fly",
+"excellent"
+]
+},
+{
+"id": "a3",
+"kind": "news",
+"title": "The Story of Paper",
+"zh": "紙的故事",
+"source": {
+"name": "Wikipedia：Paper",
+"url": "https://en.wikipedia.org/wiki/Paper"
+},
+"note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Paper is so common that we rarely think about it. But for most of history, people wrote on stone, wood, cloth or animal skins.",
+"Paper making was developed in ancient China about two thousand years ago. People mixed plant fibers with water, spread the mix thin and let it dry. Later, the idea slowly spread to other parts of the world.",
+"Today, paper is made mostly from wood. Recycling paper saves trees, water and energy. Next time you finish with a newspaper or a box, put it in the recycling bin."
+],
+"glossary": {
+"paper": {
+"pos": "noun",
+"ipa": "/ˈpeɪ.pɚ/",
+"zh": "紙",
+"def": "thin material for writing on",
+"ex": "a piece of paper",
+"g": "材料時不可數。"
+},
+"common": {
+"pos": "adjective",
+"ipa": "/ˈkɑː.mən/",
+"zh": "常見的",
+"def": "happening or found often",
+"ex": "a common name",
+"g": "so common that… 如此常見以至於…。"
+},
+"rarely": {
+"pos": "adverb",
+"ipa": "/ˈrer.li/",
+"zh": "很少",
+"def": "not often",
+"ex": "I rarely eat meat.",
+"g": "頻率副詞，本身就是否定意味。"
+},
+"history": {
+"pos": "noun",
+"ipa": "/ˈhɪs.tɚ.i/",
+"zh": "歷史",
+"def": "the study of past events",
+"ex": "Chinese history",
+"g": "for most of history 在歷史上大部分時間。"
+},
+"ancient": {
+"pos": "adjective",
+"ipa": "/ˈeɪn.ʃənt/",
+"zh": "古代的",
+"def": "very old; from long ago",
+"ex": "ancient Rome",
+"g": "ancient China 古代中國。"
+},
+"fiber": {
+"pos": "noun",
+"ipa": "/ˈfaɪ.bɚ/",
+"zh": "纖維",
+"def": "a thin thread of material",
+"ex": "plant fibers",
+"g": "複數 fibers。"
+},
+"spread": {
+"pos": "verb",
+"ipa": "/spred/",
+"zh": "鋪開；傳播",
+"def": "to open out over a surface; to move to more places",
+"ex": "Spread butter on bread.",
+"g": "過去式也是 spread。"
+},
+"newspaper": {
+"pos": "noun",
+"ipa": "/ˈnuːzˌpeɪ.pɚ/",
+"zh": "報紙",
+"def": "printed news on large paper",
+"ex": "I read the newspaper.",
+"g": "news + paper。"
+}
+},
+"grammar": [
+{
+"pt": "so… that…",
+"zh": "如此…以至於…。",
+"ex": "Paper is so common that we rarely think about it."
+},
+{
+"pt": "被動式 was developed",
+"zh": "過去被動式。",
+"ex": "Paper making was developed in ancient China"
+},
+{
+"pt": "let + 受詞 + 原形",
+"zh": "讓…（自然）…。",
+"ex": "spread the mix thin and let it dry"
+}
+],
+"questions": [
+{
+"q": "What did people write on before paper?",
+"opts": [
+"Stone, wood, cloth or skins",
+"Glass",
+"Plastic"
+],
+"a": 0
+},
+{
+"q": "Where was paper making developed?",
+"opts": [
+"Ancient China",
+"Ancient Rome",
+"America"
+],
+"a": 0
+},
+{
+"q": "What does recycling paper save?",
+"opts": [
+"Trees, water and energy",
+"Only money",
+"Nothing"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Today, paper is made mostly from wood.",
+"target": "paper"
+},
+{
+"s": "Paper is so common that we rarely think about it.",
+"target": "common"
+}
+],
+"targetWords": [
+"paper",
+"common",
+"rarely"
+]
+},
+{
+"id": "a4",
+"kind": "ted",
+"title": "The secret to a happy life: lessons from 8 decades of research",
+"zh": "幸福人生的秘密：八十年研究的啟示",
+"source": {
+"name": "TED：Robert Waldinger, The secret to a happy life: lessons from 8 decades of research",
+"url": "https://www.ted.com/talks/robert_waldinger_the_secret_to_a_happy_life_lessons_from_8_decades_of_research"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Robert Waldinger leads a famous study that has followed people's lives for more than eight decades. In this later talk, he shares more of what the study has taught him.",
+"The main message is simple but powerful: our relationships matter a lot for a happy and healthy life. Good relationships are like muscles. If we do not use them, they get weaker.",
+"He suggests small actions to keep relationships strong, like sending a message to an old friend or having a real conversation with someone at work. Who could you contact this week?"
+],
+"glossary": {
+"lead": {
+"pos": "verb",
+"ipa": "/liːd/",
+"zh": "領導",
+"def": "to be in charge of",
+"ex": "She leads the team.",
+"g": "leads 第三人稱單數；leader 名詞。"
+},
+"follow": {
+"pos": "verb",
+"ipa": "/ˈfɑː.loʊ/",
+"zh": "追蹤、跟隨",
+"def": "to watch or go after something over time",
+"ex": "Follow me.",
+"g": "has followed 現在完成式。"
+},
+"message": {
+"pos": "noun",
+"ipa": "/ˈmes.ɪdʒ/",
+"zh": "訊息",
+"def": "information you send to someone",
+"ex": "I got your message.",
+"g": "main message 主要訊息。"
+},
+"powerful": {
+"pos": "adjective",
+"ipa": "/ˈpaʊ.ɚ.fəl/",
+"zh": "有力的",
+"def": "having great effect",
+"ex": "a powerful idea",
+"g": "power + -ful。"
+},
+"matter": {
+"pos": "verb",
+"ipa": "/ˈmæt̬.ɚ/",
+"zh": "要緊、重要",
+"def": "to be important",
+"ex": "Your health matters.",
+"g": "matter a lot 非常重要。"
+},
+"weak": {
+"pos": "adjective",
+"ipa": "/wiːk/",
+"zh": "弱的",
+"def": "not strong",
+"ex": "I feel weak today.",
+"g": "比較級 weaker。"
+},
+"conversation": {
+"pos": "noun",
+"ipa": "/ˌkɑːn.vɚˈseɪ.ʃən/",
+"zh": "對話",
+"def": "a talk between people",
+"ex": "We had a long conversation.",
+"g": "have a conversation 談話。"
+},
+"contact": {
+"pos": "verb",
+"ipa": "/ˈkɑːn.tækt/",
+"zh": "聯絡",
+"def": "to call or write to someone",
+"ex": "Please contact me.",
+"g": "contact + 人（不加 to）。"
+}
+},
+"grammar": [
+{
+"pt": "現在完成式 has followed",
+"zh": "從過去持續到現在。",
+"ex": "a famous study that has followed people's lives for more than eight decades"
+},
+{
+"pt": "If 子句",
+"zh": "如果…，就…。",
+"ex": "If we do not use them, they get weaker."
+},
+{
+"pt": "like + V-ing 舉例",
+"zh": "像是…。",
+"ex": "like sending a message to an old friend"
+}
+],
+"questions": [
+{
+"q": "How long has the study followed people?",
+"opts": [
+"More than eight decades",
+"Eight years",
+"Eight months"
+],
+"a": 0
+},
+{
+"q": "What are good relationships compared to?",
+"opts": [
+"Muscles",
+"Cars",
+"Phones"
+],
+"a": 0
+},
+{
+"q": "Which small action does he suggest?",
+"opts": [
+"Send a message to an old friend",
+"Buy a new phone",
+"Work late"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Who could you contact this week?",
+"target": "contact"
+},
+{
+"s": "If we do not use them, they get weaker.",
+"target": "weaker"
+}
+],
+"targetWords": [
+"lead",
+"follow",
+"message"
+]
+}
+]
+]
