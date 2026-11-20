@@ -81,7 +81,8 @@ def ask(prompt, max_tokens=4000):
         sys.exit("缺少 GEMINI_API_KEY：請到 Google AI Studio 建立免費金鑰，並加到儲存庫的 Settings → Secrets → Actions")
     last = None
     for model in MODELS:
-        for attempt in range(3):
+        for attempt in range(2):
+            print(f"呼叫 {model}（第 {attempt + 1} 次）…", flush=True)
             payload = {
                 "systemInstruction": {"parts": [{"text": "You write materials for English learners. Reply with one JSON object only."}]},
                 "contents": [{"role": "user", "parts": [{"text": prompt}]}],
@@ -104,13 +105,14 @@ def ask(prompt, max_tokens=4000):
                 body = e.read()[:400].decode("utf-8", "replace")
                 last = f"HTTP {e.code} {body}"
                 print(f"{model} attempt {attempt + 1} failed: {last}")
-                if e.code in (400, 401, 403, 404):
+                if e.code in (400, 401, 403):
+                    raise RuntimeError(f"金鑰或請求被拒絕：{last}")
+                if e.code == 404:
                     break
             except Exception as e:
                 last = f"{e} | raw: {raw[:300]!r}"
-                print(f"{model} attempt {attempt + 1} failed: {last}")
-            time.sleep(20 * (attempt + 1))
-        time.sleep(5)
+                print(f"{model} attempt {attempt + 1} failed: {last}", flush=True)
+            time.sleep(15 if attempt == 0 else 30)
     raise RuntimeError(f"模型呼叫失敗：{last}")
 
 
@@ -249,7 +251,8 @@ def main():
     for p in (path, os.path.join(ROOT, "archive", f"{week_id}.json")):
         with open(p, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)
-    print("完成", week_id, [a["title"] for a in arts])
+    print("完成", week_id, flush=True)
+    print("文章：", week_id, [a["title"] for a in arts])
 
 
 if __name__ == "__main__":
