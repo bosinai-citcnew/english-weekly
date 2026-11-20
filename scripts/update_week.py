@@ -1,6 +1,6 @@
 """每週英文教室：每週自動產生新文章。
 
-在 GitHub Actions 上執行，用免費的 GitHub Models（不需要 API 金鑰，用內建的 GITHUB_TOKEN）。
+在 GitHub Actions 上執行，用 Google Gemini 的免費額度（金鑰存在儲存庫的 Secret：GEMINI_API_KEY）。
 1. 從 BBC 的公開 RSS 抓本週新聞標題與摘要
 2. 請模型挑 3 則適合 A2-B1 的主題，各寫一篇簡單的學習文章
 3. 從 TED 清單輪流挑 1 篇演講主題
@@ -18,8 +18,8 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-API = "https://models.github.ai/inference/chat/completions"
-MODELS = ["openai/gpt-4o", "openai/gpt-4o-mini"]
+API = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+MODELS = ["gemini-flash-latest", "gemini-2.5-flash", "gemini-flash-lite-latest"]
 FEEDS = [
     "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
     "https://feeds.bbci.co.uk/news/technology/rss.xml",
@@ -74,28 +74,27 @@ def fetch_headlines():
     return items[:30]
 
 
-def ask(prompt, max_tokens=3000):
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        sys.exit("缺少 GITHUB_TOKEN（請在 GitHub Actions 上執行，並開啟 models: read 權限）")
+def ask(prompt, max_tokens=4000):
+    """呼叫 Google Gemini（免費額度）。金鑰放在 GitHub 的 Secret：GEMINI_API_KEY。"""
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        sys.exit("缺少 GEMINI_API_KEY：請到 Google AI Studio 建立免費金鑰，並加到儲存庫的 Settings → Secrets → Actions")
     last = None
     for model in MODELS:
         for attempt in range(3):
             payload = {
-                "model": model,
-                "messages": [{"role": "system", "content": "You write materials for English learners. Reply with one JSON object only, no other text."},
-                             {"role": "user", "content": prompt}],
-                "temperature": 0.4, "max_tokens": max_tokens,
+                "systemInstruction": {"parts": [{"text": "You write materials for English learners. Reply with one JSON object only."}]},
+                "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.4, "maxOutputTokens": max_tokens, "responseMimeType": "application/json"},
             }
             raw = b""
             try:
-                req = urllib.request.Request(API, json.dumps(payload).encode(), {
-                    "Content-Type": "application/json", "Accept": "application/json",
-                    "Authorization": f"Bearer {token}", "User-Agent": "english-weekly-bot"})
+                req = urllib.request.Request(API.format(model=model), json.dumps(payload).encode(), {
+                    "Content-Type": "application/json", "x-goog-api-key": key, "User-Agent": "english-weekly-bot"})
                 with urllib.request.urlopen(req, timeout=180) as r:
                     raw = r.read()
                 data = json.loads(raw.decode("utf-8"))
-                txt = data["choices"][0]["message"]["content"] or ""
+                txt = "".join(p.get("text", "") for p in data["candidates"][0]["content"]["parts"])
                 txt = re.sub(r"^```(?:json)?|```$", "", txt.strip(), flags=re.M).strip()
                 s, e = txt.find("{"), txt.rfind("}")
                 if s < 0 or e < s:
@@ -105,12 +104,13 @@ def ask(prompt, max_tokens=3000):
                 body = e.read()[:400].decode("utf-8", "replace")
                 last = f"HTTP {e.code} {body}"
                 print(f"{model} attempt {attempt + 1} failed: {last}")
-                if e.code in (401, 403, 404):
+                if e.code in (400, 401, 403, 404):
                     break
             except Exception as e:
                 last = f"{e} | raw: {raw[:300]!r}"
                 print(f"{model} attempt {attempt + 1} failed: {last}")
-            time.sleep(15 * (attempt + 1))
+            time.sleep(20 * (attempt + 1))
+        time.sleep(5)
     raise RuntimeError(f"模型呼叫失敗：{last}")
 
 
@@ -215,6 +215,7 @@ def repair(a, idx, kind, source):
 def make(fn, arg, idx, kind, source):
     last = None
     for _ in range(3):
+        time.sleep(8)
         try:
             return repair(fn(arg), idx, kind, source)
         except Exception as e:

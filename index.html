@@ -374,6 +374,18 @@ h1 em,.hero h1 em{font-style:normal}
 
 .srcgrid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
 @media (max-width:899px){.srcgrid{grid-template-columns:1fr}}
+
+.lvcard{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:14px 18px}
+.airow{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+.notice{display:flex;gap:10px;align-items:center;padding:12px 16px;border-radius:14px;background:color-mix(in srgb,var(--good) 14%,var(--surface));border:1px solid color-mix(in srgb,var(--good) 40%,transparent);font-weight:600}
+.notice svg{width:18px;height:18px;flex:none;color:var(--good)}
+.notice.wait{background:var(--soft);border-color:var(--line)}
+.pastebox textarea{min-height:200px}
+.pastebox{display:flex;flex-direction:column;gap:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:899px){.grid2{grid-template-columns:1fr}}
+.steps li>.row{justify-self:end}
 </style>
 </head>
 <body>
@@ -565,8 +577,8 @@ const Q={get(){ const d=today(); return d.ai||0 }, budget(){ return S.stats.aiBu
 function quotaHTML(){
   const used=Q.get(), b=Q.budget(), left=Q.left(), r=b?left/b:0;
   const cls=Q.limited||left===0?'out':r<.25?'low':'';
-  const msg=Q.limited?'Claude 回報帳號額度已用完，請稍後再試。劇本跟讀不受影響。':left===0?'今天設定的次數用完了，可以提高上限，或改用劇本跟讀。':`今天已用 ${used} 次。查新字、自由對話、批改、對照各算 1 次。`;
-  return `<div class="quota ${cls}" id="quota"><div><div class="label">今日剩餘 Claude 次數</div><div class="q-t">${msg}</div></div><div class="q-bar"><i style="width:${Math.round(r*100)}%"></i></div><div class="q-n">${left}<span class="small muted" style="font-weight:600">/${b}</span></div>
+  const msg=Q.limited?`${aiName()} 回報額度暫時用完，請稍後再試。模擬對話和跟讀不受影響。`:left===0?'今天設定的次數用完了，可以提高上限，或改用模擬對話。':`今天已用 ${used} 次。查新字、自由對話、批改、對照各算 1 次。`;
+  return `<div class="quota ${cls}" id="quota"><div><div class="label">今日剩餘 AI 次數（${aiName()}）</div><div class="q-t">${msg}</div></div><div class="q-bar"><i style="width:${Math.round(r*100)}%"></i></div><div class="q-n">${left}<span class="small muted" style="font-weight:600">/${b}</span></div>
    <div class="seg" role="group" aria-label="每日上限">${[20,40,80].map(n=>`<button data-a="budget" data-n="${n}" aria-pressed="${b===n}">${n}</button>`).join('')}</div></div>`;
 }
 function refreshQuota(){ const q=$('#quota'); if(q) q.outerHTML=quotaHTML() }
@@ -576,8 +588,9 @@ const TED_LIST=[
  {title:'How to spot fake AI photos',speaker:'Hany Farid',zh:'如何看穿 AI 假照片',min:13,lv:'B1：搭配本週文章一起讀',url:'https://www.ted.com/talks/hany_farid_how_to_spot_fake_ai_photos'},
  {title:'How to speak so that people want to listen',speaker:'Julian Treasure',zh:'怎麼說話，別人才想聽',min:10,lv:'B1：口說技巧，句子清楚',url:'https://www.ted.com/talks/julian_treasure_how_to_speak_so_that_people_want_to_listen'},
  {title:'Inside the mind of a master procrastinator',speaker:'Tim Urban',zh:'拖延大師的腦袋裡在想什麼',min:14,lv:'B1+：很好笑，但語速較快',url:'https://www.ted.com/talks/tim_urban_inside_the_mind_of_a_master_procrastinator'}];
-const BM_CODE="(()=>{const d=document;let t='';const segs=[...d.querySelectorAll('ytd-transcript-segment-renderer .segment-text, #segments-container .segment-text, transcript-segment-view-model .yt-core-attributed-string')];if(segs.length){t=segs.map(s=>s.textContent.trim()).join('\\n')}else{const sel=String(getSelection());if(sel.trim().length>80){t=sel}else{const el=d.querySelector('article')||d.querySelector('main')||d.body;t=[...el.querySelectorAll('p')].map(p=>p.innerText.trim()).filter(x=>x.split(' ').length>5).join('\\n\\n')||el.innerText}}if(!t.trim()){alert(location.host.includes('youtube')?'找不到字稿：請先在影片說明按「顯示轉錄稿」，再按一次。':'找不到文字，請先選取要複製的段落再按一次。');return}const out='###ELL\\n'+d.title+'\\n'+location.href+'\\n###\\n'+t;const ok=()=>alert('已複製約 '+t.split(/\\s+/).length+' 字。回到每週英文教室，貼進匯入框就好。');const fb=()=>{const a=d.createElement('textarea');a.value=out;d.body.appendChild(a);a.select();d.execCommand('copy');a.remove();ok()};navigator.clipboard?navigator.clipboard.writeText(out).then(ok,fb):fb()})()";
-const BOOKMARKLET='javascript:'+BM_CODE;
+const BM_TPL="(function(){var APP='__APP__';var d=document;var yt=/youtube\\.com/.test(location.host);var w=APP?window.open(APP+'\\x23import','_blank'):null;function grab(){var s=[].slice.call(d.querySelectorAll('ytd-transcript-segment-renderer .segment-text, \\x23segments-container .segment-text, transcript-segment-view-model .yt-core-attributed-string'));return s.map(function(x){return x.textContent.trim()}).filter(Boolean).join('\\n')}function page(){var sel=String(getSelection());if(sel.trim().length>80)return sel;var el=d.querySelector('article')||d.querySelector('main')||d.body;var ps=[].slice.call(el.querySelectorAll('p')).map(function(p){return p.innerText.trim()}).filter(function(x){return x.split(' ').length>5});return ps.length?ps.join('\\n\\n'):el.innerText}function copy(o){try{navigator.clipboard.writeText(o)}catch(e){}try{var a=d.createElement('textarea');a.value=o;d.body.appendChild(a);a.select();d.execCommand('copy');a.remove()}catch(e){}}function fail(m){if(w)w.close();alert(m)}function send(t){var title=d.title.replace(/^\\(\\d+\\)\\s*/,'').replace(/ - YouTube$/,'');var o='\\x23\\x23\\x23ELL\\n'+title+'\\n'+location.href+'\\n\\x23\\x23\\x23\\n'+t;copy(o);if(!w){alert('已複製約 '+t.split(/\\s+/).length+' 字。回到每週英文教室，在匯入頁按「貼上」就好。');return}var ok=false,k=0;window.addEventListener('message',function(e){if(e.data==='ell-ack')ok=true});var iv=setInterval(function(){if(ok){clearInterval(iv);return}if(k++>40){clearInterval(iv);alert('App 沒有回應。字稿已複製，請到 App 的匯入頁貼上。');return}try{w.postMessage({type:'ell-import',title:title,url:location.href,text:t},'*')}catch(e){}},500)}if(yt){var t0=grab();if(t0){send(t0);return}var more=d.querySelector('\\x23description-inline-expander \\x23expand, tp-yt-paper-button\\x23expand');if(more)more.click();setTimeout(function(){var b=d.querySelector('ytd-video-description-transcript-section-renderer button, button[aria-label*=\"ranscript\"], button[aria-label*=\"轉錄\"], button[aria-label*=\"字幕\"]');if(b)b.click();var st=Date.now();var iv=setInterval(function(){var t=grab();if(t){clearInterval(iv);send(t)}else if(Date.now()-st>9000){clearInterval(iv);fail('這部影片找不到字稿。可能沒有字幕；或請先在影片說明按「顯示轉錄稿」，再按一次小工具。')}},400)},600);return}var t=page();if(!t||!t.trim()){fail('找不到文字，請先選取要匯入的段落，再按一次小工具。');return}send(t)})()";
+const APP_URL=window.claude?'':(location.origin+location.pathname);
+const BOOKMARKLET='javascript:'+BM_TPL.replace('__APP__',APP_URL);
 function parseEll(v){ const m=String(v).match(/^###ELL\n([^\n]*)\n([^\n]*)\n###\n([\s\S]*)$/); return m?{title:m[1].replace(/\s*-\s*YouTube$/,'').trim(),url:m[2].trim(),text:m[3]}:null }
 function cleanTranscript(raw){
   const lines=String(raw).replace(/\r/g,'').split('\n').map(s=>s.trim()); const out=[]; let cur=[];
@@ -601,7 +614,7 @@ function cleanTranscript(raw){
     if(sents.length<3){ for(let i=0;i<words.length;i+=60) res.push(words.slice(i,i+60).join(' ')); continue }
     let buf=[],n=0; for(const s of sents){ buf.push(s); n+=s.split(/\s+/).length; if(n>=70){ res.push(buf.join(' ')); buf=[]; n=0 } } if(buf.length) res.push(buf.join(' '));
   }
-  return res.join('\n');
+  return res.join('\n\n');
 }
 
 /* ---------- audio ---------- */
@@ -647,13 +660,35 @@ function listen(onText){
 function stopListen(){ try{S.dict&&S.dict.stop()}catch(e){} try{S.sr&&S.sr.stop()}catch(e){} }
 
 /* ---------- Claude (sample) ---------- */
+const GM=['gemini-flash-latest','gemini-2.5-flash','gemini-flash-lite-latest'];
+const gkey=()=>{ try{ return localStorage.getItem('ell.gkey')||'' }catch(e){ return '' } };
+const aiOn=()=>!!S.sample||(!window.claude&&!!gkey());
+const aiName=()=>S.sample?'Claude':'Google AI';
+const mkErr=(code)=>{ const e=new Error(code); e.code=code; return e };
+async function gemini(prompt){
+  let last='upstream_error';
+  for(const m of GM){
+    let r;
+    try{ r=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${m}:generateContent`,{method:'POST',headers:{'Content-Type':'application/json','x-goog-api-key':gkey()},
+      body:JSON.stringify({contents:[{role:'user',parts:[{text:prompt}]}],generationConfig:{temperature:.6,responseMimeType:'application/json'}})}) }
+    catch(e){ throw mkErr('upstream_error') }
+    if(r.status===429) throw mkErr('rate_limited');
+    if(r.status===401||r.status===403) throw mkErr('bad_key');
+    if(r.status===400){ let b=''; try{ b=await r.text() }catch(e){} if(/API key|API_KEY/i.test(b)) throw mkErr('bad_key'); last='upstream_error'; continue }
+    if(!r.ok){ last='upstream_error'; continue }
+    const d=await r.json(); const txt=(((d.candidates||[])[0]||{}).content||{parts:[]}).parts.map(p=>p.text||'').join('');
+    const s=txt.indexOf('{'), e=txt.lastIndexOf('}'); if(s<0||e<s){ last='invalid_json'; continue }
+    try{ return JSON.parse(txt.slice(s,e+1)) }catch(err){ last='invalid_json' }
+  }
+  throw mkErr(last);
+}
 async function ask(prompt){
-  if(!S.sample) throw new Error('nosample');
+  if(!aiOn()) throw new Error('nosample');
   if(Q.left()<=0){ const e=new Error('budget'); e.code='budget'; throw e }
-  try{ const r=await S.sample.json(prompt,{modelTier:'quick',cache:false}); Q.limited=false; today().ai=(today().ai||0)+1; saveStats(); refreshQuota(); return r }
+  try{ const r=S.sample? await S.sample.json(prompt,{modelTier:'quick',cache:false}) : await gemini(prompt); Q.limited=false; today().ai=(today().ai||0)+1; saveStats(); refreshQuota(); return r }
   catch(e){ if(e&&e.code==='rate_limited'){ Q.limited=true; refreshQuota() } else if(e&&e.code!=='cancelled'&&e.code!=='not_granted'){ today().ai=(today().ai||0)+1; saveStats(); refreshQuota() } throw e }
 }
-const errMsg = e => (e&&e.code==='budget') ? '今天設定的 Claude 次數用完了，可在會話頁提高上限。' : (e&&e.message==='nosample')||(e&&e.code==='not_granted') ? '目前無法使用 Claude 功能。' : (e&&e.code==='rate_limited') ? 'Claude 額度暫時用完，稍後再試。' : '這次沒成功，請再試一次。';
+const errMsg = e => (e&&e.message==='nosample'&&!window.claude) ? '還沒有連接 AI。到「會話」頁用 Google 帳號免費開啟。' : (e&&e.code==='budget') ? '今天設定的 AI 次數用完了，可在會話頁提高上限。' : (e&&e.code==='bad_key') ? 'Google AI 金鑰無效或被拒絕，請到「會話」頁重新設定。' : (e&&e.code==='rate_limited'&&!S.sample) ? 'Google AI 免費額度暫時用完（每分鐘、每天都有上限），請稍後再試。' : (e&&e.message==='nosample')||(e&&e.code==='not_granted') ? '目前無法使用 Claude 功能。' : (e&&e.code==='rate_limited') ? 'Claude 額度暫時用完，稍後再試。' : '這次沒成功，請再試一次。';
 
 /* ---------- dictionary ---------- */
 function allGloss(){ const g={}; (S.week.articles||[]).forEach(a=>Object.entries(a.glossary||{}).forEach(([k,v])=>{ if(!g[k]) g[k]={...v,src:a.title} })); return g }
@@ -715,7 +750,7 @@ async function openWord(w,sentence){
   p.innerHTML=`<div class="in"><div class="row between"><b>${esc(w)}</b><button class="ib" data-a="close-wp" aria-label="關閉">${ic('x')}</button></div><div class="muted">查詢中…</div></div>`;
   try{ const e=await lookup(w,sentence); showEntry(e) }
   catch(err){
-    const msg = err.message==='notword' ? '找不到這個字，請檢查拼字。' : (err.message==='nosample'||err.code==='not_granted') ? '這個字不在本週單字表，而且目前無法使用 Claude 查詢。' : errMsg(err);
+    const msg = err.message==='notword' ? '找不到這個字，請檢查拼字。' : (err.message==='nosample'||err.code==='not_granted') ? ('這個字不在本週單字表。'+(window.claude?'目前無法使用 Claude 查詢。':'到「會話」頁連接免費的 Google AI，就能查任何單字。')) : errMsg(err);
     p.innerHTML=`<div class="in"><div class="row between"><b>${esc(w)}</b><button class="ib" data-a="close-wp" aria-label="關閉">${ic('x')}</button></div><div>${msg}</div><a class="btn" href="${camb(w)}" target="_blank" rel="noopener">${ic('link')}在劍橋詞典查看</a></div>`;
   }
 }
@@ -783,22 +818,26 @@ function splitSentences(p){ return p.match(/[^.!?]+[.!?]+["”]?\s*|[^.!?]+$/g)|
 function wordsHTML(sent){ return esc(sent).replace(/[A-Za-z]+(?:['’][A-Za-z]+)?/g,m=>`<span class="w" data-a="word" data-w="${m}" role="button" tabindex="0">${m}</span>`) }
 function importForm(){
   const p=typeof S.importing==='object'?S.importing:{};
-  return `<div class="stack"><div class="sh" style="align-items:flex-start"><div><h1>${p.url?'貼上講稿練習':'匯入字稿'}</h1><p class="lede">${p.url?esc(p.title):'YouTube 影片字稿、新聞、TED 講稿都可以。貼上後能點字查、朗讀，並做簡化版、中文對照與挖空練習。'}</p></div><button class="btn sm" data-a="impcancel">取消</button></div>
-  ${p.url?`<ol class="steps">
+  const ted=p.ted;
+  return `<div class="stack"><div class="sh" style="align-items:flex-start"><div><h1>${ted?'貼上講稿練習':'匯入字稿'}</h1><p class="lede">${ted?esc(p.title):'YouTube 影片字稿、英文新聞、TED 講稿都可以。匯入後能點字查、朗讀，做簡化版、中文對照與挖空練習。'}</p></div><button class="btn sm" data-a="impcancel">取消</button></div>
+  ${p.from?`<div class="notice">${ic('check')}已收到來自 <b>${esc(p.from)}</b> 的字稿，確認標題後按「儲存並開始讀」。</div>`:p.waiting?`<div class="notice wait">正在等小工具把字稿送過來…如果一直沒出現，請回到影片頁再按一次小工具。</div>`:''}
+  ${ted?`<ol class="steps">
     <li><span>1</span><div><b>開啟原講稿</b><div class="small muted">會在新分頁打開 TED 的 Transcript 頁</div></div><a class="btn sm" href="${esc(p.url)}/transcript" target="_blank" rel="noopener">${ic('link')}開啟講稿</a></li>
-    <li><span>2</span><div><b>選取全部講稿文字並複製</b><div class="small muted">電腦：從第一段拖曳到最後一段後按 Ctrl/⌘ + C。手機：長按文字，拉選取範圍到底再按「拷貝」。</div></div></li>
-    <li><span>3</span><div><b>回來貼在下面的框裡</b><div class="small muted">時間碼和多餘的標題會自動清掉</div></div></li></ol>`:`<div class="srcgrid">
-    <div class="card stack" style="gap:8px"><div class="label">YouTube</div><b>影片字稿</b><div class="small muted">在影片說明按「…更多」，往下找到「顯示轉錄稿」。字稿出現後，用下面的「一鍵複製」小工具，或自己拖曳選取再複製。手機版 YouTube 不容易選取，建議用電腦。</div></div>
-    <div class="card stack" style="gap:8px"><div class="label">網站</div><b>新聞或文章</b><div class="small muted">打開文章後按「一鍵複製」小工具，會自動抓文章段落、標題和網址。也可以自己選取文字複製後貼上。</div></div></div>
-    <div class="card stack" style="gap:12px"><div><div class="label">一鍵複製小工具（電腦版）</div><b>把這個按鈕拖到瀏覽器的書籤列</b><div class="small muted">之後在 YouTube 或任何英文網站按一下書籤，就會自動複製字稿，回來直接貼上。</div></div>
-     <div class="row"><a class="btn pri bm" href="${esc(BOOKMARKLET)}" draggable="true" data-a="bmclick">${ic('copy')}複製英文稿</a><button class="btn" data-a="bmcopy">複製小工具程式碼</button></div>
-     <div class="small muted">拖不過去的話（例如在手機上）：按「複製小工具程式碼」，新增任何一個書籤，把它的網址改成剛剛複製的內容即可。</div></div>`}
+    <li><span>2</span><div><b>${APP_URL?'在講稿頁按一下「匯入英文稿」小工具':'選取全部講稿文字並複製'}</b><div class="small muted">${APP_URL?'還沒裝小工具？看下面的說明。':'電腦：拖曳選取後按 Ctrl/⌘ + C。手機：長按文字，拉到底再按「拷貝」。'}</div></div></li>
+    <li><span>3</span><div><b>${APP_URL?'字稿會自動送回這裡':'回來按「貼上」'}</b><div class="small muted">時間碼和多餘的標題會自動清掉</div></div></li></ol>`:''}
   <div class="card stack">
-   <input id="it" class="field" placeholder="標題" aria-label="標題" maxlength="120" value="${esc(p.title||'')}">
-   <input id="iu" class="field" placeholder="來源網址（選填）" aria-label="來源網址" inputmode="url" value="${esc(p.url||'')}">
-   <textarea id="ix" class="field" style="min-height:220px" placeholder="在這裡貼上英文字稿或文章" aria-label="英文內文"></textarea>
-   <div class="row between"><span id="icount" class="small muted">還沒有內容</span><button class="btn pri" data-a="impsave">儲存並開始讀</button></div>
-   <div class="small muted">文章只存在你的帳號，供個人學習。原文版權屬於原作者，請勿再轉貼分享。</div></div></div>`;
+   <div class="pastebox"><textarea id="ix" class="field" placeholder="把英文字稿或文章貼在這裡（手機長按 → 貼上）" aria-label="英文內文">${esc(p.text||'')}</textarea>
+     <div class="row between"><span id="icount" class="small muted">還沒有內容</span>${APP_URL?`<button class="btn sm" data-a="clipread">${ic('copy')}從剪貼簿貼上</button>`:''}</div></div>
+   <div class="grid2"><input id="it" class="field" placeholder="標題（貼上後會自動帶入）" aria-label="標題" maxlength="120" value="${esc(p.title||'')}">
+   <input id="iu" class="field" placeholder="來源網址（選填）" aria-label="來源網址" inputmode="url" value="${esc(p.url||'')}"></div>
+   <div class="row between"><span class="small muted">文章只存在你的帳號或裝置，供個人學習。原文版權屬於原作者，請勿再轉貼分享。</span><button class="btn pri" data-a="impsave">儲存並開始讀</button></div></div>
+  <div class="card stack" style="gap:14px"><div><div class="label">最快的方法・電腦版</div><h2>安裝「匯入英文稿」小工具（只要一次）</h2>
+     <div class="small muted">${APP_URL?'裝好後，在 YouTube 影片或英文文章頁按一下，它會自動打開轉錄稿、抓好文字，直接送進這個 App。':'裝好後，在 YouTube 影片或英文文章頁按一下，它會自動打開轉錄稿並複製文字，回來按貼上即可。'}</div></div>
+   <ol class="steps">
+    <li><span>1</span><div><b>顯示書籤列</b><div class="small muted">Chrome / Edge：按 Ctrl + Shift + B（Mac：⌘ + Shift + B）</div></div></li>
+    <li><span>2</span><div><b>把右邊的按鈕拖到書籤列上放開</b><div class="small muted">拖不過去：按「複製程式碼」，在書籤列按右鍵 →「新增網頁」，網址貼上剛剛複製的內容</div></div><div class="row"><a class="btn pri bm" href="${esc(BOOKMARKLET)}" draggable="true" data-a="bmclick">${ic('import')}匯入英文稿</a></div></li>
+    <li><span>3</span><div><b>到 YouTube 影片或英文文章頁，按書籤列上的「匯入英文稿」</b><div class="small muted">YouTube 要有字幕的影片才抓得到</div></div></li></ol>
+   <div class="row"><button class="btn sm" data-a="bmcopy">複製程式碼</button><span class="small muted">手機版瀏覽器不支援拖曳書籤，請直接複製文字貼上。</span></div></div></div>`;
 }
 VIEWS.read=function(){
   const W=S.week, a=curArt();
@@ -819,7 +858,7 @@ VIEWS.read=function(){
     ${S.mine.length?`<div class="alist">${S.mine.map(m=>card(mineAsArticle(m),0,true)).join('')}</div>`:`<div class="card muted">還沒有匯入的文章。從上面的 TED 清單挑一篇，或按「匯入 YouTube／網站字稿」。</div>`}</div>`;
   }
   const mine=a.kind==='mine';
-  const paras=a.paras.map((p,i)=>`<p id="para-${i}"><span class="pb">${splitSentences(p).map(s=>`<span class="s">${wordsHTML(s)}</span>`).join('')}</span></p>${mine?`<div class="row" style="margin:-4px 0 14px"><button class="btn sm" data-a="cmp" data-p="${i}" ${S.sample?'':'disabled'}>簡化＋中文對照</button><button class="btn sm" data-a="blur" data-p="${i}">遮住原文</button><button class="btn sm" data-a="cloze" data-p="${i}">挖空練習</button></div><div id="cl-${i}"></div><div id="cmp-${i}">${a.m.cmp&&a.m.cmp[i]?cmpHTML(a.m.cmp[i]):''}</div>`:''}`).join('');
+  const paras=a.paras.map((p,i)=>`<p id="para-${i}"><span class="pb">${splitSentences(p).map(s=>`<span class="s">${wordsHTML(s)}</span>`).join('')}</span></p>${mine?`<div class="row" style="margin:-4px 0 14px"><button class="btn sm" data-a="cmp" data-p="${i}" ${aiOn()?'':'disabled'}>簡化＋中文對照</button><button class="btn sm" data-a="blur" data-p="${i}">遮住原文</button><button class="btn sm" data-a="cloze" data-p="${i}">挖空練習</button></div><div id="cl-${i}"></div><div id="cmp-${i}">${a.m.cmp&&a.m.cmp[i]?cmpHTML(a.m.cmp[i]):''}</div>`:''}`).join('');
   return `<div class="stack">
    <div class="readbar row between"><button class="btn sm" data-a="back">${ic('back')}文章列表</button>
     <div class="row"><button class="btn pri sm" data-a="readall">${ic('play')}朗讀</button><button class="btn sm" data-a="stopread">${ic('stop')}停止</button>
@@ -881,7 +920,7 @@ async function doLook(w){
   w=w.trim(); if(!w) return; const box=$('#lres'); box.innerHTML='<div class="card muted">查詢中…</div>';
   try{ const e=await lookup(w); S.recent=[w.toLowerCase(),...S.recent.filter(x=>x!==w.toLowerCase())].slice(0,8); lset('ell.recent',S.recent);
     curEntry=e; box.innerHTML=`<div class="card">${entryHTML(e,{inPanel:false})}</div>`; }
-  catch(err){ box.innerHTML=`<div class="card stack"><div>${err.message==='notword'?'找不到這個字，請檢查拼字。':(err.message==='nosample'||err.code==='not_granted')?'這個字不在本週單字表，而且目前無法使用 Claude 查詢。':errMsg(err)}</div><div><a class="btn" href="${camb(w)}" target="_blank" rel="noopener">${ic('link')}在劍橋詞典查看</a></div></div>`; }
+  catch(err){ box.innerHTML=`<div class="card stack"><div>${err.message==='notword'?'找不到這個字，請檢查拼字。':(err.message==='nosample'||err.code==='not_granted')?'這個字不在本週單字表。${window.claude?"目前無法使用 Claude 查詢。":"到「會話」頁連接免費的 Google AI，就能查任何單字。"}':errMsg(err)}</div><div><a class="btn" href="${camb(w)}" target="_blank" rel="noopener">${ic('link')}在劍橋詞典查看</a></div></div>`; }
 }
 function wlistHTML(q){
   const keys=Object.keys(S.words).filter(k=>!q||k.includes(q)||(S.words[k].zh||'').includes(q)).sort((a,b)=>S.words[b].added-S.words[a].added);
@@ -989,15 +1028,18 @@ const SCEN=[
 ];
 VIEWS.talk=function(){
   const c=S.conv;
-  if(!c) return `<div class="stack"><div><h1>生活<em>會話</em></h1><p class="lede">「模擬對話」讓你自己回答、對方接話；「跟讀劇本」跟著示範唸。這兩種都免費，不需要 Claude。</p></div>
-   ${S.sample?quotaHTML():''}
+  if(!c) return `<div class="stack"><div><h1>生活<em>會話</em></h1><p class="lede">「模擬對話」讓你自己回答、對方接話；「跟讀劇本」跟著示範唸。這兩種都免費，不需要帳號。</p></div>
+   <div class="card lvcard"><div><div class="label">難度</div><div class="small muted">${esc(lv().d)}</div></div>
+     <div class="seg" role="group" aria-label="難度">${Object.entries(LV).map(([k,v])=>`<button data-a="level" data-l="${k}" aria-pressed="${S.level===k}">${v.n}</button>`).join('')}</div></div>
+   ${aiCardHTML()}
+   ${aiOn()?quotaHTML():''}
    <div class="alist">${SCEN.map(s=>`<div class="scen"><div><div class="t">${s.title}</div><div class="muted small">${s.en}</div></div>
      <button class="btn pri" data-a="sim" data-id="${s.id}">${ic('chat')}模擬對話（免費）</button>
      <div><div class="label" style="margin-bottom:6px">跟讀劇本</div><div class="pair"><button class="btn" data-a="script" data-id="${s.id}" data-me="1">我當${s.rz[1]}</button><button class="btn" data-a="script" data-id="${s.id}" data-me="0">我當${s.rz[0]}</button></div></div>
-     ${S.sample?`<button class="btn" data-a="freechat" data-id="${s.id}">和 Claude 自由對話</button>`:''}</div>`).join('')}</div>
-   ${S.sample?`<div class="card stack" style="gap:12px"><div><h2>自訂情境</h2><div class="small muted">想練什麼場景都可以，Claude 會扮演對方</div></div>
+     ${aiOn()?`<button class="btn" data-a="freechat" data-id="${s.id}">和 ${aiName()} 自由對話</button>`:''}</div>`).join('')}</div>
+   ${aiOn()?`<div class="card stack" style="gap:12px"><div><h2>自訂情境</h2><div class="small muted">想練什麼場景都可以，${aiName()} 會扮演對方</div></div>
      <div class="inrow"><input id="cs" class="field" placeholder="例如：在飯店辦理入住" aria-label="自訂情境"><button class="btn pri" data-a="freechat" data-id="custom">開始對話</button></div></div>`:''}
-   ${S.sample?'<div class="small muted">模擬對話和跟讀劇本完全免費。「和 Claude 自由對話」用的是你登入的 Claude 帳號額度；Claude 不提供帳號實際剩餘量，上面顯示的是 App 自己記的每日次數。</div>':''}</div>`;
+   ${S.sample?'<div class="small muted">「和 Claude 自由對話」用的是你登入的 Claude 帳號額度；Claude 不提供帳號實際剩餘量，上面顯示的是 App 自己記的每日次數。</div>':''}</div>`;
   return c.mode==='script'?scriptView(c):c.mode==='sim'?simView(c):chatView(c);
 };
 function scriptView(c){
@@ -1028,18 +1070,30 @@ function scriptAdvance(){
   render(); const l=c.s.lines[c.i]; if(l&&l[0]!==c.me){ say(l[1]) }
   if(c.i>=c.s.lines.length&&!c.finished){ c.finished=true; track('talk',0,15) }
 }
+function aiCardHTML(){
+  if(window.claude) return '';
+  if(gkey()) return `<div class="card airow"><div><div class="label">AI 自由對話</div><b>已連接 Google AI</b><div class="small muted">金鑰只存在這台裝置的瀏覽器。免費額度每分鐘、每天有上限。</div></div>
+    <div class="row"><button class="btn sm" data-a="gtest">測試</button><button class="btn sm" data-a="gdel">移除金鑰</button></div></div>`;
+  return `<div class="card stack" style="gap:14px"><div><div class="label">想要 AI 自由對話？</div><h2>用 Google 帳號免費開啟</h2><div class="small muted">連接後可以和 AI 自由對話、查任何單字、批改寫作、做 TED 原文對照。不用付費，也不用信用卡。</div></div>
+    <ol class="steps">
+     <li><span>1</span><div><b>打開 Google AI Studio，用 Google 帳號登入</b></div><a class="btn sm" href="https://aistudio.google.com/apikey" target="_blank" rel="noopener">${ic('link')}打開</a></li>
+     <li><span>2</span><div><b>按「Create API key」建立金鑰，再按複製</b><div class="small muted">第一次使用可能要先同意服務條款</div></div></li>
+     <li><span>3</span><div><b>貼在下面，按「連接」</b></div></li></ol>
+    <div class="inrow"><input id="gk" class="field" placeholder="貼上 API 金鑰（AIza 開頭）" autocomplete="off" spellcheck="false" aria-label="Google AI 金鑰"><button class="btn pri" data-a="gsave">連接</button></div>
+    <div class="small muted">金鑰只存在你這台裝置的瀏覽器，不會傳到其他地方，只用來呼叫 Google。請不要把金鑰分享給別人。</div></div>`;
+}
 function chatView(c){
   return `<div class="stack"><div class="row between"><button class="btn sm" data-a="convend">${ic('back')}情境列表</button><b>${esc(c.title)}</b></div>
    ${quotaHTML()}
-   <div class="small muted">Claude 扮演對方，句子保持簡單。你每說一句，會得到簡短的更正建議，每句算 1 次。</div>
-   <div class="chat" id="chatlog">${c.msgs.map(m=>m.role==='assistant'?`<div class="bubble"><div class="who">Claude</div><div class="en">${esc(m.content)}</div><div style="margin-top:8px"><button class="btn sm" data-a="say" data-t="${esc(m.content)}">${ic('vol')}聽</button></div></div>`
-     :`<div class="bubble me"><div class="who">你</div><div class="en">${esc(m.content)}</div>${m.fix?`<div class="gnote" style="margin-top:8px;color:var(--ink)">${esc(m.fix)}</div>`:''}</div>`).join('')}${c.busy?'<div class="muted small">Claude 回覆中…</div>':''}</div>
+   <div class="small muted">${aiName()} 扮演對方，難度：${lv().n}。你每說一句，會得到簡短的更正建議，每句算 1 次。</div>
+   <div class="chat" id="chatlog">${c.msgs.map(m=>m.role==='assistant'?`<div class="bubble"><div class="who">${aiName()}</div><div class="en">${esc(m.content)}</div><div style="margin-top:8px"><button class="btn sm" data-a="say" data-t="${esc(m.content)}">${ic('vol')}聽</button></div></div>`
+     :`<div class="bubble me"><div class="who">你</div><div class="en">${esc(m.content)}</div>${m.fix?`<div class="gnote" style="margin-top:8px;color:var(--ink)">${esc(m.fix)}</div>`:''}</div>`).join('')}${c.busy?`<div class="muted small">${aiName()} 回覆中…</div>`:''}</div>
    <div class="inrow"><input id="cin" class="field" placeholder="用英文回答" autocomplete="off" aria-label="你的回答">${canListen()?`<button class="btn" data-a="cmic" aria-label="語音輸入">${ic('mic')}</button>`:''}<button class="btn pri" data-a="csend">送出</button></div></div>`;
 }
 async function startChat(title,scenario){
   S.conv={mode:'chat',title,scenario,msgs:[],busy:true}; render();
   try{
-    const r=await ask(`You are role-playing with an English learner (CEFR A2, Traditional Chinese speaker). Scenario: ${scenario}. You play the other person. Speak first with ONE short, simple line (max 20 words) that starts the scene and asks a question.
+    const r=await ask(`You are role-playing with an English learner (CEFR ${lv().cefr}, Traditional Chinese speaker). Scenario: ${scenario}. You play the other person. Speak first with ONE line (max ${lv().words} words, level ${lv().cefr}) that starts the scene and asks a question.
 JSON only: {"reply":"your line"}`);
     S.conv.msgs.push({role:'assistant',content:r.reply});
   }catch(e){ S.conv.msgs.push({role:'assistant',content:errMsg(e)+' 可以先回到情境列表，用劇本跟讀練習。'}) }
@@ -1050,7 +1104,7 @@ async function sendChat(text){
   c.msgs.push({role:'user',content:text.trim()}); c.busy=true; render(); track('talk',1,3,true);
   const hist=c.msgs.map(m=>`${m.role==='user'?'Learner':'You'}: ${m.content}`).join('\n');
   try{
-    const r=await ask(`You are role-playing with an English learner (CEFR A2, Traditional Chinese speaker). Scenario: ${c.scenario}. Stay in the role. Keep replies under 25 words with simple words, and move the scene forward with a question or next step. If the scene reaches a natural end, say goodbye.
+    const r=await ask(`You are role-playing with an English learner (CEFR ${lv().cefr}, Traditional Chinese speaker). Scenario: ${c.scenario}. Stay in the role. Keep replies under ${lv().words} words at level ${lv().cefr}${S.level==='hard'?', speak naturally, common idioms are fine, and ask follow-up questions that need longer answers':' with simple words'}, and move the scene forward with a question or next step. If the scene reaches a natural end, say goodbye.
 Conversation so far:
 ${hist}
 Check the learner's LAST message. JSON only: {"reply":"your next line in English","fix":"若有文法或用字錯誤，用繁體中文一兩句說明並給出更自然的說法（附英文）；如果沒有錯誤，回覆空字串"}`);
@@ -1063,6 +1117,11 @@ Check the learner's LAST message. JSON only: {"reply":"your next line in English
 /* ---------- free simulated conversation (no API) ---------- */
 const YES=/\b(yes|yeah|yep|sure|ok|okay|of course|please|i do|we do|right)\b/, NO=/\b(no|nope|not|don'?t|nothing|never)\b/;
 const NUM=/\b(one|two|three|four|five|six|seven|eight|nine|ten|\d+|just me|myself|alone|a couple)\b/;
+const LV={easy:{n:'初級',cefr:'A2',words:15,rate:.85,min:1,hintAfter:0,d:'中文翻譯、隨時看提示、說得慢'},
+  mid:{n:'中級',cefr:'B1',words:25,rate:1,min:3,hintAfter:1,d:'隱藏中文、答錯才有提示、要說 3 個字以上'},
+  hard:{n:'高級',cefr:'B2',words:35,rate:1.1,min:5,hintAfter:2,d:'全英文、正常語速、要說完整句子'}};
+S.level=lget('ell.level','easy'); if(!LV[S.level]) S.level='easy';
+const lv=()=>LV[S.level];
 const SIM={
  food:{who:'服務生',nodes:{
   n1:{say:"Hi! Welcome to Green Table. How many people?",zh:"嗨！歡迎光臨。請問幾位？",hints:["Two, please.","Just one, please."],x:[{k:NUM,to:'n2',r:"Great, this way please.",rz:"好的，這邊請。"}]},
@@ -1110,38 +1169,44 @@ const SIM={
 };
 function simStart(id){
   const sc=SIM[id], meta=SCEN.find(s=>s.id===id);
-  S.conv={mode:'sim',id,sc,title:meta.title,node:'n1',log:[],miss:0,turns:0,done:false,hints:false};
-  const n=sc.nodes.n1; S.conv.log.push({p:1,en:n.say,zh:n.zh}); render(); toTop(); say(n.say);
+  S.conv={mode:'sim',id,sc,title:meta.title,node:'n1',log:[],miss:0,turns:0,done:false,hints:false,zh:S.level==='easy',lvl:S.level};
+  const n=sc.nodes.n1; S.conv.log.push({p:1,en:n.say,zh:n.zh}); render(); toTop(); say(n.say,{rate:lv().rate});
 }
 function simSend(txt){
   const c=S.conv; txt=String(txt||'').trim(); if(!txt||c.done) return;
   const node=c.sc.nodes[c.node], low=' '+txt.toLowerCase().replace(/[’]/g,"'")+' ';
   let hit=node.x.find(e=>e.k.test(low)); if(!hit&&node.any&&/[a-z]/i.test(txt)) hit={to:node.any};
   const u={p:0,en:txt}; c.log.push(u);
+  const L=LV[c.lvl];
+  if(hit&&txt.split(/\s+/).filter(Boolean).length<L.min){
+    c.miss++; const m={en:"Could you say that in a full sentence, please?",zh:`請用完整的句子回答（${L.n}至少 ${L.min} 個字）。`};
+    c.log.push({p:1,...m}); render(); say(m.en,{rate:L.rate}); return;
+  }
   if(!hit){
-    c.miss++; c.hints=true;
+    c.miss++; c.hints=c.miss>=L.hintAfter&&L.hintAfter<9;
     const m=c.miss>1?{en:"Sorry, I don't understand. Try one of the hints below.",zh:"不好意思，我聽不太懂。試試下面的提示說法。"}:{en:"Sorry, could you say that again?",zh:"不好意思，可以再說一次嗎？"};
-    c.log.push({p:1,...m}); render(); say(m.en); return;
+    c.log.push({p:1,...m}); render(); say(m.en,{rate:L.rate}); return;
   }
   c.miss=0; c.turns++; c.hints=false; track('talk',1,3,true);
-  if(txt.split(/\s+/).length<4&&node.hints[0]&&similarity(node.hints[0],txt)<.7) u.tip=node.hints[0];
+  if(c.lvl!=='hard'&&txt.split(/\s+/).length<4&&node.hints[0]&&similarity(node.hints[0],txt)<.7) u.tip=node.hints[0];
   const out=[]; if(hit.r) out.push({p:1,en:hit.r,zh:hit.rz||''});
   if(hit.to==='END'){ c.done=true; if(!hit.r) out.push({p:1,en:"Thank you! Goodbye!",zh:"謝謝，再見！"}) }
   else if(hit.to!==c.node||!hit.r){ c.node=hit.to; const n=c.sc.nodes[c.node]; out.push({p:1,en:n.say,zh:n.zh}) }
-  c.log.push(...out); render(); say(out.map(o=>o.en).join(' '));
-  if(c.done){ track('talk',0,15); confetti() }
+  c.log.push(...out); render(); say(out.map(o=>o.en).join(' '),{rate:L.rate});
+  if(c.done){ track('talk',0,c.lvl==='hard'?30:c.lvl==='mid'?20:15); confetti() }
   setTimeout(()=>{const i=$('#sin'); i&&i.focus({preventScroll:true})},60);
 }
 function simView(c){
   const n=c.sc.nodes[c.node];
-  const log=c.log.map(m=>m.p?`<div class="bubble"><div class="who">${c.sc.who}</div><div class="en">${esc(m.en)}</div>${m.zh?`<div class="zh">${esc(m.zh)}</div>`:''}</div>`
+  const L=LV[c.lvl], canHint=c.miss>=L.hintAfter;
+  const log=c.log.map(m=>m.p?`<div class="bubble"><div class="who">${c.sc.who}</div><div class="en">${esc(m.en)}</div>${m.zh&&c.zh?`<div class="zh">${esc(m.zh)}</div>`:''}</div>`
     :`<div class="bubble me"><div class="who">你</div><div class="en">${esc(m.en)}</div>${m.tip?`<div class="gnote" style="margin-top:8px;color:var(--ink)">也可以說完整一點：${esc(m.tip)}</div>`:''}</div>`).join('');
-  const tail=c.done?`<div class="card stack"><h2>對話完成</h2><div>你完成了 ${c.turns} 次回答，+15 XP。換個說法再練一次，會更自然。</div><div class="ctl"><button class="btn pri" data-a="sim" data-id="${c.id}">再練一次</button><button class="btn" data-a="convend">回到情境</button></div></div>`
+  const tail=c.done?`<div class="card stack"><h2>對話完成</h2><div>${L.n}：你完成了 ${c.turns} 次回答，+${c.lvl==='hard'?30:c.lvl==='mid'?20:15} XP。${c.lvl==='hard'?'很厲害！':'練熟了可以挑戰更高難度。'}</div><div class="ctl"><button class="btn pri" data-a="sim" data-id="${c.id}">再練一次</button><button class="btn" data-a="convend">回到情境</button></div></div>`
    :`<div class="card stack" style="gap:12px"><div class="inrow"><input id="sin" class="field" placeholder="用英文回答（打字或按麥克風）" autocomplete="off" aria-label="你的回答">${canListen()?`<button class="btn" data-a="simmic" aria-label="說話">${ic('mic')}</button>`:''}<button class="btn pri" data-a="simsend">送出</button></div>
-      <div class="row between"><span class="small muted">不知道怎麼說？點提示會填進輸入框</span><button class="btn sm" data-a="simhints" aria-pressed="${c.hints}">${c.hints?'收起提示':'看提示'}</button></div>
-      ${c.hints?`<div class="hintlist">${n.hints.map(h=>`<button class="hint" data-a="simhint" data-t="${esc(h)}">${esc(h)}</button>`).join('')}</div>`:''}</div>`;
+      <div class="row between"><span class="small muted">${canHint?'不知道怎麼說？點提示會填進輸入框':`${L.n}：答錯 ${L.hintAfter} 次後才能看提示`}</span><button class="btn sm" data-a="simhints" aria-pressed="${c.hints}" ${canHint?'':'disabled'}>${c.hints?'收起提示':'看提示'}</button></div>
+      ${c.hints&&canHint?`<div class="hintlist">${n.hints.map(h=>`<button class="hint" data-a="simhint" data-t="${esc(h)}">${esc(h)}</button>`).join('')}</div>`:''}</div>`;
   return `<div class="stack"><div class="row between"><button class="btn sm" data-a="convend">${ic('back')}情境列表</button><b>${esc(c.title)}・模擬對話</b></div>
-   <div class="small muted">免費、不需要 Claude。對方會依你的回答接話，可以打字，也可以用說的。</div>
+   <div class="row between"><span class="tag">${L.n}</span><button class="btn sm" data-a="simzh" aria-pressed="${c.zh}">${c.zh?'隱藏中文':'顯示中文'}</button></div>
    <div class="chat">${log}</div>${tail}</div>`;
 }
 
@@ -1166,7 +1231,7 @@ VIEWS.quiz=function(){
     ${hist?`<div class="card stack"><h2>本週成績</h2>${barsHTML(hist.scores)}<div class="small muted">總分 ${hist.total}，可重考，成績取最新一次。</div></div>`:''}
     <div class="row"><button class="btn pri" data-a="qstart">${hist?'重新測驗':'開始測驗'}</button></div>
     ${old.length?`<div class="card stack"><h2>過去成績</h2>${old.map(([k,v])=>`<div class="row between"><span>${esc(k)}</span><span class="score">${v.total}</span></div>`).join('')}</div>`:''}
-    ${S.sample?'':'<div class="card small">目前無法使用 Claude 功能，寫作改為自評。</div>'}</div>`;
+    ${aiOn()?'':'<div class="card small">目前沒有連接 AI，寫作改為依字數估分。可以到「會話」頁連接免費的 Google AI。</div>'}</div>`;
   }
   if(q.done){
     const sc=q.scores; const tot=Math.round(Object.values(sc).reduce((a,b)=>a+b,0)/4); const miss=q.missed||[];
@@ -1203,7 +1268,7 @@ function itemHTML(it,q){
   const prompt = it.kind==='words' ? `用這兩個單字各寫一個句子：<b>${esc(it.words.join('、'))}</b>` : `寫 2 到 3 句英文，談談你對「${esc(it.title)}」這個主題的想法。`;
   return `<div class="card stack"><div>${prompt}</div><textarea id="qin" class="field" placeholder="Write here in English" ${r?'disabled':''} aria-label="寫作內容"></textarea>
    ${r?`<div class="stack" style="gap:10px"><div>分數 <span class="score">${r.score}</span></div>${r.fb?`<div class="gnote">${esc(r.fb)}</div>`:''}${r.better?`<div><b>更自然的寫法</b><div style="font-family:var(--f-read)">${esc(r.better)}</div></div>`:''}<div><button class="btn pri" data-a="qnext">${q.si===3&&q.ii+1===q.secs[3].items.length?'看結果':'下一題'}</button></div></div>`
-   :`<div class="row"><button class="btn pri" data-a="qcheck">${S.sample?'送出批改':'完成'}</button></div>`}</div>`;
+   :`<div class="row"><button class="btn pri" data-a="qcheck">${aiOn()?'送出批改':'完成'}</button></div>`}</div>`;
 }
 function qPoint(sec,v){ const q=S.qz; (q.pts[sec]=q.pts[sec]||[]).push(v) }
 function qNext(){
@@ -1244,7 +1309,8 @@ const ACT={
   addall(t){ const a=S.week.articles.find(x=>x.id===t.dataset.id); if(!a) return; let n=0; Object.entries(a.glossary).forEach(([k,v])=>{ if(addWord({word:k,...v},a.title)) n++ }); toast(n?`已加入 ${n} 個單字`:'這些字都已經在單字本') },
   markread(t){ const id=t.dataset.id, k=id.startsWith('m_')?id:readKey(id); if(S.stats.done[k]) return; S.stats.done[k]=Date.now(); track('read',1,20); t.disabled=true; t.innerHTML=ic('check')+'已讀完' },
   imp(){ S.importing=true; render(); toTop() },
-  tedimp(t){ S.art=null; S.tab='read'; S.importing={title:t.dataset.t,url:t.dataset.u}; render(); toTop() },
+  tedimp(t){ S.art=null; S.tab='read'; S.importing={title:t.dataset.t,url:t.dataset.u,ted:true}; render(); toTop() },
+  async clipread(){ try{ const v=await navigator.clipboard.readText(); const ix=$('#ix'); ix.value=v; ix.dispatchEvent(new Event('input',{bubbles:true})); if(!v.trim()) toast('剪貼簿是空的') }catch(e){ toast('瀏覽器不允許讀剪貼簿，請在框內按右鍵或長按「貼上」') } },
   bmclick(){ toast('請把這個按鈕拖到書籤列，不是直接點') },
   bmcopy(){ try{ navigator.clipboard.writeText(BOOKMARKLET).then(()=>toast('已複製小工具程式碼'),()=>toast('無法複製，請改用拖曳')) }catch(e){ toast('無法複製，請改用拖曳') } },
   copylink(t){ const u=t.dataset.u; try{ navigator.clipboard.writeText(u).then(()=>toast('已複製連結'),()=>toast('無法複製，請長按「原講稿」')) }catch(e){ toast('無法複製，請長按「原講稿」') } },
@@ -1309,6 +1375,11 @@ JSON only: {"simple":"...","zh":"...","notes":[{"en":"...","zh":"..."}]}`);
   },
   selfscore(t){ const c=S.conv; c.scores[c.i]=+t.dataset.v; c.i++; track('talk',1,3,true); scriptAdvance() },
   sim(t){ simStart(t.dataset.id) },
+  simzh(){ S.conv.zh=!S.conv.zh; render() },
+  level(t){ S.level=t.dataset.l; lset('ell.level',S.level); render() },
+  gsave(){ const v=($('#gk').value||'').trim(); if(!/^[A-Za-z0-9_\-]{20,}$/.test(v)){ toast('金鑰格式不對，請重新複製'); return } try{ localStorage.setItem('ell.gkey',v) }catch(e){ toast('這個瀏覽器不能儲存金鑰'); return } render(); ACT.gtest() },
+  gdel(){ try{ localStorage.removeItem('ell.gkey') }catch(e){} render(); toast('已移除金鑰') },
+  async gtest(){ toast('測試中…'); try{ const r=await gemini('Reply with JSON only: {"ok":true,"msg":"a short friendly English greeting"}'); toast('連接成功：'+(r.msg||'OK')) }catch(e){ toast(errMsg(e)) } },
   simsend(){ const i=$('#sin'); const v=i.value; i.value=''; simSend(v) },
   simhint(t){ const i=$('#sin'); if(i){ i.value=t.dataset.t; i.focus() } say(t.dataset.t) },
   simhints(){ S.conv.hints=!S.conv.hints; render() },
@@ -1379,6 +1450,14 @@ async function loadWeekFile(){
   try{ const r=await fetch('week.json',{cache:'no-store'}); if(!r.ok) return; const d=await r.json();
     if(d&&d.weekId&&Array.isArray(d.articles)&&d.articles.length&&d.weekId>S.week.weekId){ S.week=d; S.weekNote = d.weekId===isoWeek()?'':S.weekNote; render() } }catch(e){}
 }
+window.addEventListener('message',e=>{
+  const m=e.data; if(!m||m.type!=='ell-import'||typeof m.text!=='string') return;
+  try{ e.source&&e.source.postMessage('ell-ack','*') }catch(err){}
+  const w=$('.welcome'); if(w){ lset('ell.welcomed',true); w.remove() }
+  S.tab='read'; S.art=null; S.importing={title:String(m.title||'').slice(0,120),url:/^https?:/.test(m.url||'')?String(m.url):'',text:cleanTranscript(m.text).slice(0,30000),from:hostOf(m.url||'')};
+  render(); toTop(); const ix=$('#ix'); if(ix) ix.dispatchEvent(new Event('input',{bubbles:true}));
+});
+if(location.hash==='#import'&&!window.claude){ S.tab='read'; S.importing={waiting:true}; lset('ell.welcomed',true) }
 render();
 welcome();
 loadWeekFile();

@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: write   # 把新文章存回儲存庫
-  models: read      # 使用免費的 GitHub Models
   pages: write      # 發布 GitHub Pages
   id-token: write
 
@@ -33,7 +32,7 @@ jobs:
           python-version: "3.12"
       - name: 產生本週文章
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/update_week.py ${{ inputs.force && '--force' || '' }}
       - name: 存回儲存庫
         run: |
