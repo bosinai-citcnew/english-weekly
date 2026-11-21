@@ -6,6 +6,7 @@
  "articles": [
   {
    "id": "a1",
+   "level": "A2-B1",
    "kind": "news",
    "title": "Cold Winds Bring Cooler Days to Taiwan",
    "zh": "東北季風報到，台灣變冷了",
@@ -13,7 +14,7 @@
     "name": "Focus Taiwan：Northeasterly winds to send mercury down to 11°C later this week",
     "url": "https://focustaiwan.tw/society/202611170005"
    },
-   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
     "Winter is coming to Taiwan. This week, the weather agency said that strong northeasterly winds would bring a sharp drop in temperatures from Wednesday to Friday.",
     "In northern Taiwan and Yilan, daytime highs fell from about 25 to 27 degrees on Wednesday to only 18 to 20 degrees on Thursday. In some low areas, the lowest temperature could reach about 11 degrees.",
@@ -149,6 +150,7 @@
   },
   {
    "id": "a2",
+   "level": "A2-B1",
    "kind": "news",
    "title": "A World Stamp Show Opens in Taipei",
    "zh": "世界郵展在台北登場",
@@ -156,7 +158,7 @@
     "name": "Focus Taiwan：Rare Stamps Take Center Stage as Taipei World Stamp Exhibition Opens November 20",
     "url": "https://focustaiwan.tw/ad/20261110000001"
    },
-   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
     "A big world stamp show opened in Taipei on November 20. It runs until November 25 at the Taipei World Trade Center, and visitors can enter for free.",
     "One famous stamp at the show is the \"Inverted Jenny\" from 1918. Because of a printing mistake, the plane on the stamp is upside down. Collectors have loved this rare stamp for more than a hundred years.",
@@ -292,6 +294,7 @@
   },
   {
    "id": "a3",
+   "level": "A2-B1",
    "kind": "news",
    "title": "A Weekly Trip to the Park Helps Children",
    "zh": "每週去公園，孩子更健康",
@@ -299,7 +302,7 @@
     "name": "University of Bristol：Going to the park at least once a week can improve children's mental health",
     "url": "https://www.bristol.ac.uk/alspac/news/2026/going-to-the-park-at-least-once-a-week-can-improve-childrens-mental-health.html"
    },
-   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
    "paras": [
     "A new study from the UK says that going to the park can be good for children's minds. Children who visited parks and playgrounds at least once a week had better mental health as they grew up.",
     "Researchers used information about more than 4,000 children from a long study called Children of the 90s. Children who went to the park every week, from birth to age 11, scored about 16.5 percent better on mental health tests.",
@@ -435,6 +438,7 @@
   },
   {
    "id": "a4",
+   "level": "A2-B1",
    "kind": "ted",
    "title": "How to make stress your friend",
    "zh": "如何和壓力做朋友",

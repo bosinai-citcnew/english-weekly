@@ -93,7 +93,8 @@ def main(today=None):
     try:
         lv = json.load(open(os.path.join(ROOT, "bank_levels.json"), encoding="utf-8"))
         if lv:
-            data["levels"] = lv[((mon - START).days // 7) % len(lv)]
+            pick = lv[((mon - START).days // 7) % len(lv)]
+            data["levels"] = {k: v for k, v in pick.items() if k in ("b2", "c1")}
     except Exception:
         pass
     os.makedirs(os.path.join(ROOT, "archive"), exist_ok=True)
