@@ -1,0 +1,1164 @@
+[
+{
+"b2": [
+{
+"id": "b2-1",
+"level": "B2",
+"kind": "news",
+"title": "Northeasterly Winds Send Temperatures Tumbling",
+"zh": "東北季風來襲，氣溫急降",
+"source": {
+"name": "Focus Taiwan：Northeasterly winds to send mercury down to 11°C later this week",
+"url": "https://focustaiwan.tw/society/202611170005"
+},
+"note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Taiwan got its first real taste of winter this week. The Central Weather Administration warned that a strong northeasterly monsoon would sweep across the island from Wednesday, causing temperatures to drop sharply until at least Friday.",
+"The change was most noticeable in northern Taiwan and Yilan. Daytime highs, which had been a comfortable 25 to 27 degrees Celsius on Wednesday, were expected to fall to just 18 to 20 degrees on Thursday. In some low-lying areas, overnight lows could dip to around 11 degrees.",
+"Despite the chill, forecasters said most of the island would remain largely dry. Even so, a sudden swing in temperature can catch people off guard. It is a good idea to dress in layers and keep an eye on elderly relatives, who feel the cold more easily."
+],
+"glossary": {
+"monsoon": {
+"pos": "noun",
+"ipa": "/mɑːnˈsuːn/",
+"zh": "季風",
+"def": "a seasonal wind that brings a change in weather",
+"ex": "The winter monsoon brings cold air.",
+"g": "a northeasterly monsoon 東北季風。"
+},
+"sweep": {
+"pos": "verb",
+"ipa": "/swiːp/",
+"zh": "橫掃、席捲",
+"def": "to move quickly over a large area",
+"ex": "A storm swept across the city.",
+"g": "sweep across + 地方；過去式 swept。"
+},
+"noticeable": {
+"pos": "adjective",
+"ipa": "/ˈnoʊ.t̬ɪ.sə.bəl/",
+"zh": "明顯的",
+"def": "easy to see or feel",
+"ex": "There was a noticeable change in her voice.",
+"g": "most noticeable 最明顯；notice + -able。"
+},
+"low-lying": {
+"pos": "adjective",
+"ipa": "/ˌloʊˈlaɪ.ɪŋ/",
+"zh": "低窪的",
+"def": "(of land) not much higher than the sea or the land around it",
+"ex": "Low-lying areas may flood.",
+"g": "複合形容詞，放在名詞前：low-lying areas。"
+},
+"dip": {
+"pos": "verb",
+"ipa": "/dɪp/",
+"zh": "稍微下降",
+"def": "to go down to a lower level for a short time",
+"ex": "Sales dipped in January.",
+"g": "dip to + 數字：降到…。"
+},
+"despite": {
+"pos": "preposition",
+"ipa": "/dɪˈspaɪt/",
+"zh": "儘管",
+"def": "without being stopped by something",
+"ex": "Despite the rain, we went out.",
+"g": "Despite + 名詞（不可接子句）；= in spite of。"
+},
+"forecaster": {
+"pos": "noun",
+"ipa": "/ˈfɔːr.kæs.tɚ/",
+"zh": "預報員",
+"def": "a person who says what the weather will be like",
+"ex": "Forecasters expect snow.",
+"g": "forecast（預報）+ -er。"
+},
+"layer": {
+"pos": "noun",
+"ipa": "/ˈleɪ.ɚ/",
+"zh": "（衣服的）層",
+"def": "one piece of clothing worn over another",
+"ex": "Wear several thin layers.",
+"g": "dress in layers 洋蔥式穿法。"
+}
+},
+"grammar": [
+{
+"pt": "分詞構句表結果",
+"zh": "V-ing 放句尾，說明前面動作造成的結果。",
+"ex": "causing temperatures to drop sharply"
+},
+{
+"pt": "非限定關係子句 + 過去完成",
+"zh": "which had been… 補充說明「在那之前」的情況。",
+"ex": "Daytime highs, which had been a comfortable 25 to 27 degrees Celsius on Wednesday, were expected to fall"
+},
+{
+"pt": "Despite + 名詞",
+"zh": "儘管…；後面接名詞，不接完整句子。",
+"ex": "Despite the chill, forecasters said most of the island would remain largely dry."
+}
+],
+"questions": [
+{
+"q": "Which areas felt the change the most?",
+"opts": [
+"Northern Taiwan and Yilan",
+"Southern Taiwan",
+"The outlying islands"
+],
+"a": 0
+},
+{
+"q": "What did forecasters say about rain?",
+"opts": [
+"Most of the island would stay dry",
+"It would rain all week",
+"There would be snow"
+],
+"a": 0
+},
+{
+"q": "Why does the writer mention elderly relatives?",
+"opts": [
+"They feel the cold more easily",
+"They like cold weather",
+"They are forecasters"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "The change was most noticeable in northern Taiwan and Yilan.",
+"target": "noticeable"
+},
+{
+"s": "In some low-lying areas, overnight lows could dip to around 11 degrees.",
+"target": "low-lying"
+}
+],
+"targetWords": [
+"monsoon",
+"sweep",
+"noticeable"
+]
+},
+{
+"id": "b2-2",
+"level": "B2",
+"kind": "news",
+"title": "Rare Treasures Draw Crowds to Taipei's Stamp Exhibition",
+"zh": "珍稀郵票吸引人潮到台北",
+"source": {
+"name": "Focus Taiwan：Rare Stamps Take Center Stage as Taipei World Stamp Exhibition Opens November 20",
+"url": "https://focustaiwan.tw/ad/20261110000001"
+},
+"note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Stamp lovers from around the world are gathering in Taipei this week for a major international exhibition. The event opened at the Taipei World Trade Center on November 20 and runs until November 25, with free admission for all visitors.",
+"Among the highlights is the famous \"Inverted Jenny\", a 1918 American stamp on which the airplane was accidentally printed upside down. Only a small number of these error stamps ever reached the public, which is why collectors have treasured them for over a century.",
+"The exhibition also marks the 130th anniversary of Chunghwa Post, and its organizers have chosen innovation and sustainability as the main theme. Interest was clearly high even before the doors opened: a set of new Pokémon stamps proved so popular that most of them had already sold out."
+],
+"glossary": {
+"gather": {
+"pos": "verb",
+"ipa": "/ˈɡæð.ɚ/",
+"zh": "聚集",
+"def": "to come together in one place",
+"ex": "People gathered outside the station.",
+"g": "are gathering 正在聚集；不及物動詞。"
+},
+"admission": {
+"pos": "noun",
+"ipa": "/ədˈmɪʃ.ən/",
+"zh": "入場（費）",
+"def": "the right to enter a place, or the money you pay for it",
+"ex": "Admission is free for children.",
+"g": "free admission 免費入場。"
+},
+"highlight": {
+"pos": "noun",
+"ipa": "/ˈhaɪ.laɪt/",
+"zh": "最精彩的部分",
+"def": "the best or most exciting part of something",
+"ex": "The highlight of the trip was the beach.",
+"g": "Among the highlights is… 倒裝句：精彩之一是…。"
+},
+"accidentally": {
+"pos": "adverb",
+"ipa": "/ˌæk.səˈden.t̬əl.i/",
+"zh": "意外地、不小心",
+"def": "by chance, not on purpose",
+"ex": "I accidentally deleted the file.",
+"g": "accident → accidental → accidentally。"
+},
+"treasure": {
+"pos": "verb",
+"ipa": "/ˈtreʒ.ɚ/",
+"zh": "珍視、珍藏",
+"def": "to keep something carefully because it is valuable",
+"ex": "She treasures her old photos.",
+"g": "have treasured 現在完成式，表示一直以來。"
+},
+"anniversary": {
+"pos": "noun",
+"ipa": "/ˌæn.əˈvɝː.sɚ.i/",
+"zh": "週年紀念",
+"def": "the day on which an important event happened in a past year",
+"ex": "our tenth wedding anniversary",
+"g": "the 130th anniversary of… …的 130 週年。"
+},
+"sustainability": {
+"pos": "noun",
+"ipa": "/səˌsteɪ.nəˈbɪl.ə.t̬i/",
+"zh": "永續",
+"def": "using resources in a way that can continue without harming the earth",
+"ex": "The company cares about sustainability.",
+"g": "sustain → sustainable → sustainability。"
+},
+"prove": {
+"pos": "verb",
+"ipa": "/pruːv/",
+"zh": "結果是、證明是",
+"def": "to be found to be something",
+"ex": "The test proved difficult.",
+"g": "prove + 形容詞：結果顯得…。"
+}
+},
+"grammar": [
+{
+"pt": "介系詞 + which",
+"zh": "on which = on the stamp；關係子句前帶介系詞。",
+"ex": "a 1918 American stamp on which the airplane was accidentally printed upside down"
+},
+{
+"pt": "which is why…",
+"zh": "用 which 指前面整句，表示「這就是為什麼…」。",
+"ex": "which is why collectors have treasured them for over a century"
+},
+{
+"pt": "過去完成 had already + p.p.",
+"zh": "比過去某時間更早發生的事。",
+"ex": "a set of new Pokémon stamps proved so popular that most of them had already sold out"
+}
+],
+"questions": [
+{
+"q": "How long does the exhibition last?",
+"opts": [
+"Six days, from November 20 to 25",
+"Only one day",
+"Two weeks"
+],
+"a": 0
+},
+{
+"q": "Why is the Inverted Jenny so valuable?",
+"opts": [
+"It has a famous printing error",
+"It is the oldest stamp in the world",
+"It is made of gold"
+],
+"a": 0
+},
+{
+"q": "What shows that the Pokémon stamps were popular?",
+"opts": [
+"Most sold out before the show opened",
+"They were given away for free",
+"They were printed upside down"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Stamp lovers from around the world are gathering in Taipei this week for a major international exhibition.",
+"target": "gathering"
+},
+{
+"s": "The event opened at the Taipei World Trade Center on November 20 and runs until November 25, with free admission for all visitors.",
+"target": "admission"
+}
+],
+"targetWords": [
+"gather",
+"admission",
+"highlight"
+]
+},
+{
+"id": "b2-3",
+"level": "B2",
+"kind": "news",
+"title": "Regular Park Visits Linked to Better Mental Health",
+"zh": "常去公園，孩子心理更健康",
+"source": {
+"name": "University of Bristol：Going to the park at least once a week can improve children's mental health",
+"url": "https://www.bristol.ac.uk/alspac/news/2026/going-to-the-park-at-least-once-a-week-can-improve-childrens-mental-health.html"
+},
+"note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Taking children to the park every week may do more than burn off energy. A new study from the University of Bristol suggests that regular visits to parks and playgrounds are linked to better mental health as children grow up.",
+"The researchers analyzed data on more than 4,000 children taking part in Children of the 90s, a long-term study that has followed families since the early 1990s. Children who were taken to a park at least once a week from birth to the age of 11 scored around 16.5 percent higher on measures of mental well-being.",
+"According to the team, parks offer something that homes and classrooms often cannot: open space for active, imaginative play. This kind of play helps children build confidence. The researchers are now calling on city planners to make sure safe, accessible parks are available to every family."
+],
+"glossary": {
+"burn off": {
+"pos": "phrasal verb",
+"ipa": "/bɝːn ˈɔːf/",
+"zh": "消耗掉（精力、熱量）",
+"def": "to use up energy or calories through activity",
+"ex": "Kids need to burn off energy after school.",
+"g": "burn off energy 放電、消耗體力。"
+},
+"link": {
+"pos": "verb",
+"ipa": "/lɪŋk/",
+"zh": "連結、有關聯",
+"def": "to show that two things are connected",
+"ex": "Smoking is linked to cancer.",
+"g": "be linked to + 名詞：和…有關。"
+},
+"analyze": {
+"pos": "verb",
+"ipa": "/ˈæn.əl.aɪz/",
+"zh": "分析",
+"def": "to study something carefully to understand it",
+"ex": "We analyzed the results.",
+"g": "英式拼 analyse；名詞 analysis。"
+},
+"long-term": {
+"pos": "adjective",
+"ipa": "/ˌlɑːŋˈtɝːm/",
+"zh": "長期的",
+"def": "lasting a long time",
+"ex": "a long-term plan",
+"g": "複合形容詞，放名詞前。"
+},
+"measure": {
+"pos": "noun",
+"ipa": "/ˈmeʒ.ɚ/",
+"zh": "衡量標準、量表",
+"def": "a way of judging or testing something",
+"ex": "Test scores are one measure of success.",
+"g": "measures of… …的衡量指標；也可當動詞。"
+},
+"well-being": {
+"pos": "noun",
+"ipa": "/ˌwelˈbiː.ɪŋ/",
+"zh": "身心健康、幸福感",
+"def": "the state of feeling healthy and happy",
+"ex": "Exercise improves well-being.",
+"g": "不可數名詞；mental well-being 心理健康。"
+},
+"imaginative": {
+"pos": "adjective",
+"ipa": "/ɪˈmædʒ.ə.nə.t̬ɪv/",
+"zh": "富想像力的",
+"def": "using or showing imagination",
+"ex": "an imaginative story",
+"g": "imagine → imagination → imaginative。"
+},
+"accessible": {
+"pos": "adjective",
+"ipa": "/əkˈses.ə.bəl/",
+"zh": "容易到達、使用的",
+"def": "easy to reach, enter or use",
+"ex": "The park is accessible by bus.",
+"g": "access + -ible；accessible to 對…開放。"
+}
+},
+"grammar": [
+{
+"pt": "be linked to",
+"zh": "和…有關（被動）。",
+"ex": "regular visits to parks and playgrounds are linked to better mental health"
+},
+{
+"pt": "被動語態 were taken",
+"zh": "孩子是「被帶去」公園。",
+"ex": "Children who were taken to a park at least once a week"
+},
+{
+"pt": "call on + 人 + to V",
+"zh": "呼籲某人做某事。",
+"ex": "The researchers are now calling on city planners to make sure safe, accessible parks are available to every family."
+}
+],
+"questions": [
+{
+"q": "Who carried out the study?",
+"opts": [
+"Researchers at the University of Bristol",
+"A toy company",
+"A city government"
+],
+"a": 0
+},
+{
+"q": "How much higher did weekly park visitors score?",
+"opts": [
+"About 16.5 percent",
+"About 50 percent",
+"About 1.5 percent"
+],
+"a": 0
+},
+{
+"q": "What do the researchers want city planners to do?",
+"opts": [
+"Provide safe parks for every family",
+"Build more schools",
+"Close parks at night"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Taking children to the park every week may do more than burn off energy.",
+"target": "burn off"
+},
+{
+"s": "The researchers are now calling on city planners to make sure safe, accessible parks are available to every family.",
+"target": "accessible"
+}
+],
+"targetWords": [
+"burn off",
+"link",
+"analyze"
+]
+},
+{
+"id": "b2-4",
+"level": "B2",
+"kind": "ted",
+"title": "How to Make Stress Your Friend",
+"zh": "如何和壓力做朋友",
+"source": {
+"name": "TED：Kelly McGonigal, How to make stress your friend",
+"url": "https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Most of us have been told that stress is bad for our health. In one of the most watched TED talks of all time, health psychologist Kelly McGonigal admits that she used to deliver the same warning, until new research changed her mind.",
+"She describes a study that followed about 30,000 adults in the United States for eight years. People who experienced a lot of stress had a higher risk of dying, but only if they also believed that stress was harmful. Those who felt stressed but did not see it as a threat were among the least likely to die.",
+"McGonigal's message is that our mindset matters. When we view a racing heart as the body preparing us to rise to a challenge, our blood vessels can stay more relaxed. She also points out that stress encourages us to reach out to others, and that connecting with people builds resilience."
+],
+"glossary": {
+"admit": {
+"pos": "verb",
+"ipa": "/ədˈmɪt/",
+"zh": "承認",
+"def": "to agree that something is true, often unwillingly",
+"ex": "He admitted that he was wrong.",
+"g": "admit that + 子句；admit + V-ing。"
+},
+"experience": {
+"pos": "verb",
+"ipa": "/ɪkˈspɪr.i.əns/",
+"zh": "經歷",
+"def": "to have something happen to you",
+"ex": "Many people experience stress at work.",
+"g": "當動詞時後面直接接受詞。"
+},
+"risk": {
+"pos": "noun",
+"ipa": "/rɪsk/",
+"zh": "風險",
+"def": "the chance that something bad will happen",
+"ex": "a high risk of heart disease",
+"g": "a higher risk of + V-ing／名詞。"
+},
+"harmful": {
+"pos": "adjective",
+"ipa": "/ˈhɑːrm.fəl/",
+"zh": "有害的",
+"def": "causing damage or injury",
+"ex": "Smoking is harmful to health.",
+"g": "harm + -ful；be harmful to…。"
+},
+"threat": {
+"pos": "noun",
+"ipa": "/θret/",
+"zh": "威脅",
+"def": "something that may cause harm",
+"ex": "Pollution is a threat to wildlife.",
+"g": "see it as a threat 把它看成威脅。"
+},
+"mindset": {
+"pos": "noun",
+"ipa": "/ˈmaɪnd.set/",
+"zh": "心態",
+"def": "a person's way of thinking about things",
+"ex": "a positive mindset",
+"g": "Our mindset matters. 心態很重要。"
+},
+"rise to": {
+"pos": "phrasal verb",
+"ipa": "/raɪz tuː/",
+"zh": "成功應對（挑戰）",
+"def": "to deal well with a difficult situation",
+"ex": "She rose to the challenge.",
+"g": "rise to a challenge 迎接挑戰。"
+},
+"resilience": {
+"pos": "noun",
+"ipa": "/rɪˈzɪl.jəns/",
+"zh": "韌性、復原力",
+"def": "the ability to recover quickly from difficulty",
+"ex": "Sport builds resilience.",
+"g": "不可數名詞；形容詞 resilient。"
+}
+},
+"grammar": [
+{
+"pt": "used to + 原形動詞",
+"zh": "過去常常…（現在不再）。",
+"ex": "she used to deliver the same warning"
+},
+{
+"pt": "only if",
+"zh": "只有在…的情況下。",
+"ex": "but only if they also believed that stress was harmful"
+},
+{
+"pt": "view A as B",
+"zh": "把 A 看作 B。",
+"ex": "When we view a racing heart as the body preparing us to rise to a challenge"
+}
+],
+"questions": [
+{
+"q": "How long did the study follow people?",
+"opts": [
+"Eight years",
+"Eight months",
+"Thirty years"
+],
+"a": 0
+},
+{
+"q": "Which group had a higher risk of dying?",
+"opts": [
+"Stressed people who believed stress was harmful",
+"Everyone who felt stress",
+"People with no stress at all"
+],
+"a": 0
+},
+{
+"q": "What does stress encourage us to do, according to McGonigal?",
+"opts": [
+"Reach out to other people",
+"Stay at home alone",
+"Stop exercising"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "McGonigal's message is that our mindset matters.",
+"target": "mindset"
+},
+{
+"s": "Those who felt stressed but did not see it as a threat were among the least likely to die.",
+"target": "threat"
+}
+],
+"targetWords": [
+"admit",
+"experience",
+"risk"
+]
+}
+],
+"c1": [
+{
+"id": "c1-1",
+"level": "C1",
+"kind": "news",
+"title": "A Northeasterly Surge Brings Taiwan's First Real Chill",
+"zh": "東北季風增強，台灣迎來第一波寒意",
+"source": {
+"name": "Focus Taiwan：Northeasterly winds to send mercury down to 11°C later this week",
+"url": "https://focustaiwan.tw/society/202611170005"
+},
+"note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"With daytime highs still in the mid-twenties early in the week, many people in Taiwan were caught off guard by the arrival of winter. The Central Weather Administration forecast that a vigorous northeasterly monsoon would push down from the north on Wednesday, triggering a pronounced drop in temperatures that was set to last until at least Friday.",
+"Nowhere was the shift more apparent than in northern Taiwan and Yilan. Daytime highs that had hovered around a pleasant 25 to 27 degrees Celsius on Wednesday were projected to slump to between 18 and 20 degrees by Thursday, while low-lying areas could see overnight readings of roughly 11 degrees.",
+"There was, however, a silver lining. Forecasters expected the bulk of the island to stay dry, sparing commuters the damp, bone-chilling combination of rain and wind that often accompanies such cold snaps.",
+"Sudden temperature swings of this magnitude are more than a minor inconvenience. Rapid cooling forces the body to work harder to keep warm, which is why doctors routinely urge older people and those with heart conditions to wrap up well and avoid abrupt transitions from heated rooms to the cold outdoors."
+],
+"glossary": {
+"vigorous": {
+"pos": "adjective",
+"ipa": "/ˈvɪɡ.ɚ.əs/",
+"zh": "強勁的、有力的",
+"def": "strong, active and full of energy",
+"ex": "a vigorous storm system",
+"g": "vigor（活力）+ -ous。"
+},
+"pronounced": {
+"pos": "adjective",
+"ipa": "/prəˈnaʊnst/",
+"zh": "明顯的、顯著的",
+"def": "very noticeable or definite",
+"ex": "a pronounced accent",
+"g": "a pronounced drop 明顯下降；注意不是 pronounce 的「發音」。"
+},
+"apparent": {
+"pos": "adjective",
+"ipa": "/əˈper.ənt/",
+"zh": "顯而易見的",
+"def": "easy to see or understand",
+"ex": "It was apparent that she was tired.",
+"g": "more apparent than… 比…更明顯。"
+},
+"hover": {
+"pos": "verb",
+"ipa": "/ˈhʌv.ɚ/",
+"zh": "徘徊、停留在（某數值）",
+"def": "to stay at or near a particular level",
+"ex": "Prices hovered around $50.",
+"g": "hover around + 數字：在…上下。"
+},
+"slump": {
+"pos": "verb",
+"ipa": "/slʌmp/",
+"zh": "驟降",
+"def": "to fall suddenly by a large amount",
+"ex": "Sales slumped last year.",
+"g": "slump to… 驟降到…。"
+},
+"silver lining": {
+"pos": "noun phrase",
+"ipa": "/ˌsɪl.vɚ ˈlaɪ.nɪŋ/",
+"zh": "一線希望、好的一面",
+"def": "something good in a bad situation",
+"ex": "Every cloud has a silver lining.",
+"g": "慣用語，常說 There is a silver lining。"
+},
+"spare": {
+"pos": "verb",
+"ipa": "/sper/",
+"zh": "使免於（麻煩）",
+"def": "to save someone from something unpleasant",
+"ex": "She was spared the long wait.",
+"g": "spare + 人 + 事：讓某人免受…。"
+},
+"magnitude": {
+"pos": "noun",
+"ipa": "/ˈmæɡ.nə.tuːd/",
+"zh": "規模、程度",
+"def": "the large size or importance of something",
+"ex": "a crisis of this magnitude",
+"g": "of this magnitude 這麼大規模的。"
+}
+},
+"grammar": [
+{
+"pt": "否定副詞倒裝 Nowhere was…",
+"zh": "Nowhere 放句首，主詞和 be 動詞倒裝，加強語氣。",
+"ex": "Nowhere was the shift more apparent than in northern Taiwan and Yilan."
+},
+{
+"pt": "分詞構句 sparing…",
+"zh": "V-ing 補充說明前句帶來的結果。",
+"ex": "sparing commuters the damp, bone-chilling combination of rain and wind"
+},
+{
+"pt": "which is why",
+"zh": "指前面整件事，引出結果或理由。",
+"ex": "which is why doctors routinely urge older people and those with heart conditions to wrap up well"
+}
+],
+"questions": [
+{
+"q": "What can be inferred about the weather early in the week?",
+"opts": [
+"It had been fairly warm",
+"It had already been very cold",
+"It had been extremely rainy"
+],
+"a": 0
+},
+{
+"q": "Why does the writer call the dry weather a \"silver lining\"?",
+"opts": [
+"It spared people the worse mix of cold and rain",
+"It ended the cold quickly",
+"It brought higher temperatures"
+],
+"a": 0
+},
+{
+"q": "According to the last paragraph, why are sudden cold spells a concern?",
+"opts": [
+"They make the body work harder to stay warm",
+"They cause heavy flooding",
+"They damage buildings"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "There was, however, a silver lining.",
+"target": "silver lining"
+},
+{
+"s": "Nowhere was the shift more apparent than in northern Taiwan and Yilan.",
+"target": "apparent"
+}
+],
+"targetWords": [
+"vigorous",
+"pronounced",
+"apparent"
+]
+},
+{
+"id": "c1-2",
+"level": "C1",
+"kind": "news",
+"title": "Errors, Anniversaries and Pokémon: Inside Taipei's Stamp Show",
+"zh": "錯版、週年與寶可夢：走進台北世界郵展",
+"source": {
+"name": "Focus Taiwan：Rare Stamps Take Center Stage as Taipei World Stamp Exhibition Opens November 20",
+"url": "https://focustaiwan.tw/ad/20261110000001"
+},
+"note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"For six days in late November, the Taipei World Trade Center has been transformed into a magnet for philatelists. The international stamp exhibition, which opened on November 20 and closes on November 25, is free to enter, a decision that lowers the barrier for casual visitors who might never otherwise set foot in a stamp show.",
+"Pride of place goes to the \"Inverted Jenny\", arguably the most celebrated mistake in the history of printing. Issued in the United States in 1918, the stamp shows a biplane flying upside down, the result of a sheet being fed into the press the wrong way round. Precisely because so few copies escaped into circulation, the error has become a prized collectible.",
+"The exhibition doubles as a celebration of Chunghwa Post's 130th anniversary, and its organizers have framed the event around innovation and sustainability. These themes may seem at odds with a hobby so closely tied to paper and tradition.",
+"If anyone doubted whether stamps still resonate with younger generations, a new series of Pokémon designs settled the question: demand was so intense that most of the stamps had sold out before the exhibition even began."
+],
+"glossary": {
+"magnet": {
+"pos": "noun",
+"ipa": "/ˈmæɡ.nət/",
+"zh": "吸引人的地方",
+"def": "a place or thing that attracts many people",
+"ex": "The city is a magnet for tourists.",
+"g": "a magnet for… …的聚集地。"
+},
+"philatelist": {
+"pos": "noun",
+"ipa": "/fɪˈlæt̬.əl.ɪst/",
+"zh": "集郵家",
+"def": "a person who collects and studies stamps",
+"ex": "The philatelist owned rare stamps.",
+"g": "philately（集郵）+ -ist。"
+},
+"barrier": {
+"pos": "noun",
+"ipa": "/ˈber.i.ɚ/",
+"zh": "障礙、門檻",
+"def": "something that prevents people from doing something",
+"ex": "Cost is a barrier to education.",
+"g": "lower the barrier 降低門檻。"
+},
+"pride of place": {
+"pos": "idiom",
+"ipa": "/ˌpraɪd əv ˈpleɪs/",
+"zh": "最顯著的位置",
+"def": "the most important or noticeable position",
+"ex": "The trophy has pride of place on the shelf.",
+"g": "Pride of place goes to… 最受矚目的是…。"
+},
+"arguably": {
+"pos": "adverb",
+"ipa": "/ˈɑːrɡ.ju.ə.bli/",
+"zh": "可以說是",
+"def": "used to say that something can be considered true",
+"ex": "She is arguably the best player.",
+"g": "放在最高級前，語氣保留但肯定。"
+},
+"circulation": {
+"pos": "noun",
+"ipa": "/ˌsɝː.kjəˈleɪ.ʃən/",
+"zh": "流通",
+"def": "the movement of money, stamps or papers among the public",
+"ex": "new coins in circulation",
+"g": "escape into circulation 流入市面。"
+},
+"at odds": {
+"pos": "idiom",
+"ipa": "/æt ˈɑːdz/",
+"zh": "互相矛盾",
+"def": "not in agreement",
+"ex": "His words are at odds with his actions.",
+"g": "be at odds with… 與…不一致。"
+},
+"resonate": {
+"pos": "verb",
+"ipa": "/ˈrez.ən.eɪt/",
+"zh": "引起共鳴",
+"def": "to have special meaning or importance for someone",
+"ex": "The film resonated with young viewers.",
+"g": "resonate with + 人。"
+}
+},
+"grammar": [
+{
+"pt": "Precisely because… 強調原因",
+"zh": "precisely 強調「正是因為」。",
+"ex": "Precisely because so few copies escaped into circulation, the error has become a prized collectible."
+},
+{
+"pt": "double as",
+"zh": "同時兼作…。",
+"ex": "The exhibition doubles as a celebration of Chunghwa Post's 130th anniversary"
+},
+{
+"pt": "so + 形容詞 + that",
+"zh": "如此…以致於…。",
+"ex": "demand was so intense that most of the stamps had sold out before the exhibition even began"
+}
+],
+"questions": [
+{
+"q": "Why might free admission matter, according to the writer?",
+"opts": [
+"It makes it easier for casual visitors to come",
+"It raises money for the post office",
+"It limits the size of the crowd"
+],
+"a": 0
+},
+{
+"q": "What caused the Inverted Jenny error?",
+"opts": [
+"A sheet was fed into the press the wrong way",
+"The designer drew the plane upside down",
+"The stamp was damaged in the mail"
+],
+"a": 0
+},
+{
+"q": "Why does the writer find the theme slightly surprising?",
+"opts": [
+"Stamps are closely tied to paper and tradition",
+"Pokémon is no longer popular",
+"The post office is very new"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "These themes may seem at odds with a hobby so closely tied to paper and tradition.",
+"target": "at odds"
+},
+{
+"s": "Precisely because so few copies escaped into circulation, the error has become a prized collectible.",
+"target": "circulation"
+}
+],
+"targetWords": [
+"magnet",
+"philatelist",
+"barrier"
+]
+},
+{
+"id": "c1-3",
+"level": "C1",
+"kind": "news",
+"title": "Why a Weekly Trip to the Park Could Shape a Child's Mind",
+"zh": "每週一次公園行，如何影響孩子的心理",
+"source": {
+"name": "University of Bristol：Going to the park at least once a week can improve children's mental health",
+"url": "https://www.bristol.ac.uk/alspac/news/2026/going-to-the-park-at-least-once-a-week-can-improve-childrens-mental-health.html"
+},
+"note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+"paras": [
+"Parents who drag their children to the local park on a drizzly Saturday may be doing more good than they realize. Research from the University of Bristol indicates that habitual visits to parks and playgrounds throughout childhood are associated with measurably better mental health.",
+"The findings draw on Children of the 90s, one of the most extensive long-running studies of its kind, which has tracked thousands of families since the early 1990s. Among the more than 4,000 children examined, those taken to a park at least weekly from birth until the age of 11 scored roughly 16.5 percent higher on assessments of mental health than their peers.",
+"Crucially, the study points to an association rather than proof of cause and effect, since families who visit parks often may differ in other ways too. Nonetheless, the pattern fits what is known about unstructured outdoor play, which gives children room to take small risks, exercise their imagination and develop a sense of competence.",
+"The conclusion has a clear policy dimension. If green space genuinely nurtures well-being, then ensuring that every neighborhood has a safe, welcoming park is not a luxury but a matter of public health and fairness."
+],
+"glossary": {
+"habitual": {
+"pos": "adjective",
+"ipa": "/həˈbɪtʃ.u.əl/",
+"zh": "習慣性的、經常的",
+"def": "done regularly as a habit",
+"ex": "a habitual coffee drinker",
+"g": "habit + -ual。"
+},
+"draw on": {
+"pos": "phrasal verb",
+"ipa": "/drɔː ɑːn/",
+"zh": "利用、依據",
+"def": "to use information or experience as a source",
+"ex": "The book draws on interviews.",
+"g": "draw on + 資料來源。"
+},
+"peer": {
+"pos": "noun",
+"ipa": "/pɪr/",
+"zh": "同儕",
+"def": "a person of the same age or group",
+"ex": "She was popular with her peers.",
+"g": "than their peers 比同齡孩子。"
+},
+"association": {
+"pos": "noun",
+"ipa": "/əˌsoʊ.siˈeɪ.ʃən/",
+"zh": "關聯",
+"def": "a connection between two things",
+"ex": "an association between diet and health",
+"g": "association ≠ cause：相關不等於因果。"
+},
+"nonetheless": {
+"pos": "adverb",
+"ipa": "/ˌnʌn.ðəˈles/",
+"zh": "儘管如此",
+"def": "despite what has just been said",
+"ex": "It was hard; nonetheless, we finished.",
+"g": "= nevertheless；常放句首加逗號。"
+},
+"unstructured": {
+"pos": "adjective",
+"ipa": "/ʌnˈstrʌk.tʃɚd/",
+"zh": "無固定安排的、自由的",
+"def": "without a fixed plan or organization",
+"ex": "unstructured free time",
+"g": "un- + structured。"
+},
+"competence": {
+"pos": "noun",
+"ipa": "/ˈkɑːm.pə.t̬əns/",
+"zh": "能力、勝任感",
+"def": "the ability to do something well",
+"ex": "a sense of competence",
+"g": "形容詞 competent。"
+},
+"nurture": {
+"pos": "verb",
+"ipa": "/ˈnɝː.tʃɚ/",
+"zh": "培育、滋養",
+"def": "to help something develop and grow",
+"ex": "Good teachers nurture talent.",
+"g": "nurtures 第三人稱單數。"
+}
+},
+"grammar": [
+{
+"pt": "rather than",
+"zh": "而不是…（對比兩個名詞）。",
+"ex": "the study points to an association rather than proof of cause and effect"
+},
+{
+"pt": "not A but B",
+"zh": "不是 A 而是 B。",
+"ex": "is not a luxury but a matter of public health and fairness"
+},
+{
+"pt": "If… then…",
+"zh": "條件句，then 強調結論。",
+"ex": "If green space genuinely nurtures well-being, then ensuring that every neighborhood has a safe, welcoming park is not a luxury"
+}
+],
+"questions": [
+{
+"q": "What does the writer stress about the study's findings?",
+"opts": [
+"They show a link, not proof of cause",
+"They prove parks cause better health",
+"They only apply to adults"
+],
+"a": 0
+},
+{
+"q": "Which detail describes the Children of the 90s study?",
+"opts": [
+"It has followed families for decades",
+"It began last year",
+"It studied only 40 children"
+],
+"a": 0
+},
+{
+"q": "What does the final paragraph argue?",
+"opts": [
+"Safe parks are a public health issue",
+"Parks are an expensive luxury",
+"Children should play indoors"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Crucially, the study points to an association rather than proof of cause and effect, since families who visit parks often may differ in other ways too.",
+"target": "association"
+},
+{
+"s": "The findings draw on Children of the 90s, one of the most extensive long-running studies of its kind, which has tracked thousands of families since the early 1990s.",
+"target": "draw on"
+}
+],
+"targetWords": [
+"habitual",
+"draw on",
+"peer"
+]
+},
+{
+"id": "c1-4",
+"level": "C1",
+"kind": "ted",
+"title": "Rethinking Stress: Kelly McGonigal's Surprising Case",
+"zh": "重新思考壓力：凱莉・麥高尼格的反直覺觀點",
+"source": {
+"name": "TED：Kelly McGonigal, How to make stress your friend",
+"url": "https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend"
+},
+"note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+"paras": [
+"Few health messages are repeated as relentlessly as the claim that stress makes us ill. In her widely viewed TED talk, health psychologist Kelly McGonigal confesses that she spent years reinforcing that very message, only to be confronted by evidence that complicated it.",
+"The turning point was a study that tracked roughly 30,000 American adults over eight years. High levels of stress were associated with a 43 percent greater risk of dying, yet this held true only for participants who also believed that stress was damaging to their health. Those who reported plenty of stress but did not regard it as harmful had some of the lowest mortality rates in the study.",
+"From this, McGonigal draws a provocative conclusion: how we interpret our physical reactions may shape their consequences. A pounding heart and quickened breath can be reframed as signs that the body is mobilizing energy to meet a challenge, and people who learned to see stress this way showed a healthier response, with blood vessels that stayed relaxed.",
+"She also highlights a less familiar side of the stress response: the release of oxytocin, a hormone that nudges us to seek and offer support. Seen in this light, stress is not merely something to be eliminated. Handled well, it can be a catalyst for courage and connection."
+],
+"glossary": {
+"relentlessly": {
+"pos": "adverb",
+"ipa": "/rɪˈlent.ləs.li/",
+"zh": "不停地、無情地",
+"def": "without stopping or becoming less strong",
+"ex": "It rained relentlessly all week.",
+"g": "relentless + -ly。"
+},
+"reinforce": {
+"pos": "verb",
+"ipa": "/ˌriː.ɪnˈfɔːrs/",
+"zh": "強化",
+"def": "to make an idea or feeling stronger",
+"ex": "The ads reinforce old stereotypes.",
+"g": "reinforcing 動名詞，接在 spend years 後。"
+},
+"confront": {
+"pos": "verb",
+"ipa": "/kənˈfrʌnt/",
+"zh": "面對、使正視",
+"def": "to make someone face something difficult",
+"ex": "She was confronted with the truth.",
+"g": "be confronted by/with… 被迫面對…。"
+},
+"mortality": {
+"pos": "noun",
+"ipa": "/mɔːrˈtæl.ə.t̬i/",
+"zh": "死亡率",
+"def": "the number of deaths in a group",
+"ex": "infant mortality",
+"g": "mortality rates 死亡率（常用複數）。"
+},
+"provocative": {
+"pos": "adjective",
+"ipa": "/prəˈvɑː.kə.t̬ɪv/",
+"zh": "發人深省的、引起爭議的",
+"def": "causing thought or argument",
+"ex": "a provocative question",
+"g": "provoke → provocative。"
+},
+"reframe": {
+"pos": "verb",
+"ipa": "/ˌriːˈfreɪm/",
+"zh": "換個角度看",
+"def": "to think about something in a different way",
+"ex": "Try to reframe failure as learning.",
+"g": "be reframed as… 被重新詮釋為…。"
+},
+"mobilize": {
+"pos": "verb",
+"ipa": "/ˈmoʊ.bə.laɪz/",
+"zh": "動員、調動",
+"def": "to bring together resources for a purpose",
+"ex": "The body mobilizes energy under stress.",
+"g": "英式拼 mobilise。"
+},
+"catalyst": {
+"pos": "noun",
+"ipa": "/ˈkæt̬.əl.ɪst/",
+"zh": "催化劑、促成因素",
+"def": "something that causes an important change",
+"ex": "The crisis was a catalyst for reform.",
+"g": "a catalyst for + 名詞。"
+}
+},
+"grammar": [
+{
+"pt": "only to + V",
+"zh": "結果卻…（出乎意料的轉折）。",
+"ex": "only to be confronted by evidence that complicated it"
+},
+{
+"pt": "hold true for",
+"zh": "對…成立、適用。",
+"ex": "this held true only for participants who also believed that stress was damaging to their health"
+},
+{
+"pt": "分詞構句 Seen / Handled",
+"zh": "省略主詞的被動分詞構句，表示條件。",
+"ex": "Seen in this light, stress is not merely something to be eliminated."
+}
+],
+"questions": [
+{
+"q": "What happened to McGonigal's earlier view of stress?",
+"opts": [
+"New evidence made her rethink it",
+"She proved it was completely right",
+"She stopped studying stress"
+],
+"a": 0
+},
+{
+"q": "According to the study, who faced the higher risk of death?",
+"opts": [
+"Stressed people who saw stress as harmful",
+"All participants equally",
+"People who exercised often"
+],
+"a": 0
+},
+{
+"q": "What role does oxytocin play, as described in the talk?",
+"opts": [
+"It nudges people to seek and give support",
+"It makes the heart beat faster",
+"It removes stress completely"
+],
+"a": 0
+}
+],
+"keySentences": [
+{
+"s": "Handled well, it can be a catalyst for courage and connection.",
+"target": "catalyst"
+},
+{
+"s": "Few health messages are repeated as relentlessly as the claim that stress makes us ill.",
+"target": "relentlessly"
+}
+],
+"targetWords": [
+"relentlessly",
+"reinforce",
+"confront"
+]
+}
+]
+}
+]

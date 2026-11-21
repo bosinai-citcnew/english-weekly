@@ -4,6 +4,7 @@
 寫入 week.json 與 archive/<週次>.json。只用 Python 標準函式庫。
 
 想加新文章：在 bank/ 資料夾新增 srcN.py（格式照 src1.py），再執行 python bank/build.py。
+B2、C1 程度的文章放在 bank_levels.json（每筆是 {"b2": [...], "c1": [...]}）。
 """
 import datetime as dt
 import json
@@ -24,12 +25,16 @@ def word_in(word, s):
     return re.search(rf"\b{stem}\w*\b", s, re.I)
 
 
-def repair(a, idx, kind, source):
+LEVELS = {"base": ("A2-B1", 3, 18), "b2": ("B2", 4, 24), "c1": ("C1", 4, 28)}  # 程度：(名稱, 最多段落, 重點句最長字數)
+
+
+def repair(a, idx, kind, source, lvl="base"):
     """檢查一篇文章並補上重點句、目標單字；格式不對就丟出例外。（bank/build.py 也會用到）"""
+    name, maxp, maxw = LEVELS[lvl]
     paras = [p.strip() for p in a.get("paras", []) if isinstance(p, str) and p.strip()]
     if len(paras) < 3:
         raise ValueError("段落不足")
-    paras = paras[:3]
+    paras = paras[:maxp]
     text = " ".join(paras)
     gl = {}
     for k, v in (a.get("glossary") or {}).items():
@@ -52,7 +57,7 @@ def repair(a, idx, kind, source):
     for s in sorted(sentences(text), key=len):
         if len(keys) == 2:
             break
-        if len(s.split()) < 5 or len(s.split()) > 18:
+        if len(s.split()) < 5 or len(s.split()) > maxw:
             continue
         for w in gl:
             m = word_in(w, s)
@@ -62,8 +67,8 @@ def repair(a, idx, kind, source):
     if len(keys) < 2:
         raise ValueError("找不到重點句")
     note = ("內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。"
-            if kind == "ted" else "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。")
-    return {"id": f"a{idx}", "kind": kind, "title": str(a.get("title", "")).strip() or source["name"],
+            if kind == "ted" else f"學習用短文，依參考資料改寫成 {name} 程度，延伸閱讀請看來源連結。")
+    return {"id": f"a{idx}" if lvl == "base" else f"{lvl}-{idx}", "level": name, "kind": kind, "title": str(a.get("title", "")).strip() or source["name"],
             "zh": str(a.get("zh", "")), "source": source, "note": note, "paras": paras, "glossary": gl,
             "grammar": grammar, "questions": qs[:3], "keySentences": keys, "targetWords": list(gl)[:3]}
 
@@ -84,6 +89,13 @@ def main(today=None):
     n = ((mon - START).days // 7) % len(bank)
     data = {"weekId": week_id, "range": f"{mon:%m/%d} - {mon + dt.timedelta(days=6):%m/%d}", "level": "A2-B1",
             "bankWeek": n + 1, "articles": bank[n]}
+    # B2、C1 程度：從 bank_levels.json 輪流挑（每週 Claude 更新時會把新文章加進去，題庫越來越多）
+    try:
+        lv = json.load(open(os.path.join(ROOT, "bank_levels.json"), encoding="utf-8"))
+        if lv:
+            data["levels"] = lv[((mon - START).days // 7) % len(lv)]
+    except Exception:
+        pass
     os.makedirs(os.path.join(ROOT, "archive"), exist_ok=True)
     for p in (path, os.path.join(ROOT, "archive", f"{week_id}.json")):
         with open(p, "w", encoding="utf-8") as f:
