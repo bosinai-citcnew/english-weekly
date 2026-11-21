@@ -2,578 +2,578 @@
  "weekId": "2026-W47",
  "range": "11/16 - 11/22",
  "level": "A2-B1",
- "bankWeek": 12,
+ "source": "claude",
  "articles": [
   {
    "id": "a1",
    "kind": "news",
-   "title": "Every Drop Counts",
-   "zh": "每一滴都重要",
+   "title": "Cold Winds Bring Cooler Days to Taiwan",
+   "zh": "東北季風報到，台灣變冷了",
    "source": {
-    "name": "Wikipedia：Water conservation",
-    "url": "https://en.wikipedia.org/wiki/Water_conservation"
+    "name": "Focus Taiwan：Northeasterly winds to send mercury down to 11°C later this week",
+    "url": "https://focustaiwan.tw/society/202611170005"
    },
-   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
    "paras": [
-    "Water covers most of the Earth, but only a very small part of it is fresh water that people can drink. In dry seasons, some places do not have enough.",
-    "Saving water at home is easy. Turn off the tap while you brush your teeth. Take shorter showers. Fix leaks quickly, because a dripping tap can waste a lot of water in a year.",
-    "You can also reuse water. Water from washing vegetables can water your plants. Every drop counts. If everyone saves a little, together we can save a lot."
+    "Winter is coming to Taiwan. This week, the weather agency said that strong northeasterly winds would bring a sharp drop in temperatures from Wednesday to Friday.",
+    "In northern Taiwan and Yilan, daytime highs fell from about 25 to 27 degrees on Wednesday to only 18 to 20 degrees on Thursday. In some low areas, the lowest temperature could reach about 11 degrees.",
+    "The good news is that most of the island will stay dry. If you go out early in the morning or late at night, wear a warm jacket and drink something hot."
    ],
    "glossary": {
-    "drop": {
+    "winter": {
      "pos": "noun",
-     "ipa": "/drɑːp/",
-     "zh": "一滴",
-     "def": "a very small amount of liquid",
-     "ex": "a drop of rain",
-     "g": "Every drop counts 每一滴都算數。"
+     "ipa": "/ˈwɪn.t̬ɚ/",
+     "zh": "冬天",
+     "def": "the coldest season of the year",
+     "ex": "It snows in winter.",
+     "g": "Winter is coming 冬天要來了（現在進行式表示即將發生）。"
     },
-    "fresh": {
+    "agency": {
+     "pos": "noun",
+     "ipa": "/ˈeɪ.dʒən.si/",
+     "zh": "機構、署",
+     "def": "a government office that does a special job",
+     "ex": "the weather agency",
+     "g": "the weather agency 氣象署。"
+    },
+    "bring": {
+     "pos": "verb",
+     "ipa": "/brɪŋ/",
+     "zh": "帶來",
+     "def": "to make something happen or come",
+     "ex": "Rain brings cool air.",
+     "g": "過去式 brought；文中 would bring 是轉述未來。"
+    },
+    "sharp": {
      "pos": "adjective",
-     "ipa": "/freʃ/",
-     "zh": "淡的、新鮮的",
-     "def": "not salty (water); new",
-     "ex": "fresh water",
-     "g": "fresh water 淡水。"
+     "ipa": "/ʃɑːrp/",
+     "zh": "急劇的",
+     "def": "sudden and large",
+     "ex": "a sharp drop in prices",
+     "g": "a sharp drop 驟降。"
     },
-    "season": {
+    "temperature": {
      "pos": "noun",
-     "ipa": "/ˈsiː.zən/",
-     "zh": "季節",
-     "def": "one of the parts of the year",
-     "ex": "the rainy season",
-     "g": "dry seasons 乾季。"
+     "ipa": "/ˈtem.pɚ.ə.tʃɚ/",
+     "zh": "溫度",
+     "def": "how hot or cold something is",
+     "ex": "The temperature is 20 degrees.",
+     "g": "a drop in temperatures 氣溫下降。"
     },
-    "tap": {
-     "pos": "noun",
-     "ipa": "/tæp/",
-     "zh": "水龍頭",
-     "def": "a thing that controls water from a pipe",
-     "ex": "Turn off the tap.",
-     "g": "美式也說 faucet。"
+    "fell": {
+     "pos": "verb (past tense)",
+     "ipa": "/fel/",
+     "zh": "下降了（fall 的過去式）",
+     "def": "became lower",
+     "ex": "Prices fell last month.",
+     "g": "fall-fell-fallen；highs fell from… to… 從…降到…。"
     },
-    "shower": {
-     "pos": "noun",
-     "ipa": "/ʃaʊr/",
-     "zh": "淋浴",
-     "def": "washing your body under running water",
-     "ex": "I take a shower every night.",
-     "g": "take a shower 洗澡。"
+    "lowest": {
+     "pos": "adjective",
+     "ipa": "/ˈloʊ.ɪst/",
+     "zh": "最低的",
+     "def": "the most low",
+     "ex": "the lowest price",
+     "g": "low → lower → lowest。"
     },
-    "leak": {
-     "pos": "noun",
-     "ipa": "/liːk/",
-     "zh": "漏水",
-     "def": "a hole where water comes out",
-     "ex": "There is a leak in the roof.",
-     "g": "fix leaks 修理漏水。"
-    },
-    "drip": {
-     "pos": "verb",
-     "ipa": "/drɪp/",
-     "zh": "滴落",
-     "def": "to fall in small drops",
-     "ex": "Water is dripping.",
-     "g": "a dripping tap 滴水的水龍頭。"
-    },
-    "reuse": {
-     "pos": "verb",
-     "ipa": "/riːˈjuːz/",
-     "zh": "重複使用",
-     "def": "to use again",
-     "ex": "Reuse your bags.",
-     "g": "re- 表示「再」。"
+    "dry": {
+     "pos": "adjective",
+     "ipa": "/draɪ/",
+     "zh": "乾燥的",
+     "def": "with no rain or water",
+     "ex": "dry weather",
+     "g": "stay dry 保持乾燥、不下雨。"
     }
    },
    "grammar": [
     {
-     "pt": "only a very small part of",
-     "zh": "只有非常小一部分的…。",
-     "ex": "only a very small part of it is fresh water"
+     "pt": "轉述 said that… would…",
+     "zh": "轉述別人的話時，will 常變成 would。",
+     "ex": "the weather agency said that strong northeasterly winds would bring a sharp drop in temperatures"
     },
     {
-     "pt": "while 子句",
-     "zh": "在…的同時。",
-     "ex": "Turn off the tap while you brush your teeth."
+     "pt": "from A to B",
+     "zh": "從 A 到 B。",
+     "ex": "from Wednesday to Friday"
     },
     {
-     "pt": "If 子句",
+     "pt": "If 子句 + 祈使句",
      "zh": "如果…，就…。",
-     "ex": "If everyone saves a little, together we can save a lot."
+     "ex": "If you go out early in the morning or late at night, wear a warm jacket"
     }
    ],
    "questions": [
     {
-     "q": "How much of Earth's water is fresh water?",
+     "q": "What will bring cooler weather?",
      "opts": [
-      "A very small part",
-      "Most of it",
-      "All of it"
+      "Strong northeasterly winds",
+      "A typhoon",
+      "Heavy snow"
      ],
      "a": 0
     },
     {
-     "q": "What should you do while brushing your teeth?",
+     "q": "How low could the temperature go in some low areas?",
      "opts": [
-      "Turn off the tap",
-      "Take a bath",
-      "Wash the car"
+      "About 11 degrees",
+      "About 25 degrees",
+      "About 0 degrees"
      ],
      "a": 0
     },
     {
-     "q": "How can you reuse water?",
+     "q": "What will the weather be like on most of the island?",
      "opts": [
-      "Water plants with it",
-      "Drink it later",
-      "Throw it away"
+      "Dry",
+      "Very rainy",
+      "Snowy"
      ],
      "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "You can also reuse water.",
-     "target": "reuse"
+     "s": "Winter is coming to Taiwan.",
+     "target": "Winter"
     },
     {
-     "s": "Turn off the tap while you brush your teeth.",
-     "target": "tap"
+     "s": "The good news is that most of the island will stay dry.",
+     "target": "dry"
     }
    ],
    "targetWords": [
-    "drop",
-    "fresh",
-    "season"
+    "winter",
+    "agency",
+    "bring"
    ]
   },
   {
    "id": "a2",
    "kind": "news",
-   "title": "Birds That Cannot Fly",
-   "zh": "不會飛的鳥：企鵝",
+   "title": "A World Stamp Show Opens in Taipei",
+   "zh": "世界郵展在台北登場",
    "source": {
-    "name": "Wikipedia：Penguin",
-    "url": "https://en.wikipedia.org/wiki/Penguin"
+    "name": "Focus Taiwan：Rare Stamps Take Center Stage as Taipei World Stamp Exhibition Opens November 20",
+    "url": "https://focustaiwan.tw/ad/20261110000001"
    },
-   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
    "paras": [
-    "Penguins are birds, but they cannot fly. Instead, they are excellent swimmers. Their wings work like flippers and help them move quickly through the water to catch fish.",
-    "Most penguins live in the southern half of the world. Some live in very cold places like Antarctica, but others live on warmer coasts in South America and Africa.",
-    "Penguins often live in large groups. Parents take turns keeping their eggs warm and finding food. Today, some kinds of penguins are in danger because the oceans are changing."
+    "A big world stamp show opened in Taipei on November 20. It runs until November 25 at the Taipei World Trade Center, and visitors can enter for free.",
+    "One famous stamp at the show is the \"Inverted Jenny\" from 1918. Because of a printing mistake, the plane on the stamp is upside down. Collectors have loved this rare stamp for more than a hundred years.",
+    "The show also celebrates 130 years of Chunghwa Post. Its theme is innovation and sustainability. Some new Pokémon stamps were so popular that most of them sold out before the show began."
    ],
    "glossary": {
-    "penguin": {
+    "stamp": {
      "pos": "noun",
-     "ipa": "/ˈpeŋ.ɡwɪn/",
-     "zh": "企鵝",
-     "def": "a black and white bird that swims",
-     "ex": "Penguins live in groups.",
-     "g": "複數 penguins。"
+     "ipa": "/stæmp/",
+     "zh": "郵票",
+     "def": "a small piece of paper you put on a letter",
+     "ex": "I collect stamps.",
+     "g": "a stamp show 郵票展。"
     },
-    "fly": {
+    "visitor": {
+     "pos": "noun",
+     "ipa": "/ˈvɪz.ɪ.t̬ɚ/",
+     "zh": "參觀者",
+     "def": "a person who visits a place",
+     "ex": "The museum has many visitors.",
+     "g": "visit + -or。"
+    },
+    "enter": {
      "pos": "verb",
-     "ipa": "/flaɪ/",
-     "zh": "飛",
-     "def": "to move through the air",
-     "ex": "Birds can fly.",
-     "g": "cannot fly 不會飛。"
+     "ipa": "/ˈen.t̬ɚ/",
+     "zh": "進入",
+     "def": "to go into a place",
+     "ex": "You can enter now.",
+     "g": "enter for free 免費入場。"
     },
-    "excellent": {
+    "printing": {
+     "pos": "noun",
+     "ipa": "/ˈprɪn.t̬ɪŋ/",
+     "zh": "印刷",
+     "def": "making words or pictures on paper with a machine",
+     "ex": "a printing mistake",
+     "g": "print + -ing 當名詞。"
+    },
+    "upside down": {
+     "pos": "adverb",
+     "ipa": "/ˌʌp.saɪd ˈdaʊn/",
+     "zh": "上下顛倒",
+     "def": "with the top part at the bottom",
+     "ex": "The picture is upside down.",
+     "g": "片語，放在 be 動詞後。"
+    },
+    "rare": {
      "pos": "adjective",
-     "ipa": "/ˈek.səl.ənt/",
-     "zh": "極好的",
-     "def": "very good",
-     "ex": "an excellent student",
-     "g": "excellent swimmers。"
+     "ipa": "/rer/",
+     "zh": "稀有的",
+     "def": "not common; hard to find",
+     "ex": "a rare bird",
+     "g": "this rare stamp 這張稀有郵票。"
     },
-    "wing": {
+    "celebrate": {
+     "pos": "verb",
+     "ipa": "/ˈsel.ə.breɪt/",
+     "zh": "慶祝",
+     "def": "to do something special for an important event",
+     "ex": "We celebrate New Year together.",
+     "g": "celebrates 130 years 慶祝 130 週年。"
+    },
+    "theme": {
      "pos": "noun",
-     "ipa": "/wɪŋ/",
-     "zh": "翅膀",
-     "def": "the part a bird uses to fly",
-     "ex": "The bird opened its wings.",
-     "g": "Their wings 牠們的翅膀。"
-    },
-    "southern": {
-     "pos": "adjective",
-     "ipa": "/ˈsʌð.ɚn/",
-     "zh": "南方的",
-     "def": "in or from the south",
-     "ex": "the southern part of Taiwan",
-     "g": "south → southern。"
-    },
-    "coast": {
-     "pos": "noun",
-     "ipa": "/koʊst/",
-     "zh": "海岸",
-     "def": "land next to the sea",
-     "ex": "the east coast",
-     "g": "warmer coasts 較溫暖的海岸。"
-    },
-    "turn": {
-     "pos": "noun",
-     "ipa": "/tɝːn/",
-     "zh": "輪流",
-     "def": "the time for one person to do something",
-     "ex": "It's your turn.",
-     "g": "take turns + V-ing 輪流做…。"
-    },
-    "danger": {
-     "pos": "noun",
-     "ipa": "/ˈdeɪn.dʒɚ/",
-     "zh": "危險",
-     "def": "the possibility of being hurt",
-     "ex": "in danger 處於危險中",
-     "g": "be in danger 面臨危險。"
+     "ipa": "/θiːm/",
+     "zh": "主題",
+     "def": "the main idea of an event",
+     "ex": "The theme of the party is the sea.",
+     "g": "Its theme is… 它的主題是…。"
     }
    },
    "grammar": [
     {
-     "pt": "Instead,",
-     "zh": "作為替代。",
-     "ex": "Instead, they are excellent swimmers."
+     "pt": "run until…",
+     "zh": "活動持續到…。",
+     "ex": "It runs until November 25 at the Taipei World Trade Center"
     },
     {
-     "pt": "Some… others…",
-     "zh": "有些…，另一些…。",
-     "ex": "Some live in very cold places like Antarctica, but others live on warmer coasts"
+     "pt": "Because of + 名詞",
+     "zh": "因為…（後面接名詞）。",
+     "ex": "Because of a printing mistake, the plane on the stamp is upside down."
     },
     {
-     "pt": "take turns + V-ing",
-     "zh": "輪流做某事。",
-     "ex": "Parents take turns keeping their eggs warm"
+     "pt": "so… that…",
+     "zh": "太…以至於…。",
+     "ex": "Some new Pokémon stamps were so popular that most of them sold out before the show began."
     }
    ],
    "questions": [
     {
-     "q": "What are penguins very good at?",
+     "q": "How much does it cost to enter the show?",
      "opts": [
-      "Swimming",
-      "Flying",
-      "Climbing trees"
+      "It is free",
+      "100 dollars",
+      "500 dollars"
      ],
      "a": 0
     },
     {
-     "q": "Where do most penguins live?",
+     "q": "What is special about the Inverted Jenny?",
      "opts": [
-      "In the southern half of the world",
-      "Only in the north",
-      "In deserts"
+      "The plane is upside down",
+      "It is very big",
+      "It is new"
      ],
      "a": 0
     },
     {
-     "q": "Why are some penguins in danger?",
+     "q": "What happened to many Pokémon stamps?",
      "opts": [
-      "The oceans are changing",
-      "They are too fast",
-      "They eat too much"
+      "They sold out",
+      "They were lost",
+      "They were free"
      ],
      "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "Penguins often live in large groups.",
-     "target": "Penguins"
+     "s": "Its theme is innovation and sustainability.",
+     "target": "theme"
     },
     {
-     "s": "Instead, they are excellent swimmers.",
-     "target": "excellent"
+     "s": "The show also celebrates 130 years of Chunghwa Post.",
+     "target": "celebrates"
     }
    ],
    "targetWords": [
-    "penguin",
-    "fly",
-    "excellent"
+    "stamp",
+    "visitor",
+    "enter"
    ]
   },
   {
    "id": "a3",
    "kind": "news",
-   "title": "The Story of Paper",
-   "zh": "紙的故事",
+   "title": "A Weekly Trip to the Park Helps Children",
+   "zh": "每週去公園，孩子更健康",
    "source": {
-    "name": "Wikipedia：Paper",
-    "url": "https://en.wikipedia.org/wiki/Paper"
+    "name": "University of Bristol：Going to the park at least once a week can improve children's mental health",
+    "url": "https://www.bristol.ac.uk/alspac/news/2026/going-to-the-park-at-least-once-a-week-can-improve-childrens-mental-health.html"
    },
-   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "note": "依本週新聞改寫成 A2-B1 學習文章，非原文。",
    "paras": [
-    "Paper is so common that we rarely think about it. But for most of history, people wrote on stone, wood, cloth or animal skins.",
-    "Paper making was developed in ancient China about two thousand years ago. People mixed plant fibers with water, spread the mix thin and let it dry. Later, the idea slowly spread to other parts of the world.",
-    "Today, paper is made mostly from wood. Recycling paper saves trees, water and energy. Next time you finish with a newspaper or a box, put it in the recycling bin."
+    "A new study from the UK says that going to the park can be good for children's minds. Children who visited parks and playgrounds at least once a week had better mental health as they grew up.",
+    "Researchers used information about more than 4,000 children from a long study called Children of the 90s. Children who went to the park every week, from birth to age 11, scored about 16.5 percent better on mental health tests.",
+    "Parks give children space to run, play and use their imagination. This can build confidence. The researchers say that cities need safe parks that are open to all families."
    ],
    "glossary": {
-    "paper": {
+    "park": {
      "pos": "noun",
-     "ipa": "/ˈpeɪ.pɚ/",
-     "zh": "紙",
-     "def": "thin material for writing on",
-     "ex": "a piece of paper",
-     "g": "材料時不可數。"
+     "ipa": "/pɑːrk/",
+     "zh": "公園",
+     "def": "a public green area in a town",
+     "ex": "Let's go to the park.",
+     "g": "go to the park 去公園。"
     },
-    "common": {
+    "mind": {
+     "pos": "noun",
+     "ipa": "/maɪnd/",
+     "zh": "心智、頭腦",
+     "def": "the part of a person that thinks and feels",
+     "ex": "Music relaxes my mind.",
+     "g": "children's minds 孩子的心智。"
+    },
+    "playground": {
+     "pos": "noun",
+     "ipa": "/ˈpleɪ.ɡraʊnd/",
+     "zh": "遊樂場",
+     "def": "an outdoor area where children play",
+     "ex": "The playground has swings.",
+     "g": "play + ground。"
+    },
+    "mental": {
      "pos": "adjective",
-     "ipa": "/ˈkɑː.mən/",
-     "zh": "常見的",
-     "def": "happening or found often",
-     "ex": "a common name",
-     "g": "so common that… 如此常見以至於…。"
+     "ipa": "/ˈmen.t̬əl/",
+     "zh": "心理的",
+     "def": "about the mind",
+     "ex": "mental health",
+     "g": "mental health 心理健康。"
     },
-    "rarely": {
-     "pos": "adverb",
-     "ipa": "/ˈrer.li/",
-     "zh": "很少",
-     "def": "not often",
-     "ex": "I rarely eat meat.",
-     "g": "頻率副詞，本身就是否定意味。"
-    },
-    "history": {
+    "researcher": {
      "pos": "noun",
-     "ipa": "/ˈhɪs.tɚ.i/",
-     "zh": "歷史",
-     "def": "the study of past events",
-     "ex": "Chinese history",
-     "g": "for most of history 在歷史上大部分時間。"
+     "ipa": "/ˈriː.sɝː.tʃɚ/",
+     "zh": "研究人員",
+     "def": "a person who studies something carefully",
+     "ex": "The researchers found new facts.",
+     "g": "複數 researchers。"
     },
-    "ancient": {
-     "pos": "adjective",
-     "ipa": "/ˈeɪn.ʃənt/",
-     "zh": "古代的",
-     "def": "very old; from long ago",
-     "ex": "ancient Rome",
-     "g": "ancient China 古代中國。"
-    },
-    "fiber": {
-     "pos": "noun",
-     "ipa": "/ˈfaɪ.bɚ/",
-     "zh": "纖維",
-     "def": "a thin thread of material",
-     "ex": "plant fibers",
-     "g": "複數 fibers。"
-    },
-    "spread": {
+    "score": {
      "pos": "verb",
-     "ipa": "/spred/",
-     "zh": "鋪開；傳播",
-     "def": "to open out over a surface; to move to more places",
-     "ex": "Spread butter on bread.",
-     "g": "過去式也是 spread。"
+     "ipa": "/skɔːr/",
+     "zh": "得分",
+     "def": "to get points in a test or game",
+     "ex": "She scored 90 on the test.",
+     "g": "scored … better 得分高出…。"
     },
-    "newspaper": {
+    "imagination": {
      "pos": "noun",
-     "ipa": "/ˈnuːzˌpeɪ.pɚ/",
-     "zh": "報紙",
-     "def": "printed news on large paper",
-     "ex": "I read the newspaper.",
-     "g": "news + paper。"
+     "ipa": "/ɪˌmædʒ.əˈneɪ.ʃən/",
+     "zh": "想像力",
+     "def": "the ability to make new pictures in your mind",
+     "ex": "Children have a lot of imagination.",
+     "g": "use their imagination 發揮想像力。"
+    },
+    "confidence": {
+     "pos": "noun",
+     "ipa": "/ˈkɑːn.fə.dəns/",
+     "zh": "自信",
+     "def": "feeling sure about yourself",
+     "ex": "She speaks with confidence.",
+     "g": "build confidence 建立自信。"
     }
    },
    "grammar": [
     {
-     "pt": "so… that…",
-     "zh": "如此…以至於…。",
-     "ex": "Paper is so common that we rarely think about it."
+     "pt": "動名詞當主詞",
+     "zh": "going to the park 當主詞。",
+     "ex": "going to the park can be good for children's minds"
     },
     {
-     "pt": "被動式 was developed",
-     "zh": "過去被動式。",
-     "ex": "Paper making was developed in ancient China"
+     "pt": "at least",
+     "zh": "至少。",
+     "ex": "at least once a week"
     },
     {
-     "pt": "let + 受詞 + 原形",
-     "zh": "讓…（自然）…。",
-     "ex": "spread the mix thin and let it dry"
+     "pt": "關係代名詞 who",
+     "zh": "who 修飾 children。",
+     "ex": "Children who went to the park every week"
     }
    ],
    "questions": [
     {
-     "q": "What did people write on before paper?",
+     "q": "How often should children visit parks, according to the study?",
      "opts": [
-      "Stone, wood, cloth or skins",
-      "Glass",
-      "Plastic"
+      "At least once a week",
+      "Once a year",
+      "Every hour"
      ],
      "a": 0
     },
     {
-     "q": "Where was paper making developed?",
+     "q": "How many children were in the study?",
      "opts": [
-      "Ancient China",
-      "Ancient Rome",
-      "America"
+      "More than 4,000",
+      "About 40",
+      "Exactly 100"
      ],
      "a": 0
     },
     {
-     "q": "What does recycling paper save?",
+     "q": "What do the researchers say cities need?",
      "opts": [
-      "Trees, water and energy",
-      "Only money",
-      "Nothing"
+      "Safe parks for all families",
+      "More cars",
+      "Bigger shops"
      ],
      "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "Today, paper is made mostly from wood.",
-     "target": "paper"
+     "s": "Parks give children space to run, play and use their imagination.",
+     "target": "Parks"
     },
     {
-     "s": "Paper is so common that we rarely think about it.",
-     "target": "common"
+     "s": "The researchers say that cities need safe parks that are open to all families.",
+     "target": "researchers"
     }
    ],
    "targetWords": [
-    "paper",
-    "common",
-    "rarely"
+    "park",
+    "mind",
+    "playground"
    ]
   },
   {
    "id": "a4",
    "kind": "ted",
-   "title": "The secret to a happy life: lessons from 8 decades of research",
-   "zh": "幸福人生的秘密：八十年研究的啟示",
+   "title": "How to make stress your friend",
+   "zh": "如何和壓力做朋友",
    "source": {
-    "name": "TED：Robert Waldinger, The secret to a happy life: lessons from 8 decades of research",
-    "url": "https://www.ted.com/talks/robert_waldinger_the_secret_to_a_happy_life_lessons_from_8_decades_of_research"
+    "name": "TED：Kelly McGonigal, How to make stress your friend",
+    "url": "https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend"
    },
    "note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
    "paras": [
-    "Robert Waldinger leads a famous study that has followed people's lives for more than eight decades. In this later talk, he shares more of what the study has taught him.",
-    "The main message is simple but powerful: our relationships matter a lot for a happy and healthy life. Good relationships are like muscles. If we do not use them, they get weaker.",
-    "He suggests small actions to keep relationships strong, like sending a message to an old friend or having a real conversation with someone at work. Who could you contact this week?"
+    "Stress can make your heart beat fast and your hands sweat. Many people think stress is always bad for them. In this popular TED talk, health psychologist Kelly McGonigal looks at stress in a new way.",
+    "She shares research that suggests stress may be bad for us mainly when we believe it is harmful. So the way we think about stress can change how our body reacts to it.",
+    "She also talks about a simple way to handle stress: reach out to other people. When life is hard, asking a friend for help, or helping someone else, can make us stronger."
    ],
    "glossary": {
-    "lead": {
-     "pos": "verb",
-     "ipa": "/liːd/",
-     "zh": "領導",
-     "def": "to be in charge of",
-     "ex": "She leads the team.",
-     "g": "leads 第三人稱單數；leader 名詞。"
-    },
-    "follow": {
-     "pos": "verb",
-     "ipa": "/ˈfɑː.loʊ/",
-     "zh": "追蹤、跟隨",
-     "def": "to watch or go after something over time",
-     "ex": "Follow me.",
-     "g": "has followed 現在完成式。"
-    },
-    "message": {
+    "stress": {
      "pos": "noun",
-     "ipa": "/ˈmes.ɪdʒ/",
-     "zh": "訊息",
-     "def": "information you send to someone",
-     "ex": "I got your message.",
-     "g": "main message 主要訊息。"
+     "ipa": "/stres/",
+     "zh": "壓力",
+     "def": "a feeling of worry because of problems",
+     "ex": "Exams cause stress.",
+     "g": "不可數名詞。"
     },
-    "powerful": {
-     "pos": "adjective",
-     "ipa": "/ˈpaʊ.ɚ.fəl/",
-     "zh": "有力的",
-     "def": "having great effect",
-     "ex": "a powerful idea",
-     "g": "power + -ful。"
-    },
-    "matter": {
-     "pos": "verb",
-     "ipa": "/ˈmæt̬.ɚ/",
-     "zh": "要緊、重要",
-     "def": "to be important",
-     "ex": "Your health matters.",
-     "g": "matter a lot 非常重要。"
-    },
-    "weak": {
-     "pos": "adjective",
-     "ipa": "/wiːk/",
-     "zh": "弱的",
-     "def": "not strong",
-     "ex": "I feel weak today.",
-     "g": "比較級 weaker。"
-    },
-    "conversation": {
+    "heart": {
      "pos": "noun",
-     "ipa": "/ˌkɑːn.vɚˈseɪ.ʃən/",
-     "zh": "對話",
-     "def": "a talk between people",
-     "ex": "We had a long conversation.",
-     "g": "have a conversation 談話。"
+     "ipa": "/hɑːrt/",
+     "zh": "心臟",
+     "def": "the organ that pumps blood",
+     "ex": "My heart beats fast.",
+     "g": "make your heart beat：make + 受詞 + 原形。"
     },
-    "contact": {
+    "psychologist": {
+     "pos": "noun",
+     "ipa": "/saɪˈkɑː.lə.dʒɪst/",
+     "zh": "心理學家",
+     "def": "a person who studies the mind",
+     "ex": "She is a health psychologist.",
+     "g": "p 不發音。"
+    },
+    "research": {
+     "pos": "noun",
+     "ipa": "/ˈriː.sɝːtʃ/",
+     "zh": "研究",
+     "def": "careful study to find new facts",
+     "ex": "new research",
+     "g": "不可數名詞。"
+    },
+    "harmful": {
+     "pos": "adjective",
+     "ipa": "/ˈhɑːrm.fəl/",
+     "zh": "有害的",
+     "def": "causing damage",
+     "ex": "Smoking is harmful.",
+     "g": "harm + -ful。"
+    },
+    "react": {
      "pos": "verb",
-     "ipa": "/ˈkɑːn.tækt/",
-     "zh": "聯絡",
-     "def": "to call or write to someone",
-     "ex": "Please contact me.",
-     "g": "contact + 人（不加 to）。"
+     "ipa": "/riˈækt/",
+     "zh": "反應",
+     "def": "to act because of something",
+     "ex": "How did your body react?",
+     "g": "reacts to it 對它起反應。"
+    },
+    "handle": {
+     "pos": "verb",
+     "ipa": "/ˈhæn.dəl/",
+     "zh": "處理",
+     "def": "to deal with something",
+     "ex": "I can handle this problem.",
+     "g": "handle stress 應付壓力。"
+    },
+    "stronger": {
+     "pos": "adjective",
+     "ipa": "/ˈstrɑːŋ.ɡɚ/",
+     "zh": "更堅強的",
+     "def": "more strong",
+     "ex": "Exercise makes you stronger.",
+     "g": "strong → stronger。"
     }
    },
    "grammar": [
     {
-     "pt": "現在完成式 has followed",
-     "zh": "從過去持續到現在。",
-     "ex": "a famous study that has followed people's lives for more than eight decades"
+     "pt": "make + 受詞 + 原形",
+     "zh": "使…做…。",
+     "ex": "Stress can make your heart beat fast"
     },
     {
-     "pt": "If 子句",
-     "zh": "如果…，就…。",
-     "ex": "If we do not use them, they get weaker."
+     "pt": "the way we think about…",
+     "zh": "我們看待…的方式。",
+     "ex": "the way we think about stress can change how our body reacts to it"
     },
     {
-     "pt": "like + V-ing 舉例",
-     "zh": "像是…。",
-     "ex": "like sending a message to an old friend"
+     "pt": "動名詞當主詞",
+     "zh": "V-ing 當主詞。",
+     "ex": "asking a friend for help, or helping someone else, can make us stronger"
     }
    ],
    "questions": [
     {
-     "q": "How long has the study followed people?",
+     "q": "What can stress make your heart do?",
      "opts": [
-      "More than eight decades",
-      "Eight years",
-      "Eight months"
+      "Beat fast",
+      "Stop",
+      "Grow bigger"
      ],
      "a": 0
     },
     {
-     "q": "What are good relationships compared to?",
+     "q": "When may stress be bad for us, according to the research?",
      "opts": [
-      "Muscles",
-      "Cars",
-      "Phones"
+      "When we believe it is harmful",
+      "When we sleep",
+      "When we eat"
      ],
      "a": 0
     },
     {
-     "q": "Which small action does he suggest?",
+     "q": "What simple way to handle stress does she suggest?",
      "opts": [
-      "Send a message to an old friend",
-      "Buy a new phone",
-      "Work late"
+      "Reach out to other people",
+      "Stay alone",
+      "Work more"
      ],
      "a": 0
     }
    ],
    "keySentences": [
     {
-     "s": "Who could you contact this week?",
-     "target": "contact"
+     "s": "Many people think stress is always bad for them.",
+     "target": "stress"
     },
     {
-     "s": "If we do not use them, they get weaker.",
-     "target": "weaker"
+     "s": "Stress can make your heart beat fast and your hands sweat.",
+     "target": "heart"
     }
    ],
    "targetWords": [
-    "lead",
-    "follow",
-    "message"
+    "stress",
+    "heart",
+    "psychologist"
    ]
   }
  ]
