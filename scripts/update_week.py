@@ -4,7 +4,7 @@
 寫入 week.json 與 archive/<週次>.json。只用 Python 標準函式庫。
 
 想加新文章：在 bank/ 資料夾新增 srcN.py（格式照 src1.py），再執行 python bank/build.py。
-B2、C1 程度的文章放在 bank_levels.json（每筆是 {"b2": [...], "c1": [...]}）。
+B2、C1 程度：bank/levels/wNN.py 寫好後執行 python bank/build_levels.py 產生 bank_lv.json（12 週，主題和 bank.json 同週對應）。
 """
 import datetime as dt
 import json
@@ -89,14 +89,15 @@ def main(today=None):
     n = ((mon - START).days // 7) % len(bank)
     data = {"weekId": week_id, "range": f"{mon:%m/%d} - {mon + dt.timedelta(days=6):%m/%d}", "level": "A2-B1",
             "bankWeek": n + 1, "articles": bank[n]}
-    # B2、C1 程度：從 bank_levels.json 輪流挑（每週 Claude 更新時會把新文章加進去，題庫越來越多）
-    try:
-        lv = json.load(open(os.path.join(ROOT, "bank_levels.json"), encoding="utf-8"))
-        if lv:
-            pick = lv[((mon - START).days // 7) % len(lv)]
+    # B2、C1 程度：優先用 bank_lv.json（和題庫同一週同主題）；沒有的話用 bank_levels.json（每週時事累積）輪流挑
+    for name, same_week in (("bank_lv.json", True), ("bank_levels.json", False)):
+        try:
+            lv = json.load(open(os.path.join(ROOT, name), encoding="utf-8"))
+            pick = lv[n] if same_week else lv[((mon - START).days // 7) % len(lv)]
             data["levels"] = {k: v for k, v in pick.items() if k in ("b2", "c1")}
-    except Exception:
-        pass
+            break
+        except Exception:
+            continue
     os.makedirs(os.path.join(ROOT, "archive"), exist_ok=True)
     for p in (path, os.path.join(ROOT, "archive", f"{week_id}.json")):
         with open(p, "w", encoding="utf-8") as f:

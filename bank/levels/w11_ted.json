@@ -1,0 +1,245 @@
+{
+ "b2": {
+  "title": "How to Make Stress Your Friend",
+  "zh": "如何和壓力做朋友",
+  "paras": [
+   "Most of us have been told that stress is bad for our health. In one of the most watched TED talks of all time, health psychologist Kelly McGonigal admits that she used to deliver the same warning, until new research changed her mind.",
+   "She describes a study that followed about 30,000 adults in the United States for eight years. People who experienced a lot of stress had a higher risk of dying, but only if they also believed that stress was harmful. Those who felt stressed but did not see it as a threat were among the least likely to die.",
+   "McGonigal's message is that our mindset matters. When we view a racing heart as the body preparing us to rise to a challenge, our blood vessels can stay more relaxed. She also points out that stress encourages us to reach out to others, and that connecting with people builds resilience."
+  ],
+  "glossary": {
+   "admit": {
+    "pos": "verb",
+    "ipa": "/ədˈmɪt/",
+    "zh": "承認",
+    "def": "to agree that something is true, often unwillingly",
+    "ex": "He admitted that he was wrong.",
+    "g": "admit that + 子句；admit + V-ing。"
+   },
+   "experience": {
+    "pos": "verb",
+    "ipa": "/ɪkˈspɪr.i.əns/",
+    "zh": "經歷",
+    "def": "to have something happen to you",
+    "ex": "Many people experience stress at work.",
+    "g": "當動詞時後面直接接受詞。"
+   },
+   "risk": {
+    "pos": "noun",
+    "ipa": "/rɪsk/",
+    "zh": "風險",
+    "def": "the chance that something bad will happen",
+    "ex": "a high risk of heart disease",
+    "g": "a higher risk of + V-ing／名詞。"
+   },
+   "harmful": {
+    "pos": "adjective",
+    "ipa": "/ˈhɑːrm.fəl/",
+    "zh": "有害的",
+    "def": "causing damage or injury",
+    "ex": "Smoking is harmful to health.",
+    "g": "harm + -ful；be harmful to…。"
+   },
+   "threat": {
+    "pos": "noun",
+    "ipa": "/θret/",
+    "zh": "威脅",
+    "def": "something that may cause harm",
+    "ex": "Pollution is a threat to wildlife.",
+    "g": "see it as a threat 把它看成威脅。"
+   },
+   "mindset": {
+    "pos": "noun",
+    "ipa": "/ˈmaɪnd.set/",
+    "zh": "心態",
+    "def": "a person's way of thinking about things",
+    "ex": "a positive mindset",
+    "g": "Our mindset matters. 心態很重要。"
+   },
+   "rise to": {
+    "pos": "phrasal verb",
+    "ipa": "/raɪz tuː/",
+    "zh": "成功應對（挑戰）",
+    "def": "to deal well with a difficult situation",
+    "ex": "She rose to the challenge.",
+    "g": "rise to a challenge 迎接挑戰。"
+   },
+   "resilience": {
+    "pos": "noun",
+    "ipa": "/rɪˈzɪl.jəns/",
+    "zh": "韌性、復原力",
+    "def": "the ability to recover quickly from difficulty",
+    "ex": "Sport builds resilience.",
+    "g": "不可數名詞；形容詞 resilient。"
+   }
+  },
+  "grammar": [
+   {
+    "pt": "used to + 原形動詞",
+    "zh": "過去常常…（現在不再）。",
+    "ex": "she used to deliver the same warning"
+   },
+   {
+    "pt": "only if",
+    "zh": "只有在…的情況下。",
+    "ex": "but only if they also believed that stress was harmful"
+   },
+   {
+    "pt": "view A as B",
+    "zh": "把 A 看作 B。",
+    "ex": "When we view a racing heart as the body preparing us to rise to a challenge"
+   }
+  ],
+  "questions": [
+   {
+    "q": "How long did the study follow people?",
+    "opts": [
+     "Eight years",
+     "Eight months",
+     "Thirty years"
+    ],
+    "a": 0
+   },
+   {
+    "q": "Which group had a higher risk of dying?",
+    "opts": [
+     "Stressed people who believed stress was harmful",
+     "Everyone who felt stress",
+     "People with no stress at all"
+    ],
+    "a": 0
+   },
+   {
+    "q": "What does stress encourage us to do, according to McGonigal?",
+    "opts": [
+     "Reach out to other people",
+     "Stay at home alone",
+     "Stop exercising"
+    ],
+    "a": 0
+   }
+  ]
+ },
+ "c1": {
+  "title": "Rethinking Stress: Kelly McGonigal's Surprising Case",
+  "zh": "重新思考壓力：凱莉・麥高尼格的反直覺觀點",
+  "paras": [
+   "Few health messages are repeated as relentlessly as the claim that stress makes us ill. In her widely viewed TED talk, health psychologist Kelly McGonigal confesses that she spent years reinforcing that very message, only to be confronted by evidence that complicated it.",
+   "The turning point was a study that tracked roughly 30,000 American adults over eight years. High levels of stress were associated with a 43 percent greater risk of dying, yet this held true only for participants who also believed that stress was damaging to their health. Those who reported plenty of stress but did not regard it as harmful had some of the lowest mortality rates in the study.",
+   "From this, McGonigal draws a provocative conclusion: how we interpret our physical reactions may shape their consequences. A pounding heart and quickened breath can be reframed as signs that the body is mobilizing energy to meet a challenge, and people who learned to see stress this way showed a healthier response, with blood vessels that stayed relaxed.",
+   "She also highlights a less familiar side of the stress response: the release of oxytocin, a hormone that nudges us to seek and offer support. Seen in this light, stress is not merely something to be eliminated. Handled well, it can be a catalyst for courage and connection."
+  ],
+  "glossary": {
+   "relentlessly": {
+    "pos": "adverb",
+    "ipa": "/rɪˈlent.ləs.li/",
+    "zh": "不停地、無情地",
+    "def": "without stopping or becoming less strong",
+    "ex": "It rained relentlessly all week.",
+    "g": "relentless + -ly。"
+   },
+   "reinforce": {
+    "pos": "verb",
+    "ipa": "/ˌriː.ɪnˈfɔːrs/",
+    "zh": "強化",
+    "def": "to make an idea or feeling stronger",
+    "ex": "The ads reinforce old stereotypes.",
+    "g": "reinforcing 動名詞，接在 spend years 後。"
+   },
+   "confront": {
+    "pos": "verb",
+    "ipa": "/kənˈfrʌnt/",
+    "zh": "面對、使正視",
+    "def": "to make someone face something difficult",
+    "ex": "She was confronted with the truth.",
+    "g": "be confronted by/with… 被迫面對…。"
+   },
+   "mortality": {
+    "pos": "noun",
+    "ipa": "/mɔːrˈtæl.ə.t̬i/",
+    "zh": "死亡率",
+    "def": "the number of deaths in a group",
+    "ex": "infant mortality",
+    "g": "mortality rates 死亡率（常用複數）。"
+   },
+   "provocative": {
+    "pos": "adjective",
+    "ipa": "/prəˈvɑː.kə.t̬ɪv/",
+    "zh": "發人深省的、引起爭議的",
+    "def": "causing thought or argument",
+    "ex": "a provocative question",
+    "g": "provoke → provocative。"
+   },
+   "reframe": {
+    "pos": "verb",
+    "ipa": "/ˌriːˈfreɪm/",
+    "zh": "換個角度看",
+    "def": "to think about something in a different way",
+    "ex": "Try to reframe failure as learning.",
+    "g": "be reframed as… 被重新詮釋為…。"
+   },
+   "mobilize": {
+    "pos": "verb",
+    "ipa": "/ˈmoʊ.bə.laɪz/",
+    "zh": "動員、調動",
+    "def": "to bring together resources for a purpose",
+    "ex": "The body mobilizes energy under stress.",
+    "g": "英式拼 mobilise。"
+   },
+   "catalyst": {
+    "pos": "noun",
+    "ipa": "/ˈkæt̬.əl.ɪst/",
+    "zh": "催化劑、促成因素",
+    "def": "something that causes an important change",
+    "ex": "The crisis was a catalyst for reform.",
+    "g": "a catalyst for + 名詞。"
+   }
+  },
+  "grammar": [
+   {
+    "pt": "only to + V",
+    "zh": "結果卻…（出乎意料的轉折）。",
+    "ex": "only to be confronted by evidence that complicated it"
+   },
+   {
+    "pt": "hold true for",
+    "zh": "對…成立、適用。",
+    "ex": "this held true only for participants who also believed that stress was damaging to their health"
+   },
+   {
+    "pt": "分詞構句 Seen / Handled",
+    "zh": "省略主詞的被動分詞構句，表示條件。",
+    "ex": "Seen in this light, stress is not merely something to be eliminated."
+   }
+  ],
+  "questions": [
+   {
+    "q": "What happened to McGonigal's earlier view of stress?",
+    "opts": [
+     "New evidence made her rethink it",
+     "She proved it was completely right",
+     "She stopped studying stress"
+    ],
+    "a": 0
+   },
+   {
+    "q": "According to the study, who faced the higher risk of death?",
+    "opts": [
+     "Stressed people who saw stress as harmful",
+     "All participants equally",
+     "People who exercised often"
+    ],
+    "a": 0
+   },
+   {
+    "q": "What role does oxytocin play, as described in the talk?",
+    "opts": [
+     "It nudges people to seek and give support",
+     "It makes the heart beat faster",
+     "It removes stress completely"
+    ],
+    "a": 0
+   }
+  ]
+ }
+}
