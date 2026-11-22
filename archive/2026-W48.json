@@ -1,0 +1,1780 @@
+{
+ "weekId": "2026-W48",
+ "range": "11/23 - 11/29",
+ "level": "A2-B1",
+ "source": "claude",
+ "articles": [
+  {
+   "id": "a1",
+   "level": "A2-B1",
+   "kind": "news",
+   "title": "Voyager 1 Reaches One Light-Day from Earth",
+   "zh": "航海家1號距離地球一光日",
+   "source": {
+    "name": "ScienceDaily：NASA's Voyager 1 is now so far away that light takes 24 hours to reach it",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+   },
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "paras": [
+    "In 1977, NASA sent a small spacecraft called Voyager 1 into space. Almost fifty years later, it is still traveling. On November 18, 2026, it became the first spacecraft to reach one light-day from Earth. That means light needs a full day to travel to it.",
+    "Voyager 1 is now about 25.9 billion kilometers away. It moves at about 61,000 kilometers per hour. Because it is so far, a message from Earth takes 24 hours to arrive. An answer takes another 24 hours to come back.",
+    "The spacecraft is old, and its power gets lower every year. Engineers turn off some parts to save energy. Since November 14, NASA has not received data from Voyager 1, and the team is trying to find out why. Still, the journey is an amazing success."
+   ],
+   "glossary": {
+    "spacecraft": {
+     "pos": "n.",
+     "ipa": "/ˈspeɪsˌkræft/",
+     "zh": "太空船",
+     "def": "a vehicle that can travel in space",
+     "ex": "The spacecraft took photos of Mars.",
+     "g": "文中 a small spacecraft called Voyager 1，spacecraft 單複數同形，不加 s。"
+    },
+    "travel": {
+     "pos": "v.",
+     "ipa": "/ˈtrævəl/",
+     "zh": "移動；旅行",
+     "def": "to go from one place to another",
+     "ex": "Sound travels slower than light.",
+     "g": "it is still traveling 用現在進行式，表示到現在還在移動。"
+    },
+    "reach": {
+     "pos": "v.",
+     "ipa": "/riːtʃ/",
+     "zh": "到達",
+     "def": "to arrive at a place or a level",
+     "ex": "We reached the top of the hill.",
+     "g": "the first spacecraft to reach…：reach 後面直接接地點，不加 to。"
+    },
+    "message": {
+     "pos": "n.",
+     "ipa": "/ˈmesɪdʒ/",
+     "zh": "訊息",
+     "def": "a piece of information sent to someone",
+     "ex": "I got your message this morning.",
+     "g": "a message from Earth 是可數名詞，用 a 修飾。"
+    },
+    "arrive": {
+     "pos": "v.",
+     "ipa": "/əˈraɪv/",
+     "zh": "抵達",
+     "def": "to get to a place",
+     "ex": "The bus arrives at eight.",
+     "g": "takes 24 hours to arrive：take + 時間 + to V，表示「花多久時間才…」。"
+    },
+    "energy": {
+     "pos": "n.",
+     "ipa": "/ˈenərdʒi/",
+     "zh": "能量；電力",
+     "def": "the power that makes machines work",
+     "ex": "Turn off the lights to save energy.",
+     "g": "save energy 是固定搭配，表示節省能源。"
+    },
+    "engineer": {
+     "pos": "n.",
+     "ipa": "/ˌendʒɪˈnɪr/",
+     "zh": "工程師",
+     "def": "a person who designs or fixes machines",
+     "ex": "The engineer fixed the computer.",
+     "g": "Engineers turn off some parts 用複數泛指一群工程師。"
+    },
+    "receive": {
+     "pos": "v.",
+     "ipa": "/rɪˈsiːv/",
+     "zh": "收到",
+     "def": "to get something that someone sends you",
+     "ex": "Did you receive my email?",
+     "g": "has not received data 是現在完成式否定，搭配 since 表示從某時到現在都沒有。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "the first + 名詞 + to V",
+     "zh": "「第一個做某事的…」",
+     "ex": "it became the first spacecraft to reach one light-day from Earth"
+    },
+    {
+     "pt": "Because + 原因, 結果",
+     "zh": "because 子句放句首時後面加逗號",
+     "ex": "Because it is so far, a message from Earth takes 24 hours to arrive"
+    },
+    {
+     "pt": "現在完成式 + since",
+     "zh": "表示從過去某時間點一直到現在",
+     "ex": "Since November 14, NASA has not received data from Voyager 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "When did Voyager 1 reach one light-day from Earth?",
+     "opts": [
+      "In 1977",
+      "On November 18, 2026",
+      "On November 14, 2026"
+     ],
+     "a": 1
+    },
+    {
+     "q": "How long does a message from Earth take to reach Voyager 1?",
+     "opts": [
+      "One hour",
+      "12 hours",
+      "24 hours"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What problem does the team have now?",
+     "opts": [
+      "They have not received data since November 14.",
+      "The spacecraft is coming back to Earth.",
+      "The spacecraft is moving too slowly."
+     ],
+     "a": 0
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "Engineers turn off some parts to save energy.",
+     "target": "energy"
+    },
+    {
+     "s": "Almost fifty years later, it is still traveling.",
+     "target": "traveling"
+    }
+   ],
+   "targetWords": [
+    "spacecraft",
+    "travel",
+    "reach"
+   ]
+  },
+  {
+   "id": "a2",
+   "level": "A2-B1",
+   "kind": "news",
+   "title": "Exercise Often for a Happier Mind",
+   "zh": "常常運動，心情更好",
+   "source": {
+    "name": "ScienceDaily：For better mental health, how often you exercise may matter more than how hard",
+    "url": "https://www.sciencedaily.com/releases/2026/11/261119194601.htm"
+   },
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "paras": [
+    "Many students feel stressed or worried. A new study from Norway looked at how exercise can help. Researchers asked more than 10,000 college students about their exercise habits. One year later, they checked the students again for signs of anxiety and depression.",
+    "The results were clear. Students who exercised less had a higher chance of anxiety or depression a year later. The most important thing was how often they exercised. It mattered more than how hard or how long they exercised each time.",
+    "The study cannot prove that exercise causes better mental health. But it gives us a simple idea: move your body often. You do not need very hard workouts. The World Health Organization suggests at least 150 minutes of activity each week."
+   ],
+   "glossary": {
+    "stressed": {
+     "pos": "adj.",
+     "ipa": "/strest/",
+     "zh": "有壓力的",
+     "def": "worried and nervous because of problems",
+     "ex": "I feel stressed before exams.",
+     "g": "feel stressed：feel 後面接形容詞，描述感覺。"
+    },
+    "study": {
+     "pos": "n.",
+     "ipa": "/ˈstʌdi/",
+     "zh": "研究",
+     "def": "a piece of research about a subject",
+     "ex": "A new study shows that sleep is important.",
+     "g": "A new study from Norway：study 當名詞是「研究」，不是「讀書」。"
+    },
+    "habit": {
+     "pos": "n.",
+     "ipa": "/ˈhæbɪt/",
+     "zh": "習慣",
+     "def": "something you do often and regularly",
+     "ex": "Reading every night is a good habit.",
+     "g": "their exercise habits：exercise 當形容詞用，修飾 habits。"
+    },
+    "anxiety": {
+     "pos": "n.",
+     "ipa": "/æŋˈzaɪəti/",
+     "zh": "焦慮",
+     "def": "a strong feeling of worry",
+     "ex": "She felt anxiety before the test.",
+     "g": "anxiety and depression 常一起出現，都是不可數名詞。"
+    },
+    "depression": {
+     "pos": "n.",
+     "ipa": "/dɪˈpreʃən/",
+     "zh": "憂鬱症；沮喪",
+     "def": "a mental illness that makes you feel very sad for a long time",
+     "ex": "Depression can be treated.",
+     "g": "signs of depression：signs of + 名詞，表示「…的徵兆」。"
+    },
+    "result": {
+     "pos": "n.",
+     "ipa": "/rɪˈzʌlt/",
+     "zh": "結果",
+     "def": "what you find out at the end of a study or test",
+     "ex": "The test results were good.",
+     "g": "The results were clear：研究結果常用複數 results。"
+    },
+    "matter": {
+     "pos": "v.",
+     "ipa": "/ˈmætər/",
+     "zh": "重要；有關係",
+     "def": "to be important",
+     "ex": "Your health matters.",
+     "g": "It mattered more than…：matter 當動詞是「要緊」，比較時加 more than。"
+    },
+    "prove": {
+     "pos": "v.",
+     "ipa": "/pruːv/",
+     "zh": "證明",
+     "def": "to show that something is true",
+     "ex": "Can you prove it?",
+     "g": "cannot prove that…：prove 後面可接 that 子句。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "關係代名詞 who",
+     "zh": "who 引導子句修飾前面的人",
+     "ex": "Students who exercised less had a higher chance"
+    },
+    {
+     "pt": "間接問句 how often",
+     "zh": "疑問詞放句中，用直述句語順",
+     "ex": "how often they exercised"
+    },
+    {
+     "pt": "more than",
+     "zh": "比較兩件事哪個比較重要",
+     "ex": "It mattered more than how hard or how long they exercised"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where did this study take place?",
+     "opts": [
+      "Taiwan",
+      "Norway",
+      "Japan"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What mattered most in the study?",
+     "opts": [
+      "How hard students exercised",
+      "How long students exercised",
+      "How often students exercised"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What does the study say about cause and effect?",
+     "opts": [
+      "It cannot prove that exercise causes better mental health.",
+      "It proves that exercise cures depression.",
+      "It says only hard workouts help."
+     ],
+     "a": 0
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "Many students feel stressed or worried.",
+     "target": "stressed"
+    },
+    {
+     "s": "A new study from Norway looked at how exercise can help.",
+     "target": "study"
+    }
+   ],
+   "targetWords": [
+    "stressed",
+    "study",
+    "habit"
+   ]
+  },
+  {
+   "id": "a3",
+   "level": "A2-B1",
+   "kind": "news",
+   "title": "Taiwan Shows Smart City Ideas in Thailand",
+   "zh": "台灣在泰國展示智慧城市科技",
+   "source": {
+    "name": "Focus Taiwan：Taiwanese tech firms showcase smart city solutions at Thailand expo",
+    "url": "https://focustaiwan.tw/sci-tech/202611200005"
+   },
+   "note": "學習用短文，依參考資料改寫成 A2-B1 程度，延伸閱讀請看來源連結。",
+   "paras": [
+    "A big technology show called Smart City Expo Thailand 2026 opened in Bangkok on November 18. It lasted three days. Many Taiwanese companies joined the show. They showed new products for health care, transportation and saving energy. Some of them also used artificial intelligence, or AI.",
+    "The Taipei City government brought 12 companies to the expo. It was the city's first time there. There was also a special Taiwan AI area with 10 Taiwanese AI companies. Visitors could see many smart tools for computers and energy there.",
+    "One company showed a special screen. People can read it easily in strong sunlight, and it keeps its picture without using power all the time. Thai companies and government groups were interested, especially in transportation and safety. It was a good chance for Taiwan."
+   ],
+   "glossary": {
+    "technology": {
+     "pos": "n.",
+     "ipa": "/tekˈnɑːlədʒi/",
+     "zh": "科技",
+     "def": "new machines, tools and ways of doing things based on science",
+     "ex": "Technology changes our lives.",
+     "g": "a big technology show：technology 在這裡當形容詞用，修飾 show。"
+    },
+    "company": {
+     "pos": "n.",
+     "ipa": "/ˈkʌmpəni/",
+     "zh": "公司",
+     "def": "a business that makes or sells things",
+     "ex": "She works for a big company.",
+     "g": "複數 companies：子音 + y 結尾，去 y 加 ies。"
+    },
+    "product": {
+     "pos": "n.",
+     "ipa": "/ˈprɑːdʌkt/",
+     "zh": "產品",
+     "def": "something that is made to be sold",
+     "ex": "This shop sells new products.",
+     "g": "new products for health care：for 表示用途。"
+    },
+    "transportation": {
+     "pos": "n.",
+     "ipa": "/ˌtrænspərˈteɪʃən/",
+     "zh": "交通運輸",
+     "def": "ways of moving people or things from place to place",
+     "ex": "Public transportation in Taipei is convenient.",
+     "g": "不可數名詞，不加 s。"
+    },
+    "government": {
+     "pos": "n.",
+     "ipa": "/ˈɡʌvərnmənt/",
+     "zh": "政府",
+     "def": "the group of people who control a city or country",
+     "ex": "The government built a new park.",
+     "g": "The Taipei City government：前面加城市名表示市政府。"
+    },
+    "visitor": {
+     "pos": "n.",
+     "ipa": "/ˈvɪzɪtər/",
+     "zh": "參觀者",
+     "def": "a person who comes to see a place or event",
+     "ex": "The museum has many visitors.",
+     "g": "Visitors could see…：could 是 can 的過去式。"
+    },
+    "screen": {
+     "pos": "n.",
+     "ipa": "/skriːn/",
+     "zh": "螢幕",
+     "def": "the flat part of a TV, phone or computer that shows pictures",
+     "ex": "My phone screen is broken.",
+     "g": "a special screen：形容詞放在名詞前。"
+    },
+    "safety": {
+     "pos": "n.",
+     "ipa": "/ˈseɪfti/",
+     "zh": "安全",
+     "def": "the state of being safe from danger",
+     "ex": "Safety is very important.",
+     "g": "safety 是名詞，形容詞是 safe。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "過去分詞 called",
+     "zh": "called + 名稱，表示「叫做…的」",
+     "ex": "A big technology show called Smart City Expo Thailand 2026"
+    },
+    {
+     "pt": "There was …",
+     "zh": "表示「有…」，過去式用 was",
+     "ex": "There was also a special Taiwan AI area"
+    },
+    {
+     "pt": "without + V-ing",
+     "zh": "介系詞後面接動名詞",
+     "ex": "without using power all the time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Where was the expo held?",
+     "opts": [
+      "Bangkok",
+      "Taipei",
+      "Tokyo"
+     ],
+     "a": 0
+    },
+    {
+     "q": "How many companies did the Taipei City government bring?",
+     "opts": [
+      "10",
+      "20",
+      "12"
+     ],
+     "a": 2
+    },
+    {
+     "q": "What is special about the screen?",
+     "opts": [
+      "It can fold like paper.",
+      "People can read it in strong sunlight.",
+      "It is very cheap."
+     ],
+     "a": 1
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "One company showed a special screen.",
+     "target": "company"
+    },
+    {
+     "s": "Many Taiwanese companies joined the show.",
+     "target": "companies"
+    }
+   ],
+   "targetWords": [
+    "technology",
+    "company",
+    "product"
+   ]
+  },
+  {
+   "id": "a4",
+   "level": "A2-B1",
+   "kind": "ted",
+   "title": "Exercise Is Good for Your Brain",
+   "zh": "運動讓大腦更好",
+   "source": {
+    "name": "TED：Wendy Suzuki, The brain-changing benefits of exercise",
+    "url": "https://www.ted.com/talks/wendy_suzuki_the_brain_changing_benefits_of_exercise"
+   },
+   "note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+   "paras": [
+    "Wendy Suzuki is a brain scientist in New York. In her TED talk, she says she once worked all the time and had almost no life outside the lab. She did not feel healthy. Then she started to exercise, and she felt better and could remember things more easily.",
+    "This surprised her, so she changed her research. She began to study how exercise changes the brain. She explains that moving your body can improve your mood right away. It can also help you focus better for a while after exercise.",
+    "Over time, regular exercise can help the part of the brain that is important for memory. It may also protect the brain as we get older. Her advice is simple: you do not need a gym. Walking fast or taking the stairs also helps."
+   ],
+   "glossary": {
+    "scientist": {
+     "pos": "n.",
+     "ipa": "/ˈsaɪəntɪst/",
+     "zh": "科學家",
+     "def": "a person who studies science",
+     "ex": "The scientist works in a lab.",
+     "g": "a brain scientist：brain 修飾 scientist，表示研究大腦的科學家。"
+    },
+    "exercise": {
+     "pos": "v.",
+     "ipa": "/ˈeksərsaɪz/",
+     "zh": "運動",
+     "def": "to move your body to stay healthy",
+     "ex": "I exercise three times a week.",
+     "g": "started to exercise：start to V 表示開始做某事。"
+    },
+    "remember": {
+     "pos": "v.",
+     "ipa": "/rɪˈmembər/",
+     "zh": "記得",
+     "def": "to keep something in your mind",
+     "ex": "I can't remember his name.",
+     "g": "could remember things more easily：more easily 是副詞比較級。"
+    },
+    "research": {
+     "pos": "n.",
+     "ipa": "/ˈriːsɜːrtʃ/",
+     "zh": "研究",
+     "def": "careful study to find new facts",
+     "ex": "She does research on the brain.",
+     "g": "不可數名詞，不說 a research。"
+    },
+    "mood": {
+     "pos": "n.",
+     "ipa": "/muːd/",
+     "zh": "心情",
+     "def": "the way you feel at a time",
+     "ex": "Music puts me in a good mood.",
+     "g": "improve your mood：改善心情。"
+    },
+    "focus": {
+     "pos": "v.",
+     "ipa": "/ˈfoʊkəs/",
+     "zh": "專心",
+     "def": "to give all your attention to something",
+     "ex": "It's hard to focus when it's noisy.",
+     "g": "help you focus：help + 人 + 原形動詞。"
+    },
+    "memory": {
+     "pos": "n.",
+     "ipa": "/ˈmeməri/",
+     "zh": "記憶力",
+     "def": "the ability to remember things",
+     "ex": "He has a good memory.",
+     "g": "important for memory：important for + 名詞，表示對…很重要。"
+    },
+    "protect": {
+     "pos": "v.",
+     "ipa": "/prəˈtekt/",
+     "zh": "保護",
+     "def": "to keep someone or something safe",
+     "ex": "Sunscreen protects your skin.",
+     "g": "may also protect：may 表示「可能」，語氣不那麼肯定。"
+    }
+   },
+   "grammar": [
+    {
+     "pt": "so 表結果",
+     "zh": "前面是原因，so 後面是結果",
+     "ex": "This surprised her, so she changed her research"
+    },
+    {
+     "pt": "動名詞當主詞",
+     "zh": "V-ing 放句首當主詞，動詞用單數",
+     "ex": "Walking fast or taking the stairs also helps"
+    },
+    {
+     "pt": "help + 人 + 原形動詞",
+     "zh": "幫助某人做某事",
+     "ex": "help you focus better"
+    }
+   ],
+   "questions": [
+    {
+     "q": "What is Wendy Suzuki's job?",
+     "opts": [
+      "A gym teacher",
+      "A brain scientist",
+      "A children's doctor"
+     ],
+     "a": 1
+    },
+    {
+     "q": "What happened after she started to exercise?",
+     "opts": [
+      "She felt better and remembered things more easily.",
+      "She felt tired all the time.",
+      "She stopped doing research."
+     ],
+     "a": 0
+    },
+    {
+     "q": "What is her advice?",
+     "opts": [
+      "You must join a gym.",
+      "Only very hard exercise helps.",
+      "Walking fast or taking the stairs also helps."
+     ],
+     "a": 2
+    }
+   ],
+   "keySentences": [
+    {
+     "s": "Wendy Suzuki is a brain scientist in New York.",
+     "target": "scientist"
+    },
+    {
+     "s": "It may also protect the brain as we get older.",
+     "target": "protect"
+    }
+   ],
+   "targetWords": [
+    "scientist",
+    "exercise",
+    "remember"
+   ]
+  }
+ ],
+ "levels": {
+  "b2": [
+   {
+    "id": "b2-1",
+    "level": "B2",
+    "kind": "news",
+    "title": "Voyager 1 Crosses the One Light-Day Line",
+    "zh": "航海家1號跨越一光日里程碑",
+    "source": {
+     "name": "ScienceDaily：NASA's Voyager 1 is now so far away that light takes 24 hours to reach it",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+    },
+    "note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "Nearly half a century after leaving Earth, NASA's Voyager 1 has become the first spacecraft ever to sit one full light-day away from home. The milestone, which engineers confirmed by tracking the probe's radio signal, was reached on November 18, when the craft was roughly 25.9 billion kilometers from our planet.",
+     "This enormous distance creates practical challenges. Any command sent from Earth now needs 24 hours to arrive, and the team must wait another day before learning whether it worked.",
+     "Keeping the aging probe alive has become a careful balancing act. Its power supply drops by about four watts every year, so engineers have switched off several systems to save energy. Their latest measures should keep the current instruments running until at least the summer of 2027.",
+     "However, the celebration comes with some worry: no data has reached NASA since November 14, and engineers are still investigating the cause."
+    ],
+    "glossary": {
+     "milestone": {
+      "pos": "n.",
+      "ipa": "/ˈmaɪlstoʊn/",
+      "zh": "里程碑",
+      "def": "a very important event in the development of something",
+      "ex": "Graduating was a big milestone in her life.",
+      "g": "The milestone, which…：milestone 後接補充說明的關係子句。"
+     },
+     "confirm": {
+      "pos": "v.",
+      "ipa": "/kənˈfɜːrm/",
+      "zh": "證實；確認",
+      "def": "to say or show that something is true",
+      "ex": "Tests confirmed the result.",
+      "g": "confirmed by tracking…：by + V-ing 表示用什麼方法。"
+     },
+     "enormous": {
+      "pos": "adj.",
+      "ipa": "/ɪˈnɔːrməs/",
+      "zh": "巨大的",
+      "def": "extremely large",
+      "ex": "They live in an enormous house.",
+      "g": "This enormous distance：比 big 更強烈的形容詞。"
+     },
+     "practical": {
+      "pos": "adj.",
+      "ipa": "/ˈpræktɪkəl/",
+      "zh": "實際的",
+      "def": "relating to real situations rather than ideas",
+      "ex": "We need a practical solution.",
+      "g": "practical challenges：實際操作上的困難。"
+     },
+     "command": {
+      "pos": "n.",
+      "ipa": "/kəˈmænd/",
+      "zh": "指令",
+      "def": "an order given to a person or machine",
+      "ex": "The robot follows voice commands.",
+      "g": "Any command sent from Earth：sent 是過去分詞，省略 that is。"
+     },
+     "aging": {
+      "pos": "adj.",
+      "ipa": "/ˈeɪdʒɪŋ/",
+      "zh": "老化的",
+      "def": "becoming old",
+      "ex": "The city has an aging population.",
+      "g": "the aging probe：現在分詞當形容詞，表示正在變老。"
+     },
+     "instrument": {
+      "pos": "n.",
+      "ipa": "/ˈɪnstrəmənt/",
+      "zh": "儀器",
+      "def": "a tool used for scientific measurement",
+      "ex": "The ship carries instruments to measure the wind.",
+      "g": "keep the current instruments running：keep + 受詞 + V-ing。"
+     },
+     "investigate": {
+      "pos": "v.",
+      "ipa": "/ɪnˈvestɪɡeɪt/",
+      "zh": "調查",
+      "def": "to try to find out the facts about something",
+      "ex": "Police are investigating the accident.",
+      "g": "are still investigating：現在進行式表示仍在進行中。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "非限定關係子句",
+      "zh": "用逗號隔開，補充說明前面的名詞",
+      "ex": "The milestone, which engineers confirmed by tracking the probe's radio signal, was reached on November 18"
+     },
+     {
+      "pt": "動名詞片語當主詞",
+      "zh": "V-ing 片語當主詞，動詞用單數",
+      "ex": "Keeping the aging probe alive has become a careful balancing act"
+     },
+     {
+      "pt": "so + 結果子句",
+      "zh": "前面說原因，so 帶出採取的行動",
+      "ex": "so engineers have switched off several systems to save energy"
+     },
+     {
+      "pt": "keep + 受詞 + V-ing",
+      "zh": "使某物持續保持某狀態",
+      "ex": "keep the current instruments running"
+     }
+    ],
+    "questions": [
+     {
+      "q": "How did engineers confirm the milestone?",
+      "opts": [
+       "By taking photos of the probe",
+       "By tracking the probe's radio signal",
+       "By sending a second spacecraft"
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why must the team wait two days to know whether a command worked?",
+      "opts": [
+       "The probe only works every other day.",
+       "Engineers check data twice a week.",
+       "Signals take 24 hours each way."
+      ],
+      "a": 2
+     },
+     {
+      "q": "What is the main worry mentioned at the end?",
+      "opts": [
+       "No data has reached NASA since November 14.",
+       "The probe is moving toward Earth.",
+       "The instruments stopped in 2027."
+      ],
+      "a": 0
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "This enormous distance creates practical challenges.",
+      "target": "enormous"
+     },
+     {
+      "s": "Keeping the aging probe alive has become a careful balancing act.",
+      "target": "aging"
+     }
+    ],
+    "targetWords": [
+     "milestone",
+     "confirm",
+     "enormous"
+    ]
+   },
+   {
+    "id": "b2-2",
+    "level": "B2",
+    "kind": "news",
+    "title": "How Often You Move May Matter Most",
+    "zh": "運動頻率可能比強度更重要",
+    "source": {
+     "name": "ScienceDaily：For better mental health, how often you exercise may matter more than how hard",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261119194601.htm"
+    },
+    "note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "If you have been skipping workouts because you think only intense exercise counts, a new Norwegian study offers some encouraging news. Researchers followed 10,460 university students aged 18 to 35, asking about how often, how hard and how long they exercised.",
+     "A year later, the students completed a mental health assessment. Those who were less active were more likely to meet the criteria for anxiety or depression, and frequency turned out to be the most consistent factor.",
+     "Interestingly, the patterns differed between men and women. Among women, lower intensity was linked to more symptoms, while for men the total number of weekly hours mattered more. The risk kept falling as weekly exercise increased, up to about ten hours.",
+     "Because the study was observational, it cannot show cause and effect. Still, the authors note that their results fit the WHO's advice of 150 minutes of activity a week."
+    ],
+    "glossary": {
+     "intense": {
+      "pos": "adj.",
+      "ipa": "/ɪnˈtens/",
+      "zh": "激烈的",
+      "def": "very strong or extreme",
+      "ex": "After an intense game, the players rested.",
+      "g": "only intense exercise counts：counts 在此是「算數、有用」。"
+     },
+     "encouraging": {
+      "pos": "adj.",
+      "ipa": "/ɪnˈkɜːrɪdʒɪŋ/",
+      "zh": "令人鼓舞的",
+      "def": "giving you hope or confidence",
+      "ex": "The early results are encouraging.",
+      "g": "encouraging news：-ing 形容詞描述事物帶給人的感受。"
+     },
+     "assessment": {
+      "pos": "n.",
+      "ipa": "/əˈsesmənt/",
+      "zh": "評估",
+      "def": "a test or judgment of something",
+      "ex": "Every student takes a reading assessment.",
+      "g": "a mental health assessment：心理健康評估。"
+     },
+     "criteria": {
+      "pos": "n.",
+      "ipa": "/kraɪˈtɪriə/",
+      "zh": "標準（複數）",
+      "def": "standards used to judge something",
+      "ex": "What are the criteria for the prize?",
+      "g": "meet the criteria for…：符合…的標準；單數是 criterion。"
+     },
+     "frequency": {
+      "pos": "n.",
+      "ipa": "/ˈfriːkwənsi/",
+      "zh": "頻率",
+      "def": "how often something happens",
+      "ex": "The frequency of buses has increased.",
+      "g": "frequency 對應文中的 how often。"
+     },
+     "consistent": {
+      "pos": "adj.",
+      "ipa": "/kənˈsɪstənt/",
+      "zh": "一致的；穩定的",
+      "def": "always behaving or happening in a similar way",
+      "ex": "Her work is consistent and reliable.",
+      "g": "the most consistent factor：最穩定出現關聯的因素。"
+     },
+     "symptom": {
+      "pos": "n.",
+      "ipa": "/ˈsɪmptəm/",
+      "zh": "症狀",
+      "def": "a sign that someone has an illness",
+      "ex": "A cough is a common symptom of a cold.",
+      "g": "was linked to more symptoms：be linked to 表示「與…有關」。"
+     },
+     "observational": {
+      "pos": "adj.",
+      "ipa": "/ˌɑːbzərˈveɪʃənəl/",
+      "zh": "觀察性的",
+      "def": "based on watching and recording, not on experiments",
+      "ex": "An observational study cannot prove cause.",
+      "g": "Because the study was observational：說明研究限制。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "現在完成進行式",
+      "zh": "表示從過去持續到現在的習慣",
+      "ex": "If you have been skipping workouts"
+     },
+     {
+      "pt": "turn out to be",
+      "zh": "結果發現是…",
+      "ex": "frequency turned out to be the most consistent factor"
+     },
+     {
+      "pt": "Those who …",
+      "zh": "「那些…的人」",
+      "ex": "Those who were less active were more likely to meet the criteria"
+     },
+     {
+      "pt": "while 表對比",
+      "zh": "連接兩個對比的子句",
+      "ex": "while for men the total number of weekly hours mattered more"
+     }
+    ],
+    "questions": [
+     {
+      "q": "Which factor was the most consistent?",
+      "opts": [
+       "How often students exercised",
+       "How hard students exercised",
+       "How long each session lasted"
+      ],
+      "a": 0
+     },
+     {
+      "q": "For men, what mattered more?",
+      "opts": [
+       "Exercise intensity",
+       "The time of day",
+       "Total weekly hours"
+      ],
+      "a": 2
+     },
+     {
+      "q": "Why can't the study show cause and effect?",
+      "opts": [
+       "It only studied women.",
+       "It was observational.",
+       "It lasted only a week."
+      ],
+      "a": 1
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "A year later, the students completed a mental health assessment.",
+      "target": "assessment"
+     },
+     {
+      "s": "Because the study was observational, it cannot show cause and effect.",
+      "target": "observational"
+     }
+    ],
+    "targetWords": [
+     "intense",
+     "encouraging",
+     "assessment"
+    ]
+   },
+   {
+    "id": "b2-3",
+    "level": "B2",
+    "kind": "news",
+    "title": "Taiwanese Tech Firms Pitch Smart City Ideas in Bangkok",
+    "zh": "台灣科技業者在曼谷推銷智慧城市方案",
+    "source": {
+     "name": "Focus Taiwan：Taiwanese tech firms showcase smart city solutions at Thailand expo",
+     "url": "https://focustaiwan.tw/sci-tech/202611200005"
+    },
+    "note": "學習用短文，依參考資料改寫成 B2 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "Taiwanese companies took a wide range of smart city technology to Bangkok this month, hoping to win customers at Smart City Expo Thailand 2026. The three-day event, which opened on November 18, featured products covering healthcare, transportation, energy management and artificial intelligence.",
+     "For the Taipei City government, which brought a delegation of 12 firms, it was the first appearance at the expo. Meanwhile, a Taiwan AI Solution Pavilion organized by the Taipei Computer Association showcased 10 local AI companies working on edge computing and smart energy.",
+     "One eye-catching product was a display that remains readable in bright sunlight and can hold an image without a constant power supply. Another firm said its data storage systems were already being used in parts of Thailand.",
+     "According to the report, Thai agencies and businesses showed particular interest in solutions for transport and public safety."
+    ],
+    "glossary": {
+     "range": {
+      "pos": "n.",
+      "ipa": "/reɪndʒ/",
+      "zh": "範圍；種類",
+      "def": "a number of different things of the same general type",
+      "ex": "The shop sells a wide range of shoes.",
+      "g": "a wide range of + 複數名詞：各式各樣的…。"
+     },
+     "feature": {
+      "pos": "v.",
+      "ipa": "/ˈfiːtʃər/",
+      "zh": "以…為特色；展出",
+      "def": "to include something as an important part",
+      "ex": "The show features new phones.",
+      "g": "featured products covering…：covering 是現在分詞修飾 products。"
+     },
+     "delegation": {
+      "pos": "n.",
+      "ipa": "/ˌdelɪˈɡeɪʃən/",
+      "zh": "代表團",
+      "def": "a group of people sent to represent others",
+      "ex": "A trade delegation visited Japan.",
+      "g": "a delegation of 12 firms：of 說明代表團的組成。"
+     },
+     "appearance": {
+      "pos": "n.",
+      "ipa": "/əˈpɪrəns/",
+      "zh": "出現；亮相",
+      "def": "the act of taking part in an event",
+      "ex": "It was her first appearance on TV.",
+      "g": "the first appearance at the expo：首次參展。"
+     },
+     "showcase": {
+      "pos": "v.",
+      "ipa": "/ˈʃoʊkeɪs/",
+      "zh": "展示",
+      "def": "to show the best qualities of something",
+      "ex": "The festival showcases local food.",
+      "g": "showcased 10 local AI companies：主詞是 Pavilion。"
+     },
+     "eye-catching": {
+      "pos": "adj.",
+      "ipa": "/ˈaɪˌkætʃɪŋ/",
+      "zh": "吸睛的",
+      "def": "attracting attention, especially by being unusual",
+      "ex": "She wore an eye-catching red coat.",
+      "g": "複合形容詞，用連字號連接。"
+     },
+     "constant": {
+      "pos": "adj.",
+      "ipa": "/ˈkɑːnstənt/",
+      "zh": "持續不斷的",
+      "def": "happening all the time",
+      "ex": "The baby needs constant care.",
+      "g": "without a constant power supply：不需要一直供電。"
+     },
+     "agency": {
+      "pos": "n.",
+      "ipa": "/ˈeɪdʒənsi/",
+      "zh": "（政府）機關",
+      "def": "a government organization that does a particular job",
+      "ex": "The space agency launched a satellite.",
+      "g": "複數 agencies；Thai agencies 指泰國政府機關。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "分詞構句表目的／伴隨",
+      "zh": "V-ing 片語說明主詞的意圖",
+      "ex": "hoping to win customers at Smart City Expo Thailand 2026"
+     },
+     {
+      "pt": "過去分詞修飾名詞",
+      "zh": "省略 which was 的被動修飾",
+      "ex": "a Taiwan AI Solution Pavilion organized by the Taipei Computer Association"
+     },
+     {
+      "pt": "過去進行式被動",
+      "zh": "were being + p.p.，表示當時正被使用",
+      "ex": "were already being used in parts of Thailand"
+     }
+    ],
+    "questions": [
+     {
+      "q": "Who organized the Taiwan AI Solution Pavilion?",
+      "opts": [
+       "The Thai government",
+       "The Taipei Computer Association",
+       "The Taipei City government"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What was special about the Taipei City government's participation?",
+      "opts": [
+       "It was its first time at the expo.",
+       "It organized the whole expo.",
+       "It brought more than 50 firms."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Which areas interested Thai groups most?",
+      "opts": [
+       "Food and farming",
+       "Video games",
+       "Transport and public safety"
+      ],
+      "a": 2
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "For the Taipei City government, which brought a delegation of 12 firms, it was the first appearance at the expo.",
+      "target": "delegation"
+     },
+     {
+      "s": "According to the report, Thai agencies and businesses showed particular interest in solutions for transport and public safety.",
+      "target": "agencies"
+     }
+    ],
+    "targetWords": [
+     "range",
+     "feature",
+     "delegation"
+    ]
+   },
+   {
+    "id": "b2-4",
+    "level": "B2",
+    "kind": "ted",
+    "title": "The Brain-Changing Benefits of Exercise",
+    "zh": "運動對大腦的改變",
+    "source": {
+     "name": "TED：Wendy Suzuki, The brain-changing benefits of exercise",
+     "url": "https://www.ted.com/talks/wendy_suzuki_the_brain_changing_benefits_of_exercise"
+    },
+    "note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+    "paras": [
+     "Neuroscientist Wendy Suzuki opens her TED talk with a personal story. Years ago, she was so focused on her research at New York University that she had almost no social life and felt out of shape. When she finally started going to exercise classes, she noticed that her mood and her memory both improved.",
+     "That discovery led her to change the direction of her lab and study what exercise does to the brain.",
+     "According to Suzuki, a single workout releases chemicals such as dopamine and serotonin that can lift your mood immediately, and it may sharpen your attention for a couple of hours afterward. Over the long term, regular exercise can help the brain grow new cells in the hippocampus, an area crucial for memory.",
+     "She argues this may make the brain more resistant to diseases like dementia. Her recommendation is practical: three to four sessions a week of about 30 minutes, including activity that raises your heart rate."
+    ],
+    "glossary": {
+     "personal": {
+      "pos": "adj.",
+      "ipa": "/ˈpɜːrsənəl/",
+      "zh": "個人的",
+      "def": "relating to your own life",
+      "ex": "He told us a personal story.",
+      "g": "a personal story：演講常用的開場方式。"
+     },
+     "out of shape": {
+      "pos": "phr.",
+      "ipa": "/aʊt əv ʃeɪp/",
+      "zh": "身材走樣；體能差",
+      "def": "not physically fit",
+      "ex": "I'm out of shape after the holidays.",
+      "g": "felt out of shape：feel + 形容詞片語。"
+     },
+     "notice": {
+      "pos": "v.",
+      "ipa": "/ˈnoʊtɪs/",
+      "zh": "注意到",
+      "def": "to become aware of something",
+      "ex": "Did you notice the new sign?",
+      "g": "noticed that…：notice 後接 that 子句。"
+     },
+     "direction": {
+      "pos": "n.",
+      "ipa": "/dəˈrekʃən/",
+      "zh": "方向",
+      "def": "the way something is developing",
+      "ex": "The company changed direction.",
+      "g": "change the direction of her lab：改變研究方向。"
+     },
+     "release": {
+      "pos": "v.",
+      "ipa": "/rɪˈliːs/",
+      "zh": "釋放",
+      "def": "to let a substance flow out",
+      "ex": "Plants release oxygen.",
+      "g": "a single workout releases chemicals：主詞單數，動詞加 s。"
+     },
+     "immediately": {
+      "pos": "adv.",
+      "ipa": "/ɪˈmiːdiətli/",
+      "zh": "立刻",
+      "def": "now, without waiting",
+      "ex": "Please call me immediately.",
+      "g": "lift your mood immediately：副詞放在句尾修飾動詞。"
+     },
+     "crucial": {
+      "pos": "adj.",
+      "ipa": "/ˈkruːʃəl/",
+      "zh": "極重要的",
+      "def": "extremely important",
+      "ex": "Sleep is crucial for health.",
+      "g": "an area crucial for memory：形容詞片語後置修飾 area。"
+     },
+     "resistant": {
+      "pos": "adj.",
+      "ipa": "/rɪˈzɪstənt/",
+      "zh": "有抵抗力的",
+      "def": "not easily harmed by something",
+      "ex": "This plant is resistant to disease.",
+      "g": "more resistant to diseases：resistant to + 名詞。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "so … that …",
+      "zh": "如此…以致於…",
+      "ex": "she was so focused on her research at New York University that she had almost no social life"
+     },
+     {
+      "pt": "lead + 人 + to V",
+      "zh": "促使某人做某事",
+      "ex": "That discovery led her to change the direction of her lab"
+     },
+     {
+      "pt": "同位語",
+      "zh": "逗號後的名詞片語補充說明前面的名詞",
+      "ex": "the hippocampus, an area crucial for memory"
+     }
+    ],
+    "questions": [
+     {
+      "q": "What made Suzuki change her research?",
+      "opts": [
+       "Her own experience of exercising",
+       "A request from her university",
+       "A disease she studied"
+      ],
+      "a": 0
+     },
+     {
+      "q": "Where can regular exercise help the brain grow new cells?",
+      "opts": [
+       "In the heart",
+       "In the stomach",
+       "In the hippocampus"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does she recommend?",
+      "opts": [
+       "Two hours every day",
+       "Three to four sessions a week of about 30 minutes",
+       "One long session a month"
+      ],
+      "a": 1
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "Neuroscientist Wendy Suzuki opens her TED talk with a personal story.",
+      "target": "personal"
+     },
+     {
+      "s": "She argues this may make the brain more resistant to diseases like dementia.",
+      "target": "resistant"
+     }
+    ],
+    "targetWords": [
+     "personal",
+     "out of shape",
+     "notice"
+    ]
+   }
+  ],
+  "c1": [
+   {
+    "id": "c1-1",
+    "level": "C1",
+    "kind": "news",
+    "title": "A Day Away: Voyager 1's Lonely Milestone",
+    "zh": "一光日之遙：航海家1號的孤獨里程碑",
+    "source": {
+     "name": "ScienceDaily：NASA's Voyager 1 is now so far away that light takes 24 hours to reach it",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261120075554.htm"
+    },
+    "note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "Launched in 1977 and still drifting outward at roughly 61,000 kilometers per hour, Voyager 1 crossed a threshold on November 18 that no human-made object had crossed before: it now lies a full light-day from Earth. At about 25.9 billion kilometers, the distance is so vast that even a radio signal, traveling at the speed of light, needs an entire day to bridge it.",
+     "For the engineers at NASA's Jet Propulsion Laboratory, the milestone is as much a logistical headache as a cause for celebration. Every instruction now takes 24 hours to arrive, meaning that a simple exchange of command and confirmation stretches over two days.",
+     "Not only is the distance growing, but the probe's power is steadily dwindling, falling by around four watts a year. Having already switched off a number of systems in earlier rounds of conservation, the team expects its latest measures to keep the current instruments working until at least summer 2027.",
+     "Even so, the mood is far from triumphant. Since November 14, no science or engineering data has come back from the spacecraft, and engineers are still trying to pin down why. Given the probe's age and its history of clogged thrusters and computer glitches, few would be shocked by another setback, yet the team has coaxed Voyager back from the brink before."
+    ],
+    "glossary": {
+     "threshold": {
+      "pos": "n.",
+      "ipa": "/ˈθreʃhoʊld/",
+      "zh": "門檻；界線",
+      "def": "the level or point at which something starts or changes",
+      "ex": "The temperature passed a critical threshold.",
+      "g": "crossed a threshold that…：that 子句說明是怎樣的門檻。"
+     },
+     "vast": {
+      "pos": "adj.",
+      "ipa": "/væst/",
+      "zh": "廣大的",
+      "def": "extremely big in size or amount",
+      "ex": "The desert is vast and empty.",
+      "g": "so vast that…：so + 形容詞 + that 表結果。"
+     },
+     "logistical": {
+      "pos": "adj.",
+      "ipa": "/loʊˈdʒɪstɪkəl/",
+      "zh": "後勤安排上的",
+      "def": "relating to the practical organization of a complex task",
+      "ex": "Moving 500 people is a logistical challenge.",
+      "g": "a logistical headache：headache 比喻棘手的問題。"
+     },
+     "dwindle": {
+      "pos": "v.",
+      "ipa": "/ˈdwɪndəl/",
+      "zh": "逐漸減少",
+      "def": "to become gradually smaller or fewer",
+      "ex": "Their savings dwindled over the years.",
+      "g": "is steadily dwindling：進行式強調持續減少中。"
+     },
+     "conservation": {
+      "pos": "n.",
+      "ipa": "/ˌkɑːnsərˈveɪʃən/",
+      "zh": "節約；保存",
+      "def": "the careful use of something so that it is not wasted",
+      "ex": "Energy conservation lowers costs.",
+      "g": "rounds of conservation：一輪輪的節能措施。"
+     },
+     "pin down": {
+      "pos": "phr. v.",
+      "ipa": "/pɪn daʊn/",
+      "zh": "查明；確定",
+      "def": "to discover the exact facts about something",
+      "ex": "Doctors couldn't pin down the cause.",
+      "g": "trying to pin down why：後接疑問詞 why。"
+     },
+     "setback": {
+      "pos": "n.",
+      "ipa": "/ˈsetbæk/",
+      "zh": "挫折",
+      "def": "a problem that delays progress",
+      "ex": "The injury was a setback for the team.",
+      "g": "another setback：再一次挫折。"
+     },
+     "brink": {
+      "pos": "n.",
+      "ipa": "/brɪŋk/",
+      "zh": "邊緣",
+      "def": "the point where something bad is about to happen",
+      "ex": "The company was on the brink of failure.",
+      "g": "back from the brink：從危急邊緣救回，常見慣用語。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "分詞構句（過去分詞＋現在分詞）",
+      "zh": "以分詞片語開頭描述主詞",
+      "ex": "Launched in 1977 and still drifting outward"
+     },
+     {
+      "pt": "as much A as B",
+      "zh": "既是 A 也是 B，兩者程度相當",
+      "ex": "as much a logistical headache as a cause for celebration"
+     },
+     {
+      "pt": "Not only 倒裝",
+      "zh": "Not only 放句首，助動詞移到主詞前",
+      "ex": "Not only is the distance growing"
+     },
+     {
+      "pt": "完成式分詞構句",
+      "zh": "Having + p.p. 表示先發生的動作",
+      "ex": "Having already switched off a number of systems"
+     }
+    ],
+    "questions": [
+     {
+      "q": "What can be inferred about how the team feels?",
+      "opts": [
+       "They no longer care about the data.",
+       "They are proud but also concerned.",
+       "They are certain the mission is over."
+      ],
+      "a": 1
+     },
+     {
+      "q": "Why does a simple exchange of command and confirmation stretch over two days?",
+      "opts": [
+       "The probe only answers after recharging.",
+       "Engineers work on alternate days.",
+       "Signals need a full day to travel each way."
+      ],
+      "a": 2
+     },
+     {
+      "q": "The phrase \"back from the brink\" suggests that in the past Voyager…",
+      "opts": [
+       "had nearly failed but was saved",
+       "had almost returned to Earth",
+       "had been hit by a comet"
+      ],
+      "a": 0
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "Not only is the distance growing, but the probe's power is steadily dwindling, falling by around four watts a year.",
+      "target": "dwindling"
+     },
+     {
+      "s": "For the engineers at NASA's Jet Propulsion Laboratory, the milestone is as much a logistical headache as a cause for celebration.",
+      "target": "logistical"
+     }
+    ],
+    "targetWords": [
+     "threshold",
+     "vast",
+     "logistical"
+    ]
+   },
+   {
+    "id": "c1-2",
+    "level": "C1",
+    "kind": "news",
+    "title": "Little and Often: Rethinking Exercise for the Mind",
+    "zh": "少量多次：重新思考運動與心理健康",
+    "source": {
+     "name": "ScienceDaily：For better mental health, how often you exercise may matter more than how hard",
+     "url": "https://www.sciencedaily.com/releases/2026/11/261119194601.htm"
+    },
+    "note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "For anyone who equates a worthwhile workout with gasping for breath, a study from Western Norway University of Applied Sciences may come as a relief. Tracking 10,460 full-time students across Norway, the researchers recorded how often, how intensely and for how long each one exercised, then revisited them a year later with a diagnostic questionnaire.",
+     "The picture that emerged was fairly clear-cut. Students who were less active were more prone to anxiety and depression twelve months on, and of all the measures, frequency proved the most reliable predictor, outweighing both intensity and duration.",
+     "Beneath that headline, however, lay some intriguing differences. Women who exercised at lower intensity reported more symptoms, whereas men appeared to be more affected by how many hours they logged each week. In both groups, the risk continued to fall as weekly activity climbed toward roughly ten hours.",
+     "The authors are careful not to overstate their case: the study is observational, so it cannot establish that exercise directly protects mental health. Nonetheless, their findings sit comfortably alongside the WHO's recommendation of 150 minutes of moderate-to-vigorous activity a week, suggesting that showing up regularly may count for more than pushing hard."
+    ],
+    "glossary": {
+     "equate": {
+      "pos": "v.",
+      "ipa": "/iˈkweɪt/",
+      "zh": "把…等同於",
+      "def": "to consider one thing to be the same as another",
+      "ex": "Many people equate money with success.",
+      "g": "equate A with B：把 A 等同於 B。"
+     },
+     "relief": {
+      "pos": "n.",
+      "ipa": "/rɪˈliːf/",
+      "zh": "寬慰；鬆一口氣",
+      "def": "a feeling of happiness that something bad is not true",
+      "ex": "It was a relief to hear the news.",
+      "g": "come as a relief：對某人來說是一種寬慰。"
+     },
+     "clear-cut": {
+      "pos": "adj.",
+      "ipa": "/ˌklɪrˈkʌt/",
+      "zh": "明確的",
+      "def": "certain and easy to understand",
+      "ex": "There is no clear-cut answer.",
+      "g": "fairly clear-cut：fairly 緩和語氣。"
+     },
+     "prone": {
+      "pos": "adj.",
+      "ipa": "/proʊn/",
+      "zh": "易於…的",
+      "def": "likely to suffer from something",
+      "ex": "He is prone to headaches.",
+      "g": "more prone to anxiety：prone to + 名詞。"
+     },
+     "outweigh": {
+      "pos": "v.",
+      "ipa": "/ˌaʊtˈweɪ/",
+      "zh": "比…更重要",
+      "def": "to be greater or more important than something",
+      "ex": "The benefits outweigh the risks.",
+      "g": "outweighing both…：分詞構句補充結果。"
+     },
+     "intriguing": {
+      "pos": "adj.",
+      "ipa": "/ɪnˈtriːɡɪŋ/",
+      "zh": "引人好奇的",
+      "def": "very interesting because unusual",
+      "ex": "She had an intriguing idea.",
+      "g": "intriguing differences：值得玩味的差異。"
+     },
+     "log": {
+      "pos": "v.",
+      "ipa": "/lɔːɡ/",
+      "zh": "記錄；累計",
+      "def": "to record an amount, such as time or distance",
+      "ex": "She logged 20 hours of training.",
+      "g": "how many hours they logged：logged 表示累計的運動時數。"
+     },
+     "overstate": {
+      "pos": "v.",
+      "ipa": "/ˌoʊvərˈsteɪt/",
+      "zh": "誇大",
+      "def": "to say something is more important than it really is",
+      "ex": "Don't overstate the danger.",
+      "g": "careful not to overstate：不定詞否定把 not 放在 to 前。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "地方副詞倒裝",
+      "zh": "介系詞片語放句首，主詞動詞倒裝",
+      "ex": "Beneath that headline, however, lay some intriguing differences"
+     },
+     {
+      "pt": "分詞構句",
+      "zh": "V-ing 片語交代背景動作",
+      "ex": "Tracking 10,460 full-time students across Norway"
+     },
+     {
+      "pt": "不定詞否定",
+      "zh": "be careful not to V",
+      "ex": "The authors are careful not to overstate their case"
+     },
+     {
+      "pt": "慣用語 come as a relief",
+      "zh": "使人鬆一口氣",
+      "ex": "may come as a relief"
+     }
+    ],
+    "questions": [
+     {
+      "q": "Who would most likely find this study a relief?",
+      "opts": [
+       "People who already train ten hours a week",
+       "Heart doctors",
+       "People who think exercise only counts if it is exhausting"
+      ],
+      "a": 2
+     },
+     {
+      "q": "What does \"showing up regularly may count for more than pushing hard\" imply?",
+      "opts": [
+       "Consistency matters more than effort level.",
+       "Hard training harms mental health.",
+       "Exercise has no effect on mood."
+      ],
+      "a": 0
+     },
+     {
+      "q": "Why are the authors \"careful not to overstate their case\"?",
+      "opts": [
+       "They found no link at all.",
+       "Their design cannot prove cause and effect.",
+       "Their sample was too small."
+      ],
+      "a": 1
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "The picture that emerged was fairly clear-cut.",
+      "target": "clear-cut"
+     },
+     {
+      "s": "Beneath that headline, however, lay some intriguing differences.",
+      "target": "intriguing"
+     }
+    ],
+    "targetWords": [
+     "equate",
+     "relief",
+     "clear-cut"
+    ]
+   },
+   {
+    "id": "c1-3",
+    "level": "C1",
+    "kind": "news",
+    "title": "Taiwan Bets on Smart City Know-How in Southeast Asia",
+    "zh": "台灣以智慧城市技術進軍東南亞",
+    "source": {
+     "name": "Focus Taiwan：Taiwanese tech firms showcase smart city solutions at Thailand expo",
+     "url": "https://focustaiwan.tw/sci-tech/202611200005"
+    },
+    "note": "學習用短文，依參考資料改寫成 C1 程度，延伸閱讀請看來源連結。",
+    "paras": [
+     "Eager to turn their engineering strengths into overseas sales, Taiwanese technology firms descended on Bangkok last week for Smart City Expo Thailand 2026. Over three days from November 18, they pitched everything from healthcare and transport systems to energy-management tools and artificial intelligence, hoping to win new customers and partners abroad.",
+     "The Taipei City government, making its debut at the event, arrived with a dozen companies in tow. Alongside them, the Taipei Computer Association ran a Taiwan AI Solution Pavilion, where ten domestic firms demonstrated edge computing, AI processing and smart-energy technology to visitors throughout the event.",
+     "Among the more unusual exhibits was a cholesteric liquid crystal display, which stays legible under harsh sunlight and retains its image without drawing continuous power. Elsewhere, a data-storage company noted that its equipment was already handling round-the-clock video in Pattaya and southern Thailand.",
+     "Judging by the reception, the trip may pay off. Thai government agencies and private companies reportedly showed keen interest, particularly in transport, security and safety, suggesting that Taiwan's smart city know-how could find a ready market in the region. For a city taking part for the very first time, that would be an encouraging start."
+    ],
+    "glossary": {
+     "eager": {
+      "pos": "adj.",
+      "ipa": "/ˈiːɡər/",
+      "zh": "渴望的",
+      "def": "wanting very much to do something",
+      "ex": "She was eager to start her new job.",
+      "g": "Eager to V 放句首，形容詞片語修飾後面的主詞 firms。"
+     },
+     "descend": {
+      "pos": "v.",
+      "ipa": "/dɪˈsend/",
+      "zh": "（大批）湧入",
+      "def": "descend on: to arrive at a place in large numbers",
+      "ex": "Tourists descended on the town.",
+      "g": "descended on Bangkok：descend on + 地點，表示大批人到來。"
+     },
+     "debut": {
+      "pos": "n.",
+      "ipa": "/deɪˈbjuː/",
+      "zh": "首次亮相",
+      "def": "the first time someone appears in public",
+      "ex": "The singer made her debut at 18.",
+      "g": "making its debut：make one's debut 首次登場。"
+     },
+     "in tow": {
+      "pos": "phr.",
+      "ipa": "/ɪn toʊ/",
+      "zh": "隨行；帶著",
+      "def": "following closely behind someone",
+      "ex": "She arrived with her kids in tow.",
+      "g": "with a dozen companies in tow：with + 受詞 + 片語。"
+     },
+     "legible": {
+      "pos": "adj.",
+      "ipa": "/ˈledʒəbəl/",
+      "zh": "可清楚閱讀的",
+      "def": "clear enough to be read easily",
+      "ex": "His handwriting is barely legible.",
+      "g": "stays legible：stay + 形容詞，表示保持某狀態。"
+     },
+     "retain": {
+      "pos": "v.",
+      "ipa": "/rɪˈteɪn/",
+      "zh": "保留",
+      "def": "to keep or continue to have something",
+      "ex": "The soil retains water well.",
+      "g": "retains its image：比 keep 更正式。"
+     },
+     "round-the-clock": {
+      "pos": "adj.",
+      "ipa": "/ˌraʊnd ðə ˈklɑːk/",
+      "zh": "全天候的",
+      "def": "happening all day and all night",
+      "ex": "The hospital offers round-the-clock care.",
+      "g": "複合形容詞放在名詞 video 前。"
+     },
+     "pay off": {
+      "pos": "phr. v.",
+      "ipa": "/peɪ ɔːf/",
+      "zh": "取得成功；有回報",
+      "def": "to be successful after effort",
+      "ex": "All her hard work paid off.",
+      "g": "the trip may pay off：may 表推測。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "形容詞片語置於句首",
+      "zh": "說明主詞的狀態或動機",
+      "ex": "Eager to turn their engineering strengths into overseas sales"
+     },
+     {
+      "pt": "補語倒裝",
+      "zh": "Among … 放句首，be 動詞移到主詞前",
+      "ex": "Among the more unusual exhibits was a cholesteric liquid crystal display"
+     },
+     {
+      "pt": "分詞構句插入",
+      "zh": "以逗號插入補充主詞的情況",
+      "ex": "making its debut at the event"
+     },
+     {
+      "pt": "Judging by …",
+      "zh": "固定分詞片語，「從…判斷」",
+      "ex": "Judging by the reception"
+     }
+    ],
+    "questions": [
+     {
+      "q": "The phrase \"in tow\" suggests that the Taipei City government…",
+      "opts": [
+       "followed the companies",
+       "brought the companies along with it",
+       "competed against the companies"
+      ],
+      "a": 1
+     },
+     {
+      "q": "What can be inferred about the firms' main goal?",
+      "opts": [
+       "To find buyers abroad",
+       "To learn about Thai culture",
+       "To open factories in Taipei"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does the writer suggest at the end?",
+      "opts": [
+       "The expo was a failure.",
+       "Thai firms will stop buying from Taiwan.",
+       "Thailand could be a promising market for Taiwanese smart city technology."
+      ],
+      "a": 2
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "Judging by the reception, the trip may pay off.",
+      "target": "pay off"
+     },
+     {
+      "s": "The Taipei City government, making its debut at the event, arrived with a dozen companies in tow.",
+      "target": "debut"
+     }
+    ],
+    "targetWords": [
+     "eager",
+     "descend",
+     "debut"
+    ]
+   },
+   {
+    "id": "c1-4",
+    "level": "C1",
+    "kind": "ted",
+    "title": "Why Your Brain Wants You to Move",
+    "zh": "大腦為什麼需要你動起來",
+    "source": {
+     "name": "TED：Wendy Suzuki, The brain-changing benefits of exercise",
+     "url": "https://www.ted.com/talks/wendy_suzuki_the_brain_changing_benefits_of_exercise"
+    },
+    "note": "內容主題取自 TED 熱門演講。內文為學習用改寫，不是講者原話，請看原演講了解細節。",
+    "paras": [
+     "By her own account, Wendy Suzuki's career was thriving while her personal life had stalled. A neuroscientist at New York University, she had poured so much into her lab that she had little social life and felt out of shape. It was only when she decided to take up regular exercise classes that she noticed something she, of all people, might have predicted: her mood lifted and her memory seemed sharper.",
+     "Rather than treat this as a happy coincidence, Suzuki redirected her research toward the effects of physical activity on the brain. In her TED talk, she lays out what she sees as both immediate and lasting benefits.",
+     "A single bout of exercise, she explains, floods the brain with neurotransmitters such as dopamine and serotonin, boosting mood and improving attention for up to a couple of hours. Repeated over months, however, exercise appears to stimulate the growth of new cells in the hippocampus, enlarging a structure vital to long-term memory.",
+     "Seen this way, a workout is less a chore than an investment, one that may help shield the brain against conditions such as Alzheimer's disease and dementia. Tellingly, her prescription is modest: three or four sessions a week, roughly half an hour each, with no gym membership required."
+    ],
+    "glossary": {
+     "stall": {
+      "pos": "v.",
+      "ipa": "/stɔːl/",
+      "zh": "停滯",
+      "def": "to stop making progress",
+      "ex": "Talks have stalled again.",
+      "g": "had stalled 過去完成式，與 was thriving 形成對比。"
+     },
+     "take up": {
+      "pos": "phr. v.",
+      "ipa": "/teɪk ʌp/",
+      "zh": "開始從事（嗜好、活動）",
+      "def": "to start doing a new activity",
+      "ex": "He took up running last year.",
+      "g": "decided to take up…：decide to + 原形動詞片語。"
+     },
+     "coincidence": {
+      "pos": "n.",
+      "ipa": "/koʊˈɪnsɪdəns/",
+      "zh": "巧合",
+      "def": "a surprising situation where things happen together by chance",
+      "ex": "What a coincidence to meet you here!",
+      "g": "Rather than treat this as a happy coincidence：treat A as B 把 A 當作 B。"
+     },
+     "redirect": {
+      "pos": "v.",
+      "ipa": "/ˌriːdəˈrekt/",
+      "zh": "轉向",
+      "def": "to change the direction or purpose of something",
+      "ex": "She redirected her energy into study.",
+      "g": "redirected her research toward…：toward 表示新方向。"
+     },
+     "bout": {
+      "pos": "n.",
+      "ipa": "/baʊt/",
+      "zh": "一陣；一回",
+      "def": "a short period of an activity",
+      "ex": "a bout of exercise",
+      "g": "A single bout of exercise：與 repeated over months 對照。"
+     },
+     "stimulate": {
+      "pos": "v.",
+      "ipa": "/ˈstɪmjəleɪt/",
+      "zh": "刺激；促進",
+      "def": "to make something grow or become more active",
+      "ex": "Sunlight stimulates plant growth.",
+      "g": "appears to stimulate：appear to V 表示看起來會…。"
+     },
+     "shield": {
+      "pos": "v.",
+      "ipa": "/ʃiːld/",
+      "zh": "保護；遮擋",
+      "def": "to protect someone or something from harm",
+      "ex": "Sunglasses shield your eyes.",
+      "g": "shield … against …：保護某物免受…。"
+     },
+     "prescription": {
+      "pos": "n.",
+      "ipa": "/prɪˈskrɪpʃən/",
+      "zh": "處方；建議",
+      "def": "advice about what someone should do (originally from a doctor)",
+      "ex": "The doctor's prescription was rest.",
+      "g": "her prescription is modest：借醫療用語比喻她的建議。"
+     }
+    },
+    "grammar": [
+     {
+      "pt": "強調句 It was only when … that …",
+      "zh": "強調時間條件",
+      "ex": "It was only when she decided to take up regular exercise classes that she noticed"
+     },
+     {
+      "pt": "Rather than + 原形動詞",
+      "zh": "與其…不如…",
+      "ex": "Rather than treat this as a happy coincidence"
+     },
+     {
+      "pt": "less A than B",
+      "zh": "與其說是 A，不如說是 B",
+      "ex": "a workout is less a chore than an investment"
+     },
+     {
+      "pt": "獨立分詞構句 with + 受詞 + p.p.",
+      "zh": "附帶狀況",
+      "ex": "with no gym membership required"
+     }
+    ],
+    "questions": [
+     {
+      "q": "Why does the writer say \"she, of all people, might have predicted\" the change?",
+      "opts": [
+       "She had studied exercise for years.",
+       "She is a brain scientist, so the effect fits her field.",
+       "She expected to feel worse."
+      ],
+      "a": 1
+     },
+     {
+      "q": "Calling a workout \"an investment\" implies that…",
+      "opts": [
+       "its benefits build up over time",
+       "it costs a lot of money",
+       "it should be avoided"
+      ],
+      "a": 0
+     },
+     {
+      "q": "What does \"her prescription is modest\" suggest?",
+      "opts": [
+       "She thinks exercise is not very useful.",
+       "She asks people to train for hours every day.",
+       "Her advice is easy for most people to follow."
+      ],
+      "a": 2
+     }
+    ],
+    "keySentences": [
+     {
+      "s": "By her own account, Wendy Suzuki's career was thriving while her personal life had stalled.",
+      "target": "stalled"
+     },
+     {
+      "s": "Tellingly, her prescription is modest: three or four sessions a week, roughly half an hour each, with no gym membership required.",
+      "target": "prescription"
+     }
+    ],
+    "targetWords": [
+     "stall",
+     "take up",
+     "coincidence"
+    ]
+   }
+  ]
+ }
+}
